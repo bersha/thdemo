@@ -1,0 +1,38 @@
+{
+  "/forsakringar/bilforsakring/helforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T13:39:07.749Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/hemforsakring/villaforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T13:39:13.159Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/hemforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T13:39:19.133Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/person/barnforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T13:39:24.459Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

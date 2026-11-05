@@ -1,0 +1,784 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:22.063Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "index",
+  "url": "https://www.trygghansa.se/",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:22.063Z",
+  "finalUrl": "https://www.trygghansa.se/",
+  "title": "Trygg-Hansa - Trygghet för livet",
+  "description": "Våra försäkringar ger trygghet åt privatpersoner och företag. Vi har sett, hört och löst det mesta. Teckna nu och få upp till 20 % i samlingsrabatt.",
+  "og": {
+    "title": "Trygg-Hansa - Trygghet för livet",
+    "description": "Våra försäkringar ger trygghet åt privatpersoner och företag. Vi har sett, hört och löst det mesta. Teckna nu och få upp till 20 % i samlingsrabatt.",
+    "image": "https://www.trygghansa.se/siteassets/bilder/sp/hero/other/fronthero_1920x400.jpg",
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Trygghet för livet"
+    },
+    {
+      "tag": "h2",
+      "text": "Rätt försäkringar för dig"
+    },
+    {
+      "tag": "h2",
+      "text": "Snart 200 år av trygghet"
+    },
+    {
+      "tag": "h2",
+      "text": "Upp till 20 % samlingsrabatt"
+    },
+    {
+      "tag": "h2",
+      "text": "Rabatt på djurförsäkring!"
+    },
+    {
+      "tag": "h2",
+      "text": "Få presentkort på 500 kr"
+    },
+    {
+      "tag": "h2",
+      "text": "SHL-rabatt för hockeyhjärtan"
+    },
+    {
+      "tag": "h2",
+      "text": "Lär känna livbojen och rädda liv"
+    },
+    {
+      "tag": "h2",
+      "text": "Våra försäkringar"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Hemförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Personförsäkringar"
+    },
+    {
+      "tag": "h3",
+      "text": "Barnförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Gravidförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Livförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Villaförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Djurförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Fordonsförsäkringar"
+    },
+    {
+      "tag": "h2",
+      "text": "Försäkra företaget!"
+    },
+    {
+      "tag": "h2",
+      "text": "Familjehjälpen – vad kan vi göra för dig?"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "5 % rabatt Bil Bilförsäkring",
+    "50 % rabatt Barn Barnförsäkring",
+    "Kampanj! Gravid Gravidförsäkring",
+    "10 % rabatt Hem Hemförsäkring",
+    "Teckna bilförsäkring online och få 5 % rabatt första året!",
+    "Ditt pris och innehållsförslag framställs automatiskt. Kontakta oss vid frågor. För information om hur Trygg-Hansa behandlar personuppgifter, se vår integritetspolicy.",
+    "Rätt försäkringar för dig Vi har rätt försäkring för dig, familjen, bilen och hemmet. Och för mycket mer, såklart.",
+    "Vi har rätt försäkring för dig, familjen, bilen och hemmet. Och för mycket mer, såklart.",
+    "Snart 200 år av trygghet Trygg-Hansa har gjort skillnad i människors liv sedan 1828. Vi står stadigt vid din sida.",
+    "Trygg-Hansa har gjort skillnad i människors liv sedan 1828. Vi står stadigt vid din sida.",
+    "Upp till 20 % samlingsrabatt Samla dina försäkringar hos oss och få upp till 20 % rabatt. Läs mer om vår samlingsrabatt.",
+    "Samla dina försäkringar hos oss och få upp till 20 % rabatt. Läs mer om vår samlingsrabatt.",
+    "Du får 10 % rabatt när du tecknar hund- eller kattförsäkring. Rabatten gäller första året. Du kan teckna försäkringen nu och välja att den ska börja gälla vid ett senare datum.",
+    "Valp eller kattunge yngre än 6 månader? Då får du även vår valp-/kattungerabatt med tre kostnadsfria månader.",
+    "Hund mellan 7 månader och 3 år? Då får du även vår unghundsrabatt på 15 %, som gäller första året.",
+    "Erbjudandet gäller t.o.m. 11 januari 2027. Om flera rabatter kombineras dras de av efter varandra istället för att summeras.",
+    "När du köper Gravidförsäkring mellan eller Gravidförsäkring stor får du ett presentkort på 500 kr. Presentkortet gäller i flera populära butiker och skickas till dig via mejl när försäkringen är betald.",
+    "Erbjudandet gäller t.o.m. 31 december eller så långt lagret räcker.",
+    "Älskar du också hockey? När du tecknar din försäkring hos oss går en del av premien till ditt lags ungdomsverksamhet. Dessutom får du rabatt första året.",
+    "Gäller försäkringar för hem, fordon, djur, sjuk- och olycksfall, barn och företag.",
+    "Varje år räddar livbojen 14 liv. Livbojen är en enkel och fantastisk livräddare och idag finns omkring 80 000 livbojar placerade runtom i Sverige. Men har du koll på hur du använder livbojen i en nödsituation? Här får du lära känna livbojen och göra dig redo för att rädda liv i sommar.",
+    "Så använder du livbojen",
+    "Bilförsäkring Vår Bilförsäkring stor ligger i topp i jämförelse av svenska bilförsäkringar. Läs om vår bilförsäkring",
+    "Hemförsäkring Hemförsäkringar för alla sorters boenden. Upp till 1,5 miljoner i ersättning! Se våra hemförsäkringar",
+    "Personförsäkringar Skydd vid sjukdomar och olycksfall – för både barn och vuxna. Se våra personförsäkringar",
+    "Barnförsäkring Vår barnförsäkring ger en trygg start i livet. Gäller tills 25 års ålder. Läs om vår barnförsäkring",
+    "Gravidförsäkring Ge ditt barn en trygg start! Vi har längst erfarenhet av gravidförsäkring i Sverige. Läs om vår gravidförsäkring",
+    "Livförsäkring Ekonomiskt stöd till din familj, en trygghet om det värsta skulle hända. Läs om livförsäkring",
+    "Villaförsäkring För dig som är husägare. Hjälp inom fyra timmar vid stora katastrofer. Läs om vår villaförsäkring",
+    "Djurförsäkring Hitta försäkringen för hunden, katten eller för dig som är uppfödare. Läs om våra djurförsäkringar",
+    "Fordonsförsäkringar Bil, MC, moped eller släpvagn. Vi har fordonsförsäkringar för alla behov! Se våra fordonsförsäkringar",
+    "Driver du eget? Då behöver du en företagsförsäkring – oavsett om du är egenföretagare som jobbar hemifrån eller har anställda, lokaler och fordon. Hitta rätt skydd för din firma!",
+    "Familjehjälpen är en service som ingår kostnadsfritt i vår barnförsäkring, gravidförsäkring och sjuk- och olycksfallsförsäkring. Hos oss får du vägledning i frågor som rör samhällets stöd och ersättningar."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "5 % rabatt Bil Bilförsäkring",
+      "href": "#tabpanel-1"
+    },
+    {
+      "label": "50 % rabatt Barn Barnförsäkring",
+      "href": "#tabpanel-2"
+    },
+    {
+      "label": "Kampanj! Gravid Gravidförsäkring",
+      "href": "#tabpanel-3"
+    },
+    {
+      "label": "10 % rabatt Hem Hemförsäkring",
+      "href": "#tabpanel-4"
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": null
+    },
+    {
+      "label": "Läs om vår bilförsäkring",
+      "href": "/forsakringar/bilforsakring"
+    },
+    {
+      "label": "se vår integritetspolicy",
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+    },
+    {
+      "label": "Läs mer om vår samlingsrabatt",
+      "href": "/forsakringar/samlingsrabatt"
+    },
+    {
+      "label": "Läs mer och teckna",
+      "href": "/djurforsakring"
+    },
+    {
+      "label": "Köp din gravidförsäkring nu",
+      "href": "/forsakringar/gravidforsakring"
+    },
+    {
+      "label": "Läs mer och välj din klubb",
+      "href": "/samarbeten/shl"
+    },
+    {
+      "label": "Så använder du livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/lar-kanna-livbojen-och-radda-liv"
+    },
+    {
+      "label": "Läs om vår bilförsäkring",
+      "href": "/forsakringar/bilforsakring"
+    },
+    {
+      "label": "Se våra hemförsäkringar",
+      "href": "/forsakringar/hemforsakring"
+    },
+    {
+      "label": "Se våra personförsäkringar",
+      "href": "/forsakringar/person"
+    },
+    {
+      "label": "Läs om vår barnförsäkring",
+      "href": "/forsakringar/person/barnforsakring"
+    },
+    {
+      "label": "Läs om vår gravidförsäkring",
+      "href": "/forsakringar/gravidforsakring"
+    },
+    {
+      "label": "Läs om livförsäkring",
+      "href": "/forsakringar/person/livforsakring"
+    },
+    {
+      "label": "Läs om vår villaförsäkring",
+      "href": "/forsakringar/hemforsakring/villaforsakring"
+    },
+    {
+      "label": "Läs om våra djurförsäkringar",
+      "href": "/djurforsakring"
+    },
+    {
+      "label": "Se våra fordonsförsäkringar",
+      "href": "/forsakringar/fordon"
+    },
+    {
+      "label": "Se alla våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Rätt skydd för din bransch",
+      "href": "/foretag"
+    },
+    {
+      "label": "Läs mer om Familjehjälpen",
+      "href": "/forsakringar/familjehjalpen"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    },
+    {
+      "label": "Hållbarhet",
+      "href": "/om-trygghansa/esg"
+    },
+    {
+      "label": "Tillgänglighet",
+      "href": "/om-trygghansa/om-webbplatsen/tillganglighet"
+    },
+    {
+      "label": "Livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen"
+    },
+    {
+      "label": "Pressinformation",
+      "href": "/om-trygghansa/pressinformation"
+    },
+    {
+      "label": "Våra experter",
+      "href": "/om-trygghansa/experter"
+    },
+    {
+      "label": "Jobb och karriär",
+      "href": "/om-trygghansa/jobb-och-karriar"
+    },
+    {
+      "label": "Om webbplatsen",
+      "href": "/om-trygghansa/om-webbplatsen"
+    },
+    {
+      "label": "Cookies",
+      "href": "/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+    },
+    {
+      "label": "Personuppgifter",
+      "href": "/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/#tabpanel-1",
+    "https://www.trygghansa.se/#tabpanel-2",
+    "https://www.trygghansa.se/#tabpanel-3",
+    "https://www.trygghansa.se/#tabpanel-4",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring/berakna-pris",
+    "https://www.trygghansa.se/forsakringar/samlingsrabatt",
+    "https://www.trygghansa.se/samarbeten/shl",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/lar-kanna-livbojen-och-radda-liv",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/familjehjalpen",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/hero/other/fronthero_1920x400.jpg?format=webp&width=1536&height=366&rxy=0.36%2c0.44&quality=80",
+        "alt": "man sitter vid fiskestuga på en holme",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/djur/laptop_katt.jpeg?format=webp&width=750&height=650&rxy=0.58%2c0.4&quality=80",
+        "alt": "En man sitter med en laptop sin och katt i knät",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/person/gravid_mamma_rita.jpg?format=webp&width=750&height=650&rxy=0.43%2c0.34&quality=80",
+        "alt": "flicka ritar på sin mammas gravidmage",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/partner/shl/shl_trygghansa_domare.jpg?format=webp&width=750&height=650&rxy=0.6%2c0.05&quality=80",
+        "alt": "",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/ba1e50ae16344a87a2aaf41ca33d2c8f/mitt-liv-som-livboj_kampanjbild_2_high-res.jpg?format=webp&width=1024&height=683&quality=80",
+        "alt": "",
+        "w": 1024,
+        "h": 683
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [
+      "Personnummer tillhörande den person som ska teckna försäkringen. Kom ihåg att det måste stämma överens med det personnummer som står på husets ägar- eller hyreskontrakt."
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {
+    "--va-bg": "white",
+    "--va-padding": "16px",
+    "--va-color": "#222",
+    "--va-primary": "#fbfcfc",
+    "--va-border-color": "#dfe8e8",
+    "--va-outline-color": "#222",
+    "--va-critical": "#D93251",
+    "--va-serious": "#DB006E",
+    "--va-moderate": "#996B00",
+    "--va-minor": "#000",
+    "--va-notification": "#FF885B",
+    "--va-font-family": "'Segoe UI', Roboto, 'Fira Sans', Helvetica, 'Helvetica Neue', sans-serif"
+  },
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 24,
+    "mainTextLen": 5503,
+    "realImageCount": 8,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "vue"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/index.png",
+  "renderedHtml": "pages/index.html"
+}

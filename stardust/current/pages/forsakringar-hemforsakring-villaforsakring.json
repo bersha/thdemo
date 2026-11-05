@@ -1,0 +1,1628 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:39.255Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "forsakringar-hemforsakring-villaforsakring",
+  "url": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:39.255Z",
+  "finalUrl": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+  "title": "Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder",
+  "description": "Vår villaförsäkring skyddar huset, tomten, din familj och era saker. Vi försäkrar hus, radhus och villa och hjälper dig om något händer!",
+  "og": {
+    "title": "Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder",
+    "description": "Vår villaförsäkring skyddar huset, tomten, din familj och era saker. Vi försäkrar hus, radhus och villa och hjälper dig om något händer!",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Villaförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Trygg husägare med villaförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Fördelar med vår villaförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Snabb hjälp och ersättning"
+    },
+    {
+      "tag": "h3",
+      "text": "Topprankat skydd vid skadedjur och hussvamp"
+    },
+    {
+      "tag": "h3",
+      "text": "Reseförsäkring i 45 dagar"
+    },
+    {
+      "tag": "h2",
+      "text": "Vårt bästa skydd är topprankat"
+    },
+    {
+      "tag": "h2",
+      "text": "Vad täcker villaförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Stöld, inbrott och skadegörelse"
+    },
+    {
+      "tag": "h3",
+      "text": "Bränder och vattenskador"
+    },
+    {
+      "tag": "h3",
+      "text": "Skadedjur och hussvamp"
+    },
+    {
+      "tag": "h3",
+      "text": "Skyfall, storm och snösmältning"
+    },
+    {
+      "tag": "h3",
+      "text": "När något går sönder"
+    },
+    {
+      "tag": "h3",
+      "text": "Reseförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Överfallsskydd"
+    },
+    {
+      "tag": "h3",
+      "text": "Kristerapi"
+    },
+    {
+      "tag": "h3",
+      "text": "Ansvarsförsäkring och rättsskydd"
+    },
+    {
+      "tag": "h3",
+      "text": "Utökad byggnadsförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Drulle för lös egendom"
+    },
+    {
+      "tag": "h3",
+      "text": "Utökad reseförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Nätbedrägeri och ID-skydd"
+    },
+    {
+      "tag": "h3",
+      "text": "Hushjälpen"
+    },
+    {
+      "tag": "h3",
+      "text": "Utökat läckageskydd"
+    },
+    {
+      "tag": "h3",
+      "text": "Nyvärde för hemelektronik och hushållsmaskiner"
+    },
+    {
+      "tag": "h2",
+      "text": "Samboavtal och testamente utan extra kostnad"
+    },
+    {
+      "tag": "h2",
+      "text": "Vad ingår i en villaförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad kostar en villaförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Måste man ha en villaförsäkring?"
+    },
+    {
+      "tag": "h2",
+      "text": "Mer trygghet med Villaförsäkring stor"
+    },
+    {
+      "tag": "h3",
+      "text": "Värdefull kunskap om ditt hus"
+    },
+    {
+      "tag": "h3",
+      "text": "Skydd vid nätbedrägeri och ID-stöld"
+    },
+    {
+      "tag": "h3",
+      "text": "Ny dator, telefon och hushållsmaskin utan avdrag"
+    },
+    {
+      "tag": "h3",
+      "text": "Ersättning vid vattenskada"
+    },
+    {
+      "tag": "h2",
+      "text": "Hemförsäkring märkt med Bra Miljöval"
+    },
+    {
+      "tag": "h2",
+      "text": "Har du frågor om försäkringen? Vi ringer dig!"
+    },
+    {
+      "tag": "h2",
+      "text": "Trygg inne som ute med hemlarm"
+    },
+    {
+      "tag": "h2",
+      "text": "Så får du hjälp om något händer"
+    },
+    {
+      "tag": "h3",
+      "text": "Små skador, snabba beslut"
+    },
+    {
+      "tag": "h3",
+      "text": "Alltid redo. Skadejour dygnet runt"
+    },
+    {
+      "tag": "h3",
+      "text": "Inbrott och skadegörelse"
+    },
+    {
+      "tag": "h3",
+      "text": "Topprankat skydd för skadedjur och hussvamp"
+    },
+    {
+      "tag": "h3",
+      "text": "Reseförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Vanliga frågor och svar"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad är en villaförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vilket paket ska jag välja?"
+    },
+    {
+      "tag": "h3",
+      "text": "Täcker villaförsäkringen garaget och växthuset?"
+    },
+    {
+      "tag": "h3",
+      "text": "Gäller reseskyddet i försäkringen om barnen reser själva?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad ska jag göra med min villaförsäkring om jag flyttar?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vi ska hyra en villa, behöver vi en villaförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur gäller villaförsäkringen vid mögelangrepp?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad kostar en villaförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad innebär det att en byggnad eller fastighet är försäkrad till fullvärde?"
+    },
+    {
+      "tag": "h3",
+      "text": "Täcker villaförsäkringen stormskador?"
+    },
+    {
+      "tag": "h3",
+      "text": "Täcker villaförsäkringen solceller?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad är skillnaden på villaförsäkring, villahemförsäkring och hemförsäkring för villa?"
+    },
+    {
+      "tag": "h3",
+      "text": "Ingår dolda fel i villaförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Måste man ha både villa- och hemförsäkring?"
+    },
+    {
+      "tag": "h2",
+      "text": "Samla dina försäkringar och få rabatt!"
+    },
+    {
+      "tag": "h2",
+      "text": "Allt om villaförsäkringen"
+    },
+    {
+      "tag": "h2",
+      "text": "Skadeförebyggande råd"
+    },
+    {
+      "tag": "h3",
+      "text": "Brandsäkra ditt hem"
+    },
+    {
+      "tag": "h3",
+      "text": "Skydda ditt hus vid översvämning"
+    },
+    {
+      "tag": "h3",
+      "text": "Skadedjur"
+    },
+    {
+      "tag": "h2",
+      "text": "Trygg husägare med villaförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "Vår villaförsäkring skyddar din tomt och ditt hus, din familj och era saker. Se ditt pris och jämför vilket av våra tre paket — bas, mellan eller stor — som passar dig bäst.",
+    "Teckna villaförsäkring online och få",
+    "Hem",
+    "Försäkringar",
+    "Hemförsäkring",
+    "Villaförsäkring",
+    "Vår villaförsäkring är en kombinerad hem- och villaförsäkring för dig som äger ditt hus. Villadelen skyddar tomt, väggar och tak. Hemdelen skyddar det som inte sitter fast i huset, som dina saker och er som bor där.",
+    "Snabb hjälp och ersättning Mindre skador ersätts ofta direkt. Vid större brand eller vattenskada ringer du vårt journummer, de svarar dygnet runt.",
+    "Mindre skador ersätts ofta direkt. Vid större brand eller vattenskada ringer du vårt journummer, de svarar dygnet runt.",
+    "Topprankat skydd vid skadedjur och hussvamp Skadedjurssanering utan självrisk ingår i alla våra villaförsäkringar. Vid angrepp som hussvamp återställer vi dessutom skador på ansatta byggnadsdelar – utan självrisk och utan övre ersättningsgräns.",
+    "Skadedjurssanering utan självrisk ingår i alla våra villaförsäkringar. Vid angrepp som hussvamp återställer vi dessutom skador på ansatta byggnadsdelar – utan självrisk och utan övre ersättningsgräns.",
+    "Reseförsäkring i 45 dagar Res vart du vill. Reseförsäkring ingår alltid i 45 dagar. Du kan utöka din reseförsäkring för ett mer omfattande skydd.",
+    "Res vart du vill. Reseförsäkring ingår alltid i 45 dagar. Du kan utöka din reseförsäkring för ett mer omfattande skydd.",
+    "Konsumenternas försäkringsbyrå ger vår Villaförsäkring stor betyget 4,5 av 5.Läs mer hos Konsumenternas",
+    "Här kan du se vad som ingår i våra villaförsäkringar. Jämför och se vad som passar dig bäst.",
+    "När du har hemförsäkring hos oss får du tillgång till Avtalshjälpen - helt utan extra kostnad. Där får du trygg och smidig hjälp med att skriva samboavtal och testamente.",
+    "En villaförsäkring hos Trygg-Hansa innehåller ett grundskydd för ditt hem, dina saker och de som omfattas av försäkringen. Grundskyddet gäller till exempel vid brandskador, inbrott, skador under resa och om du eller någon annan hamnar i en rättstvist. Du kan välja att endast teckna vårt grundskydd: baspaket, eller välja ett mer omfattande paket: mellan eller stor.",
+    "Priset på din försäkring påverkas av hur du bor, var du bor och hur många personer försäkringen ska gälla för. Det beror också på vilken omfattning du väljer och vilken självrisk du vill ha.",
+    "Som standard ingår ett försäkringsbelopp på 1 500 000 kr för lös egendom, vilket täcker saker som kläder, elektronik, möbler och annat du har i hemmet. Det är ett belopp som räcker för de flesta hushåll. Vill du ha ett högre försäkringsbelopp påverkar det ditt pris. För hemförsäkring student ingår ett försäkringsbelopp på 200 000 kr.",
+    "Nej, det är inget lagkrav, men det är starkt rekommenderat. Endast 3 procent av Sveriges befolkning saknar hemförsäkring, vilket visar hur självklart det är för de flesta.",
+    "Att stå utan hemförsäkring kan få stora ekonomiska konsekvenser. Den ersätter dig vid brand, stöld, vattenskada, om du blir skadeståndsskyldig för en skada du orsakat, och om något händer dig eller dina ägodelar under en resa. Kom ihåg att välja rätt typ beroende på om du bor i villa, bostadsrätt eller hyr ditt boende. Här kan du läsa mer om varför det är viktigt att ha en hemförsäkring.",
+    "När du väljer vår mest omfattande villaförsäkring ingår det mer trygghet. Du får skydd vid ID-stöld och nätbedrägeri, ny elektronik utan avdrag de första tre åren och extra trygghet vid vattenskada, bland annat.",
+    "Hushjälpen är omtanke och goda råd. Det är en frivillig tjänst för dig som vill lära känna ditt hus och få värdefull kunskap om hur du kan minska risken för brand, inbrott och vattenskada. Dessutom ingår konkreta tips för livet med hus och en sammanställning över hur du kan undvika ovälkomna överraskningar. Tjänsten ingår i Villaförsäkring Stor.",
+    "Så går ett hembesök via Hushjälpen till",
+    "Att ha en digital närvaro är idag lika självklart som det är sårbart. Därför kan det kännas tryggt att veta att det finns stöd och hjälp att få om något skulle hända. Du får rådgivning och hjälp vid id-stöld, nätbedrägerier och nättrakasserier, inklusive juridiskt stöd, psykologsamtal och ersättning för ekonomisk förlust. Skyddet ingår i Villaförsäkring stor.",
+    "Så får du hjälp vid Nätbedrägeri och ID-skydd",
+    "Hemelektronik och hushållsmaskiner är en självklar del av vardagen, från tv:n i vardagsrummet till datorn på skrivbordet och kaffebryggaren i köket. Du får ersättning utan åldersavdrag om dina nya elektronikprylar eller hushållsmaskiner går sönder under de första tre åren. För din nya mobil får du ersättning utan åldersavdrag under det första året. Skyddet ingår i Villaförsäkring stor.",
+    "Ibland hittar vattnet oväntade vägar in, som genom taket eller fasaden. Då kan det kännas tryggt att veta att du kan få ersättning för följdskador på golv, väggar och tak. Skyddet ingår i Villaförsäkring stor.",
+    "När du väljer vår hemförsäkring får du en försäkring märkt med Bra Miljöval. Det betyder att försäkringen uppfyller Naturskyddsföreningens högt ställda miljökrav, som regelbundet kontrolleras och följs upp.",
+    "Här kan du läsa mer om vad det innebär att vår hemförsäkring är märkt med Bra Miljöval.",
+    "Boka en tid så ringer vi upp och berättar mer om villaförsäkring och hur du kan öka din rabatt.",
+    "Med ett uppkopplat larm i ditt hus kan du minska riskerna för inbrott, brand och vattenläckor. Genom vårt samarbete med Verisure erbjuder vi dig ett förmånligt pris på deras största larmpaket.",
+    "Det ska vara enkelt att få hjälp. Om cykeln blir stulen, eller huset invaderas av skadedjur, eller om du råkar ut för något annat som ingår i din villaförsäkring, finns vi här för dig.",
+    "Om du råkar ut för en mindre skada, som en stulen cykel eller en trasig tvättmaskin anmäler du det enkelt direkt på webben eller via telefon. Majoriteten av de som anmäler en mindre skada får beslut och ersättning redan inom ett dygn. Du kan välja att få din ersättning utbetald via Swish, snabbt och smidigt.",
+    "Vid större skador på ditt hus som till exempel brand eller vattenskada kan du ringa vår skadejour dygnet runt, året om. Vi hjälper till med akuta insatser, som till exempel ersättning för tillfälligt boende och förskottsersättning för att täcka akuta utgifter som kläder, hygienartiklar och mat.",
+    "Om någon bryter sig in i ditt hem kan du få ersättning för det som har blivit stulet och förstört under inbrottet. Du kan även få ersättning för skadegörelse, till exempel om någon krossar en ruta i källaren.",
+    "Vetskapen om att en okänd person har brutit sig in i ens hem kan göra att man behöver hjälp att bearbeta det som hänt. I försäkringen ingår det därför kristerapi med upp till 10 tillfällen hos en psykolog om du eller någon annan i hushållet mår dåligt efter till exempel ett inbrott.",
+    "Om du drabbas av bland annat vägglöss, myror, getingar eller andra ovälkomna insekter som vägrar ge sig av hjälper vi dig att få bort ohyran. Sanering av skadedjur ingår utan självrisk.",
+    "Vid angrepp av hussvamp, husbock eller andra virkesförstörande insekter återställer vi skador på ansatta byggnadsdelar – utan självrisk och utan övre ersättningsgräns. I vissa fall får du dessutom hjälp om ditt hus drabbas av mögel, beroende på vad möglet har orsakats av.",
+    "Vårt skydd för skadedjur och hussvamp får högst betyg när Konsumenternas Försäkringsbyrå jämför innehållet i Sveriges villaförsäkringar. Skyddet ingår i alla våra villaförsäkringar: bas, mellan och stor.",
+    "Läs mer om hjälp vid angrepp av skadedjur.",
+    "Läs mer om vilka mögelskador som försäkringen täcker.",
+    "I alla våra tre paket ingår en reseförsäkring i 45 dagar. Det betyder att du kan få hjälp och ersättning om du blir så pass sjuk eller skadad att du behöver vård utomlands. Reseförsäkringen gäller alla som omfattas av försäkringen.",
+    "I vårt stora paket ingår Utökad reseförsäkring, som kan ge dig ersättning om du behöver avbeställa din resa eller inte kan nyttja hela resan på grund av sjukdom eller olycksfall. Om du väljer vårt bas- eller mellanpaket finns det som valbart tillägg.",
+    "Vad är en villaförsäkring? En villaförsäkring är en kombinerad villa- och hemförsäkring. Där villadelen skyddar huset och tomten, och hemdelen dig, din familj och era saker. Om du bara har en vanlig hemförsäkring har du inget skydd för huset och tomten. Vår villaförsäkring gäller för flera olika typer av hus som villa i villaområde, hus på landet, friköpt radhus och friköpt parhus. Det viktiga är att du äger huset.",
+    "Vilket paket ska jag välja? Vilket paket du behöver beror på hur du bor och hur omfattande skydd du vill ha. I tabellen längre upp på sidan kan du jämföra innehållet i våra tre paket. Vill du ha en ännu mer detaljerad beskrivning av vad som ingår i försäkringen kan du läsa mer i För- och efterköpsinformationen.",
+    "Täcker villaförsäkringen garaget och växthuset? Ja, om de står med på försäkringsbrevet. Alla byggnader på tomten som är större än 5 kvm måste stå med på försäkringsbrevet för att omfattas av försäkringen. När du tecknar din försäkring är det därför viktigt att du tar upp alla byggnader och också om vatten är indraget i de byggnaderna. Du som har en villaförsäkring hos oss kan se vilka byggnader som är försäkrade på Mina sidor.",
+    "Gäller reseskyddet i försäkringen om barnen reser själva? Ja, om barnen bor i huset och står med på försäkringsbrevet så gäller reseskyddet oavsett om de reser med en förälder eller på egen hand. Läs mer om reseförsäkringen. Ska någon ut på en långresa? Reseförsäkringen gäller i max 45 dagar vid resor utanför Norden. Men skyddet går att förlänga. Kontakta oss innan äventyraren lämnar Sverige!",
+    "Vad ska jag göra med min villaförsäkring om jag flyttar? Den ska du packa med dig! Vi hjälper dig att anpassa försäkringen till ditt nya boende. Ring oss så hjälper vi dig. Obs! Har vi en annan adress till dig än den du är folkbokförd på? Ring kundservice för att få hjälp att byta. Är ni två som flyttar ihop? Se då till att båda står på försäkringsbrevet så att ni båda täcks av hemförsäkringen.",
+    "Vi ska hyra en villa, behöver vi en villaförsäkring? Nej, när man bor i ett hus eller villa som man hyr, räcker det med att ha en vanlig hemförsäkring (som för hyresrätt). Om du hyr en villa, är det ägarens ansvar att ha en försäkring för själva huset.",
+    "Hur gäller villaförsäkringen vid mögelangrepp? Hur din försäkring gäller beror på vad som har orsakat möglet. Våra försäkringar för villa och fritidshus kan ersätta sanering av mögel, men bara om möglet uppstått till följd av en översvämning eller efter läckage från husets vatten- eller avloppsystem. För att få ett säkert besked om din ersättning behöver du göra en skadeanmälan. Vi bedömer då vad som har hänt och hur din försäkring gäller. Du kan inte få ersättning om möglet beror på att huset har drabbats av markfukt, det vill säga att vatten under bottenplattan har stigit upp genom golvkonstruktionen är bristfällig dränerat runt grunden, så att vatten blivit stående och orsakat förhöjda fuktvärden i golv och vägg har bristfällig ventilation. Läs mer om mögel i villa.",
+    "Vad kostar en villaförsäkring? Det finns flera faktorer som påverkar priset på din villaförsäkring. Vilken adress du bor på Hur stort huset är Hur många ni är i hushållet och hur gamla ni är Vilken omfattning och självrisk du väljer. Viket försäkringsbelopp du väljer. Som standard ingår ett försäkringsbelopp på 1 500 000 kr för lös egendom, vilket täcker saker som kläder, elektronik, möbler och annat du har i hemmet. Det är ett belopp som räcker för de flesta hushåll. Vill du ha ett högre försäkringsbelopp påverkar det ditt pris.För att få ett lägre pris kan du: installera ett godkänt inbrottslarm välja en högre självrisk för den lösa egendomen välja en högre självrisk för den fasta egendomen samla dina försäkringar hos oss och ta del av vår samlingsrabatt.",
+    "Vad innebär det att en byggnad eller fastighet är försäkrad till fullvärde? Fullvärde betyder att försäkringen täcker kostnaderna för att återställa byggnaden vid en skada. När du ska få ersättning värderas byggnaden till marknadsvärdet vid tillfället för skadan. Vi kan sedan göra avdrag för olika byggnadsdelar baserat på deras ålder, så kallat åldersavdrag. Åldersavdraget och självrisken är den del av skadekostnaden som du själv får stå för, resten bekostas av försäkringen. I vår villaförsäkring ingår fullvärde för byggnader.",
+    "Täcker villaförsäkringen stormskador? Villaförsäkringen ersätter stormskador på boende, garage, uthus och växthus. Du kan även få ersättning för saker som skadats i samband med stormen. Läs mer om hur du förebygger stormskador och vilken ersättning du kan få.",
+    "Täcker villaförsäkringen solceller? Ja, vår villaförsäkring täcker både solceller och solfångare. Det beror på att solceller och solfångare räknas som en elinstallation. Läs mer om solceller.",
+    "Vad är skillnaden på villaförsäkring, villahemförsäkring och hemförsäkring för villa? De flesta villaägare behöver ha en försäkring som också skyddar själva husbyggnaden. Vår villaförsäkring är därför en kombinerad försäkring, där villadelen skyddar huset och tomten, och hemdelen dig, din familj och era saker. Hemförsäkring för villa och Villahemförsäkring är bara andra namn på samma försäkring. Om du enbart har själva byggnaden försäkrad hos oss har du istället en Hus- och tomtförsäkring.",
+    "Ingår dolda fel i villaförsäkringen? Nej, villaförsäkringen täcker inte dolda fel eller konstruktionsfel i din bostad. För att ha skydd mot dolda fel behöver du ha en dolda-fel-försäkring – den tecknar du via din mäklare. Här kan du läsa mer om dolda fel och vad det är.",
+    "Måste man ha både villa- och hemförsäkring? Ja, som villaägare behöver du både en hemförsäkring (som täcker dig, din familj och era saker) och en villaförsäkring (som täcker byggnaden). Vår Hemförsäkring villa är en kombinerad villa- och hemförsäkring – så det räcker att du tecknar den.",
+    "När du har flera försäkringar hos oss kan du få samlingsrabatt på dem. Du kan få upp till 20 % rabatt, beroende på vilka försäkringar du har.",
+    "Du kan läsa mer om försäkringen och viktiga undantag i för- och efterköpsinformationen nedan. Du kan också läsa i produktfaktabladet (IPID), som kan hjälpa dig att jämföra försäkringar mellan olika bolag. Både för- och efterköpsinformationen och produktbladet är sammanfattningar av försäkringsvillkoret.",
+    "För- och efterköps­information (PDF)",
+    "Produktfakta­blad (IPID) (PDF)",
+    "Fullständiga villkor (PDF)",
+    "Tilläggsvillkor Utökat läckageskydd (PDF)",
+    "Tilläggsvillkor Nätbedrägeri och ID-skydd (PDF)",
+    "Tilläggsvillkor Hemelektronik (PDF)",
+    "Tilläggsvillkor brottsvinster och penningtvätt (PDF)",
+    "Tilläggsvillkor snötryck (PDF)",
+    "Tilläggsvillkor dröjsmålsränta (PDF)",
+    "Tilläggsvillkor ansvarsskada (PDF)",
+    "Brandsäkra ditt hem Läs om hur hemförsäkringen fungerar om du drabbas av en brand – och hur du kan brandsäkra ditt hem med brandskydd för att hålla bränderna borta! Ta del av våra råd för ett brandsäkert boende",
+    "Skydda ditt hus vid översvämning Så här minskar du risken för översvämning och förebygger skador på ditt hus och dina saker. Läs våra praktiska råd vid översvämning",
+    "Skadedjur Här kan du hitta tips om hur du kan upptäcka skadedjur som vägglöss, getingar och råttor och hur du får hjälp med sanering om du har blivit drabbad. Läs mer om skadedjur",
+    "Vår villaförsäkring skyddar din tomt och ditt hus, din familj och era saker. Se ditt pris och jämför vilket av våra tre paket — bas, mellan eller stor — som passar dig bäst."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/hemforsakring/villaforsakring/berakna-pris"
+    },
+    {
+      "label": "10 % rabatt första året!",
+      "href": null
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Hemförsäkring",
+      "href": "/forsakringar/hemforsakring"
+    },
+    {
+      "label": "Läs mer hos Konsumenternas",
+      "href": "https://www.konsumenternas.se/konsumentstod/jamforelser/boendeforsakringar/jamfor--villaforsakringar/"
+    },
+    {
+      "label": "Stöld, inbrott och skadegörelse",
+      "href": null
+    },
+    {
+      "label": "Bränder och vattenskador",
+      "href": null
+    },
+    {
+      "label": "Skadedjur och hussvamp",
+      "href": null
+    },
+    {
+      "label": "Skyfall, storm och snösmältning",
+      "href": null
+    },
+    {
+      "label": "När något går sönder",
+      "href": null
+    },
+    {
+      "label": "Reseförsäkring",
+      "href": null
+    },
+    {
+      "label": "Överfallsskydd",
+      "href": null
+    },
+    {
+      "label": "Kristerapi",
+      "href": null
+    },
+    {
+      "label": "Ansvarsförsäkring och rättsskydd",
+      "href": null
+    },
+    {
+      "label": "Utökad byggnadsförsäkring",
+      "href": null
+    },
+    {
+      "label": "Drulle för lös egendom",
+      "href": null
+    },
+    {
+      "label": "Utökad reseförsäkring",
+      "href": null
+    },
+    {
+      "label": "Nätbedrägeri och ID-skydd",
+      "href": null
+    },
+    {
+      "label": "Hushjälpen",
+      "href": null
+    },
+    {
+      "label": "Utökat läckageskydd",
+      "href": null
+    },
+    {
+      "label": "Nyvärde för hemelektronik och hushållsmaskiner",
+      "href": null
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/hemforsakring/villaforsakring/berakna-pris"
+    },
+    {
+      "label": "Läs mer om Avtalshjälpen",
+      "href": "/samarbeten/lawly"
+    },
+    {
+      "label": "villa",
+      "href": "/forsakringar/hemforsakring/villaforsakring"
+    },
+    {
+      "label": "bostadsrätt",
+      "href": "/forsakringar/hemforsakring/bostadsrattsforsakring"
+    },
+    {
+      "label": "hyr ditt boende",
+      "href": "/forsakringar/hemforsakring/hyresrattsforsakring"
+    },
+    {
+      "label": "varför det är viktigt att ha en hemförsäkring",
+      "href": "/forsakringar/hemforsakring/varfor-hemforsakring"
+    },
+    {
+      "label": "Så går ett hembesök via Hushjälpen till",
+      "href": "/forsakringar/hemforsakring/villaforsakring/hushjalpen"
+    },
+    {
+      "label": "Så får du hjälp vid Nätbedrägeri och ID-skydd",
+      "href": "/forsakringar/hemforsakring/natbedrageri-och-id-skydd"
+    },
+    {
+      "label": "åldersavdrag",
+      "href": "/forsakringar/hemforsakring/aldersavdrag"
+    },
+    {
+      "label": "Här kan du läsa mer om vad det innebär att vår hemförsäkring är märkt med Bra Miljöval",
+      "href": "/om-trygghansa/esg/bra-miljoval"
+    },
+    {
+      "label": "Boka din tid",
+      "href": "/boka/villa"
+    },
+    {
+      "label": "Läs mer om erbjudandet",
+      "href": "https://www.verisure.se/funnel/standalone/partner/?pa=trygghansa&utm_source=trygghansa&utm_medium=referral&utm_campaign=al_trygghansa_las_mer&camp=al_trygghansa_las_mer&utm_content=alarm"
+    },
+    {
+      "label": "kristerapi",
+      "href": "/forsakringar/kristerapi-och-krisforsakring"
+    },
+    {
+      "label": "Läs mer om hjälp vid angrepp av skadedjur",
+      "href": "/forsakringar/hemforsakring/skadedjur"
+    },
+    {
+      "label": "Läs mer om vilka mögelskador som försäkringen täcker",
+      "href": "/forsakringar/hemforsakring/villaforsakring/mogel"
+    },
+    {
+      "label": "Vad är en villaförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vilket paket ska jag välja?",
+      "href": null
+    },
+    {
+      "label": "Täcker villaförsäkringen garaget och växthuset?",
+      "href": null
+    },
+    {
+      "label": "Gäller reseskyddet i försäkringen om barnen reser själva?",
+      "href": null
+    },
+    {
+      "label": "Vad ska jag göra med min villaförsäkring om jag flyttar?",
+      "href": null
+    },
+    {
+      "label": "Vi ska hyra en villa, behöver vi en villaförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Hur gäller villaförsäkringen vid mögelangrepp?",
+      "href": null
+    },
+    {
+      "label": "Vad kostar en villaförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vad innebär det att en byggnad eller fastighet är försäkrad till fullvärde?",
+      "href": null
+    },
+    {
+      "label": "Täcker villaförsäkringen stormskador?",
+      "href": null
+    },
+    {
+      "label": "Täcker villaförsäkringen solceller?",
+      "href": null
+    },
+    {
+      "label": "Vad är skillnaden på villaförsäkring, villahemförsäkring och hemförsäkring för villa?",
+      "href": null
+    },
+    {
+      "label": "Ingår dolda fel i villaförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "Måste man ha både villa- och hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Läs mer om vår samlingsrabatt",
+      "href": "/forsakringar/samlingsrabatt"
+    },
+    {
+      "label": "För- och efterköps­information (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/MB2318.pdf"
+    },
+    {
+      "label": "Produktfakta­blad (IPID) (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/PID04069.pdf"
+    },
+    {
+      "label": "Fullständiga villkor (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P00296.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor Utökat läckageskydd (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04631.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor Nätbedrägeri och ID-skydd (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04633.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor Hemelektronik (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04632.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor brottsvinster och penningtvätt (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04581.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor snötryck (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04600.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor dröjsmålsränta (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04601.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor ansvarsskada (PDF)",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/P04630.pdf"
+    },
+    {
+      "label": "Ta del av våra råd för ett brandsäkert boende",
+      "href": "/forsakringar/hemforsakring/brand"
+    },
+    {
+      "label": "Läs våra praktiska råd vid översvämning",
+      "href": "/tips-rad/hus-och-hem/ovader/oversvamning"
+    },
+    {
+      "label": "Läs mer om skadedjur",
+      "href": "/forsakringar/hemforsakring/skadedjur"
+    },
+    {
+      "label": "Fler artiklar",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/hemforsakring/villaforsakring/berakna-pris"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring/berakna-pris",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.konsumenternas.se/konsumentstod/jamforelser/boendeforsakringar/jamfor--villaforsakringar/",
+    "https://www.trygghansa.se/samarbeten/lawly",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/varfor-hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring/hushjalpen",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/natbedrageri-och-id-skydd",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/aldersavdrag",
+    "https://www.trygghansa.se/om-trygghansa/esg/bra-miljoval",
+    "https://www.trygghansa.se/boka/villa",
+    "https://www.verisure.se/funnel/standalone/partner/?pa=trygghansa&utm_source=trygghansa&utm_medium=referral&utm_campaign=al_trygghansa_las_mer&camp=al_trygghansa_las_mer&utm_content=alarm",
+    "https://www.trygghansa.se/forsakringar/kristerapi-och-krisforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/skadedjur",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring/mogel",
+    "tel:0771111110",
+    "https://www.trygghansa.se/forsakringar/samlingsrabatt",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem/ovader/storm",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring/solceller",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem/flytta/dolda-fel",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/MB2318.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/PID04069.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P00296.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04631.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04633.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04632.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04581.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04600.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04601.pdf",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/P04630.pdf",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/brand",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem/ovader/oversvamning",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/hus-hem-och-prylar/villa_familj_boll.jpg?format=webp&width=1536&height=366&rxy=0.47%2c0.37&quality=80",
+        "alt": "man och pojke spelar fotboll utanför villa",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/5e320fa262aa4fc8a73e6c128288f98c/stars_4-5-1.svg?width=1024&height=92&quality=80",
+        "alt": "",
+        "w": 300,
+        "h": 27
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/hus-hem-och-prylar/bra_miljoval_logotyp_gron.svg?width=750&height=650&quality=80",
+        "alt": "",
+        "w": 300,
+        "h": 101
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/partner/verisure/verisure_villa.jpg?format=webp&width=750&height=650&rxy=0.79%2c0.22&quality=80",
+        "alt": "",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 11,
+    "cssBackgrounds": [],
+    "modals": [
+      "Rabatt på din nya villaförsäkring! Du får 10% rabatt första året när du tecknar din nya villaförsäkring online. Du kan välja att försäkringen ska börja gälla vid ett senare datum. SamlingsrabattHar du flera försäkringar hos oss kan du dessutom få samlingsrabatt på din nya villaförsäkring, beroende på vilka försäkringar du har. Erbjudandet gäller t.o.m. 15 december. Om flera rabatter kombineras dras de av efter varandra istället för att summeras. Stäng",
+      "Stöld, inbrott och skadegörelse Du får ersättning vid stöld och skadegörelse i din bostad och i låsta förråd. Försäkringen gäller även om något stjäls utanför hemmet, till exempel en cykel utanför jobbet. Skyddet följer med dig på resa. Stäng",
+      "Bränder och vattenskador Du får ersättning om ditt hem skadas av brand eller läckage, till exempel från avlopp, värme- eller vattenledningar, tvättmaskin, diskmaskin, kylskåp eller frys. Försäkringen täcker även kostnader som kan uppstå, som till exempel för en tillfällig bostad medan skadan åtgärdas. Stäng",
+      "Skadedjur och hussvamp Du får hjälp med sanering om ditt hus drabbas av levande skadedjur, till exempel råttor, möss eller insekter som orsakar obehag eller sanitär olägenhet. Försäkringen ersätter även skador som orsakats av äkta hussvamp, husbock och andra virkesförstörande insekter. Stäng",
+      "Skyfall, storm och snösmältning Du får ersättning vid skada som orsakas av naturens krafter: skyfall, snösmältning, stigande vatten från sjöar eller andra vattendrag, storm, hagel, snötryck, blixtnedslag och jordrörelser. Stäng",
+      "När något går sönder Du får ersättning om hushållsmaskiner eller installationer går sönder, som till exempel din värmepump eller tvättmaskin. Försäkringen kan också ge ersättning för sådant som förstörs i samband med skadan, som livsmedel i frysen eller tvätt i maskinen. Stäng",
+      "Reseförsäkring Om du blir akut sjuk eller råkar ut för ett olycksfall under resan, får du ersättning för nödvändiga och skäliga kostnader. Till exempel för sjukvård, medicin och resor. Skyddet gäller i 45 dagar och i hela världen. Stäng",
+      "Överfallsskydd Du får ersättning om du blir utsatt för ett överfall. Högsta ersättning är 150 000 kronor. Om du får bestående skador efter överfallet kan du även få upp till 1 miljon kronor i invaliditetsersättning. Stäng",
+      "Kristerapi Om du mår dåligt efter en stöld, brand, explosion eller ett överfall får du upp till tio behandlingstillfällen hos en terapeut eller psykolog som vi hänvisar dig till. Stäng",
+      "Ansvarsförsäkring och rättsskydd Om du krävs på skadestånd för att du skadat någon eller något utreder vi om du är skadeståndsskyldig. Vi förhandlar med den som kräver skadestånd och för din talan vid rättegången. Du kan få ersättning för dina advokatkostnader om du hamnar i en tvist som kan prövas av allmän domstol. Stäng"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 65,
+    "mainTextLen": 28390,
+    "realImageCount": 7,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/amzn.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://c.amazon-adsystem.com/aat/amzn.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/allowlist/allowlist.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.SessionID",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/1068894895/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 313,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "trygghansa.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://trygghansa.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "server-side-tagging-928417184480.europe-north1.run.app",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep./forsakringar/hemforsakring/villaforsakring",
+          "ep.sessionId",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://server-side-tagging-928417184480.europe-north1.run.app/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "collect-eu-central-1.tealiumiq.com",
+        "path": "/tryg/trygghansa-se-web/{n}/i.gif",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 43,
+        "hits": 2,
+        "example": "https://collect-eu-central-1.tealiumiq.com/tryg/trygghansa-se-web/2/i.gif",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 3
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "visitor-service-eu-central-1.tealiumiq.com",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 20,
+      "thirdPartyScriptHosts": 15,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/forsakringar-hemforsakring-villaforsakring.png",
+  "renderedHtml": "pages/forsakringar-hemforsakring-villaforsakring.html"
+}

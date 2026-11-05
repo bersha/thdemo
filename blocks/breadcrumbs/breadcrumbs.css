@@ -1,0 +1,54 @@
+/* breadcrumbs — source .th-breadcrumbs (mobile: first + last two crumbs) */
+.breadcrumbs .th-breadcrumbs {
+  display: flex;
+  align-items: center;
+  min-height: 3.125rem;
+}
+
+.breadcrumbs .th-breadcrumbs :is(ol, ul) {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs .th-breadcrumbs li {
+  display: none;
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.breadcrumbs .th-breadcrumbs li a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.breadcrumbs .th-breadcrumbs li a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumbs .th-breadcrumbs li:not(:last-child) {
+  margin-right: .5rem;
+}
+
+.breadcrumbs .th-breadcrumbs li:not(:last-child)::after {
+  content: ">" / "";
+  display: inline-block;
+  margin-left: .5rem;
+}
+
+.breadcrumbs .th-breadcrumbs li:first-child,
+.breadcrumbs .th-breadcrumbs li:nth-last-child(2),
+.breadcrumbs .th-breadcrumbs li:last-child {
+  display: inline;
+}
+
+@media (width >= 1024px) {
+  .breadcrumbs .th-breadcrumbs li {
+    display: inline;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

@@ -1,0 +1,45 @@
+/* cta-image — source .th-cta-image-block (module rules live in styles.css); wide section */
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+.cta-image .th-block-heading h2 {
+  margin: 0;
+}
+
+.cta-image .th-cta-image-block-introduction p:last-child {
+  margin-block-end: 0;
+}
+
+/* medium primary CTA (source th-button-medium + full-width-on-mobile-fit-text-desktop) */
+.cta-image .th-block-actions {
+  margin-block-start: 1.875rem;
+}
+
+.cta-image .th-block-actions p {
+  margin: 0;
+}
+
+.cta-image .th-block-actions a.button {
+  width: 100%;
+  min-width: auto;
+}
+
+@media (width >= 768px) {
+  .cta-image .th-block-actions a.button {
+    width: fit-content;
+    min-width: 14.6875rem;
+  }
+}
+
+/* variant small-crop — the source serves a focal crop below 1024 px and the wide rendition above */
+.cta-image.small-crop .th-cta-image-large {
+  display: none;
+}
+
+@media (width >= 1024px) {
+  .cta-image.small-crop .th-cta-image-small {
+    display: none;
+  }
+
+  .cta-image.small-crop .th-cta-image-large {
+    display: inline;
+  }
+}

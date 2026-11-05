@@ -1,0 +1,200 @@
+{
+  "generatedAt": "2026-11-04T15:00:32.138Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.trygghansa.se/",
+    "liveHost": "main--64009de2--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 10,
+    "prototyped": 10,
+    "deployed": 10,
+    "optimised": 10
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 0,
+    "optimised": 10
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "optimised",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "djurforsakring",
+      "path": "/djurforsakring",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-bilforsakring",
+      "path": "/forsakringar/bilforsakring",
+      "stage": "optimised",
+      "templateId": "forsakringar-bilforsakring",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-bilforsakring-helforsakring",
+      "path": "/forsakringar/bilforsakring/helforsakring",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-fordon",
+      "path": "/forsakringar/fordon",
+      "stage": "optimised",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-hemforsakring",
+      "path": "/forsakringar/hemforsakring",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-hemforsakring-villaforsakring",
+      "path": "/forsakringar/hemforsakring/villaforsakring",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-person",
+      "path": "/forsakringar/person",
+      "stage": "optimised",
+      "templateId": "forsakringar-person",
+      "isTemplate": true,
+      "openFindings": 0
+    },
+    {
+      "slug": "forsakringar-person-barnforsakring",
+      "path": "/forsakringar/person/barnforsakring",
+      "stage": "optimised",
+      "templateId": "program",
+      "isTemplate": false,
+      "openFindings": 0
+    },
+    {
+      "slug": "skadeanmalan",
+      "path": "/skadeanmalan",
+      "stage": "optimised",
+      "templateId": "skadeanmalan",
+      "isTemplate": true,
+      "openFindings": 0
+    }
+  ],
+  "templates": [
+    {
+      "id": "forsakringar-bilforsakring",
+      "archetype": "forsakringar-bilforsakring",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "forsakringar-person",
+      "archetype": "forsakringar-person",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "djurforsakring",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 2
+      }
+    },
+    {
+      "id": "program",
+      "archetype": "forsakringar-bilforsakring-helforsakring",
+      "pageCount": 4,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 4
+      }
+    },
+    {
+      "id": "skadeanmalan",
+      "archetype": "skadeanmalan",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 0,
+        "optimised": 1
+      }
+    }
+  ],
+  "blocks": {
+    "total": 12,
+    "converted": 12
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": null,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": null
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      30,
+      0,
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {},
+    "byAutofix": {}
+  }
+}

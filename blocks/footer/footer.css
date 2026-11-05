@@ -1,20 +1,209 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/* footer block — ported from canon.css § Footer chrome (desktop 4 columns; collapsible until 1024).
+   body > footer carries .th-footer; the .footer block div is display: contents.
+   Column markup: li.th-footer-column > h2.th-footer-header > button.th-collapse-header (+ arrow). */
+.footer.block {
+  display: contents;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+/* ---------- Footer chrome ---------- */
+.th-footer {
+  margin-block-start: auto;
+  background-color: var(--th-theme-background-darker);
 }
 
-footer .footer p {
+.th-footer-nav {
+  background-color: var(--th-theme-background-dark);
+}
+
+.th-footer-main {
   margin: 0;
+  padding: 0;
+  list-style: none;
+  border-block-start: .125rem solid var(--th-theme-background-darker);
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+.th-footer-column:not(:first-of-type) {
+  border-block-start: .125rem solid var(--th-theme-background-darker);
+}
+
+.th-footer-column.is-collapse-open {
+  background-color: var(--th-theme-background-darker);
+  border-block-start-color: transparent;
+}
+
+.th-footer-column .th-collapse-header:focus-visible {
+  outline-color: var(--th-theme-fill-inverse-strong);
+  outline-offset: -.375rem;
+}
+
+.th-footer-list {
+  margin: 0;
+  padding-inline: 2.1875rem 1.25rem;
+  list-style-type: none;
+}
+
+.th-footer-icon {
+  color: var(--th-theme-text-inverse-weak);
+}
+
+.th-footer-header {
+  color: var(--th-theme-text-inverse-strong);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.125;
+}
+
+.th-footer-bottom {
+  padding: 2.8125rem 1.25rem 2.1875rem;
+}
+
+.th-footer-links-container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  column-gap: 2rem;
+  list-style: none;
+}
+
+.th-footer-links-container .th-icon {
+  color: var(--th-theme-text-inverse-weak);
+}
+
+.th-footer-links-container a {
+  display: block;
+}
+
+.th-footer-links-container a:focus-visible,
+.th-footer-logo-container a:focus-visible {
+  outline: .1875rem solid var(--th-theme-fill-inverse-strong);
+  outline-offset: .375rem;
+}
+
+.th-footer-logo-container {
+  display: flex;
+  justify-content: center;
+  margin-block: 3.125rem;
+}
+
+.th-footer-logo-icon {
+  display: block;
+  width: 10.375rem;
+  height: auto;
+}
+
+.th-footer-text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: .625rem;
+  line-height: 1.2;
+}
+
+.th-footer-text {
+  color: var(--th-theme-text-inverse-weak);
+  font-size: .75rem;
+}
+
+.th-footer-bottom-links {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  text-align: end;
+}
+
+.th-footer-link {
+  display: inline-block;
+  padding: .5rem .625rem;
+  color: var(--th-theme-text-inverse-weak);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.th-footer-link:hover {
+  text-decoration: underline;
+}
+
+.th-footer-link:focus-visible {
+  outline: .1875rem solid var(--th-theme-fill-inverse-strong);
+  outline-offset: -.375rem;
+}
+
+.th-footer-link-underline {
+  text-decoration: underline;
+}
+
+.th-footer-link-underline:focus-visible {
+  outline-offset: .125rem;
+}
+
+@media (width >= 1024px) {
+  .th-footer-main {
+    display: flex;
+    justify-content: center;
+    padding-block: 3.75rem 3.125rem;
+    column-gap: 1.875rem;
+  }
+
+  .th-footer-column {
+    width: 16.875rem;
+  }
+
+  .th-footer-column:not(:first-of-type) {
+    border-block-start: none;
+  }
+
+  .th-footer-column.is-collapse-open {
+    background-color: transparent;
+  }
+
+  .th-footer-list {
+    display: block;
+    padding: .625rem .625rem 0;
+  }
+
+  .th-footer-icon {
+    display: none;
+  }
+
+  /* the authored heading holds its toggle: from 1024 the toggle dissolves into the heading text */
+  .th-footer-header {
+    display: initial;
+    padding: 1.25rem;
+  }
+
+  .th-footer-column.th-collapse-until-desktop .th-collapse-header {
+    display: contents;
+    cursor: default;
+  }
+
+  .th-footer-bottom {
+    display: flex;
+    justify-content: flex-end;
+    padding-block: 0;
+  }
+
+  .th-footer-links-container {
+    flex: 0 0 33.33%;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .th-footer-logo-container {
+    flex: 0 0 33.33%;
+  }
+
+  .th-footer-logo-icon {
+    width: 11.625rem;
+  }
+
+  .th-footer-text-container {
+    flex: 0 0 33.33%;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .th-footer-bottom-links {
+    padding-left: 2.625rem;
   }
 }

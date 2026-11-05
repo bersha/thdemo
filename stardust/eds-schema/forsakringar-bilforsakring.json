@@ -1,0 +1,2222 @@
+{
+ "source": "http://localhost:8791/forsakringar-bilforsakring-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "th-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Bilförsäkring"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Ett oväntat fel har inträffat"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Vänligen försök igen senare."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Du kommer snart till nästa steg"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Vänta"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Privatperson eller företag?"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Privat"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Företag"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Personnummer"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "ååmmddnnnn"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Registreringsnummer"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "ABC123"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Se ditt bästa pris"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Ditt pris och innehållsförslag framställs automatiskt. Kontakta oss vid frågor. För information om hur Trygg-Hansa behandlar personuppgifter, ."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "se vår integritetspolicy",
+     "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 6,
+   "repeats": []
+  },
+  {
+   "section": "th-campaign-banner",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "Du får första året när du"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "5 % rabatt"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "tecknar bilförsäkring online!"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Maxa rabatten på din bilförsäkring!"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Du får 5 % rabatt när du tecknar din nya bilförsäkring online. Rabatten gäller hela första året."
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Utöver onlinerabatten kan du få upp till 20 % i samlingsrabatt beroende på om du har andra försäkringar hos oss, och hur många du har. Till exempel så ger en bilförsäkring och en hemförsäkring dig 5 % rabatt på både hem- och bilförsäkring. Har du en barnförsäkring får du ytterligare 5 % rabatt. Samlingsrabatten gäller så länge du har kvar dina försäkringar."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Din rabatt dras av automatiskt och innan du tecknar försäkringen ser du ditt pris och vilken rabatt vi har dragit. Du kan välja att försäkringen ska börja gälla vid ett senare tillfälle."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Stäng"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 5,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Hem",
+     "href": "https://www.trygghansa.se/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Försäkringar",
+     "href": "https://www.trygghansa.se/forsakringar"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Bilförsäkring"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-breadcrumbs__crumb",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Hitta rätt försäkring för dig och din bil"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Försäkra din bil hos oss. Vi erbjuder trafik- halv- och helförsäkring för nya och begagnade bilar oavsett märke och drivmedel. För flera bilmärken erbjuder vi en äkta märkesförsäkring med flera förmåner."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Upp till 20 % samlingsrabatt"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "När du har flera försäkringar hos oss kan du få upp till 20 % i , beroende på vilka du har."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "samlingsrabatt",
+     "href": "https://www.trygghansa.se/forsakringar/samlingsrabatt"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Topprankad bilförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Lägg till vårt tilläggspaket Bilförsäkring stor för en topprankad bilförsäkring enligt Konsumenternas oberoende jämförelse av svenska bilförsäkringar."
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Drulle och bärgning ingår"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Tappat nycklar, tankat fel bränsle eller fått stopp på bilen? Inga problem! Drulle och bärgning ingår i både halv- och helförsäkring."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Se ditt bästa pris",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/berakna-pris"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-quick-facts-block__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Topprankad av Konsumenternas"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Konsumenternas försäkringsbyrå ger vår Bilförsäkring stor betyget 4,8 av 5."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Läs mer hos Konsumenternas",
+     "href": "https://www.konsumenternas.se/konsumentstod/jamforelser/fordons---batforsakringar/jamfor-bilforsakringar/"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Jämför bilförsäkringar och hitta rätt för din bil"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Här ser du en kortfattad beskrivning av försäkringen. Läs mer om innehållet och viktiga undantag i för- och efterköpsinformationen innan du tecknar försäkringen."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Jämför innehåll mellan trafik, halv och hel"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Det här ingår"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Trafik"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Halv"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Hel"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Trafik"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Du kan få ersättning för skador som drabbar förare, passagerare eller medtrafikanter. Exempelvis ersättning för sjukhusvård eller förlorad arbetsinkomst. Skador som du orsakar på någon annans egendom, till exempel en bil eller ett staket."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Självrisken ligger på 1 000 kr (självrisknivå 1) eller 2 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Trafik"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Trafik"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Du kan få ersättning för skador som drabbar förare, passagerare eller medtrafikanter. Exempelvis ersättning för sjukhusvård eller förlorad arbetsinkomst. Skador som du orsakar på någon annans egendom, till exempel en bil eller ett staket."
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Självrisken ligger på 1 000 kr (självrisknivå 1) eller 2 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Krishjälp"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Du får 10 behandlingstillfällen hos terapeut eller psykolog, som vi hänvisar dig till, om du drabbas av psykisk ohälsa till följd av en skada som försäkringen täcker."
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Du betalar ingen självrisk."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Krishjälp"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Krishjälp"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Du får 10 behandlingstillfällen hos terapeut eller psykolog, som vi hänvisar dig till, om du drabbas av psykisk ohälsa till följd av en skada som försäkringen täcker."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Du betalar ingen självrisk."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Brand"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Du får ersättning för skador orsakade av brand, blixtnedslag och explosion."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Brand"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Brand"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Du får ersättning för skador orsakade av brand, blixtnedslag och explosion."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Glasrutor"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Du får ersättning för att laga eller byta vind-, sido- eller bakrutor som spräcks eller krossas. Det är ingen självrisk om rutan går att laga. Om rutan måste bytas är självrisken 1 800 kr vid självrisknivå 1 och 3 000 kr vid självrisknivå 2."
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "Glasrutor"
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "Glasrutor"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Du får ersättning för att laga eller byta vind-, sido- eller bakrutor som spräcks eller krossas. Det är ingen självrisk om rutan går att laga. Om rutan måste bytas är självrisken 1 800 kr vid självrisknivå 1 och 3 000 kr vid självrisknivå 2."
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Stöld och inbrott"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Du kan få ersättning för bil och biltillbehör som stjäls samt skador på bilen och biltillbehör i samband med inbrott och stöld. Fastmonterad ljud- och bildutrustning (ex cd-spelare och GPS) som stjäls ur bilen."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Stöld och inbrott"
+    },
+    {
+     "role": "heading",
+     "order": 41,
+     "text": "Stöld och inbrott"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Du kan få ersättning för bil och biltillbehör som stjäls samt skador på bilen och biltillbehör i samband med inbrott och stöld. Fastmonterad ljud- och bildutrustning (ex cd-spelare och GPS) som stjäls ur bilen."
+    },
+    {
+     "role": "body",
+     "order": 43,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 45,
+     "text": "Motor och elektronik 8 år"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Du kan få ersättning för skador på motor, elektronik, växellåda och klimatanläggning om bilen körts högst 12 000 mil och inte är äldre än 8 år."
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "För märkesförsäkring får bilen inte vara äldre än 8 år och ha körts högst 15 000 mil. Tecknar du Bilförsäkring stor gäller skyddet upp till 10 år och 15 000 mil."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Självriskerna är följande:"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "0-4 000 mil: 1 800 kr (självrisknivå 1), 3 000 kr (självrisknivå 2)"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "4 001-10 000 mil: 5 000 kr"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "10 001-12 000 mil: 8 000 kr"
+    },
+    {
+     "role": "body",
+     "order": 52,
+     "text": "Motor och elektronik 8 år"
+    },
+    {
+     "role": "heading",
+     "order": 53,
+     "text": "Motor och elektronik 8 år"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Du kan få ersättning för skador på motor, elektronik, växellåda och klimatanläggning om bilen körts högst 12 000 mil och inte är äldre än 8 år."
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "För märkesförsäkring får bilen inte vara äldre än 8 år och ha körts högst 15 000 mil. Tecknar du Bilförsäkring stor gäller skyddet upp till 10 år och 15 000 mil."
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "Självriskerna är följande:"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "0-4 000 mil: 1 800 kr (självrisknivå 1), 3 000 kr (självrisknivå 2)"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "4 001-10 000 mil: 5 000 kr"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "10 001-12 000 mil: 8 000 kr"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 61,
+     "text": "Drulle"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Drulleförsäkringen ersätter exempelvis feltankning av drivmedel, borttappade bilnycklar och kaffe som spills på sätet."
+    },
+    {
+     "role": "body",
+     "order": 63,
+     "text": "För lätt lastbil gäller försäkringen endast förarkupén."
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 65,
+     "text": "Drulle"
+    },
+    {
+     "role": "heading",
+     "order": 66,
+     "text": "Drulle"
+    },
+    {
+     "role": "body",
+     "order": 67,
+     "text": "Drulleförsäkringen ersätter exempelvis feltankning av drivmedel, borttappade bilnycklar och kaffe som spills på sätet."
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "För lätt lastbil gäller försäkringen endast förarkupén."
+    },
+    {
+     "role": "body",
+     "order": 69,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 71,
+     "text": "Bärgning"
+    },
+    {
+     "role": "body",
+     "order": 72,
+     "text": "Du får bärgning till närmaste verkstad om bilen inte går att köra. Dessutom ersätter vi kostnaden för att du och dina passagerare ska ta er tillbaka hem, eller dit ni är på väg, beroende på vad som är närmast."
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 74,
+     "text": "Bärgning"
+    },
+    {
+     "role": "heading",
+     "order": 75,
+     "text": "Bärgning"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "Du får bärgning till närmaste verkstad om bilen inte går att köra. Dessutom ersätter vi kostnaden för att du och dina passagerare ska ta er tillbaka hem, eller dit ni är på väg, beroende på vad som är närmast."
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 78,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 79,
+     "text": "Bärgning vid urladdat batteri"
+    },
+    {
+     "role": "body",
+     "order": 80,
+     "text": "För dig med . Du får bärgning till närmaste laddstation om din elbil inte går att köra vidare för att batteriet har laddats ur när du ute och kör."
+    },
+    {
+     "role": "cta",
+     "order": 81,
+     "text": "elbil",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/elbil"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Självrisken ligger på 100 kr (självrisknivå 1) och 200 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 83,
+     "text": "Bärgning vid urladdat batteri"
+    },
+    {
+     "role": "heading",
+     "order": 84,
+     "text": "Bärgning vid urladdat batteri"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "För dig med . Du får bärgning till närmaste laddstation om din elbil inte går att köra vidare för att batteriet har laddats ur när du ute och kör."
+    },
+    {
+     "role": "cta",
+     "order": 86,
+     "text": "elbil",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/elbil"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Självrisken ligger på 100 kr (självrisknivå 1) och 200 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 88,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 89,
+     "text": "Rättsskydd"
+    },
+    {
+     "role": "body",
+     "order": 90,
+     "text": "Du kan till exempel få ersättning för advokatkostnader vid tvist som kan uppstå vid trafikolycka, bilköp, reparation eller försäljning av din bil. Motpartens kostnader om du förlorar tvisten. Högsta ersättning 400 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 91,
+     "text": "Självrisken ligger på 20 procent av kostnaderna. Som minst gäller 1 800 kr (självrisknivå 1) och 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 92,
+     "text": "Rättsskydd"
+    },
+    {
+     "role": "heading",
+     "order": 93,
+     "text": "Rättsskydd"
+    },
+    {
+     "role": "body",
+     "order": 94,
+     "text": "Du kan till exempel få ersättning för advokatkostnader vid tvist som kan uppstå vid trafikolycka, bilköp, reparation eller försäljning av din bil. Motpartens kostnader om du förlorar tvisten. Högsta ersättning 400 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 95,
+     "text": "Självrisken ligger på 20 procent av kostnaderna. Som minst gäller 1 800 kr (självrisknivå 1) och 3 000 kr (självrisknivå 2)."
+    },
+    {
+     "role": "body",
+     "order": 96,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 97,
+     "text": "Vagnskada"
+    },
+    {
+     "role": "body",
+     "order": 98,
+     "text": "Försäkringen ersätter skador på din bil vid en trafikolycka, skadegörelse eller annan yttre olyckshändelse, till exempel om ett träd faller över bilen."
+    },
+    {
+     "role": "body",
+     "order": 99,
+     "text": "Självrisken är valbar och ligger på 3 500, 4 500 eller 6 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 100,
+     "text": "Vagnskada"
+    },
+    {
+     "role": "heading",
+     "order": 101,
+     "text": "Vagnskada"
+    },
+    {
+     "role": "body",
+     "order": 102,
+     "text": "Försäkringen ersätter skador på din bil vid en trafikolycka, skadegörelse eller annan yttre olyckshändelse, till exempel om ett träd faller över bilen."
+    },
+    {
+     "role": "body",
+     "order": 103,
+     "text": "Självrisken är valbar och ligger på 3 500, 4 500 eller 6 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 104,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 105,
+     "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+     "role": "body",
+     "order": 106,
+     "text": "Gäller för dig och dina passagerare om ni skadas i en trafikolycka. Ger ersättning med upp till 600 000 kr vid nedsatt förmåga, så kallad medicinsk invaliditet, och tillgång till privat sjukvård."
+    },
+    {
+     "role": "body",
+     "order": 107,
+     "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+     "role": "heading",
+     "order": 108,
+     "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+     "role": "body",
+     "order": 109,
+     "text": "Gäller för dig och dina passagerare om ni skadas i en trafikolycka. Ger ersättning med upp till 600 000 kr vid nedsatt förmåga, så kallad medicinsk invaliditet, och tillgång till privat sjukvård."
+    },
+    {
+     "role": "body",
+     "order": 110,
+     "text": "Stäng"
+    },
+    {
+     "role": "body",
+     "order": 111,
+     "text": "Tillägg"
+    },
+    {
+     "role": "body",
+     "order": 112,
+     "text": "Tillägg"
+    },
+    {
+     "role": "body",
+     "order": 113,
+     "text": "Tillägg"
+    },
+    {
+     "role": "heading",
+     "order": 114,
+     "text": "Hyrbil"
+    },
+    {
+     "role": "body",
+     "order": 115,
+     "text": "Vi står för 75 % av dygns- och kilometerkostnaden för en hyrbil om skadan ersätts av försäkringen. Behöver du ingen hyrbil får du istället 150 kronor per dag i kontantersättning."
+    },
+    {
+     "role": "body",
+     "order": 116,
+     "text": "Hyrbil"
+    },
+    {
+     "role": "heading",
+     "order": 117,
+     "text": "Hyrbil"
+    },
+    {
+     "role": "body",
+     "order": 118,
+     "text": "Vi står för 75 % av dygns- och kilometerkostnaden för en hyrbil om skadan ersätts av försäkringen. Behöver du ingen hyrbil får du istället 150 kronor per dag i kontantersättning."
+    },
+    {
+     "role": "body",
+     "order": 119,
+     "text": "Stäng"
+    },
+    {
+     "role": "body",
+     "order": 120,
+     "text": "Tillägg"
+    },
+    {
+     "role": "body",
+     "order": 121,
+     "text": "Tillägg"
+    },
+    {
+     "role": "heading",
+     "order": 122,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "body",
+     "order": 123,
+     "text": "Självriskrabatt minskar vagnskadesjälvrisken om din bil är med om skadegörelse, en krock med ett djur eller får en godkänd parkeringsskada. Du betalar ingen självrisk alls, förutsatt att den valda vagnskadesjälvrisken understiger 6 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 124,
+     "text": "Om bilen har vagnskadegaranti får du 3 000 kr i sänkt självrisk vid skador som täcks av garantin, till exempel om bilen körts in i en stolpe."
+    },
+    {
+     "role": "body",
+     "order": 125,
+     "text": "Genom tillägget betalar du ingen självrisk om bilen behöver bärgas."
+    },
+    {
+     "role": "body",
+     "order": 126,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "heading",
+     "order": 127,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "body",
+     "order": 128,
+     "text": "Självriskrabatt minskar vagnskadesjälvrisken om din bil är med om skadegörelse, en krock med ett djur eller får en godkänd parkeringsskada. Du betalar ingen självrisk alls, förutsatt att den valda vagnskadesjälvrisken understiger 6 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 129,
+     "text": "Om bilen har vagnskadegaranti får du 3 000 kr i sänkt självrisk vid skador som täcks av garantin, till exempel om bilen körts in i en stolpe."
+    },
+    {
+     "role": "body",
+     "order": 130,
+     "text": "Genom tillägget betalar du ingen självrisk om bilen behöver bärgas."
+    },
+    {
+     "role": "body",
+     "order": 131,
+     "text": "Stäng"
+    },
+    {
+     "role": "body",
+     "order": 132,
+     "text": "Tillägg"
+    },
+    {
+     "role": "body",
+     "order": 133,
+     "text": "Tillägg"
+    },
+    {
+     "role": "cta",
+     "order": 134,
+     "text": "Se ditt bästa pris",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/berakna-pris"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 88,
+   "repeats": [
+    {
+     "unitSelector": "DIV.",
+     "count": 2,
+     "unit": {
+      "headings": 28,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 132
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Få vårt bästa skydd med Bilförsäkring stor"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Vill du ha vårt mest heltäckande skydd för din bil? Välj . Den är topprankad av Konsumenternas Försäkringsbyrå sedan april 2018. I vår bilförsäkring ingår skydd för din bil, dina passagerare och dig som kör."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Bilförsäkring stor",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/bilforsakring-stor"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "I vår Bilförsäkring stor ingår alla tilläggsförsäkringar i tabellen ovan, plus extra fördelar."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Lista med valbara tilläggsförsäkringar"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Innehåll"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Ingår"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Gäller för dig och dina passagerare om ni skadas i en trafikolycka. Ger ersättning med upp till 600 000 kr vid nedsatt förmåga, så kallad medicinsk invaliditet, och tillgång till privat sjukvård."
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Gäller för dig och dina passagerare om ni skadas i en trafikolycka. Ger ersättning med upp till 600 000 kr vid nedsatt förmåga, så kallad medicinsk invaliditet, och tillgång till privat sjukvård."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Hyrbil"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Vi står för 75 % av dygns- och kilometerkostnaden för en hyrbil om skadan ersätts av försäkringen. Behöver du ingen hyrbil får du istället 150 kronor per dag i kontantersättning."
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Hyrbil"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Hyrbil"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Vi står för 75 % av dygns- och kilometerkostnaden för en hyrbil om skadan ersätts av försäkringen. Behöver du ingen hyrbil får du istället 150 kronor per dag i kontantersättning."
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Självriskrabatt minskar vagnskadesjälvrisken om din bil är med om skadegörelse, en krock med ett djur eller får en godkänd parkeringsskada. Du betalar ingen självrisk alls, förutsatt att den valda vagnskadesjälvrisken understiger 6 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Om bilen har vagnskadegaranti får du 3 000 kr i sänkt självrisk vid skador som täcks av garantin, till exempel om bilen körts in i en stolpe."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Genom tillägget betalar du ingen självrisk om bilen behöver bärgas."
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Självriskrabatt minskar vagnskadesjälvrisken om din bil är med om skadegörelse, en krock med ett djur eller får en godkänd parkeringsskada. Du betalar ingen självrisk alls, förutsatt att den valda vagnskadesjälvrisken understiger 6 000 kr."
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Om bilen har vagnskadegaranti får du 3 000 kr i sänkt självrisk vid skador som täcks av garantin, till exempel om bilen körts in i en stolpe."
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Genom tillägget betalar du ingen självrisk om bilen behöver bärgas."
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 29,
+     "text": "Halverad självrisk"
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Vi halverar självrisken vid:"
+    },
+    {
+     "role": "body",
+     "order": 31,
+     "text": "skador på motor och elektronik om bilen är högst 10 år, när den inte körts mer än 15 000 mil"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "skador som ersätts av trafikförsäkringen"
+    },
+    {
+     "role": "body",
+     "order": 33,
+     "text": "vid brand, stöld och inbrott"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "skador som ersätts av drulleförsäkringen."
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Halverad självrisk"
+    },
+    {
+     "role": "heading",
+     "order": 36,
+     "text": "Halverad självrisk"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "Vi halverar självrisken vid:"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "skador på motor och elektronik om bilen är högst 10 år, när den inte körts mer än 15 000 mil"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "skador som ersätts av trafikförsäkringen"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "vid brand, stöld och inbrott"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "skador som ersätts av drulleförsäkringen."
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 43,
+     "text": "Utökat skydd för motor och elektronik"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Du får ett längre skydd för bilens motor, elektronik, klimatanläggning och växellåda. Upp till 10 år eller 15 000 mil."
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Utökat skydd för motor och elektronik"
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "Utökat skydd för motor och elektronik"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Du får ett längre skydd för bilens motor, elektronik, klimatanläggning och växellåda. Upp till 10 år eller 15 000 mil."
+    },
+    {
+     "role": "body",
+     "order": 48,
+     "text": "Stäng"
+    },
+    {
+     "role": "heading",
+     "order": 49,
+     "text": "Utökat skydd för ny bil"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Om din fabriksnya bil blir stulen eller skadas så mycket att reparationskostnaden överstiger 80 % av marknadsvärdet får du en ny bil istället för att reparera den. Gäller i upp till 2 år istället för 1 år eller tills bilen körts 4 000 mil istället för 2 000 mil. Läs mer i för- och efterköpsinformationen!"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Utökat skydd för ny bil"
+    },
+    {
+     "role": "heading",
+     "order": 52,
+     "text": "Utökat skydd för ny bil"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Om din fabriksnya bil blir stulen eller skadas så mycket att reparationskostnaden överstiger 80 % av marknadsvärdet får du en ny bil istället för att reparera den. Gäller i upp till 2 år istället för 1 år eller tills bilen körts 4 000 mil istället för 2 000 mil. Läs mer i för- och efterköpsinformationen!"
+    },
+    {
+     "role": "body",
+     "order": 54,
+     "text": "Stäng"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 33,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "TR.",
+     "count": 6,
+     "unit": {
+      "headings": 2,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 6
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vi försäkrar 900 000 bilar. Skaffa en bra bilförsäkring du med!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "När de första bilarna började rulla på gatorna i Sverige hade Trygg-Hansa redan funnits i över 60 år. Vår erfarenhet och expertis ger dig trygghet. Vi har följt med utvecklingen och erbjuder i dag försäkringar för alla slags bilar, oavsett ålder eller drivmedel."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Rabatt på bilförsäkringen"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Du får 5 % rabatt på bilförsäkringen om du tecknar direkt här på vår webbplats. Oavsett om du ringer oss eller tecknar bilförsäkringen online får du även den samlingsrabatt som du har rätt till. Om du har rabatt genom ett medlemskap eller någon organisation som vi har avtal med - meddela oss när du tecknar din försäkring."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Stärkt skydd med tilläggsförsäkringar"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Med tilläggsförsäkringar kan du anpassa bilförsäkringen efter dina behov. Tillägget är räddaren i nöden om vardagen stannar utan bilen och med får du sänkt vid flera händelser. Det kan till exempel vara om bilen behöver repareras efter krock med djur eller skadegörelse. I vissa fall står vi för hela självrisken, så som vid bärgning eller vid en godkänd parkeringsskada."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Hyrbilsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/hyrbil"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Självriskrabatt"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "självrisk",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/sjalvrisk"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Tillägget efter trafikolycka ger extra hjälp till alla i bilen efter en trafikolycka."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Vård och ersättning"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Fotobesiktning: slipp onödiga turer till verkstaden"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Din tid är viktig för oss. Med slipper du åka till verkstaden för bedömning om något hänt. Skicka bilder på skadorna istället och åk dit först är det är dags att laga bilen. Bra för miljön och enkelt för dig!"
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "vår tjänst fotobesiktning",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/fotobesiktning"
+    },
+    {
+     "role": "heading",
+     "order": 14,
+     "text": "Bärgning och vägassistans ett samtal bort"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "Ring vårt journummer dygnet runt så är hjälpen på väg! Du får vägassistans och bärgning till närmaste verkstad om din bil inte går att köra. Dessutom ersätter vi kostnaden för att du och dina passagerare ska ta er tillbaka till hemorten. Om du har som inte går att köra för att batteriet har laddats ur får du bärgning till närmaste laddstation. ."
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "0771‑111 510",
+     "href": "tel:0771111510"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "elbil",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/elbil"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Läs mer om bärgning och vägassistans här",
+     "href": "https://www.trygghansa.se/skadeanmalan/bargning"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 11,
+   "repeats": [
+    {
+     "unitSelector": "DIV.th-content",
+     "count": 2,
+     "unit": {
+      "headings": 2,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 9
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Välj bilförsäkringen som passar dig och din bil"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Bilförsäkring stor"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Läs om och teckna Bilförsäkring stor",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/bilforsakring-stor"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Helförsäkring"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Se vad som ingår i helförsäkringen",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "Halvförsäkring"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Se vad som ingår i halvförsäkringen",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Trafikförsäkring"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Se vad som ingår i trafikförsäkringen",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-cards__item",
+     "count": 4,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Få samlingsrabatt på din bilförsäkring!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Teckna flera försäkringar hos oss och få upp till 20 procents samlingsrabatt. En bilförsäkring och en hemförsäkring ger dig 5 procent. Fyll i dina försäkringar och kolla vad just du får!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Läs mer om vår samlingsrabatt",
+     "href": "https://www.trygghansa.se/forsakringar/samlingsrabatt"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Frågor och svar om bilförsäkring"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Vad är en bilförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "En bilförsäkring ger skydd för dig och din bil om olyckan skulle vara framme. Det kan till exempel vara om du skulle vara med i en trafikolycka, råka backa på en annan bil eller tappa bort dina bilnycklar. Vilket skydd du får beror på vilken bilförsäkring du väljer. Det finns tre olika nivåer: , och ."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "trafikförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "halvförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "helförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Vad ingår i en bilförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "En bilförsäkring består av trafik-, halv- och helförsäkring. Trafikförsäkringen måste du ha enligt lag, men för att få ett bra skydd bör du komplettera med en halv- eller helförsäkring. ."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Läs mer varför du måste ha en bilförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/maste-man-ha-bilforsakring"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Du kan även förstärka skyddet med tilläggsförsäkringar så som Hyrbil, Självriskrabatt samt Privat vård och ersättning för medicinsk invaliditet efter trafikolycka."
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Vem ska stå på bilförsäkringen?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Bilens ägare och huvudsakliga brukare ska stå på bilförsäkringen. Om någon annan står på försäkringen kan du bli nekad ersättning om något händer."
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Det är också viktigt att ägaren till bilen har en försäkring så att Trafikförsäkringsföreningen, TFF, kan se att ägaren har en trafikförsäkring. Annars riskerar ägaren höga avgifter."
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Vad kostar en bilförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Hur mycket en bilförsäkring kostar beror på flera olika faktorer, som till exempel var du bor, hur gammal du är, vilken bil du har och hur många mil du kör per år med din bil. Du kan dessutom få samlingsrabatt om du har fler försäkringar hos oss."
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Vad påverkar priset på min bilförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Priset på din bilförsäkring påverkas bland annat av"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "var du bor"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "hur gammal du är"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "vilken bil du kör"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "den årliga körsträckan, det vill säga hur många mil du kör per år"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "vilka självrisknivåer du väljer."
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Du kan påverka priset själv genom att samla fler försäkringar hos oss. Samlar du dina försäkringar hos oss kan du få upp till 20 % samlingsrabatt, beroende på vilka försäkringar du har och hur många. Du kan också välja bort försäkringsskydd som du inte har behov av eller välja en högre självrisk för vagnskada (om du har en helförsäkring)."
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "När hjälper drulleförsäkringen?"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Drulleförsäkringen kan ge ersättning för mindre vardagsolyckor som du själv orsakar inuti bilen. Till exempel när du lastar in bagage och repar sätet eller om barnen spiller glass. Den gäller också om du råkar tanka fel bränsle. Drulle ingår alltid i Bilförsäkring stor, helförsäkring och halvförsäkring."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Läs mer om ."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "drulleförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/drulleforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 27,
+     "text": "Jag har vagnskadegaranti. Vad ska jag tänka på?"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "För bilar med vagnskadegaranti rekommenderar vi halvförsäkring eller Bilförsäkring stor utan skydd för vagnskada (eftersom du har redan har vagnskadeskydd). Väljer du Bilförsäkring stor eller tilläggsförsäkringen Självriskrabatt ersätter vi dig med 3 000 kronor av vagnskadegarantisjälvrisken om du drabbas av en skada som ersätts genom bilens vagnskadegaranti."
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Exempelvis om du krockar eller ett träd faller över bilen. Vid kollision med djur och skadegörelse ersätter vi dig med upp till 6 500 kronor av din vagnskadegarantisjälvrisk."
+    },
+    {
+     "role": "body",
+     "order": 30,
+     "text": "Tre år efter bilens registreringsdatum lägger vi automatiskt till skydd vid vagnskador, så att du inte går miste om ett viktigt skydd när vagnskadegarantin går ut."
+    },
+    {
+     "role": "heading",
+     "order": 31,
+     "text": "Ägarbyte på bilen"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Här kan du läsa mer om hur du gör ett ägarbyte på bilen, hur det fungerar och vad du behöver tänka på när det gäller bilförsäkringen. ."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Läs mer om ägarbyte",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/agarbyte"
+    },
+    {
+     "role": "heading",
+     "order": 34,
+     "text": "Gäller försäkringen om jag lånar ut bilen?"
+    },
+    {
+     "role": "body",
+     "order": 35,
+     "text": "Du som har en bilförsäkring hos Trygg-Hansa får , men inte så ofta eller länge att du inte längre kan anses vara den som huvudsakligen använder bilen. Kom ihåg att: Kolla med oss vad som gäller om skador uppstår när bilen är uthyrd/utlånad. Ha god koll på den du hyr ut bilen till och ta uppgifter så som telefonnummer, adress och en kopia på körkortet. Ta för vana att fota och filma bilen både före och efter uthyrningen, både utvändigt och invändigt. Detta är ett bra tips för både den som hyr ut och den som hyr."
+    },
+    {
+     "role": "cta",
+     "order": 36,
+     "text": "hyra eller låna ut din bil",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/hyra-eller-lana-ut-bilen"
+    },
+    {
+     "role": "heading",
+     "order": 37,
+     "text": "Vad händer om man inte betalar bilförsäkringen i tid?"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Om du betalar med autogiro men saknar pengar på kontot kommer vi att försöka igen nästa bankdag. Finns det fortfarande ingen täckning skickar vi då ut ett inbetalningskort. Om du inte betalar in med inbetalningskortet drar vi beloppet via autogiro månaden därpå istället – så tänk på att betalningen då kan vara dubbelt så stor. Finns det fortfarande inga pengar på kontot skickar vi en faktura istället. Fakturan ska betalas inom 14 dagar."
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Om du betalar via e-faktura eller faktura skickar vi ut en påminnelse. Påminnelsen ska betalas inom 14 dagar – annars sägs försäkringen upp."
+    },
+    {
+     "role": "heading",
+     "order": 40,
+     "text": "Hur försäkrar man en bil?"
+    },
+    {
+     "role": "body",
+     "order": 41,
+     "text": "Du kan få pris och försäkra din bil direkt på webben eller genom att ringa till vår kundservice på . Här kan du jämföra och hitta rätt bilförsäkring för din bil. Hör gärna av dig om du skulle ha några frågor!"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "0771–111 110",
+     "href": "tel:0771111110"
+    },
+    {
+     "role": "heading",
+     "order": 43,
+     "text": "När ska man försäkra bilen?"
+    },
+    {
+     "role": "body",
+     "order": 44,
+     "text": "Enligt lag måste du ha en från samma dag som du blir registrerad ägare till bilen. Om du köper en ny bil hos en bilhandlare kan de oftast hjälpa dig på plats innan du kör hem. Du kan aldrig köra på förra ägarens bilförsäkring!"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "trafikförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 46,
+     "text": "Kan man försäkra en bil man inte äger?"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Nej, det är alltid den som äger bilen och huvudsakligen använder den som ska stå på bilförsäkringen. Bilförsäkringen får inte stå på en annan förare, som en förälder eller ett barn."
+    },
+    {
+     "role": "heading",
+     "order": 48,
+     "text": "Kan man förhandla om priset på bilförsäkringen?"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Nej, du kan inte förhandla om priset på bilförsäkringen. Däremot har vi ibland kampanjer där vi erbjuder rabatter för vissa försäkringar. Då får du ett lägre pris när du väljer att teckna försäkringen direkt på vår webbplats."
+    },
+    {
+     "role": "heading",
+     "order": 50,
+     "text": "Vad blir priset för min bilförsäkring på min nya adress?"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Tyvärr kan vi inte beräkna pris på annan adress än din nuvarande folkbokföringsadress. Detta beror på att vi använder uppgifter från SPAR, Statens Post- och Adressregister för att beräkna pris. Skulle du flytta till en ny adress får vi dessa uppgifterna från SPAR och din bilförsäkring uppdateras automatiskt. Ett nytt försäkringsbrev med den nya kostnaden skickas ut och vi återbetalar eller skickar ut en tilläggsfaktura till dig beroende på det nya priset."
+    },
+    {
+     "role": "heading",
+     "order": 52,
+     "text": "Erbjuder ni märkesförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Ja, vi erbjuder äkta märkesförsäkringar för , , , , , , , , , , , och ."
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Alfa Romeo",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/alfa-romeo"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "BMW",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/bmw"
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "Citroën",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/citroen"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "DS",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/ds"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "Fiat",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/fiat"
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Fiat Professional",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/fiat/fiat-professional"
+    },
+    {
+     "role": "cta",
+     "order": 60,
+     "text": "Jeep",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/jeep"
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "MINI",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/mini"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Opel",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/opel"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Peugeot",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/peugeot"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Tesla",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/tesla"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Subaru",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/subaru"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "specialanpassad försäkring för Mitsubishi",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken/mitsubishi"
+    },
+    {
+     "role": "heading",
+     "order": 67,
+     "text": "Vilken bilförsäkring har jag​?"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Du ser vilken bilförsäkring du har genom att"
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "logga in på Mina sidor.",
+     "href": "https://www.trygghansa.se/logga-in"
+    },
+    {
+     "role": "body",
+     "order": 70,
+     "text": "Är du osäker på om din bil har en försäkring eller har glömt vilket försäkringsbolag du har bilen hos?"
+    },
+    {
+     "role": "cta",
+     "order": 71,
+     "text": "Så kollar du vilken bilförsäkring du har.",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/vilken-bilforsakring-har-jag"
+    },
+    {
+     "role": "heading",
+     "order": 72,
+     "text": "Hur byter man bilförsäkring​?"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Att byta bilförsäkring skiljer sig åt beroende på om du ska byta till en försäkring med mer eller mindre skydd, eller om du ska byta bilförsäkring mellan bolag."
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "Här kan du läsa mer om hur du byter bilförsäkring.",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/byta-bilforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 75,
+     "text": "Måste man ha bilförsäkring​?"
+    },
+    {
+     "role": "body",
+     "order": 76,
+     "text": "En bilförsäkring är en nödvändig trygghet och ett måste om du äger en bil. Som minst behöver du ha en trafikförsäkring, eftersom det är ett lagkrav i Sverige om din bil används i trafiken."
+    },
+    {
+     "role": "cta",
+     "order": 77,
+     "text": "Här går vi igenom varför du måste ha en bilförsäkring och när du måste teckna den.",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/maste-man-ha-bilforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 78,
+     "text": "Hur fungerar det med bilförsäkringen när man säljer bilen?"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "Din bilförsäkring gäller fram tills dess att du säljer bilen. När bilen byter ägare avslutas din försäkring automatiskt från den dag du anmäler som ägarbytesdatum till Transportstyrelsen."
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Här kan du läsa mer om hur du gör ett ägarbyte på bilen och hur försäkringen fungerar.",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/agarbyte"
+    },
+    {
+     "role": "heading",
+     "order": 81,
+     "text": "Vem får köra bilen?"
+    },
+    {
+     "role": "body",
+     "order": 82,
+     "text": "Bilförsäkringen gäller för dig som försäkringstagare och ägare till bilen, det är du som får ersättning om något händer. Bilförsäkringen gäller också om någon annan kör bilen, till exempel när du hyr eller lånar ut din bil till andra personer kortare perioder."
+    },
+    {
+     "role": "cta",
+     "order": 83,
+     "text": "Här kan du läsa mer om att hyra och låna ut bilen.",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/hyra-eller-lana-ut-bilen"
+    },
+    {
+     "role": "heading",
+     "order": 84,
+     "text": "Vad händer om man inte betalar bilförsäkringen​?"
+    },
+    {
+     "role": "body",
+     "order": 85,
+     "text": "Om du inte betalar bilförsäkringen skickar vi ut en påminnelse. Om du inte betalar den heller kommer bilförsäkringen att sägas upp. Du står då utan skydd för bilen om något händer, och får betala en trafikförsäkringsavgift till Trafikförsäkringsföreningen (TFF)."
+    },
+    {
+     "role": "heading",
+     "order": 86,
+     "text": "Hur lång bindningstid är det på min bilförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 87,
+     "text": "Bilförsäkringen gäller vanligtvis i ett år i taget, tills försäkringens huvudförfallodag. Du kan se vilket datum som gäller genom att Du kan säga upp försäkringen när som helst från huvudförfallodagen."
+    },
+    {
+     "role": "cta",
+     "order": 88,
+     "text": "logga in på Mina sidor.",
+     "href": "https://www.trygghansa.se/logga-in"
+    },
+    {
+     "role": "body",
+     "order": 89,
+     "text": "Om du säljer bilen upphör försäkringen automatiskt."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-collapse",
+     "count": 23,
+     "unit": {
+      "headings": 1,
+      "ctas": 3,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Allt om försäkringen"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Läs det här innan du tecknar din försäkring"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Du kan läsa mer om försäkringen och viktiga undantag i för- och efterköpsinformationen nedan. Du kan också läsa i produktfaktabladet (IPID), som kan hjälpa dig att jämföra försäkringar mellan olika bolag. Både för- och efterköpsinformationen och produktbladet är sammanfattningar av försäkringsvillkoret."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "För- och efterköpsinformation (PDF)",
+     "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/pm1081.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Produktfaktablad (IPID) (PDF)",
+     "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/PID04097.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Fullständiga villkor (PDF)",
+     "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/p00297.pdf"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Tilläggsvillkor Fast inredning (PDF)",
+     "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04734.pdf"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 4,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Relevant läsning"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Mer om bilförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "När något oväntat händer med bilen är det skönt att veta hur försäkringen ger dig trygghet. Här hittar du läsvärda artiklar som hjälper dig att förstå bilförsäkringen bättre."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Läs om att försäkra bilen",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/mer-om-bilforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Hel- eller halvförsäkring för bilen?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Ska du välja en halvförsäkring eller en helförsäkring till din bil? Här hjälper vi dig att reda ut skillnaden och förklara vad som ingår!"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Läs tipsen om hur du väljer bilförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring/hel-eller-halvforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Vinterdäck"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Dubbdäck, datum och hjulbultar. Här får du motorexpertens tips inför bytet till vinterdäck."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Läs det viktigaste om vinterdäck",
+     "href": "https://www.trygghansa.se/tips-rad/bil-och-trafik/dack/vinterdack"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Vägassistans och bärgning"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Så gör du om ditt fordon slutar fungera. Här hittar du även viktiga telefonnummer för vägassistans och bärgning, så att du kan känna dig trygg när något oväntat händer."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Läs mer och få hjälp med bärgning",
+     "href": "https://www.trygghansa.se/skadeanmalan/bargning"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Förläng elbilens räckvidd på vintern"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Elbilens räckvidd kan minska på vintern. Här kommer våra tips för att spara på batteriet och förlänga räckvidden."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Läs mer om att förlänga elbilens räckvidd på vintern",
+     "href": "https://www.trygghansa.se/tips-rad/bil-och-trafik/aga-bil/rackvidd-vinter"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Smart däckförvaring"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Bildäck stjäls ofta i samband med hjulskiften på våren och hösten. Här får du veta det viktigaste om däckförvaring."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Läs mer om däckförvaring",
+     "href": "https://www.trygghansa.se/tips-rad/bil-och-trafik/dack/dackforvaring"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Fler artiklar",
+     "href": "https://www.trygghansa.se/tips-rad/bil-och-trafik"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-cards__item",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

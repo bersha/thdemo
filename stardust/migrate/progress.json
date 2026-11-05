@@ -1,0 +1,62 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "static"
+      ],
+      "pages": 10,
+      "startedAt": "2026-11-04T11:32:33Z",
+      "endedAt": "2026-11-04T11:34:28Z",
+      "verdict": "4 archetypes branch A, 6 siblings A' (program 4, listing 2); variance probes recorded"
+    },
+    "archetypes": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "static"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-04T11:36:00Z",
+      "endedAt": "2026-11-04T11:34:28Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+    },
+    "listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-04T14:01:29Z",
+      "endedAt": "2026-11-04T14:07:08Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0"
+    },
+    "program": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "program"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-04T12:48:03Z",
+      "endedAt": "2026-11-04T12:53:29Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0"
+    },
+    "report": {
+      "status": "done",
+      "kind": "report",
+      "templates": [],
+      "pages": 10,
+      "endedAt": "2026-11-04T14:49:52Z",
+      "verdict": "10/10 pages migrated in state.json (4 archetypes A, 6 siblings A')"
+    }
+  }
+}

@@ -1,27 +1,158 @@
-.cards > ul {
-  list-style: none;
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+
+/* cards — source .th-card-list-block (card grid rules live in styles.css) */
+.cards .th-card-icon p,
+.cards .th-card-text p,
+.cards .th-card-link-text p {
   margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+/* the authored link is the card's hit area (source .th-card__link) */
+.cards .th-card-link-text a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+.cards .th-card-link-text a:hover {
+  text-decoration: underline;
 }
 
-.cards .cards-card-image {
-  line-height: 0;
+.cards .th-card-link-text a:focus-visible {
+  outline: none;
 }
 
-.cards > ul > li img {
+.cards .th-card-link-text a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+/* small icon cards */
+.cards .th-cards-small .th-card {
+  grid-template-rows: auto;
+  row-gap: .3125rem;
+}
+
+.cards .th-cards-small.th-cards-with-icon .th-card {
+  grid-template-areas: "icon heading" "icon link-text";
+}
+
+.cards .th-cards-small .th-card-heading,
+.cards .th-cards-small .th-card-link-text {
+  align-self: end;
+}
+
+.cards .th-cards-small .th-card-icon {
+  align-self: center;
+}
+
+/* image cards */
+.cards .th-cards-with-image .th-card {
+  grid-template-areas: "heading" "text" "link-text" "image";
+  grid-template-rows: auto 1fr auto auto;
+}
+
+.cards .th-card-image {
+  grid-area: image;
+  height: 13.75rem;
+  margin: 0 -1.25rem -1.25rem;
+}
+
+.cards .th-card-image :is(p, picture) {
+  height: 100%;
+}
+
+.cards .th-card-image img {
   width: 100%;
-  aspect-ratio: 4 / 3;
-  object-fit: cover;
+}
+
+/* ---------- block head: section heading + introduction (source .th-heading / .th-block__introduction) ---------- */
+@media (width >= 1024px) {
+  .cards .th-block-heading {
+    max-width: 43.75rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+.cards .th-block-introduction p {
+  margin-block-end: 0;
+  overflow-wrap: break-word;
+}
+
+.cards .th-block-introduction :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) {
+  margin-block-start: 1.25rem;
+}
+
+.cards .th-block-introduction h2 {
+  margin-block: 2.5rem 1.25rem;
+  overflow-wrap: break-word;
+  color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.cards .th-block-introduction h3 {
+  margin-block: 1.875rem .625rem;
+  overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.cards .th-block-introduction :is(h2, h3):first-child {
+  margin-block-start: 0;
+}
+
+@media (width >= 1024px) {
+  .cards .th-block-introduction h2 {
+    margin-block: 3.75rem 1.875rem;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .cards .th-block-introduction h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+  }
+}
+
+/* ---------- large CTA (source th-button-large + center-desktop + full-width-on-mobile) ---------- */
+.cards .th-block-actions {
+  margin-block-start: 1.875rem;
+}
+
+.cards .th-block-actions p {
+  margin: 0;
+}
+
+.cards .th-block-actions a.button {
+  width: 100%;
+  margin-inline: auto;
+  min-width: auto;
+  min-height: 3.5rem;
+  font-size: 1.25rem;
+}
+
+@media (width >= 768px) {
+  .cards .th-block-actions a.button {
+    width: fit-content;
+    min-width: 14.6875rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .cards .th-block-actions a.button {
+    margin-inline: auto;
+    font-size: 1.375rem;
+  }
+}
+
+/* the text box fills its grid row like the source's .th-card__text div (equal-height rows) */
+.cards .th-card-text p {
+  height: 100%;
 }

@@ -1,0 +1,864 @@
+{
+  "archetype": "https://www.trygghansa.se/forsakringar/bilforsakring",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".th-hero",
+    "app": ".th-hero__app",
+    "banner": ".th-campaign-banner",
+    "card": ".th-card",
+    "table": ".th-product-accordion-block__table",
+    "faq": ".th-block__list"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "th-hero",
+        "h": 425
+      },
+      {
+        "label": "th-campaign-banner",
+        "h": 70
+      },
+      {
+        "label": "th-section.th-section--stripe",
+        "h": 50
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".th-hero",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 425
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "0px 0px 0px 0px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+          "image": {
+            "w": 1440,
+            "h": 425
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Bilförsäkring Ett oväntat fel har inträffat Vänligen försök "
+      },
+      "app": {
+        "sel": ".th-hero__app",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 198
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "0px 0px 0px 0px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h2 arial 24px/36px 700 rgb(25, 25, 25)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Ett oväntat fel har inträffat Vänligen försök igen senare. D"
+      },
+      "banner": {
+        "sel": ".th-campaign-banner",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 70
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(18, 121, 148)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px 20px 0px 40px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Du får 5 % rabatt första året när du tecknar bilförsäkring o"
+      },
+      "card": {
+        "sel": ".th-card",
+        "count": 10,
+        "first": {
+          "rect": {
+            "w": 318,
+            "h": 115
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "20px 20px 20px 20px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "10px",
+          "heading": "h3 arial 20px/30px 700 rgb(25, 25, 25)",
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Bilförsäkring stor Läs om och teckna Bilförsäkring stor"
+      },
+      "table": {
+        "sel": ".th-product-accordion-block__table",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 740,
+            "h": 924
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "0px 0px 0px 0px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h3 arial 18px/27px 700 rgb(74, 74, 74)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Jämför innehåll mellan trafik, halv och hel Det här ingår Tr"
+      },
+      "faq": {
+        "sel": ".th-block__list",
+        "count": 2,
+        "first": {
+          "rect": {
+            "w": 700,
+            "h": 1381
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "0px 0px 0px 0px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h3 arial 18px/27px 700 rgb(25, 25, 25)",
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 2,
+        "text": "Vad är en bilförsäkring? En bilförsäkring ger skydd för dig "
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.trygghansa.se/forsakringar/hemforsakring",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "app",
+          "msg": "rect{h 198 → 122}; heading h2 arial 24px/36px 700 rgb(25, 25, 25) → h2 arial 26px/34px 700 rgb(25, 25, 25)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "10 → 8 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 115 → 135}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "table",
+          "msg": "\".th-product-accordion-block__table\" matches 2 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "faq",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "faq",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "rect{h 1381 → 988}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "th-hero",
+            "h": 425
+          },
+          {
+            "label": "th-campaign-banner",
+            "h": 70
+          },
+          {
+            "label": "th-section.th-section--stripe",
+            "h": 50
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".th-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 425
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 425
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Hemförsäkring Få pris på hemförsäkring Se ditt pris och teck"
+          },
+          "app": {
+            "sel": ".th-hero__app",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 122
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 26px/34px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Få pris på hemförsäkring Se ditt pris och teckna hemförsäkri"
+          },
+          "banner": {
+            "sel": ".th-campaign-banner",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 70
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(18, 121, 148)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 20px 0px 40px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "10 % onlinerabatt på villaförsäkring. Du kan dessutom få sam"
+          },
+          "card": {
+            "sel": ".th-card",
+            "count": 8,
+            "first": {
+              "rect": {
+                "w": 318,
+                "h": 135
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "20px 20px 20px 20px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "10px",
+              "heading": "h3 arial 20px/30px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Villa Jag bor i villa eller friköpt radhus"
+          },
+          "table": {
+            "sel": ".th-product-accordion-block__table",
+            "count": 0
+          },
+          "faq": {
+            "sel": ".th-block__list",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 700,
+                "h": 988
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Måste jag vara skriven på den adress där jag har min hemförs"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+      "findings": [
+        {
+          "kind": "MISSING",
+          "probe": "card",
+          "msg": "\".th-card\" matches 10 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "table",
+          "msg": "rect{h 924 → 717}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "rect{h 1381 → 481}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "th-hero",
+            "h": 425
+          },
+          {
+            "label": "th-campaign-banner",
+            "h": 70
+          },
+          {
+            "label": "th-section.th-section--stripe",
+            "h": 50
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".th-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 425
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 425
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Helförsäkring Ett oväntat fel har inträffat Vänligen försök "
+          },
+          "app": {
+            "sel": ".th-hero__app",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 198
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 24px/36px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Ett oväntat fel har inträffat Vänligen försök igen senare. D"
+          },
+          "banner": {
+            "sel": ".th-campaign-banner",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 70
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(18, 121, 148)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 20px 0px 40px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Du får 5 % rabatt första året när du tecknar bilförsäkring o"
+          },
+          "card": {
+            "sel": ".th-card",
+            "count": 0
+          },
+          "table": {
+            "sel": ".th-product-accordion-block__table",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 740,
+                "h": 717
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(74, 74, 74)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Lista över innehåll Innehåll Ingår Trafikförsäkring Trafikfö"
+          },
+          "faq": {
+            "sel": ".th-block__list",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 700,
+                "h": 481
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Vilka tilläggsförsäkringar behöver jag? Tillägget Hyrbil är "
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "app",
+          "msg": "rect{h 198 → 122}; heading h2 arial 24px/36px 700 rgb(25, 25, 25) → h2 arial 26px/34px 700 rgb(25, 25, 25)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "10 → 3 matches"
+        },
+        {
+          "kind": "CLUSTERS",
+          "probe": "card",
+          "msg": "2 → 1 distinct style families among matches (a second visual family = a variant class)"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 115 → 468}; image null → [object Object]"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "table",
+          "msg": "2 → 1 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "table",
+          "msg": "rect{w 740 → 700, h 924 → 1044}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "rect{h 1381 → 895}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "th-hero",
+            "h": 425
+          },
+          {
+            "label": "th-campaign-banner",
+            "h": 70
+          },
+          {
+            "label": "th-section.th-section--stripe",
+            "h": 50
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".th-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 425
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 425
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Villaförsäkring Trygg husägare med villaförsäkring Vår villa"
+          },
+          "app": {
+            "sel": ".th-hero__app",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 122
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 26px/34px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Trygg husägare med villaförsäkring Vår villaförsäkring skydd"
+          },
+          "banner": {
+            "sel": ".th-campaign-banner",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 70
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(18, 121, 148)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 20px 0px 40px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Teckna villaförsäkring online och få 10 % rabatt första året"
+          },
+          "card": {
+            "sel": ".th-card",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 318,
+                "h": 468
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "20px 20px 20px 20px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "10px",
+              "heading": "h3 arial 20px/30px 700 rgb(25, 25, 25)",
+              "image": {
+                "w": 318,
+                "h": 220
+              },
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Brandsäkra ditt hem Läs om hur hemförsäkringen fungerar om d"
+          },
+          "table": {
+            "sel": ".th-product-accordion-block__table",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 700,
+                "h": 1044
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(74, 74, 74)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Jämför innehåll mellan bas, mellan och stor Det här ingår Ba"
+          },
+          "faq": {
+            "sel": ".th-block__list",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 700,
+                "h": 895
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Vad är en villaförsäkring? En villaförsäkring är en kombiner"
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "app",
+          "msg": "rect{h 198 → 122}; heading h2 arial 24px/36px 700 rgb(25, 25, 25) → h2 arial 26px/34px 700 rgb(25, 25, 25)"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "card",
+          "msg": "\".th-card\" matches 10 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "table",
+          "msg": "rect{w 740 → 700, h 924 → 984}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "faq",
+          "msg": "rect{h 1381 → 868}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "th-hero",
+            "h": 425
+          },
+          {
+            "label": "th-campaign-banner",
+            "h": 70
+          },
+          {
+            "label": "th-section.th-section--stripe",
+            "h": 50
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".th-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 425
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 425
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Barnförsäkring Trygg med Sveriges populäraste barnförsäkring"
+          },
+          "app": {
+            "sel": ".th-hero__app",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 122
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 26px/34px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Trygg med Sveriges populäraste barnförsäkring Mer än hälften"
+          },
+          "banner": {
+            "sel": ".th-campaign-banner",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 70
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(18, 121, 148)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 20px 0px 40px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "50 % rabatt första året. Rabatt på barnförsäkring Du får 50 "
+          },
+          "card": {
+            "sel": ".th-card",
+            "count": 0
+          },
+          "table": {
+            "sel": ".th-product-accordion-block__table",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 700,
+                "h": 984
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(74, 74, 74)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Lista över innehåll Innehåll Ingår Medicinsk invaliditet (ne"
+          },
+          "faq": {
+            "sel": ".th-block__list",
+            "count": 2,
+            "first": {
+              "rect": {
+                "w": 700,
+                "h": 868
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h3 arial 18px/27px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 2,
+            "text": "Vilket försäkringsbelopp ska jag välja i min barnförsäkring?"
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 4,
+    "varying": 4,
+    "probesVarying": [
+      "app",
+      "card",
+      "table",
+      "faq"
+    ]
+  }
+}

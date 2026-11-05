@@ -1,0 +1,1079 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--64009de2--aemcoder.aem.live/",
+ "at": "2026-11-04T15:00:50.042Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Till startsidan",
+     "key": "till startsidan",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>a",
+     "href": "https://main--64009de2--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      119,
+      0,
+      152,
+      45
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Privat",
+     "key": "privat",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>div>div>ul>li:nth-of-type(1)>a",
+     "href": "https://main--64009de2--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      17,
+      57,
+      57,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Företag",
+     "key": "företag",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>div>div>ul>li:nth-of-type(2)>a",
+     "href": "https://www.trygghansa.se/foretag",
+     "expanded": null,
+     "rect": [
+      82,
+      57,
+      71,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Försäkringar",
+     "key": "försäkringar",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      0,
+      97,
+      89,
+      71
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Bilförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring"
+         },
+         {
+          "text": "Hemförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring"
+         },
+         {
+          "text": "Personförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/person"
+         },
+         {
+          "text": "Mc, motor och andra fordon",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/fordon"
+         },
+         {
+          "text": "Djurförsäkringar",
+          "href": "https://main--64009de2--aemcoder.aem.live/djurforsakring"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Öppna undermeny för Bilförsäkring",
+         "Öppna undermeny för Hemförsäkring",
+         "Öppna undermeny för Personförsäkring",
+         "Öppna undermeny för Mc, motor och andra fordon",
+         "Öppna undermeny för Djurförsäkringar"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         168,
+         390,
+         267
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.th-header-nav-button"
+        }
+       ],
+       "shot": "390-001-F-rs-kringar-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Bilförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring"
+         },
+         {
+          "text": "Hemförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring"
+         },
+         {
+          "text": "Personförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/person"
+         },
+         {
+          "text": "Mc, motor och andra fordon",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/fordon"
+         },
+         {
+          "text": "Djurförsäkringar",
+          "href": "https://main--64009de2--aemcoder.aem.live/djurforsakring"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Öppna undermeny för Bilförsäkring",
+         "Öppna undermeny för Hemförsäkring",
+         "Öppna undermeny för Personförsäkring",
+         "Öppna undermeny för Mc, motor och andra fordon",
+         "Öppna undermeny för Djurförsäkringar"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         168,
+         390,
+         267
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.th-header-nav-button"
+        }
+       ],
+       "shot": "390-002-F-rs-kringar-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Bilförsäkring",
+       "key": "bilförsäkring",
+       "role": "link",
+       "kind": "link",
+       "sel": "#th-header-nav-0>ul>li:nth-of-type(1)>div>div>a",
+       "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring",
+       "expanded": null,
+       "rect": [
+        52,
+        171,
+        278,
+        51
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Öppna undermeny för Bilförsäkring",
+       "key": "öppna undermeny för bilförsäkring",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#th-header-nav-0>ul>li:nth-of-type(1)>div>button",
+       "expanded": "false",
+       "rect": [
+        330,
+        171,
+        60,
+        51
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Helförsäkring",
+            "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring/helforsakring"
+           },
+           {
+            "text": "Halvförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring"
+           },
+           {
+            "text": "Trafikförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+           },
+           {
+            "text": "Märkesförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken"
+           },
+           {
+            "text": "Veteranbilsförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           222,
+           390,
+           288
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button.th-header-nav-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "span.th-icon"
+          }
+         ],
+         "shot": "390-003--ppna-undermeny-f-r-Bilf-rs-kring-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Helförsäkring",
+            "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring/helforsakring"
+           },
+           {
+            "text": "Halvförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring"
+           },
+           {
+            "text": "Trafikförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+           },
+           {
+            "text": "Märkesförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken"
+           },
+           {
+            "text": "Veteranbilsförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           222,
+           390,
+           288
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "span.th-icon"
+          }
+         ],
+         "shot": "390-004--ppna-undermeny-f-r-Bilf-rs-kring-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null,
+        "toggle": true
+       },
+       "children": []
+      },
+      {
+       "name": "Hemförsäkring",
+       "key": "hemförsäkring",
+       "role": "link",
+       "kind": "link",
+       "sel": "#th-header-nav-0>ul>li:nth-of-type(2)>div>div>a",
+       "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring",
+       "expanded": null,
+       "rect": [
+        52,
+        224,
+        278,
+        51
+       ],
+       "actions": {}
+      },
+      {
+       "name": "Öppna undermeny för Hemförsäkring",
+       "key": "öppna undermeny för hemförsäkring",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#th-header-nav-0>ul>li:nth-of-type(2)>div>button",
+       "expanded": "false",
+       "rect": [
+        330,
+        224,
+        60,
+        51
+       ],
+       "actions": {
+        "click": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Villaförsäkring",
+            "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring/villaforsakring"
+           },
+           {
+            "text": "Bostadsrättsförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring"
+           },
+           {
+            "text": "Hyresrättsförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring"
+           },
+           {
+            "text": "Fritidshusförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring"
+           },
+           {
+            "text": "Studentförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring"
+           },
+           {
+            "text": "Reseförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/reseforsakring"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           275,
+           390,
+           346
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "background-color",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease",
+           "target": "button.th-header-nav-button"
+          },
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "span.th-icon"
+          }
+         ],
+         "shot": "390-005--ppna-undermeny-f-r-Hemf-rs-kring-click.png"
+        },
+        "key": {
+         "opened": true,
+         "hidden": 0,
+         "panel": {
+          "links": [
+           {
+            "text": "Villaförsäkring",
+            "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring/villaforsakring"
+           },
+           {
+            "text": "Bostadsrättsförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring"
+           },
+           {
+            "text": "Hyresrättsförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring"
+           },
+           {
+            "text": "Fritidshusförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring"
+           },
+           {
+            "text": "Studentförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring"
+           },
+           {
+            "text": "Reseförsäkring",
+            "href": "https://www.trygghansa.se/forsakringar/reseforsakring"
+           }
+          ],
+          "headings": [],
+          "images": 0,
+          "inputs": [],
+          "buttons": [],
+          "options": 0,
+          "rect": [
+           0,
+           275,
+           390,
+           346
+          ]
+         },
+         "expanded": "true",
+         "focus": "trigger",
+         "scrollLock": true,
+         "motion": [
+          {
+           "kind": "transition",
+           "prop": "rotate",
+           "ms": 200,
+           "delay": 0,
+           "easing": "ease-out",
+           "target": "span.th-icon"
+          }
+         ],
+         "shot": "390-006--ppna-undermeny-f-r-Hemf-rs-kring-key.png",
+         "tabReachesPanel": true
+        }
+       },
+       "close": {
+        "escape": true,
+        "focusReturn": false,
+        "outside": null
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 168,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -97,
+     "height": 168,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": -97,
+     "height": 168,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 168,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 6,
+   "truncated": "request-budget",
+   "loads": 10,
+   "requests": 693,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "body>header",
+   "controls": [
+    {
+     "name": "Till startsidan",
+     "key": "till startsidan",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>div>a",
+     "href": "https://main--64009de2--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      644,
+      0,
+      152,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Privat",
+     "key": "privat",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>div>div>ul>li:nth-of-type(1)>a",
+     "href": "https://main--64009de2--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      17,
+      16,
+      57,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Företag",
+     "key": "företag",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>div>div>ul>li:nth-of-type(2)>a",
+     "href": "https://www.trygghansa.se/foretag",
+     "expanded": null,
+     "rect": [
+      82,
+      16,
+      71,
+      28
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Försäkringar",
+     "key": "försäkringar",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "body>header>div>nav>ul>li:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      170,
+      0,
+      142,
+      60
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Bilförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring"
+         },
+         {
+          "text": "Helförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring/helforsakring"
+         },
+         {
+          "text": "Halvförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring"
+         },
+         {
+          "text": "Trafikförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+         },
+         {
+          "text": "Märkesförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken"
+         },
+         {
+          "text": "Veteranbilsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring"
+         },
+         {
+          "text": "Hemförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring"
+         },
+         {
+          "text": "Villaförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring/villaforsakring"
+         },
+         {
+          "text": "Bostadsrättsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring"
+         },
+         {
+          "text": "Hyresrättsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring"
+         },
+         {
+          "text": "Fritidshusförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring"
+         },
+         {
+          "text": "Studentförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring"
+         },
+         {
+          "text": "Reseförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/reseforsakring"
+         },
+         {
+          "text": "Personförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/person"
+         },
+         {
+          "text": "Gravidförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/gravidforsakring"
+         },
+         {
+          "text": "Barnförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/person/barnforsakring"
+         },
+         {
+          "text": "Livförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/person/livforsakring"
+         },
+         {
+          "text": "Sjuk- och olycksfallsförsäkringar",
+          "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall"
+         },
+         {
+          "text": "Vårdförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring"
+         },
+         {
+          "text": "Utlandsstudent och aupair",
+          "href": "https://www.trygghansa.se/forsakringar/utlandsstudent"
+         },
+         {
+          "text": "Mc, motor och andra fordon",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/fordon"
+         },
+         {
+          "text": "Mc-försäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring"
+         },
+         {
+          "text": "Mopedförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring"
+         },
+         {
+          "text": "Släpvagnsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring"
+         },
+         {
+          "text": "Båtförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/batforsakring"
+         },
+         {
+          "text": "Terrängfordonsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring"
+         },
+         {
+          "text": "Husbilsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring"
+         },
+         {
+          "text": "Husvagnsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring"
+         },
+         {
+          "text": "Snöskoterförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring"
+         },
+         {
+          "text": "Djurförsäkringar",
+          "href": "https://main--64009de2--aemcoder.aem.live/djurforsakring"
+         },
+         {
+          "text": "Hundförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/hundforsakring"
+         },
+         {
+          "text": "Kattförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/kattforsakring"
+         },
+         {
+          "text": "Flockförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/flockforsakring"
+         },
+         {
+          "text": "Uppfödarförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/uppfodarforsakring"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         60,
+         1440,
+         429
+        ]
+       },
+       "expanded": "true",
+       "focus": "trigger",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.th-header-nav-button"
+        }
+       ],
+       "shot": "1440-001-F-rs-kringar-click.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Bilförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring"
+         },
+         {
+          "text": "Helförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/bilforsakring/helforsakring"
+         },
+         {
+          "text": "Halvförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring"
+         },
+         {
+          "text": "Trafikförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring"
+         },
+         {
+          "text": "Märkesförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken"
+         },
+         {
+          "text": "Veteranbilsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring"
+         },
+         {
+          "text": "Hemförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring"
+         },
+         {
+          "text": "Villaförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/hemforsakring/villaforsakring"
+         },
+         {
+          "text": "Bostadsrättsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring"
+         },
+         {
+          "text": "Hyresrättsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring"
+         },
+         {
+          "text": "Fritidshusförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring"
+         },
+         {
+          "text": "Studentförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring"
+         },
+         {
+          "text": "Reseförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/reseforsakring"
+         },
+         {
+          "text": "Personförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/person"
+         },
+         {
+          "text": "Gravidförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/gravidforsakring"
+         },
+         {
+          "text": "Barnförsäkring",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/person/barnforsakring"
+         },
+         {
+          "text": "Livförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/person/livforsakring"
+         },
+         {
+          "text": "Sjuk- och olycksfallsförsäkringar",
+          "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall"
+         },
+         {
+          "text": "Vårdförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring"
+         },
+         {
+          "text": "Utlandsstudent och aupair",
+          "href": "https://www.trygghansa.se/forsakringar/utlandsstudent"
+         },
+         {
+          "text": "Mc, motor och andra fordon",
+          "href": "https://main--64009de2--aemcoder.aem.live/forsakringar/fordon"
+         },
+         {
+          "text": "Mc-försäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring"
+         },
+         {
+          "text": "Mopedförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring"
+         },
+         {
+          "text": "Släpvagnsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring"
+         },
+         {
+          "text": "Båtförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/batforsakring"
+         },
+         {
+          "text": "Terrängfordonsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring"
+         },
+         {
+          "text": "Husbilsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring"
+         },
+         {
+          "text": "Husvagnsförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring"
+         },
+         {
+          "text": "Snöskoterförsäkring",
+          "href": "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring"
+         },
+         {
+          "text": "Djurförsäkringar",
+          "href": "https://main--64009de2--aemcoder.aem.live/djurforsakring"
+         },
+         {
+          "text": "Hundförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/hundforsakring"
+         },
+         {
+          "text": "Kattförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/kattforsakring"
+         },
+         {
+          "text": "Flockförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/flockforsakring"
+         },
+         {
+          "text": "Uppfödarförsäkring",
+          "href": "https://www.trygghansa.se/djurforsakring/uppfodarforsakring"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         60,
+         1440,
+         429
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "background-color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.th-header-nav-button"
+        }
+       ],
+       "shot": "1440-002-F-rs-kringar-key.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Anmäl skada",
+     "key": "anmäl skada",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>ul>li:nth-of-type(2)>a",
+     "href": "https://main--64009de2--aemcoder.aem.live/skadeanmalan",
+     "expanded": null,
+     "rect": [
+      312,
+      0,
+      142,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Kundservice",
+     "key": "kundservice",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>ul>li:nth-of-type(3)>a",
+     "href": "https://www.trygghansa.se/kundservice",
+     "expanded": null,
+     "rect": [
+      1104,
+      0,
+      140,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Logga in",
+     "key": "logga in",
+     "role": "link",
+     "kind": "link",
+     "sel": "body>header>div>nav>ul>li:nth-of-type(4)>a",
+     "href": "https://portal.trygghansa.se/logga-in",
+     "expanded": null,
+     "rect": [
+      1244,
+      0,
+      114,
+      60
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Sök",
+     "key": "sök",
+     "role": "link",
+     "kind": "search",
+     "sel": "body>header>div>nav>ul>li:nth-of-type(5)>a",
+     "href": "https://www.trygghansa.se/sok",
+     "expanded": null,
+     "rect": [
+      1358,
+      0,
+      82,
+      60
+     ],
+     "actions": {}
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 60,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 2,
+   "truncated": null,
+   "loads": 1,
+   "requests": 71,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

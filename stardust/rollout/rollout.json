@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-04T11:34:39.417Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.trygghansa.se/",
+    "da": {
+      "org": "aemcoder",
+      "site": "64009de2",
+      "ref": "main"
+    },
+    "liveHost": "main--64009de2--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 10,
+    "discovered": 10,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-04T15:00:09.631Z",
+    "pages": {
+      "total": 10,
+      "verified": 10,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 12,
+      "converted": 12,
+      "pending": 0
+    },
+    "verifyFailures": 0
+  }
+}

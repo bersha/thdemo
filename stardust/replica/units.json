@@ -1,0 +1,86 @@
+{
+  "product-cards": {
+    "origin": ".th-card-list-block .th-cards__item",
+    "build": ".th-card-list-block .th-cards-item",
+    "n": 9,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "quick-facts": {
+    "origin": ".th-quick-facts-block__item",
+    "build": ".th-quick-facts-block-item",
+    "n": 3,
+    "required": true,
+    "pages": [
+      "index"
+    ],
+    "templates": [
+      "landing"
+    ]
+  },
+  "listing-product-cards": {
+    "origin": ".th-card-list-block .th-cards__item",
+    "build": ".th-card-list-block .th-cards-item",
+    "n": 10,
+    "required": true,
+    "pages": [
+      "forsakringar-person"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "listing-two-column-text": {
+    "origin": ".th-two-column-text-block .th-block__two-columns > .th-content",
+    "build": ".th-two-column-text-block .th-block-two-columns > .th-content",
+    "n": 2,
+    "required": true,
+    "pages": [
+      "forsakringar-person"
+    ],
+    "templates": [
+      "listing"
+    ]
+  },
+  "skadeanmalan-faq": {
+    "origin": ".th-accordion .th-accordion__item",
+    "build": ".th-accordion .th-accordion-item",
+    "n": 8,
+    "required": true,
+    "pages": [
+      "skadeanmalan"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "skadeanmalan-cards": {
+    "origin": ".th-card-list-block .th-cards__item",
+    "build": ".th-card-list-block .th-cards-item",
+    "n": 6,
+    "required": true,
+    "pages": [
+      "skadeanmalan"
+    ],
+    "templates": [
+      "static"
+    ]
+  },
+  "program-coverage-rows": {
+    "origin": ".th-product-accordion-block__table tbody tr",
+    "build": ".th-product-accordion-block-table tbody tr",
+    "n": 20,
+    "required": true,
+    "pages": [
+      "forsakringar-bilforsakring"
+    ],
+    "templates": [
+      "program"
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+/* campaign-banner — source .th-campaign-banner (+ .th-modal); flush section */
+.campaign-banner.th-campaign-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-inline: 2.5rem 1.25rem;
+  background-color: var(--th-theme-fill-accent-strong);
+  color: var(--th-theme-text-inverse-strong);
+  column-gap: 1.875rem;
+}
+
+.campaign-banner .th-campaign-banner-icon-wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+.campaign-banner .th-campaign-banner-icon-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 4.375rem;
+  height: 4.375rem;
+  background-image: url("campaign-badge.svg");
+  background-size: 100%;
+  filter: drop-shadow(0 3px 5px rgb(0 0 0 / 25%));
+  translate: -50% -50%;
+}
+
+.campaign-banner .th-campaign-banner-icon {
+  position: relative;
+  z-index: 2;
+  font-size: 2.4375rem;
+  line-height: 1;
+}
+
+.campaign-banner .th-campaign-banner-text {
+  flex: 0 1 auto;
+  padding-block: .5rem;
+  overflow-wrap: anywhere;
+}
+
+.campaign-banner .th-campaign-banner-text p:where(:not(.th-modal p)) {
+  display: inline;
+  text-align: left;
+}
+
+.campaign-banner .th-campaign-banner-text a:where(:not(.th-modal a)) {
+  color: inherit;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.campaign-banner .th-campaign-banner-text a:hover {
+  text-decoration: none;
+}
+
+.campaign-banner .th-button-link {
+  display: inline;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.campaign-banner .th-button-link:hover {
+  text-decoration: none;
+}
+
+@media (width >= 1024px) {
+  .campaign-banner .th-campaign-banner-icon-wrapper::after {
+    width: 5.625rem;
+    height: 5.625rem;
+  }
+
+  .campaign-banner .th-campaign-banner-icon {
+    font-size: 3.125rem;
+  }
+
+  .campaign-banner .th-campaign-banner-text {
+    padding-block: 1.125rem;
+  }
+
+  .campaign-banner .th-campaign-banner-text p:where(:not(.th-modal p)) {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+}
+
+/* ---------- modal (source .th-modal) ---------- */
+.campaign-banner .th-modal {
+  --modal-max-height: 85dvh;
+
+  width: min(90%, 25rem);
+  max-height: var(--modal-max-height);
+  margin: 10dvh auto auto;
+  padding: 0;
+  border: none;
+  border-radius: .625rem;
+  box-shadow: 0 7px 14px #00000040;
+  color: var(--th-theme-text-weak);
+}
+
+.campaign-banner .th-modal::backdrop {
+  background-color: var(--th-theme-background-overlay);
+  cursor: pointer;
+}
+
+@media (width >= 768px) {
+  .campaign-banner .th-modal {
+    width: min(90%, 43.75rem);
+    margin: auto;
+  }
+}
+
+.campaign-banner .th-modal-content {
+  display: grid;
+  grid-template-rows: auto minmax(1rem, 1fr) auto;
+  max-height: var(--modal-max-height);
+  overflow: hidden;
+}
+
+.campaign-banner .th-modal-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem 1.25rem .625rem;
+}
+
+.campaign-banner .th-modal-header .th-modal-heading {
+  margin-block-end: 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  text-align: left;
+}
+
+.campaign-banner .th-modal-button-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-inline-start: auto;
+  border-radius: .375rem;
+}
+
+.campaign-banner .th-modal-button-top:focus-visible {
+  outline: .125rem solid var(--th-theme-stroke-focus);
+  outline-offset: -.25rem;
+}
+
+.campaign-banner .th-modal-body {
+  padding-inline: 1.25rem;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+  text-align: left;
+}
+
+.campaign-banner .th-modal-body p {
+  margin-block: 1rem;
+}
+
+.campaign-banner .th-modal-body p:last-child {
+  margin-block-end: 0;
+}
+
+.campaign-banner .th-modal-footer {
+  padding: 1.25rem;
+}
+
+.campaign-banner .th-modal-footer .th-button-medium {
+  min-width: 100%;
+  margin-block-start: 0;
+}
+
+@media (width >= 768px) {
+  .campaign-banner .th-modal-footer .th-button-medium {
+    min-width: 15.9375rem;
+    margin-inline-start: auto;
+  }
+}
+
+.campaign-banner .th-icon-20 {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,1922 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-04T11:35:00.542Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.trygghansa.se/",
+   "https://www.trygghansa.se/forsakringar/bilforsakring",
+   "https://www.trygghansa.se/forsakringar/person",
+   "https://www.trygghansa.se/skadeanmalan"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://www.trygghansa.se/",
+   "status": 200,
+   "host": "www.trygghansa.se",
+   "title": "Trygg-Hansa - Trygghet för livet",
+   "forms": [
+    {
+     "name": "qq-pregnant__form-wrapper",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "text:th-pregnancy-ssn"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [
+    {
+     "container": "div._th-v-form-field__container_1q95p_1",
+     "controls": 2,
+     "names": [
+      "identificationNumberId",
+      "registrationNumberId"
+     ],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-controls→dialog",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "dialog",
+      "heading": "",
+      "textLen": 169,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 169,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Denna hemsida använder cookies",
+     "textLen": 3161,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 8,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 1604,
+     "h": 154
+    },
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "sv",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "utag_data": [
+     "page_name",
+     "page_division_section",
+     "page_site_section",
+     "customer_status",
+     "page_content_id",
+     "page_content_type",
+     "deployment_instance",
+     "adform_page_name",
+     "cp.EPiStateMarker",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__se",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.viewport",
+     "meta.pageId",
+     "meta.title",
+     "meta.description",
+     "meta.og:description",
+     "meta.copyright",
+     "meta.og:title",
+     "meta.og:image",
+     "meta.last-modified",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url"
+    ]
+   },
+   "framework": "vue",
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "hj",
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "th-tabset-tabs",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "th-tabset-panels",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "th-content-area",
+     "cards": 8,
+     "sameSite": 8,
+     "hasDate": true
+    },
+    {
+     "cls": "th-cards th-cards--with-icon",
+     "cards": 9,
+     "sameSite": 9,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 9,
+   "inlineFetch": true,
+   "mainText": 3900,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.trygghansa.se": 11,
+    "tags.tiqcdn.com": 3,
+    "cdn.cookielaw.org": 9,
+    "cdn.trygghansa.se": 36,
+    "geolocation.onetrust.com": 1,
+    "assets.adobedtm.com": 3,
+    "js.monitor.azure.com": 1,
+    "www.googletagmanager.com": 1,
+    "static.hotjar.com": 1,
+    "c.amazon-adsystem.com": 1,
+    "script.hotjar.com": 1,
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 5,
+    "content.hotjar.io": 1,
+    "portal.trygghansa.se": 1,
+    "swedencentral-0.in.applicationinsights.azure.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "assets.adobedtm.com",
+    "js.monitor.azure.com",
+    "www.googletagmanager.com",
+    "static.hotjar.com",
+    "c.amazon-adsystem.com",
+    "script.hotjar.com",
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "content.hotjar.io",
+    "swedencentral-0.in.applicationinsights.azure.com"
+   ],
+   "scripts": [
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.sync.js",
+    "https://www.trygghansa.se/ui/main.DKRtziFU.js",
+    "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/otSDKStub.js",
+    "https://cdn.trygghansa.se/pl-pregnancy-sales/2.0.3/apps.js",
+    "https://cdn.trygghansa.se/pl-pregnancy-sales/2.0.3/spa-pl-pregnant-quick-quote.js",
+    "https://cdn.trygghansa.se/pl-vehicle-sales/4.2.6/quickquote-startpage.js",
+    "https://cdn.trygghansa.se/pl-pregnancy-sales/2.0.3/spa-pl-pregnant-common.js",
+    "https://cdn.trygghansa.se/pl-vehicle-sales/4.2.6/spa-vehicle-common.js",
+    "https://cdn.trygghansa.se/pl-home-quick-quote/1.1.7/spa-pl-home-quick-quote.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.js",
+    "https://www.trygghansa.se/Util/Find/epi-util/find.js",
+    "https://cdn.cookielaw.org/scripttemplates/202609.2.0/otBannerSdk.js",
+    "https://assets.adobedtm.com/8bd8ff966c09/b72845161ef0/launch-3cee49d7db63.min.js",
+    "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TDH7D6",
+    "https://static.hotjar.com/c/hotjar-162564.js?sv=6",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://c.amazon-adsystem.com/aat/amzn-consent.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.v.js?a=tryg/trygghansa-se-web/202611031456&cb=1793792101351",
+    "https://script.hotjar.com/modules.e85a87e594b0aace33cf.js",
+    "https://zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_6XxJuL5OuyaNuyq",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.f09927365e9cfc5937fa.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=www.trygghansa.se",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.d10e323bc0517db5c988.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.beb1e5f34eda2e175645.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "portal.trygghansa.se",
+     "path": "/_layouts/{n}/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST content.hotjar.io/",
+    "POST swedencentral-0.in.applicationinsights.azure.com//v2/track"
+   ],
+   "postBodies": [
+    {
+     "url": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "body": "{\"sessionId\":\"a00ee05c-d3cf-44ef-a12e-8b4adf70f824\"}"
+    },
+    {
+     "url": "https://content.hotjar.io/?site_id=162564&gzip=1",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�\u000b��6�(�\u0015^թەvRIQ�������v�c���\u001e��\u000eDB\u0012�\u0014�&��X��2f\u0005�[�\rxcs�#�%AJ�vϙ��r&\u0001\u0004\u0002�@ \u0010\u0011\b\u001c\u0007a\u001a�}��`5�?��o?���^9�r\u001f�.\u0019\\\u000e�4-�\n\u0007��� �Eq��d���8H�\u0010�f#�r\u0010���9H�\u001e�A�\u0007��찎�\u00005\u001e\f.\u0007�CQ�=��å\u0000��\u001f_\u000eJ�}C@�~��׃�\u0001(�<Z\u001fJX\fV�A\f��`5(n\u0007\u001f(6o�\u0010\u0015��\u00017\u0011����\u000b\u0019\\\u0013�1�1�\u001c���<MJ�����]�8����w������[e\u0004E\u001e`��Y���*��\u0018��߃0\u0019\u0006���P��U�?��;�\u0014�-�{\u0007�WY�����bp9(Ɍ!�~\u0001��\b�(+Q�C\u0012\u0010\u001a�\u000e�\u001dy�<�������[����R\u001a����p���\u0018�`�\u0007\t��\u001c�x[\u0014�#\n_���7��/^Ͽ�\r.\u0007"
+    },
+    {
+     "url": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+     "body": "[{\"time\":\"2026-11-04T11:35:01.490Z\",\"iKey\":\"6292b8fa-be8c-49f9-a15d-361599e14698\",\"name\":\"Microsoft.ApplicationInsights.6292b8fabe8c49f9a15d361599e14698.RemoteDependency\",\"tags\":{\"ai.user.id\":\"ONyO1aO0mYXZCl2Yaw0Mo2\",\"ai.session.id\":\"iM3ig7f88wjBhcUNuDFDAp\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/\",\"ai.operation.id\":\"993a2bdc32d048e0a947b99fb9712577\",\"ai.internal."
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_6XxJuL5OuyaNuyq&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fwww.trygghansa.se%2F&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-11-04T11%3A35%3A01.851Z"
+    }
+   ],
+   "textAtLoad": 3900,
+   "mainEmptyAtLoad": false
+  },
+  "/forsakringar/bilforsakring": {
+   "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+   "status": 200,
+   "host": "www.trygghansa.se",
+   "title": "Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder",
+   "forms": [],
+   "controlGroups": [
+    {
+     "container": "div._th-v-form-field__container_1q95p_1",
+     "controls": 3,
+     "names": [
+      "insuranceType",
+      "identificationNumberId",
+      "registrationNumberId"
+     ],
+     "submit": null
+    }
+   ],
+   "triggers": [
+    {
+     "text": "tecknar bilförsäkring online!",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Trafik",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Krishjälp",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Brand",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Glasrutor",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stöld och inbrott",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Motor och elektronik 8 år",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Drulle",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Bärgning",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Bärgning vid urladdat batteri",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Rättsskydd",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Vagnskada",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Privat vård och ersättning för medicinsk invaliditet",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "th-modal__button-top",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Stäng",
+     "href": null,
+     "marker": "data-modal-button-close",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Hyrbil",
+     "href": null,
+     "marker": "data-modal-trigger",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Maxa rabatten på din bilförsäkring!",
+     "textLen": 685,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Maxa rabatten på din bilförsäkring!",
+     "textLen": 685,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Maxa rabatten på din bilförsäkring!",
+     "textLen": 35,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 35,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 643,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 5,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Trafik",
+     "textLen": 341,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "dialog",
+     "heading": "Trafik",
+     "textLen": 334,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Trafik",
+     "textLen": 334,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "Trafik",
+     "textLen": 6,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "h2",
+     "heading": "",
+     "textLen": 6,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    },
+    {
+     "role": "div",
+     "heading": "",
+     "textLen": 321,
+     "hasForm": false,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 153,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 1604,
+     "h": 154
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "sv",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "utag_data": [
+     "page_name",
+     "page_division_section",
+     "page_site_section",
+     "page_sub_section",
+     "customer_status",
+     "page_content_id",
+     "page_content_type",
+     "deployment_instance",
+     "adform_page_name",
+     "cp.EPiStateMarker",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__se",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.viewport",
+     "meta.pageId",
+     "meta.title",
+     "meta.description",
+     "meta.og:description",
+     "meta.copyright",
+     "meta.og:title",
+     "meta.last-modified",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url"
+    ]
+   },
+   "framework": "vue",
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "hj",
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "th-content-area",
+     "cards": 10,
+     "sameSite": 8,
+     "hasDate": true
+    },
+    {
+     "cls": "th-cards th-cards--small",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "th-cards th-cards--with-image",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 9,
+   "inlineFetch": true,
+   "mainText": 7488,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.trygghansa.se": 9,
+    "tags.tiqcdn.com": 3,
+    "cdn.cookielaw.org": 9,
+    "cdn.trygghansa.se": 27,
+    "geolocation.onetrust.com": 1,
+    "static.hotjar.com": 1,
+    "assets.adobedtm.com": 3,
+    "js.monitor.azure.com": 1,
+    "www.googletagmanager.com": 1,
+    "script.hotjar.com": 1,
+    "c.amazon-adsystem.com": 1,
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 5,
+    "content.hotjar.io": 1,
+    "portal.trygghansa.se": 1,
+    "swedencentral-0.in.applicationinsights.azure.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "static.hotjar.com",
+    "assets.adobedtm.com",
+    "js.monitor.azure.com",
+    "www.googletagmanager.com",
+    "script.hotjar.com",
+    "c.amazon-adsystem.com",
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "content.hotjar.io",
+    "swedencentral-0.in.applicationinsights.azure.com"
+   ],
+   "scripts": [
+    "https://www.trygghansa.se/ui/main.DKRtziFU.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.sync.js",
+    "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/otSDKStub.js",
+    "https://cdn.trygghansa.se/pl-vehicle-sales/4.2.6/quickquote.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.js",
+    "https://www.trygghansa.se/Util/Find/epi-util/find.js",
+    "https://cdn.trygghansa.se/pl-vehicle-sales/4.2.6/spa-vehicle-common.js",
+    "https://static.hotjar.com/c/hotjar-162564.js?sv=6",
+    "https://assets.adobedtm.com/8bd8ff966c09/b72845161ef0/launch-3cee49d7db63.min.js",
+    "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TDH7D6",
+    "https://cdn.cookielaw.org/scripttemplates/202609.2.0/otBannerSdk.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.v.js?a=tryg/trygghansa-se-web/202611031456&cb=1793792112432",
+    "https://script.hotjar.com/modules.e85a87e594b0aace33cf.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://c.amazon-adsystem.com/aat/amzn-consent.js",
+    "https://zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_6XxJuL5OuyaNuyq",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.f09927365e9cfc5937fa.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=www.trygghansa.se",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.d10e323bc0517db5c988.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.beb1e5f34eda2e175645.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "portal.trygghansa.se",
+     "path": "/_layouts/{n}/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST content.hotjar.io/",
+    "POST swedencentral-0.in.applicationinsights.azure.com//v2/track"
+   ],
+   "postBodies": [
+    {
+     "url": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "body": "{\"sessionId\":\"4033ec8e-a07f-4764-b5b2-af490395d91a\"}"
+    },
+    {
+     "url": "https://content.hotjar.io/?site_id=162564&gzip=1",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�ے�H�%�+�X��@\u0004�\u0017�ֶ�IN%��If��n�P\f��\u0007�p�\u000b�;\u0019��\"�\u000b����@>�Ӽ�\u0003��d�d�\u0000w\u000f����\u0000\u000f\u0006�;�R�\b\u0018�jfj\u0017գG��\"�ҷ�+|����ó�O���Oύ�vY�ￕ\u0017�\u0017uU�/��G��Ez�\u0017Y�ˋG���^�U��f�uy�g\u0017��ˋ\u0012-�{H�ˋ�:)�4����hn�\u0016/����r����{yѢ���+^�}����\u0005j�:O�-n.\u001e��E���ţ�fs�o;i~�2����:o�珟����\u000e��y���Ӫlq�^<���4\f�`�\u001f\u001c��ӟ_���Ҡ�Ӯ�U����E�����f�UZ-��-�_��m���oP� ���\u0007�\\��*�\u001e�z�\\\\^���\u0011�ߣ\rj�:_��{�m��},Tϴ-�TË�oL�B\t�\u000e߾<Q�Ç\u000fW�\u0017�E�%*�\u001cם��vy����<���o_�o��"
+    },
+    {
+     "url": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+     "body": "[{\"time\":\"2026-11-04T11:35:12.680Z\",\"iKey\":\"6292b8fa-be8c-49f9-a15d-361599e14698\",\"name\":\"Microsoft.ApplicationInsights.6292b8fabe8c49f9a15d361599e14698.RemoteDependency\",\"tags\":{\"ai.user.id\":\"LNBDH2ODOdZqZYrWTnXCY7\",\"ai.session.id\":\"J+EOp9M9QHE6EVJ2vCu6eG\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/forsakringar/bilforsakring\",\"ai.operation.id\":\"fbbee747b0f34a6eaca43"
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_6XxJuL5OuyaNuyq&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fwww.trygghansa.se%2Fforsakringar%2Fbilforsakring&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-11-04T11%3A35%3A12.985Z"
+    }
+   ],
+   "textAtLoad": 7488,
+   "mainEmptyAtLoad": false
+  },
+  "/forsakringar/person": {
+   "url": "https://www.trygghansa.se/forsakringar/person",
+   "status": 200,
+   "host": "www.trygghansa.se",
+   "title": "Personförsäkringar – Skydd för hela familjen",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Denna hemsida använder cookies",
+     "textLen": 3161,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 1604,
+     "h": 154
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "sv",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "utag_data": [
+     "page_name",
+     "page_division_section",
+     "page_site_section",
+     "page_sub_section",
+     "customer_status",
+     "page_content_id",
+     "page_content_type",
+     "deployment_instance",
+     "adform_page_name",
+     "cp.EPiStateMarker",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__se",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.viewport",
+     "meta.pageId",
+     "meta.title",
+     "meta.description",
+     "meta.og:description",
+     "meta.copyright",
+     "meta.og:title",
+     "meta.last-modified",
+     "dom.referrer",
+     "dom.title",
+     "dom.domain",
+     "dom.query_string",
+     "dom.hash",
+     "dom.url"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "hj",
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "th-cards th-cards--with-icon",
+     "cards": 10,
+     "sameSite": 10,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 9,
+   "inlineFetch": true,
+   "mainText": 4463,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.trygghansa.se": 8,
+    "tags.tiqcdn.com": 3,
+    "cdn.cookielaw.org": 9,
+    "cdn.trygghansa.se": 23,
+    "geolocation.onetrust.com": 1,
+    "static.hotjar.com": 1,
+    "assets.adobedtm.com": 3,
+    "js.monitor.azure.com": 1,
+    "www.googletagmanager.com": 1,
+    "script.hotjar.com": 1,
+    "c.amazon-adsystem.com": 1,
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 5,
+    "content.hotjar.io": 1,
+    "portal.trygghansa.se": 1,
+    "swedencentral-0.in.applicationinsights.azure.com": 1
+   },
+   "thirdPartyHosts": [
+    "tags.tiqcdn.com",
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "static.hotjar.com",
+    "assets.adobedtm.com",
+    "js.monitor.azure.com",
+    "www.googletagmanager.com",
+    "script.hotjar.com",
+    "c.amazon-adsystem.com",
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "content.hotjar.io",
+    "swedencentral-0.in.applicationinsights.azure.com"
+   ],
+   "scripts": [
+    "https://www.trygghansa.se/ui/main.DKRtziFU.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.sync.js",
+    "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/otSDKStub.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.js",
+    "https://www.trygghansa.se/Util/Find/epi-util/find.js",
+    "https://static.hotjar.com/c/hotjar-162564.js?sv=6",
+    "https://assets.adobedtm.com/8bd8ff966c09/b72845161ef0/launch-3cee49d7db63.min.js",
+    "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+    "https://cdn.cookielaw.org/scripttemplates/202609.2.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TDH7D6",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.v.js?a=tryg/trygghansa-se-web/202611031456&cb=1793792123415",
+    "https://script.hotjar.com/modules.e85a87e594b0aace33cf.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://c.amazon-adsystem.com/aat/amzn-consent.js",
+    "https://zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_6XxJuL5OuyaNuyq",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.f09927365e9cfc5937fa.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=www.trygghansa.se",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.d10e323bc0517db5c988.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.beb1e5f34eda2e175645.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "portal.trygghansa.se",
+     "path": "/_layouts/{n}/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST content.hotjar.io/",
+    "POST swedencentral-0.in.applicationinsights.azure.com//v2/track"
+   ],
+   "postBodies": [
+    {
+     "url": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "body": "{\"sessionId\":\"54879320-8017-4c69-8cfb-ba12981da364\"}"
+    },
+    {
+     "url": "https://content.hotjar.io/?site_id=162564&gzip=1",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�}[��8��_��q6Υ(��Ql{�ї��ڙ���z��g\u001d\u0015�\bI,�\u0005 U�ll�>�\u001f�\b?����O~�\u001fp�O��8\u0000R\u0017\n\u0000� ������.\u0015\t!3��D�̿��dz�­g���ݫ�/o��å�`Q�_�\u0014�.Z$Iؕ�z�\\��� �\t�[���/�8�q��ӽh\u0005~�Y�\u0015�����n]�V�I\u0018L�˭�E�>P�����^�\u0006H��_�\u0018��K�xs����E\u000b1F�ɚa�z��V��y�Y�nZ�f�.����M1� 7���W��\u0015��O�\u0018^�\u0018��^&1�1k=k�)�,�R�t���/?^}��(�d*��V�Y��М�Y��\u001f��I�Y34�0��g�@1E6��=�tV$��\u0003�;ںh�Tb|v�;�AtJ�\u0015��G\u001f�i��R�l��=��������\u0005P���\u0013B�����$����y�b4�DP<gQ���>����}�"
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_6XxJuL5OuyaNuyq&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fwww.trygghansa.se%2Fforsakringar%2Fperson&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-11-04T11%3A35%3A23.942Z"
+    },
+    {
+     "url": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+     "body": "[{\"time\":\"2026-11-04T11:35:23.525Z\",\"iKey\":\"6292b8fa-be8c-49f9-a15d-361599e14698\",\"name\":\"Microsoft.ApplicationInsights.6292b8fabe8c49f9a15d361599e14698.RemoteDependency\",\"tags\":{\"ai.user.id\":\"p8nvdc1pbnXN5GsXqcN1MO\",\"ai.session.id\":\"3Y71fsJG1y4SA68/VHG5dq\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/forsakringar/person\",\"ai.operation.id\":\"bb1be65932a14d1984a461f9c7f8"
+    }
+   ],
+   "textAtLoad": 4463,
+   "mainEmptyAtLoad": false
+  },
+  "/skadeanmalan": {
+   "url": "https://www.trygghansa.se/skadeanmalan",
+   "status": 200,
+   "host": "www.trygghansa.se",
+   "title": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+   "forms": [],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Filter Icon",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 11,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "Denna hemsida använder cookies",
+     "textLen": 3161,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "about:blank",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "about:blank",
+     "title": "_hjSafeContext",
+     "w": 0,
+     "h": 0
+    },
+    {
+     "src": null,
+     "title": "onetrust-text-resize",
+     "w": 1604,
+     "h": 154
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": true,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "sv",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "push"
+    ],
+    "adobeDataLayer": [
+     "0",
+     "version",
+     "push",
+     "getState",
+     "addEventListener",
+     "removeEventListener"
+    ],
+    "utag_data": [
+     "page_name",
+     "page_division_section",
+     "page_site_section",
+     "customer_status",
+     "page_content_id",
+     "page_content_type",
+     "deployment_instance",
+     "adform_page_name",
+     "cp.EPiStateMarker",
+     "cp.ai_user",
+     "cp.ai_session",
+     "cp._hjSessionUser_162564",
+     "cp._hjSession_162564",
+     "cp.OptanonConsent",
+     "cp.utag_main__pn",
+     "cp.utag_main_ses_id",
+     "cp.utag_main__ss",
+     "cp.utag_main__se",
+     "cp.utag_main__sn",
+     "cp.utag_main__st",
+     "meta.viewport",
+     "meta.pageId",
+     "meta.title",
+     "meta.description",
+     "meta.og:description",
+     "meta.copyright",
+     "meta.og:title",
+     "meta.last-modified",
+     "dom.referrer",
+     "dom.title"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "OneTrust",
+    "Optanon",
+    "google_tag_manager",
+    "hj",
+    "utag"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [
+    {
+     "cls": "th-cards th-cards--with-image",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    }
+   ],
+   "inlineScripts": 9,
+   "inlineFetch": true,
+   "mainText": 2164,
+   "domAddedAfterLoad": 0,
+   "hosts": {
+    "www.trygghansa.se": 8,
+    "cdn.cookielaw.org": 9,
+    "cdn.trygghansa.se": 17,
+    "geolocation.onetrust.com": 1,
+    "assets.adobedtm.com": 3,
+    "js.monitor.azure.com": 1,
+    "tags.tiqcdn.com": 3,
+    "static.hotjar.com": 1,
+    "www.googletagmanager.com": 1,
+    "script.hotjar.com": 1,
+    "c.amazon-adsystem.com": 1,
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com": 1,
+    "siteintercept.qualtrics.com": 5,
+    "content.hotjar.io": 1,
+    "portal.trygghansa.se": 1,
+    "swedencentral-0.in.applicationinsights.azure.com": 1
+   },
+   "thirdPartyHosts": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com",
+    "assets.adobedtm.com",
+    "js.monitor.azure.com",
+    "tags.tiqcdn.com",
+    "static.hotjar.com",
+    "www.googletagmanager.com",
+    "script.hotjar.com",
+    "c.amazon-adsystem.com",
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com",
+    "content.hotjar.io",
+    "swedencentral-0.in.applicationinsights.azure.com"
+   ],
+   "scripts": [
+    "https://www.trygghansa.se/ui/main.DKRtziFU.js",
+    "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/otSDKStub.js",
+    "https://assets.adobedtm.com/8bd8ff966c09/b72845161ef0/launch-3cee49d7db63.min.js",
+    "https://www.trygghansa.se/Util/Find/epi-util/find.js",
+    "https://js.monitor.azure.com/scripts/b/ai.2.gbl.min.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.sync.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EPc7341b33570d4c988798fc9f0093d4b2/AppMeasurement.min.js",
+    "https://static.hotjar.com/c/hotjar-162564.js?sv=6",
+    "https://cdn.cookielaw.org/scripttemplates/202609.2.0/otBannerSdk.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-TDH7D6",
+    "https://script.hotjar.com/modules.e85a87e594b0aace33cf.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.js",
+    "https://c.amazon-adsystem.com/aat/amzn-consent.js",
+    "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.v.js?a=tryg/trygghansa-se-web/202611031456&cb=1793792134930",
+    "https://zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_6XxJuL5OuyaNuyq",
+    "https://siteintercept.qualtrics.com/dxjsmodule/626.f09927365e9cfc5937fa.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=www.trygghansa.se",
+    "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/463.beb1e5f34eda2e175645.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg",
+    "https://siteintercept.qualtrics.com/dxjsmodule/147.d10e323bc0517db5c988.chunk.js?Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web&Q_BRANDID=tryg"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "portal.trygghansa.se",
+     "path": "/_layouts/{n}/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "query": [],
+     "status": 200,
+     "contentType": "",
+     "example": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5",
+    "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+    "GET cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+    "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+    "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+    "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+    "POST content.hotjar.io/",
+    "POST swedencentral-0.in.applicationinsights.azure.com//v2/track"
+   ],
+   "postBodies": [
+    {
+     "url": "https://portal.trygghansa.se/_layouts/15/RSA.Internet.THSe.UI/SessionIdHandler.ashx",
+     "body": "{\"sessionId\":\"2b3c8260-a720-41e3-9427-8842be616acf\"}"
+    },
+    {
+     "url": "https://content.hotjar.io/?site_id=162564&gzip=1",
+     "body": "\u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�}�r㸒�p4�'f�1%��K��vԵ��˖]5;;g�\u0001���\u0012Eꐐ\\��o�a���c_�\u001e`�b\u001b\u0000II\u0014�$ J.w��i[&!d\u0002��ˇ������~�{�z��\u001f^�y�o\u001f^k3����_��E/KSr\u0015���\u0017��,��\f'�g����$\rq�i\\����̺�%hAǡo�.z��(����^��\u0004/���~Q\u001b�x߾�\u00114}W\fqy����E\u000f\u0011�E�\u0015�y���b�L{�z����r6�Ґ���\u0005�9��^?u8\\�\u0018v1��G�W�2M\bNH�Y﯉�i�x���\u0017^��x�ᆣ �ƌ?d�?\u001b\f\b��}\u0012�m\u001c&�q�\u0018�\b�\u000eHv_��t��\u001c�9���h��Ґ=����.z�X1:��\u0017�F�8���~_~��\u000b\u001e�����qHa���!�Γ�n��\u0017\u0007������i:�1A�\u0005J�\u0014g��)Y���?G�O�ܼ�o^]z���E/I�"
+    },
+    {
+     "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_6XxJuL5OuyaNuyq&Q_CLIENTVERSION=2.60.1&Q_CLIENTTYPE=web",
+     "body": "Q_LOC=https%3A%2F%2Fwww.trygghansa.se%2Fskadeanmalan&xmdRetryCount=0&hasAnalyticsConsent=null&Timestamp=2026-11-04T11%3A35%3A34.991Z"
+    },
+    {
+     "url": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+     "body": "[{\"time\":\"2026-11-04T11:35:34.571Z\",\"iKey\":\"6292b8fa-be8c-49f9-a15d-361599e14698\",\"name\":\"Microsoft.ApplicationInsights.6292b8fabe8c49f9a15d361599e14698.RemoteDependency\",\"tags\":{\"ai.user.id\":\"1VRVbpInrmKe0Q0e3C4jCM\",\"ai.session.id\":\"xqj8EdcdR2PZvQ1vvBz/Ib\",\"ai.device.id\":\"browser\",\"ai.device.type\":\"Browser\",\"ai.operation.name\":\"/skadeanmalan\",\"ai.operation.id\":\"bce5b56d57624e78807d9b0cbf5531cd\",\""
+    }
+   ],
+   "textAtLoad": 2164,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-unknown-third-party-host-swedencentral-0-in-applicationins",
+   "class": "A",
+   "feature": "unknown third-party host swedencentral-0.in.applicationinsights.azure.com",
+   "hint": "inspect",
+   "evidence": [
+    "swedencentral-0.in.applicationinsights.azure.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-utag-data",
+   "class": "A",
+   "feature": "CMS / app settings object utag_data",
+   "hint": "settings",
+   "evidence": [
+    "adform_page_name",
+    "dom.url",
+    "cp.OptanonConsent"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "cr-client-framework-vue",
+   "class": "CR",
+   "feature": "client framework vue",
+   "hint": "framework",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring"
+   ]
+  },
+  {
+   "id": "f-form-qq-pregnant-form-wrapper-no-action-js-wired-1-fields",
+   "class": "F",
+   "feature": "form \"qq-pregnant__form-wrapper\" → no action (JS-wired) (1 fields)",
+   "signature": [
+    "text:th-pregnancy-ssn"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "text:th-pregnancy-ssn"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-div-th-v-form-field-container-1",
+   "class": "F",
+   "feature": "form-less control group in div._th-v-form-field__container_1q95p_1 (2 controls)",
+   "hint": "forms",
+   "evidence": [
+    "identificationNumberId,registrationNumberId"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-less-control-group-in-div-th-v-form-field-container-1",
+   "class": "F",
+   "feature": "form-less control group in div._th-v-form-field__container_1q95p_1 (3 controls)",
+   "hint": "forms",
+   "evidence": [
+    "insuranceType,identificationNumberId,registrationNumberId"
+   ],
+   "pages": [
+    "/forsakringar/bilforsakring"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-th-content-area-8-cards",
+   "class": "L",
+   "feature": "listing candidate th-content-area (8 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-th-cards-th-cards-with-icon-9-cards",
+   "class": "L",
+   "feature": "listing candidate th-cards th-cards--with-icon (9 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-th-content-area-10-cards",
+   "class": "L",
+   "feature": "listing candidate th-content-area (10 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/forsakringar/bilforsakring"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-th-cards-th-cards-with-image-6-cards",
+   "class": "L",
+   "feature": "listing candidate th-cards th-cards--with-image (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/forsakringar/bilforsakring"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-th-cards-th-cards-with-icon-10-cards",
+   "class": "L",
+   "feature": "listing candidate th-cards th-cards--with-icon (10 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/forsakringar/person"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-chrome-only-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup (chrome only) → button:content",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Filter Icon"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-controls-dialog-dialog-content",
+   "class": "M",
+   "feature": "modal trigger aria-controls→dialog → dialog:content",
+   "hint": "modal",
+   "evidence": [],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-data-modal-trigger-target-outside-dom-at-cap",
+   "class": "M",
+   "feature": "modal trigger data-modal-trigger → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "tecknar bilförsäkring online!",
+    "Trafik",
+    "Krishjälp",
+    "Brand"
+   ],
+   "pages": [
+    "/forsakringar/bilforsakring"
+   ],
+   "reach": {
+    "pages": 58,
+    "of": 10
+   }
+  },
+  {
+   "id": "m-modal-trigger-th-modal-button-top-chrome-only-target-outsi",
+   "class": "M",
+   "feature": "modal trigger th-modal__button-top (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [],
+   "pages": [
+    "/forsakringar/bilforsakring"
+   ],
+   "reach": {
+    "pages": 54,
+    "of": 10
+   }
+  },
+  {
+   "id": "m-modal-trigger-data-modal-button-close-chrome-only-target-o",
+   "class": "M",
+   "feature": "modal trigger data-modal-button-close (chrome only) → target outside DOM at capture",
+   "hint": "chrome-interaction",
+   "evidence": [
+    "Stäng"
+   ],
+   "pages": [
+    "/forsakringar/bilforsakring"
+   ],
+   "reach": {
+    "pages": 54,
+    "of": 10
+   }
+  },
+  {
+   "id": "t-tag-manager-tealium",
+   "class": "T",
+   "feature": "tag manager: Tealium",
+   "role": "tag manager: Tealium",
+   "hint": "tags",
+   "evidence": [
+    "tags.tiqcdn.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-consent-onetrust",
+   "class": "T",
+   "feature": "consent: OneTrust",
+   "role": "consent: OneTrust",
+   "hint": "tags",
+   "evidence": [
+    "cdn.cookielaw.org",
+    "geolocation.onetrust.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-js-monitor-azure-com",
+   "class": "T",
+   "feature": "unknown third-party host js.monitor.azure.com",
+   "hint": "inspect",
+   "evidence": [
+    "js.monitor.azure.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-analytics-session-replay",
+   "class": "T",
+   "feature": "analytics: session replay",
+   "role": "analytics: session replay",
+   "hint": "tags",
+   "evidence": [
+    "static.hotjar.com",
+    "script.hotjar.com",
+    "content.hotjar.io"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-c-amazon-adsystem-com",
+   "class": "T",
+   "feature": "unknown third-party host c.amazon-adsystem.com",
+   "hint": "inspect",
+   "evidence": [
+    "c.amazon-adsystem.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "t-feedback-survey-voc-badge",
+   "class": "T",
+   "feature": "feedback: survey / VoC badge",
+   "role": "feedback: survey / VoC badge",
+   "hint": "tags",
+   "evidence": [
+    "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+    "siteintercept.qualtrics.com"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "onetrust-text-resize"
+   ],
+   "pages": [
+    "/",
+    "/forsakringar/bilforsakring",
+    "/forsakringar/person",
+    "/skadeanmalan"
+   ]
+  },
+  {
+   "id": "x-commerce-signals-cart-true-prices-0",
+   "class": "X",
+   "feature": "commerce signals (cart: true, prices: 0)",
+   "hint": "decided-out",
+   "evidence": [],
+   "pages": [
+    "/forsakringar/bilforsakring",
+    "/skadeanmalan"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 10,
+  "of": 10,
+  "endpoints": {
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}.json": 10,
+   "GET geolocation.onetrust.com/cookieconsentpub/v1/geo/location": 9,
+   "POST trygghansa.tt.omtrdc.net/rest/v1/delivery": 4,
+   "POST www.google.com/rmkt/collect/{n}/": 4,
+   "POST www.google.com/ccm/collect": 4,
+   "GET cdn.cookielaw.org/consent/{uuid}/{uuid}/sv.json": 10,
+   "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json": 10,
+   "GET cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css": 10,
+   "GET cdn.cookielaw.org/logos/static/ot_guard_logo.svg": 10,
+   "POST content.hotjar.io/": 10,
+   "GET server-side-tagging-928417184480.europe-north1.run.app/g/collect": 4,
+   "GET c.amazon-adsystem.com/aat/amzn.js": 4,
+   "GET c.amazon-adsystem.com/aat/allowlist/allowlist.json": 4,
+   "GET aax-eu.amazon-adsystem.com/s/iu3": 2,
+   "POST siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php": 10,
+   "POST swedencentral-0.in.applicationinsights.azure.com//v2/track": 10,
+   "POST bf18964uox.bf.dynatrace.com/bf": 2,
+   "POST www.google-analytics.com/g/collect": 2,
+   "POST ad.doubleclick.net/ccm/s/collect": 2,
+   "GET dpm.demdex.net/id": 2,
+   "POST privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous": 2,
+   "POST collect-eu-central-1.tealiumiq.com/tryg/trygghansa-se-web/{n}/i.gif": 2,
+   "POST www.google.com/g/collect": 1
+  },
+  "searchFormPages": 0,
+  "formPages": 0,
+  "triggerPages": {
+   "data-modal-trigger": 58,
+   "th-modal__button-top": 54,
+   "data-modal-button-close": 54
+  }
+ }
+}

@@ -1,0 +1,88 @@
+/* quick-facts — source .th-quick-facts-block (list/item rules live in styles.css) */
+.quick-facts .th-quick-facts-block-item-icon p {
+  margin: 0;
+}
+
+/* ---------- block head: section heading + introduction (source .th-heading / .th-block__introduction) ---------- */
+@media (width >= 1024px) {
+  .quick-facts .th-block-heading {
+    max-width: 43.75rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+.quick-facts .th-block-introduction p {
+  margin-block-end: 0;
+  overflow-wrap: break-word;
+}
+
+.quick-facts .th-block-introduction :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) {
+  margin-block-start: 1.25rem;
+}
+
+.quick-facts .th-block-introduction h2 {
+  margin-block: 2.5rem 1.25rem;
+  overflow-wrap: break-word;
+  color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.quick-facts .th-block-introduction h3 {
+  margin-block: 1.875rem .625rem;
+  overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.quick-facts .th-block-introduction :is(h2, h3):first-child {
+  margin-block-start: 0;
+}
+
+@media (width >= 1024px) {
+  .quick-facts .th-block-introduction h2 {
+    margin-block: 3.75rem 1.875rem;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .quick-facts .th-block-introduction h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+  }
+}
+
+/* ---------- large CTA (source th-button-large + center-desktop + full-width-on-mobile) ---------- */
+.quick-facts .th-block-actions {
+  margin-block-start: 1.875rem;
+}
+
+.quick-facts .th-block-actions p {
+  margin: 0;
+}
+
+.quick-facts .th-block-actions a.button {
+  width: 100%;
+  min-width: auto;
+  min-height: 3.5rem;
+  font-size: 1.25rem;
+}
+
+@media (width >= 768px) {
+  .quick-facts .th-block-actions a.button {
+    width: fit-content;
+    min-width: 14.6875rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .quick-facts .th-block-actions a.button {
+    margin-inline: auto;
+    font-size: 1.375rem;
+  }
+}

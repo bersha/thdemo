@@ -1,0 +1,251 @@
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+
+/* tabset — source .th-tabset (main.*.css): campaign tabs overlapping the hero bottom + panels */
+.tabset.th-tabset {
+  position: relative;
+  margin-block-start: -5.6875rem;
+  margin-inline: 1.25rem;
+  border-end-start-radius: .625rem;
+  border-end-end-radius: .625rem;
+  box-shadow: 0 8px 20px #0000001f;
+}
+
+@media (width >= 1024px) {
+  .tabset.th-tabset {
+    max-width: 61.5rem;
+    margin-block-start: -8.125rem;
+    margin-inline: auto;
+  }
+}
+
+.tabset .th-tabset-tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.tabset .th-tabset-tab {
+  position: relative;
+  flex: 1;
+  height: 5.6875rem;
+  transition: all ease .25s;
+  background-color: var(--th-theme-background-alternative);
+  box-shadow: inset 0 -50px 30px -40px #0000001a;
+}
+
+@media (width >= 1024px) {
+  .tabset .th-tabset-tab {
+    height: 8.125rem;
+  }
+}
+
+.tabset .th-tabset-tab:not(.th-tabset-tab-is-active):hover {
+  height: 6rem;
+  margin-block-start: -.3125rem;
+  box-shadow: none;
+}
+
+@media (width >= 1024px) {
+  .tabset .th-tabset-tab:not(.th-tabset-tab-is-active):hover {
+    height: 8.4375rem;
+  }
+}
+
+.tabset .th-tabset-tab:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  right: -.0625rem;
+  bottom: .75rem;
+  width: .0625rem;
+  height: 4.1875rem;
+  background: var(--th-theme-stroke-strong);
+}
+
+@media (width >= 1024px) {
+  .tabset .th-tabset-tab:not(:last-child)::after {
+    bottom: 1rem;
+    height: 6.125rem;
+  }
+}
+
+.tabset .th-tabset-tab-is-active {
+  z-index: 1;
+  background-color: var(--th-theme-background-base);
+  box-shadow: -8px -25px 30px #0000001f, 8px -25px 30px #0000001a;
+}
+
+.tabset .th-tabset-tab-is-active::after {
+  display: none;
+}
+
+.tabset .th-tabset-tab-button {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: var(--th-theme-text-weak);
+  text-decoration: none;
+}
+
+.tabset .th-tabset-tab-button:hover {
+  text-decoration: none;
+}
+
+.tabset .th-tabset-tab-button:focus-visible {
+  outline: .1875rem solid var(--th-theme-stroke-focus);
+  outline-offset: -.5rem;
+}
+
+.tabset .th-tabset-tab-campaign {
+  display: block;
+  position: absolute;
+  top: -2.5rem;
+  left: 0;
+  width: 100%;
+  padding-block: .8125rem;
+  border-start-start-radius: .625rem;
+  border-start-end-radius: .625rem;
+  background-color: var(--th-theme-fill-brand-strong);
+  color: var(--th-theme-text-inverse-strong);
+  margin: 0;
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+}
+
+.tabset .th-tabset-tab-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.tabset .th-tabset-tab-content .th-icon {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.tabset .th-tabset-tab-heading {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: var(--th-theme-font-weight-base);
+  line-height: 1.5;
+}
+
+@media (width >= 1024px) {
+  .tabset .th-tabset-tab-heading {
+    font-size: 1.25rem;
+  }
+}
+
+/* ---------- panels ---------- */
+.tabset .th-tabset-panels {
+  padding: 1.25rem .9375rem;
+}
+
+.tabset .th-tabset-panel[hidden] {
+  display: none;
+}
+
+.tabset .th-tabset-panel:focus-visible {
+  outline: .125rem solid var(--th-theme-stroke-focus);
+  outline-offset: .25rem;
+}
+
+.tabset .th-tabset-panel-campaign-banner {
+  position: relative;
+  margin-block-end: 1.25rem;
+  margin-inline: -1.6875rem;
+  padding: .625rem;
+  background-color: var(--th-theme-fill-accent-strong);
+  color: var(--th-theme-text-inverse-strong);
+  font-size: .875rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.tabset .th-tabset-panel-campaign-banner p {
+  margin: 0;
+}
+
+@media (width >= 1024px) {
+  .tabset .th-tabset-panel-campaign-banner {
+    padding-block: .875rem;
+    font-size: 1.125rem;
+    line-height: 1.1;
+  }
+}
+
+.tabset .th-tabset-panel-campaign-banner::before,
+.tabset .th-tabset-panel-campaign-banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: rgb(30 83 97) transparent;
+}
+
+.tabset .th-tabset-panel-campaign-banner::before {
+  left: 0;
+  border-width: .9375rem 0 0 .75rem;
+}
+
+.tabset .th-tabset-panel-campaign-banner::after {
+  right: 0;
+  border-width: .9375rem .75rem 0 0;
+}
+
+.tabset .th-tabset-panel-heading {
+  margin-block: 0 1.25rem;
+  color: var(--th-theme-text-strong);
+  font-size: 1.125rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.tabset .th-tabset-panel-introduction {
+  max-width: 43.75rem;
+  margin-block: 0 1.25rem;
+  margin-inline: auto;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.tabset .th-start-page-tab-button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.tabset .th-start-page-tab-button-list p {
+  width: 100%;
+  margin: 0;
+}
+
+.tabset .th-start-page-tab-button-list a.button {
+  width: 100%;
+  min-width: auto;
+}
+
+@media (width >= 768px) {
+  .tabset .th-start-page-tab-button-list {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .tabset .th-start-page-tab-button-list p {
+    width: auto;
+  }
+
+  .tabset .th-start-page-tab-button-list a.button {
+    width: fit-content;
+    min-width: 14.6875rem;
+  }
+}

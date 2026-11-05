@@ -1,0 +1,94 @@
+/* cta-text — source .th-cta-text-block (closing section + hero app panel) */
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+.cta-text.th-cta-text-block {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 100%;
+  margin-inline: auto;
+  border-radius: .625rem;
+  row-gap: 1.875rem;
+}
+
+.cta-text .th-cta-text-block-heading {
+  margin: 0 0 1.25rem;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.cta-text .th-cta-text-block-introduction {
+  font-family: var(--th-theme-family-body);
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.cta-text .th-cta-text-block-introduction p {
+  margin: 0;
+}
+
+.cta-text .th-cta-text-block-introduction p + p {
+  margin-block-start: 1.25rem;
+}
+
+.cta-text .th-cta-text-block-actions {
+  display: flex;
+}
+
+.cta-text .th-cta-text-block-actions p {
+  width: 100%;
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .cta-text .th-cta-text-block-actions p {
+    width: auto;
+  }
+}
+
+/* hero app panel (source .th-hero__app > .th-cta-text-block) */
+.th-hero-app > .cta-text.th-cta-text-block {
+  max-width: min(100% - 1.875rem, 53.75rem);
+  padding: .9375rem;
+  background-color: var(--th-theme-background-alternative);
+}
+
+@media (width >= 1024px) {
+  .cta-text.th-cta-text-block {
+    max-width: 53.75rem;
+    padding: 1.25rem;
+  }
+
+  .cta-text .th-cta-text-block-heading {
+    margin-block-end: .625rem;
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+
+  .cta-text.th-cta-text-block,
+  .th-hero-app > .cta-text.th-cta-text-block {
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 1.25rem;
+  }
+
+  .cta-text .th-cta-text-block-actions {
+    flex-shrink: 0;
+    align-self: center;
+  }
+
+  .cta-text .th-cta-text-block-actions a.button {
+    min-width: fit-content;
+  }
+
+  .th-hero-app > .cta-text.th-cta-text-block {
+    padding: .9375rem;
+  }
+}
+
+@media (width >= 1025px) {
+  .th-hero-app > .cta-text.th-cta-text-block {
+    max-width: min(100% - 2.5rem, 53.75rem);
+  }
+}

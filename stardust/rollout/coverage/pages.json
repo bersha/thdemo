@@ -1,0 +1,464 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-04T11:34:39.417Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T14:53:43.174Z",
+  "pages": [
+    {
+      "slug": "djurforsakring",
+      "path": "/djurforsakring",
+      "title": "Djurförsäkring – försäkra din hund eller katt",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:46e7a4565cb7d24370dd62f6fc3f16f667773f72f209a93190a59ca13fda1c45",
+        "currentStatePath": "stardust/current/pages/djurforsakring.json",
+        "sourceUrl": "https://www.trygghansa.se/djurforsakring"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/djurforsakring",
+        "deployedAt": "2026-11-04T14:14:01.609Z",
+        "verifiedAt": "2026-11-04T14:52:53.304Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.54,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-bilforsakring",
+      "path": "/forsakringar/bilforsakring",
+      "title": "Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder",
+      "templateId": "forsakringar-bilforsakring",
+      "source": {
+        "migratedHtml": "stardust/migrated/forsakringar/bilforsakring/index.html",
+        "metaJson": "stardust/migrated/forsakringar/bilforsakring/_meta.json",
+        "sourceHash": "sha256:63ca15a9fef303af64db84338c4ab89987d7c29ee688ee4e4307f01fa30de964",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/bilforsakring"
+      },
+      "blocks": [
+        "hero",
+        "quick-quote",
+        "campaign-banner",
+        "breadcrumbs",
+        "quick-facts",
+        "cards",
+        "product-table",
+        "faq",
+        "document-list",
+        "teaser",
+        "columns"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring",
+        "deployedAt": "2026-11-04T12:22:16.361Z",
+        "verifiedAt": "2026-11-04T14:53:42.895Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.43,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-bilforsakring-helforsakring",
+      "path": "/forsakringar/bilforsakring/helforsakring",
+      "title": "Helförsäkring för din bil - Topprankad i jämförelse",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:1335771d5294cab044bf2b61487e723224c7c59a49fc9bc49aad8ae0453eae22",
+        "currentStatePath": "stardust/current/pages/forsakringar-bilforsakring-helforsakring.json",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring",
+        "deployedAt": "2026-11-04T13:56:51.048Z",
+        "verifiedAt": "2026-11-04T14:53:42.951Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-fordon",
+      "path": "/forsakringar/fordon",
+      "title": "Fordonsförsäkring - Försäkring för ditt fordon",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:44d5a9519b45ae62079bc8ef3e9e4fd9bd2eba33d6dace7efe2f3e660fca0073",
+        "currentStatePath": "stardust/current/pages/forsakringar-fordon.json",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/fordon"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/fordon",
+        "deployedAt": "2026-11-04T14:14:01.452Z",
+        "verifiedAt": "2026-11-04T14:53:43.004Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.25,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-hemforsakring",
+      "path": "/forsakringar/hemforsakring",
+      "title": "Hemförsäkring - Se ditt pris och jämför på 15 sekunder",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:28c9ea4e5e1373cc67e529adc756682036789202fa41b13a11ee9bbbb112f981",
+        "currentStatePath": "stardust/current/pages/forsakringar-hemforsakring.json",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/hemforsakring"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring",
+        "deployedAt": "2026-11-04T13:56:51.186Z",
+        "verifiedAt": "2026-11-04T14:52:53.304Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.48,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-hemforsakring-villaforsakring",
+      "path": "/forsakringar/hemforsakring/villaforsakring",
+      "title": "Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:f6416d0db57d2d776369b0a2da5687a5d2673fcdb60daaafa3064edf71349ff5",
+        "currentStatePath": "stardust/current/pages/forsakringar-hemforsakring-villaforsakring.json",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring",
+        "deployedAt": "2026-11-04T13:56:50.770Z",
+        "verifiedAt": "2026-11-04T14:52:53.304Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 20.98,
+          "heightDelta": -255,
+          "clipped": 0,
+          "content": {
+            "missing": 1,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": [
+              "section.security-benefits=.quick-facts-container"
+            ]
+          },
+          "reasons": [
+            "pixel 20.98% > 10%",
+            "content MISSING 1 / HIDDEN 0"
+          ],
+          "override": "capture-state",
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-person",
+      "path": "/forsakringar/person",
+      "title": "Personförsäkringar – Skydd för hela familjen",
+      "templateId": "forsakringar-person",
+      "source": {
+        "migratedHtml": "stardust/migrated/forsakringar/person/index.html",
+        "metaJson": "stardust/migrated/forsakringar/person/_meta.json",
+        "sourceHash": "sha256:7e395fd4c0023271f294e4d85035a64b52ae0e606a02cb7e390d12d27add7951",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/person"
+      },
+      "blocks": [
+        "hero",
+        "campaign-banner",
+        "breadcrumbs",
+        "cards",
+        "teaser",
+        "columns"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/person",
+        "deployedAt": "2026-11-04T13:38:58.653Z",
+        "verifiedAt": "2026-11-04T14:53:43.054Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "forsakringar-person-barnforsakring",
+      "path": "/forsakringar/person/barnforsakring",
+      "title": "Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!",
+      "templateId": "program",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:9b3b4e7e2e3acc923d28f5e2b2d5779ad99ff94eab623b8aa57e1b4310e37ba1",
+        "currentStatePath": "stardust/current/pages/forsakringar-person-barnforsakring.json",
+        "sourceUrl": "https://www.trygghansa.se/forsakringar/person/barnforsakring"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring",
+        "deployedAt": "2026-11-04T13:56:50.909Z",
+        "verifiedAt": "2026-11-04T14:52:53.304Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.31,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Trygg-Hansa - Trygghet för livet",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:bde922448e931878386e4d8d60d2c72c86b4d398ca37ac1783fdf25609306752",
+        "sourceUrl": "https://www.trygghansa.se/"
+      },
+      "blocks": [
+        "hero",
+        "quick-quote",
+        "quick-facts",
+        "cards",
+        "cta-image",
+        "teaser"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/",
+        "deployedAt": "2026-11-04T13:20:26.375Z",
+        "verifiedAt": "2026-11-04T14:53:43.115Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.15,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    },
+    {
+      "slug": "skadeanmalan",
+      "path": "/skadeanmalan",
+      "title": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+      "templateId": "skadeanmalan",
+      "source": {
+        "migratedHtml": "stardust/migrated/skadeanmalan/index.html",
+        "metaJson": "stardust/migrated/skadeanmalan/_meta.json",
+        "sourceHash": "sha256:28c4bc762aebca446dd75047622d98f8516959b5c80c077009ec7779925821b2",
+        "sourceUrl": "https://www.trygghansa.se/skadeanmalan"
+      },
+      "blocks": [
+        "hero",
+        "breadcrumbs",
+        "cards",
+        "cta-image",
+        "faq",
+        "teaser"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--64009de2--aemcoder.aem.page/skadeanmalan",
+        "deployedAt": "2026-11-04T13:58:32.230Z",
+        "verifiedAt": "2026-11-04T14:53:43.174Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.27,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-04T14:48:33.428Z"
+        }
+      }
+    }
+  ]
+}

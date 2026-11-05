@@ -1,0 +1,345 @@
+{
+  "types": {
+    "landing": {
+      "slug": "index",
+      "archetype": "index",
+      "live": "https://www.trygghansa.se/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/landing.css"
+      ],
+      "iterations": {
+        "360": 3,
+        "1440": 3
+      },
+      "rounds": {
+        "360": 7,
+        "1440": 8,
+        "note": "rounds 1-2 void (OneTrust preference-center consent not dismissed by built-ins -> --consent '#accept-recommended-btn-handler'); later rounds include SHL-flyout dismissal/acceptance handling; 3 prototype fix iterations per breakpoint + confirmation"
+      },
+      "gateFlags": [
+        "--main main",
+        "--consent #accept-recommended-btn-handler",
+        "--dismiss button[aria-label='Stäng SHL-erbjudandet']"
+      ],
+      "gates": {
+        "360": {
+          "round": "iter7",
+          "pixel": "0.15%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (8 accepted 🟢 SHL-flyout timing, 4 advisory)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth 360 = viewport",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.00%"
+          },
+          "units": "PASS (12 compared)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "round": "iter8",
+          "pixel": "0.14%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (3 advisory 🟠 font-fork pairing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth 1440 = viewport",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.00%"
+          },
+          "units": "PASS (12 compared)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (at 2560, 0 of 3 rows failed)",
+      "residuals": [
+        "R-01: hero h1 renders size-adjusted Lato 700 instead of licensed ApexNew (only ApexNew heading on this page); 360 band 0-500 1.7%",
+        "FONT FORK 🟠 advisory (-10/-11% width) on duplicated strings 'Bilförsäkring'/'Djurförsäkringar'/'Support': pairing of same text across tab/card/menu/footer instances; chrome crops 0.00% and card units within 4px -> not a face fork",
+        "SHL offer flyout (aside.shl-widget): live injects it via the tag manager after marketing consent; recreated natively as a delayed (1.5 s) footer insert, shown without a consent gate on the prototype; gate must --dismiss it; content-diff/chrome-parity timing asymmetry recorded in stardust/replica/accepted.json",
+        "Quick-quote forms (vehicle/pregnancy/home) rebuilt natively for visual parity; submission hands off by GET to the live product page (no PII endpoint) — per dynamic-features.md row 1 (needs-business-decision); loader/error/modal/popover states present but hidden as on live",
+        "Registration-plate EU band in the vehicle form approximated with CSS (live app CSS not captured)",
+        "units cache stardust/current/measure/index-units.json is not width-keyed: delete it between 1440 and 360 --full rounds (a stale cache read 360 geometry at 1440 -> false unit FAIL)"
+      ],
+      "motion": {
+        "observed": [
+          "tabset tab switch (class th-tabset-tab--is-active, bg/box-shadow/height/margin-top transitions 250ms)",
+          "header Försäkringar menu (class is-th-header-nav-item-open + body.th-no-scroll-on-mobile)",
+          "hover: tabset tab box-shadow 250ms",
+          "hover: header nav link background 200ms",
+          "header static (sticky, no scroll morph)"
+        ],
+        "implemented": [
+          "tabset tabs (click + arrow keys, hidden panels)",
+          "header mega-menu / mobile drawer with body scroll lock class",
+          "collapse accordions (header submenus + footer columns <1024)",
+          "quick-quote help popover",
+          "SHL flyout toggle/close",
+          "source-CSS hovers (tab, nav link, card lift, buttons)"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "hover .th-card__link",
+          "hover .th-footer__link",
+          "hover .th-card / cta button / primary-accent: no live diff recorded below the fold (probe limitation) — source :hover rules kept, motion-compare advisory"
+        ],
+        "compare": "9 parity, 0 missing, 0 extra, 4 advisory"
+      }
+    },
+    "static": {
+      "slug": "skadeanmalan",
+      "archetype": "skadeanmalan",
+      "live": "https://www.trygghansa.se/skadeanmalan",
+      "prototype": "stardust/prototypes/skadeanmalan-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/static.css"
+      ],
+      "iterations": {
+        "360": 0,
+        "1440": 0
+      },
+      "rounds": {
+        "360": 2,
+        "1440": 2,
+        "note": "first --full round passed at both widths with no fix iteration; iter2 = pixel confirmation after the accordion motion layer"
+      },
+      "gateFlags": [
+        "--main main",
+        "--consent #accept-recommended-btn-handler",
+        "--dismiss button[aria-label='Stäng SHL-erbjudandet']"
+      ],
+      "gates": {
+        "360": {
+          "round": "iter1 (--full) + iter2 (pixel confirmation after motion layer)",
+          "pixel": "0.15%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (2 advisory 🟠 font-fork pairing in header/footer, same as landing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth 360 = viewport",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.00%"
+          },
+          "units": "PASS (14 compared: skadeanmalan-faq 8 + skadeanmalan-cards 6)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "round": "iter1 (--full) + iter2 (pixel confirmation after motion layer)",
+          "pixel": "0.15%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (2 advisory 🟠 font-fork pairing in header/footer, same as landing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth 1440 = viewport",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.00%"
+          },
+          "units": "n/a at 1440 (families declared after the 1440 --full round)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (at 2560, 0 of 4 rows failed)",
+      "residuals": [
+        "R-01: hero h1 'Skadeanmälan' renders size-adjusted Lato 700 instead of licensed ApexNew (only ApexNew heading on the page); band 0-500 1.3% @1440 / 1.6% @360",
+        "FONT FORK 🟠 advisory (-10/-11%) on duplicated chrome strings 'Bilförsäkring'/'Djurförsäkringar'/'Support' — pairing across menu/footer instances, chrome crops 0.00% (same as landing)",
+        "Header 'Anmäl skada' link carries the live --active state; canon lacks it -> scoped copy in static.css + canon-requests.md"
+      ],
+      "motion": {
+        "observed": [
+          "FAQ accordion state machine is-collapse-opening→open / closing→close, height + icon rotate 200ms ease-out",
+          "header Försäkringar menu (is-th-header-nav-item-open + body.th-no-scroll-on-mobile)",
+          "hover .th-card box-shadow/translate 200ms",
+          "hover buttons background 100ms",
+          "hover header active nav link background 200ms"
+        ],
+        "implemented": [
+          "accordion state machine with height transition (static page behaviour script)",
+          "header mega-menu (shared)",
+          "source-CSS hovers (card, buttons, nav link)"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "hover .th-accordion__item-heading",
+          "hover .th-breadcrumbs__crumb>a (bg/colour; source underline rule kept)",
+          "hover .th-card__link"
+        ],
+        "compare": "15 parity, 0 missing, 0 extra, 0 advisory"
+      }
+    },
+    "listing": {
+      "slug": "forsakringar-person",
+      "archetype": "forsakringar-person",
+      "live": "https://www.trygghansa.se/forsakringar/person",
+      "prototype": "stardust/prototypes/forsakringar-person-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/listing.css"
+      ],
+      "iterations": {
+        "360": 0,
+        "1440": 0
+      },
+      "rounds": {
+        "360": 1,
+        "1440": 2,
+        "note": "iter1 --full passed both widths with no fix; 1440 'confirm' --full re-run after declaring unit families (1440 iter1 had none declared) and after the motion pass. A first 1440 attempt exited 4 (identity assertion) -> --marker th-card-list-block, not counted."
+      },
+      "gateFlags": [
+        "--main main",
+        "--marker th-card-list-block",
+        "--consent #accept-recommended-btn-handler",
+        "--dismiss button[aria-label='Stäng SHL-erbjudandet']"
+      ],
+      "gates": {
+        "360": {
+          "round": "iter1",
+          "pixel": "0.16%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (3 advisory 🟠 font-fork pairing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth 360 = viewport",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.00%"
+          },
+          "units": "PASS (12 compared)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "round": "confirm",
+          "pixel": "0.21%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (3 advisory 🟠 font-fork pairing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth 1440 = viewport",
+          "chromeCrop": {
+            "header": "0.00%",
+            "footer": "0.00%"
+          },
+          "units": "PASS (12 compared)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (at 2560, 0 of 5 rows failed)",
+      "residuals": [
+        "R-01: hero h1 'Personförsäkringar' computes to ApexNew on live -> size-adjusted Lato 700 (only ApexNew heading on this page; section h2s, card h3s, prose h3s are arial)",
+        "FONT FORK 🟠 advisory (-10/-12% width) on repeated strings ('Gravidförsäkring', 'Livförsäkring', 'Olycksfallsförsäkring', 'Tips!', header 'Bilförsäkring'/'Djurförsäkringar', footer 'Support'): same-text pairing across menu/card/prose instances, both sides arial; chrome crops 0.00%, units within tolerance -> not a face fork",
+        "Hero picture: live serves webp + jpg <source>s; build ships the webp renditions only (480/750/1024/1536/1920w, same rxy crop)"
+      ],
+      "motion": {
+        "observed": [
+          "header Försäkringar menu (class is-th-header-nav-item-open + body.th-no-scroll-on-mobile)",
+          "hover: .th-card box-shadow/translate 200ms",
+          "hover: header nav link background 200ms",
+          "header static (no scroll morph)"
+        ],
+        "implemented": [
+          "shared canon behaviour (header mega-menu/drawer, footer collapses, SHL flyout) + canon card/nav hovers — no new motion needed"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "nav button click frames (no sampled change)",
+          "hover .th-card__link",
+          "hover breadcrumb link",
+          "hover campaign-banner link",
+          "hover prose link",
+          "hover .th-footer__link"
+        ],
+        "compare": "7 parity, 0 missing, 0 extra, 0 advisory"
+      }
+    },
+    "program": {
+      "slug": "forsakringar-bilforsakring",
+      "archetype": "forsakringar-bilforsakring",
+      "live": "https://www.trygghansa.se/forsakringar/bilforsakring",
+      "prototype": "stardust/prototypes/forsakringar-bilforsakring-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/program.css"
+      ],
+      "iterations": {
+        "360": 1,
+        "1440": 2
+      },
+      "rounds": {
+        "360": 3,
+        "1440": 4,
+        "note": "1440 iter1 --full 3.69% Δh -6 (sr-only table captions laid out; product-accordion intro 20/27.5 vs live 22/30 ≥768) -> iter2 0.27% Δh 0; 360 iter1 --full 5.07% Δh -4 (th-button-* line-height: the source @35744 resets it to normal; canon carried the type-ramp line-heights, visible only on a wrapping button) -> iter2 0.45% Δh 0; confirmation --full rounds 1440 iter4 0.26% / 360 iter3 0.45%. Canon button fix re-confirmed on index (0.14/0.14), forsakringar-person (0.21/0.16), skadeanmalan (0.15/0.15)."
+      },
+      "gateFlags": [
+        "--main main",
+        "--marker program.css",
+        "--consent #accept-recommended-btn-handler",
+        "--dismiss button[aria-label='Stäng SHL-erbjudandet']"
+      ],
+      "gates": {
+        "360": {
+          "round": "iter3 (--full confirmation)",
+          "pixel": "0.45%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (3 advisory 🟠 font-fork pairing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth = viewport",
+          "chromeCrop": {
+            "header": "chrome-parity within tolerance",
+            "footer": "chrome-parity within tolerance"
+          },
+          "units": "PASS (program-coverage-rows 20 compared)",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "round": "iter4 (--full confirmation)",
+          "pixel": "0.26%",
+          "heightDelta": 0,
+          "contentDiff": "0 🔴 / 0 nothing-lost 🟡 (3 advisory 🟠 font-fork pairing)",
+          "visualDiff": "0 flags",
+          "clip": 0,
+          "overflow": "scrollWidth = viewport",
+          "chromeCrop": {
+            "header": "chrome-parity within tolerance",
+            "footer": "chrome-parity within tolerance"
+          },
+          "units": "PASS (program-coverage-rows 20 compared)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS (at 2560, 0 of 5 rows failed)",
+      "residuals": [
+        "R-01: hero h1 Bilförsäkring computes to ApexNew on live -> size-adjusted Lato 700",
+        "FONT FORK 🟠 advisory (-10/-11% width) on repeated strings (table row headings vs modal buttons, header/footer duplicates): same-text pairing, not a rendered-face fork",
+        "360 iter1 build-side SHL flyout bar appeared before dismissal once (timing race; accepted.json covers the flyout)"
+      ],
+      "motion": {
+        "observed": [
+          "header Försäkringar menu (is-th-header-nav-item-open + body.th-no-scroll-on-mobile)",
+          "hover .th-card box-shadow/translate 200ms",
+          "hover .th-button-large background 100ms",
+          "header static (no scroll morph)"
+        ],
+        "implemented": [
+          "shared canon behaviour (header mega-menu, footer collapses, SHL flyout) + accordions/modals in behavior.js — no new motion needed"
+        ],
+        "dead": [
+          "header scroll-morph",
+          "table accordion click frames (no sampled change)",
+          "FAQ list click frames",
+          "nav button click frames",
+          "hover breadcrumb link",
+          "hover document link",
+          "hover .th-card__link",
+          "hover campaign-banner link"
+        ],
+        "compare": "7 parity, 0 missing, 0 extra, 0 advisory"
+      }
+    }
+  }
+}

@@ -1,0 +1,781 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 10,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.trygghansa.se/assets/trygghansa/favicons/favicon-96x96.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 90000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 10,
+    "pagesWithSameSiteData": 0,
+    "pagesWithSearchForm": 0,
+    "pagesHydrated": 4,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "sameSite": false,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://content.hotjar.io/",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "pages": 9,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/ccm/collect",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://www.google.com/rmkt/collect/1068894895/",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/amzn.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "sameSite": false,
+        "example": "https://c.amazon-adsystem.com/aat/amzn.js",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/allowlist/allowlist.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "trygghansa.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://trygghansa.tt.omtrdc.net/rest/v1/delivery",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "server-side-tagging-928417184480.europe-north1.run.app",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep./forsakringar/bilforsakring",
+          "ep.sessionId",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.etld",
+          "sst.ga_rd",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://server-side-tagging-928417184480.europe-north1.run.app/g/collect",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.SessionID",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google-analytics.com/g/collect",
+        "pages": 2,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "pages": 2,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://dpm.demdex.net/id",
+        "pages": 2,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+        "pages": 2,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "collect-eu-central-1.tealiumiq.com",
+        "path": "/tryg/trygghansa-se-web/{n}/i.gif",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "sameSite": false,
+        "example": "https://collect-eu-central-1.tealiumiq.com/tryg/trygghansa-se-web/2/i.gif",
+        "pages": 2,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "aax-eu.amazon-adsystem.com",
+        "path": "/s/iu3",
+        "query": [
+          "amazonConsentString",
+          "event",
+          "eventSource",
+          "gtmVersion",
+          "pid",
+          "ts",
+          "uuid"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "sameSite": false,
+        "example": "https://aax-eu.amazon-adsystem.com/s/iu3",
+        "pages": 2,
+        "examples": [
+          "djurforsakring",
+          "forsakringar-person-barnforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "bf18964uox.bf.dynatrace.com",
+        "path": "/bf",
+        "query": [
+          "ai",
+          "av",
+          "bc",
+          "co",
+          "cr",
+          "cy",
+          "en",
+          "end",
+          "pv",
+          "qc",
+          "sc",
+          "si",
+          "ss",
+          "st",
+          "ty"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://bf18964uox.bf.dynatrace.com/bf",
+        "pages": 2,
+        "examples": [
+          "djurforsakring",
+          "forsakringar-person-barnforsakring"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.SessionID",
+          "frm",
+          "gaf",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://www.google.com/g/collect",
+        "pages": 1,
+        "examples": [
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "static.hotjar.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "script.hotjar.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      },
+      {
+        "host": "connect.facebook.net",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "host": "bat.bing.com",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "host": "visitor-service-eu-central-1.tealiumiq.com",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "pages": 4,
+        "examples": [
+          "forsakringar-bilforsakring",
+          "djurforsakring",
+          "forsakringar-hemforsakring-villaforsakring"
+        ]
+      },
+      {
+        "host": "dok.js-cdn.dynatrace.com",
+        "pages": 2,
+        "examples": [
+          "djurforsakring",
+          "forsakringar-person-barnforsakring"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "vue",
+        "pages": 4,
+        "examples": [
+          "index",
+          "forsakringar-bilforsakring",
+          "forsakringar-fordon"
+        ]
+      }
+    ],
+    "globalState": [
+      {
+        "name": "dataLayer",
+        "pages": 10,
+        "examples": [
+          "index",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring"
+        ]
+      }
+    ],
+    "formTargets": []
+  }
+}

@@ -1,0 +1,1410 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:39.267Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "forsakringar-person-barnforsakring",
+  "url": "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:39.267Z",
+  "finalUrl": "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+  "title": "Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!",
+  "description": "Vår barnförsäkring ger trygghet dygnet runt upp till 25 års ålder. Den täcker en stor rad sjukdomar och diagnoser samt om ditt barn skadas i ett olycksfall.",
+  "og": {
+    "title": "Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!",
+    "description": "Vår barnförsäkring ger trygghet dygnet runt upp till 25 års ålder. Den täcker en stor rad sjukdomar och diagnoser samt om ditt barn skadas i ett olycksfall.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Barnförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Trygg med Sveriges populäraste barnförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Därför väljer många föräldrar vår barnförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Allvarlig sjukdom"
+    },
+    {
+      "tag": "h3",
+      "text": "Psykiska diagnoser"
+    },
+    {
+      "tag": "h3",
+      "text": "Familjehjälpen"
+    },
+    {
+      "tag": "h2",
+      "text": "Vad ingår i barnförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Medicinsk invaliditet (nedsatt funktionsförmåga)"
+    },
+    {
+      "tag": "h3",
+      "text": "Ekonomisk invaliditet (nedsatt arbetsförmåga)"
+    },
+    {
+      "tag": "h3",
+      "text": "Månadsersättning vid omvårdnadsbidrag eller nedsatt arbetsförmåga"
+    },
+    {
+      "tag": "h3",
+      "text": "Vissa diagnoser och händelser"
+    },
+    {
+      "tag": "h3",
+      "text": "Vissa psykiska diagnoser"
+    },
+    {
+      "tag": "h3",
+      "text": "Vissa frakturer"
+    },
+    {
+      "tag": "h3",
+      "text": "Ärr"
+    },
+    {
+      "tag": "h3",
+      "text": "Sjukhusvistelse"
+    },
+    {
+      "tag": "h3",
+      "text": "Akut inskrivning på sjukhus"
+    },
+    {
+      "tag": "h3",
+      "text": "Vård hemma efter sjukhusvistelse"
+    },
+    {
+      "tag": "h3",
+      "text": "Rehabilitering"
+    },
+    {
+      "tag": "h3",
+      "text": "Kristerapi"
+    },
+    {
+      "tag": "h3",
+      "text": "Terapi vid lindrig depression"
+    },
+    {
+      "tag": "h3",
+      "text": "Kostnader vid olycksfall"
+    },
+    {
+      "tag": "h3",
+      "text": "Dödsfall"
+    },
+    {
+      "tag": "h2",
+      "text": "Extra trygghet som ingår"
+    },
+    {
+      "tag": "h3",
+      "text": "Familjehjälpen"
+    },
+    {
+      "tag": "h3",
+      "text": "Kostnadsfri försäkring efter förälders dödsfall"
+    },
+    {
+      "tag": "h3",
+      "text": "Försäkring för vuxna utan hälsoprövning"
+    },
+    {
+      "tag": "h2",
+      "text": "Vanliga frågor och svar om barnförsäkringen"
+    },
+    {
+      "tag": "h3",
+      "text": "Vilket försäkringsbelopp ska jag välja i min barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur mycket kostar en barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur länge har man en barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Gäller barnförsäkringen för ADHD och autism?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vilka undantag finns i barnförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "När ska man teckna barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "När börjar nyheterna i barnförsäkringen att gälla för mig som redan har en barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Kan man byta barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Kan barnförsäkringen ge ersättning för matallergi?"
+    },
+    {
+      "tag": "h3",
+      "text": "Gäller barnförsäkringen för diabetes?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad är en barnförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad är hälsodeklaration och när behövs det?"
+    },
+    {
+      "tag": "h3",
+      "text": "Mitt barn är sjukt. Kan vi teckna barnförsäkringen ändå?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad händer med barnförsäkringen när du fyller 18 år?"
+    },
+    {
+      "tag": "h2",
+      "text": "Så hjälper barnförsäkringen"
+    },
+    {
+      "tag": "h3",
+      "text": "Om barnet blir allvarligt sjuk"
+    },
+    {
+      "tag": "h3",
+      "text": "Om skadan blir bestående"
+    },
+    {
+      "tag": "h3",
+      "text": "Om barnet mår psykiskt dåligt"
+    },
+    {
+      "tag": "h3",
+      "text": "Om barnet får en psykisk diagnos"
+    },
+    {
+      "tag": "h2",
+      "text": "Trygg vägledning i samhällets stöd"
+    },
+    {
+      "tag": "h2",
+      "text": "Sveriges populäraste barnförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Är barnet inte fött ännu?"
+    },
+    {
+      "tag": "h2",
+      "text": "Allt om barnförsäkringen"
+    },
+    {
+      "tag": "h3",
+      "text": "Läs det här innan du tecknar"
+    },
+    {
+      "tag": "h2",
+      "text": "Trygg med Sveriges populäraste barnförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "Mer än hälften av alla barn som har en barnförsäkring har den hos oss. Gör som de flesta föräldrar, teckna barnförsäkring hos oss. Du får 50 % rabatt första året.",
+    "50 % rabatt",
+    "Hem",
+    "Försäkringar",
+    "Personförsäkringar",
+    "Barnförsäkring",
+    "Vår barnförsäkring ger ekonomiskt stöd och vägledning när livet tar en oväntad vändning, och finns med ditt barn hela vägen - från liten i din famn till ung vuxen på egna ben. Upptäck nedan varför så många föräldrar väljer Sveriges populäraste barnförsäkring.",
+    "Allvarlig sjukdom Upp till 300 000 kr i ersättning direkt. Pengar som kan underlätta när ditt barn behöver dig mer än vanligt.",
+    "Upp till 300 000 kr i ersättning direkt. Pengar som kan underlätta när ditt barn behöver dig mer än vanligt.",
+    "Psykiska diagnoser För diagnoser som ADHD och autism får ni 10 000 kr. Utöver det kan ni få upp till 150 000 kr, om ni får omvårdnadsbidrag från Försäkringskassan.",
+    "För diagnoser som ADHD och autism får ni 10 000 kr. Utöver det kan ni få upp till 150 000 kr, om ni får omvårdnadsbidrag från Försäkringskassan.",
+    "Familjehjälpen Vår service Familjehjälpen hjälper dig att förstå hur samhällets stöd och ersättningar fungerar – så att du får ett grepp om helheten.",
+    "Vår service Familjehjälpen hjälper dig att förstå hur samhällets stöd och ersättningar fungerar – så att du får ett grepp om helheten.",
+    "Här kan du läsa en kortfattad beskrivning om vad som ingår i Sveriges populäraste barnförsäkring. Vill du läsa mer om innehållet och viktiga undantag finns det lättillgängligt i För- och efterköpsinformationen längst ner på sidan.",
+    "Vilket försäkringsbelopp ska jag välja i min barnförsäkring? Välj belopp utifrån både barnets trygghet som vuxen och familjens ekonomi just nu. Försäkringsbeloppet påverkar hur stor ersättning barnet kan få för bland annat medicinsk och ekonomisk invaliditet och för vissa diagnoser. Ditt val av belopp påverkar även hur mycket försäkringen kostar. Du kan välja mellan fem belopp: 600 000 kr 1,2 miljoner kr 1,8 miljoner kr 2,4 miljoner kr 3 miljoner kr Oavsett vilket belopp du väljer så gäller barnförsäkringen för samma händelser, sjukdomar och skador. Det enda som skiljer är hur stor ersättningen blir och priset. Du kan ansöka om att höja eller sänka försäkringsbelopp i efterhand. För att höja försäkringsbeloppet behöver du fylla i en ny hälsodeklaration för barnet. Svårt att välja? Boka en kostnadsfri rådgivning hos en av våra rådgivare.",
+    "Hur mycket kostar en barnförsäkring? Priset på barnförsäkring beror på vilket försäkringsbelopp du väljer. Du kan välja mellan fem olika belopp där det högsta är 3 miljoner. Om du väljer ett lägre försäkringsbelopp betalar du mindre för barnförsäkringen – och väljer du ett högre belopp betalar du mer.",
+    "Hur länge har man en barnförsäkring? Vår barnförsäkring gäller upp till dess att ditt barn har fyllt 25 år. Därefter får ditt (numera vuxna) barn ett erbjudande om att teckna en sjuk- och olycksfallsförsäkring för vuxna.",
+    "Gäller barnförsäkringen för ADHD och autism? Ja, barnförsäkringen kan ge ersättning för NPF-diagnoser, som till exempel ADHD och autism. Dels en mindre ersättning direkt efter diagnos och en större ersättning till barnet om Försäkringskassan har beviljat er omvårdnadsbidrag, eller om ditt barn har förlorat arbetsförmågan till minst 50 % under minst sex månader i följd (gäller för barn över 18 år). Läs mer om diagnosförsäkring här.",
+    "Vilka undantag finns i barnförsäkringen? En försäkring kan inte täcka allt – då skulle den bli alltför dyr. Därför har den undantag. I för- och efterköpsinformationen och produktfaktabladet beskrivs några viktiga undantag kortfattat.Du kan läsa mer om undantagen i det fullständiga villkoret. När du ansöker om försäkringen får du svara på frågor om barnets hälsa. Om ditt barn redan har drabbats av eller visat symptom på någon sjukdom kan hens försäkring få individuella undantag eller begränsningar. I så fall får du veta precis vilka innan du börjar betala för försäkringen.",
+    "När ska man teckna barnförsäkring? Du kan teckna en försäkring till ditt barn när barnet har fått sina fyra sista siffror i personnumret och ni har blivit utskrivna från BB eller annan vård. Om du vill ha skydd för ditt ofödda barn kan du skaffa en gravidförsäkring. Det är det enda skyddet som finns för bebisen i magen!",
+    "När börjar nyheterna i barnförsäkringen att gälla för mig som redan har en barnförsäkring? När din barnförsäkring förnyas kommer nyheterna att ingå i dina nya villkor. De nya villkoren gäller för sjukdomar som blir aktuella och olycksfall som inträffar efter att din försäkring förnyats. För sådant som hänt innan dess gäller dina tidigare villkor.",
+    "Kan man byta barnförsäkring? Om du ska byta barnförsäkring, tänk på att vara försiktig. Det är viktigt att den nya försäkringen tar vid exakt när den gamla löper ut så att det inte blir något glapp och ditt barn är oförsäkrat. Dessutom måste du alltid fylla i en ny hälsodeklaration för ditt barn om du byter. Oftast är det inte några problem att byta försäkringen om ditt barn är fullt friskt och inte har visat några symtom på någon sjukdom eller diagnos. Men om barnet har haft någon sjukdom, någon skada eller symtom på något kommer inte den nya försäkringen gälla för dessa. Tänk på att läsa på ordentligt om den försäkring som du byter till, innehållet kan ofta skilja sig åt.",
+    "Kan barnförsäkringen ge ersättning för matallergi? Ja, barnförsäkringen kan ge ersättning vid matallergi eller födoämnesallergi som det också kallas. Det krävs dock att allergin är konstaterad av läkare och bestående, vilket man oftast kan bedöma först efter 18 års ålder. Försäkringen kan aldrig ge ersättning för matallergier som går över eller växer bort. Ett exempel på en allergi som är bestående är celiaki (glutenintolerans).",
+    "Gäller barnförsäkringen för diabetes? Ja, barnförsäkringen täcker diabetes. Barnet får ett större engångsbelopp i ersättning och du får även ersättning för de dagar barnet ligger på sjukhus. Det gäller även om barnet behöver fortsatt vård hemma under den första tiden. Från Försäkringskassan får du även något som kallas för omvårdnadsbidrag, vilket kan gälla under flera år (beror på barnets behov). Under samma tid har du också rätt till en månadsersättning från barnförsäkringen.",
+    "Vad är en barnförsäkring? En barnförsäkring är en sjuk- och olycksfallsförsäkring som kan ge ersättning om ditt barn drabbas av en sjukdom, en diagnos eller ett olycksfall. Du kan läsa mer om innehållet och viktiga undantag i barnförsäkringens förköpsinformation och villkor. Där ger vi exempel på vad som ersätts och inte ersätts.",
+    "Vad är hälsodeklaration och när behövs det? En hälsodeklaration är ett formulär där du svarar på frågor om din hälsa. Det kan handla om tidigare sjukdomar, symtom, diagnoser, medicinering eller behandlingar du har fått. Hos oss på Trygg-Hansa behöver du fylla i en hälsodeklaration när du ansöker om en barnförsäkring. Här kan du läsa mer om hälsodeklaration.",
+    "Mitt barn är sjukt. Kan vi teckna barnförsäkringen ändå? Ja, det går alltid att ansöka om en barnförsäkring, oavsett utgångsläge. Vi bedömer varje ansökan individuellt. I vissa fall kan vi erbjuda en försäkring med undantag och/eller begränsad omfattning. Om vi inte kan erbjuda vår barnförsäkring erbjuder vi en olycksfallsförsäkring istället.",
+    "Vad händer med barnförsäkringen när du fyller 18 år? Barnförsäkringen fortsätter att gälla när du blir 18 år och ända tills året då du fyller 25 år. Men några saker behöver du ändå tänka på när du blir myndig.",
+    "Vår barnförsäkring ger både hög ekonomisk ersättning och trygg vägledning när livet känns svårt. Den finns vid din och barnets sida för det som händer nu, och om det behövs, in i vuxenlivet.",
+    "Om barnet får cancer, en annan allvarlig sjukdom eller skadas i ett olycksfall får du ekonomiskt stöd från barnförsäkringen. Pengar som kan underlätta vardagen om du till exempel under en tid inte kan jobba som vanligt. Försäkringen kan ge upp till 300 000 kr direkt vid fastställd diagnos beroende på vilket försäkringsbelopp du väljer. Utöver det kan du bland annat få ersättning för sjukhusvistelse, vård hemma och rehabilitering.",
+    "Skulle barnet drabbas av en skada eller sjukdom som ger bestående men kan det finnas ekonomiskt stöd att få. Vid livslånga funktionsnedsättningar kan barnet få ett större engångsbelopp, och om skadan eller sjukdomen i vuxen ålder även påverkar arbetsförmågan så kan ersättning ges även för det - antingen som en månadsersättning en bit in i vuxenlivet, eller som ett engångsbelopp.",
+    "När livet känns svårt och utmanande finns det hjälp att få via vår barnförsäkring. Ditt barn kan få kristerapi vid allvarliga händelser och samtalsterapi vid lindrig depression.",
+    "Om ditt barn får en psykisk eller neuropsykiatrisk diagnos, till exempel ADHD, autism eller bipolär sjukdom, kan vi betala ut 10 000 kr direkt. Utöver det kan du få ytterligare ersättning på 5 % av det försäkringsbelopp du valt.",
+    "Ersättningen beror på när barnet först visade symtom, och i vissa fall kan andra typer av ersättning bli aktuella.",
+    "Vilket stöd kan jag få för mitt barn? Hur fungerar omvårdnadsbidrag? Frågorna om samhällets stöd och ersättningar kan bli många och att hitta rätt information kan vara en rejäl utmaning. Familjehjälpen hjälper dig att få ett grepp om helheten, genom att förklara vilket stöd ni i familjen har rätt till och vart du kan vända dig i olika situationer. Familjehjälpen är en mycket uppskattad service hos våra kunder och ingår om ditt barn är försäkrat hos oss.",
+    "Enligt branschorganisationen Svensk Försäkring har drygt 1,5 miljoner barn och unga vuxna i Sverige en individuell barnförsäkring. Av dem är ungefär hälften försäkrade hos oss. Det är något vi är oerhört stolta över och som får oss att hela tiden fortsätta vårt arbete med att erbjuda en försäkring som gör skillnad i familjers liv.",
+    "Vad bra att du redan nu kollar upp barnförsäkring! Att teckna tidigt gör att din bebis har en ökad trygghet från start. Du kan teckna en barnförsäkring så snart barnet är fött och ni är utskrivna från BB. Har du en gravidförsäkring? Om inte, läs mer och teckna en gravidförsäkring idag.",
+    "Du kan läsa mer om försäkringen och viktiga undantag i för- och efterköpsinformationen nedan. Du kan också läsa i produktfaktabladet (IPID), som kan hjälpa dig att jämföra försäkringar mellan olika bolag. Både för- och efterköpsinformationen och produktbladet är sammanfattningar av försäkringsvillkoret.",
+    "För- och efterköpsinformation (PDF)",
+    "Produktfaktablad (IPID) (PDF)",
+    "Fullständiga villkor (PDF)",
+    "Mer än hälften av alla barn som har en barnförsäkring har den hos oss. Gör som de flesta föräldrar, teckna barnförsäkring hos oss. Du får 50 % rabatt första året."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "Se pris och teckna",
+      "href": "/forsakringar/person/barnforsakring/berakna-pris"
+    },
+    {
+      "label": "första året.",
+      "href": null
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Personförsäkringar",
+      "href": "/forsakringar/person"
+    },
+    {
+      "label": "Medicinsk invaliditet (nedsatt funktionsförmåga)",
+      "href": null
+    },
+    {
+      "label": "Ekonomisk invaliditet (nedsatt arbetsförmåga)",
+      "href": null
+    },
+    {
+      "label": "Månadsersättning vid omvårdnadsbidrag eller nedsatt arbetsförmåga",
+      "href": null
+    },
+    {
+      "label": "Vissa diagnoser och händelser",
+      "href": null
+    },
+    {
+      "label": "Vissa psykiska diagnoser",
+      "href": null
+    },
+    {
+      "label": "Vissa frakturer",
+      "href": null
+    },
+    {
+      "label": "Ärr",
+      "href": null
+    },
+    {
+      "label": "Sjukhusvistelse",
+      "href": null
+    },
+    {
+      "label": "Akut inskrivning på sjukhus",
+      "href": null
+    },
+    {
+      "label": "Vård hemma efter sjukhusvistelse",
+      "href": null
+    },
+    {
+      "label": "Rehabilitering",
+      "href": null
+    },
+    {
+      "label": "Kristerapi",
+      "href": null
+    },
+    {
+      "label": "Terapi vid lindrig depression",
+      "href": null
+    },
+    {
+      "label": "Kostnader vid olycksfall",
+      "href": null
+    },
+    {
+      "label": "Dödsfall",
+      "href": null
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/person/barnforsakring/berakna-pris"
+    },
+    {
+      "label": "Familjehjälpen",
+      "href": null
+    },
+    {
+      "label": "Kostnadsfri försäkring efter förälders dödsfall",
+      "href": null
+    },
+    {
+      "label": "Försäkring för vuxna utan hälsoprövning",
+      "href": null
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/person/barnforsakring/berakna-pris"
+    },
+    {
+      "label": "Vilket försäkringsbelopp ska jag välja i min barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Hur mycket kostar en barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Hur länge har man en barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Gäller barnförsäkringen för ADHD och autism?",
+      "href": null
+    },
+    {
+      "label": "Vilka undantag finns i barnförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "När ska man teckna barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "När börjar nyheterna i barnförsäkringen att gälla för mig som redan har en barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Kan man byta barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Kan barnförsäkringen ge ersättning för matallergi?",
+      "href": null
+    },
+    {
+      "label": "Gäller barnförsäkringen för diabetes?",
+      "href": null
+    },
+    {
+      "label": "Vad är en barnförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vad är hälsodeklaration och när behövs det?",
+      "href": null
+    },
+    {
+      "label": "Mitt barn är sjukt. Kan vi teckna barnförsäkringen ändå?",
+      "href": null
+    },
+    {
+      "label": "Vad händer med barnförsäkringen när du fyller 18 år?",
+      "href": null
+    },
+    {
+      "label": "kristerapi",
+      "href": "/forsakringar/kristerapi-och-krisforsakring"
+    },
+    {
+      "label": "Läs mer om Familjehjälpen",
+      "href": "/forsakringar/familjehjalpen/barn-och-unga"
+    },
+    {
+      "label": "Teckna barnförsäkring idag",
+      "href": "/forsakringar/person/barnforsakring/berakna-pris"
+    },
+    {
+      "label": "Läs mer om vår gravidförsäkring",
+      "href": "/forsakringar/gravidforsakring"
+    },
+    {
+      "label": "För- och efterköpsinformation (PDF)",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/SL2273.pdf"
+    },
+    {
+      "label": "Produktfaktablad (IPID) (PDF)",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/pid04540.pdf"
+    },
+    {
+      "label": "Fullständiga villkor (PDF)",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/p00359.pdf"
+    },
+    {
+      "label": "Se pris och teckna",
+      "href": "/forsakringar/person/barnforsakring/berakna-pris"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    },
+    {
+      "label": "Hållbarhet",
+      "href": "/om-trygghansa/esg"
+    },
+    {
+      "label": "Tillgänglighet",
+      "href": "/om-trygghansa/om-webbplatsen/tillganglighet"
+    },
+    {
+      "label": "Livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen"
+    },
+    {
+      "label": "Pressinformation",
+      "href": "/om-trygghansa/pressinformation"
+    },
+    {
+      "label": "Våra experter",
+      "href": "/om-trygghansa/experter"
+    },
+    {
+      "label": "Jobb och karriär",
+      "href": "/om-trygghansa/jobb-och-karriar"
+    },
+    {
+      "label": "Om webbplatsen",
+      "href": "/om-trygghansa/om-webbplatsen"
+    },
+    {
+      "label": "Cookies",
+      "href": "/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+    },
+    {
+      "label": "Personuppgifter",
+      "href": "/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring/berakna-pris",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/ersattning-for-arr",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/nathat-och-natmobbning",
+    "https://www.trygghansa.se/forsakringar/person/diagnosforsakring",
+    "https://www.trygghansa.se/forsakringar/familjehjalpen/barn-och-unga/omvardnadsbidrag",
+    "https://www.trygghansa.se/forsakringar/person/halsodeklaration",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring/myndig",
+    "https://www.trygghansa.se/forsakringar/kristerapi-och-krisforsakring",
+    "https://www.trygghansa.se/forsakringar/familjehjalpen/barn-och-unga",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/SL2273.pdf",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/pid04540.pdf",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/p00359.pdf",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/hero/pl/th_privat_hem_barn_ata.jpg?format=webp&width=1536&height=366&rxy=0.7%2c0.46&quality=80",
+        "alt": "kvinna bär på sitt lilla barn",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/person/gi_mamma_dotter_sjo_bakifran.jpg?format=webp&width=750&height=650&rxy=0.6%2c0.41&quality=80",
+        "alt": "mamma håller om sin dotter vid en sjö",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/croppedimages/835x445_familjehjalpen.jpg?format=webp&width=750&height=650&quality=80",
+        "alt": "närbild på kvinna och hennes son",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 7,
+    "cssBackgrounds": [],
+    "modals": [
+      "Rabatt på barnförsäkring Du får 50 % rabatt när du tecknar en ny barnförsäkring. Rabatten gäller i ett år. Stäng",
+      "Medicinsk invaliditet (nedsatt funktionsförmåga) Barnet får ett engångsbelopp om hen drabbas av en bestående nedsättning av funktionsförmågan efter ett olycksfall eller en sjukdom. I det fullständiga villkoret framgår vilka sjukdomar som ger begränsad eller ingen ersättning. Ersättningen beräknas i procent av försäkringsbeloppet och bestäms av hur nedsatt funktionsförmågan är. Om nedsättningen är 20 % eller mer får barnet även en tilläggsersättning. Högsta ersättning inklusive tilläggsersättning är 300 % av försäkringsbeloppet. Stäng",
+      "Ekonomisk invaliditet (nedsatt arbetsförmåga) Barnet får ett engångsbelopp om hen får en bestående nedsättning av arbetsförmågan med minst 50 %, till följd av ett olycksfall eller en sjukdom som har gett nedsatt kroppsfunktion. I det fullständiga villkoret framgår vilka sjukdomar som inte är ersättningsbara. Ersättningen beräknas i procent av försäkringsbeloppet och bestäms av hur stor nedsättningen av arbetsförmågan är: 50, 75 eller 100 %. Stäng",
+      "Månadsersättning vid omvårdnadsbidrag eller nedsatt arbetsförmåga Om Försäkringskassan har beviljat er omvårdnadsbidrag på grund av att barnet har en sjukdom eller råkat ut för ett olycksfall kan du som vårdnadshavare få månadsersättning. Barnet kan också, från 18 års ålder, få månadsersättning om hen förlorar minst 50 procent av sin arbetsförmåga. I det fullständiga villkoret framgår vilka sjukdomar som inte är ersättningsbara. Högsta ersättning är 9 500 kronor per månad. Stäng",
+      "Vissa diagnoser och händelser Försäkringen ger ersättning för vissa diagnoser och händelser, t.ex. cancer, adhd, allvarlig hjärnskada och njurtransplantation. Alla diagnoser som omfattas finns listade i det fullständiga villkoret. Ersättningen är 10 procent av försäkringsbeloppet. För psykiska sjukdomar och syndrom samt beteendestörningar är ersättningen 5 procent av försäkringsbeloppet. Stäng",
+      "Vissa psykiska diagnoser Barnet får ersättning vid vissa psykiska och neuropsykiatriska diagnoser, t.ex. adhd, autism och bipolär sjukdom. Ersättningen är 10 000 kr och betalas ut direkt efter diagnos. Stäng",
+      "Vissa frakturer Om barnet får en fraktur efter ett olycksfall, t.ex. på handled eller underben ger försäkringen en ersättning på 3 000 kr. Stäng",
+      "Ärr Barnet kan få ett engångsbelopp för ärr eller andra utseendemässiga förändringar efter sjukdom eller olycksfallsskador som har krävt läkarbehandling. Ersättningen bestäms enligt vår ärrtabell. Läs mer om ersättning för ärr och utseendemässig förändring. Stäng",
+      "Sjukhusvistelse Om barnet blir inskrivet på sjukhus ger försäkringen en ersättning på 600 kronor för varje dag barnet är där. Stäng",
+      "Akut inskrivning på sjukhus Om barnet blir akut inskrivet på sjukhus och måste stanna över natten ger försäkringen 800 kronor i engångsersättning. Stäng"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 54,
+    "mainTextLen": 20870,
+    "realImageCount": 6,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "trygghansa.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://trygghansa.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "en",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/rmkt/collect/1068894895/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft",
+          "tid",
+          "tids"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 3,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/amzn.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://c.amazon-adsystem.com/aat/amzn.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/allowlist/allowlist.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "server-side-tagging-928417184480.europe-north1.run.app",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fplc",
+          "_p",
+          "_s",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep./forsakringar/person/barnforsakring",
+          "ep.sessionId",
+          "ep.x-fb-ck-fbp",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://server-side-tagging-928417184480.europe-north1.run.app/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "aax-eu.amazon-adsystem.com",
+        "path": "/s/iu3",
+        "query": [
+          "amazonConsentString",
+          "event",
+          "eventSource",
+          "gtmVersion",
+          "pid",
+          "ts",
+          "uuid"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://aax-eu.amazon-adsystem.com/s/iu3",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "bf18964uox.bf.dynatrace.com",
+        "path": "/bf",
+        "query": [
+          "ai",
+          "av",
+          "bc",
+          "co",
+          "cr",
+          "cy",
+          "en",
+          "end",
+          "pv",
+          "qc",
+          "sc",
+          "si",
+          "ss",
+          "st",
+          "ty"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": 214,
+        "hits": 4,
+        "example": "https://bf18964uox.bf.dynatrace.com/bf",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 3
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "dok.js-cdn.dynatrace.com",
+        "count": 1
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 1
+      },
+      {
+        "host": "visitor-service-eu-central-1.tealiumiq.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 16,
+      "thirdPartyScriptHosts": 16,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/forsakringar-person-barnforsakring.png",
+  "renderedHtml": "pages/forsakringar-person-barnforsakring.html"
+}

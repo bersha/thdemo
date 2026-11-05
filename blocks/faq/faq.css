@@ -1,0 +1,152 @@
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+
+/* faq — source .th-block__list.th-accordion (FAQ accordion) */
+
+/* ---------- block head: section heading + introduction (source .th-heading / .th-block__introduction) ---------- */
+@media (width >= 1024px) {
+  .faq .th-block-heading {
+    max-width: 43.75rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+.faq .th-block-introduction p {
+  margin-block-end: 0;
+  overflow-wrap: break-word;
+}
+
+.faq .th-block-introduction :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) {
+  margin-block-start: 1.25rem;
+}
+
+.faq .th-block-introduction h2 {
+  margin-block: 2.5rem 1.25rem;
+  overflow-wrap: break-word;
+  color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.faq .th-block-introduction h3 {
+  margin-block: 1.875rem .625rem;
+  overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.faq .th-block-introduction :is(h2, h3):first-child {
+  margin-block-start: 0;
+}
+
+@media (width >= 1024px) {
+  .faq .th-block-introduction h2 {
+    margin-block: 3.75rem 1.875rem;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .faq .th-block-introduction h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+  }
+}
+
+/* ---------- bordered list (source .th-block__list) ---------- */
+.faq .th-block-list {
+  padding: 0;
+  list-style: none;
+}
+
+.faq .th-block-list > li {
+  border: .0625rem solid var(--th-theme-stroke-weak);
+  background-color: var(--th-theme-background-base);
+}
+
+.faq .th-block-list > li:not(:first-of-type) {
+  border-block-start: none;
+}
+
+.faq .th-block-list > li:first-of-type {
+  border-start-start-radius: .625rem;
+  border-start-end-radius: .625rem;
+}
+
+.faq .th-block-list > li:last-of-type {
+  border-end-start-radius: .625rem;
+  border-end-end-radius: .625rem;
+}
+
+/* ---------- accordion item (source .th-accordion / .th-collapse) ---------- */
+.faq .th-accordion {
+  margin-block-end: 1.875rem;
+}
+
+/* the source's .th-block > :last-child reset wins when the accordion ends its block */
+.faq .th-accordion:last-child {
+  margin-block-end: 0;
+}
+
+.faq .th-accordion-item {
+  overflow-wrap: break-word;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.faq .th-accordion-item-heading {
+  font-family: arial, sans-serif;
+  font-size: 13.3333px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.faq .th-accordion-item-title {
+  flex: 0 1 auto;
+}
+
+.faq .th-accordion-item-title :is(h2, h3, h4) {
+  max-width: 38.125rem;
+  font-family: arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.faq .th-icon-12 {
+  font-size: .75rem;
+}
+
+.faq .th-accordion-item-content {
+  max-width: 38.125rem;
+  padding: 0 1rem 1rem;
+}
+
+.faq .th-accordion-item-content p {
+  margin-block-end: 1rem;
+}
+
+/* the source's .th-block p:not(:last-child) (1.25rem) outranks the accordion rule */
+.faq .th-accordion-item-content p:not(:last-child) {
+  margin-block-end: 1.25rem;
+}
+
+.faq .th-accordion-item-content a {
+  font-weight: 700;
+}
+
+@media (width >= 1024px) {
+  .faq .th-accordion-item {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+
+  .faq .th-accordion-item-title :is(h2, h3, h4) {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+}

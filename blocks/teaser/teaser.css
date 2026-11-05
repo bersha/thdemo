@@ -1,0 +1,147 @@
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+
+/* teaser — source .th-teaser-block (icon + heading + intro + CTA) */
+.teaser .th-block-icon {
+  width: fit-content;
+}
+
+.teaser .th-block-icon p {
+  margin: 0;
+}
+
+/* ---------- block head: section heading + introduction (source .th-heading / .th-block__introduction) ---------- */
+@media (width >= 1024px) {
+  .teaser .th-block-heading {
+    max-width: 43.75rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+.teaser .th-block-introduction p {
+  margin-block-end: 0;
+  overflow-wrap: break-word;
+}
+
+.teaser .th-block-introduction :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) {
+  margin-block-start: 1.25rem;
+}
+
+.teaser .th-block-introduction h2 {
+  margin-block: 2.5rem 1.25rem;
+  overflow-wrap: break-word;
+  color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.teaser .th-block-introduction h3 {
+  margin-block: 1.875rem .625rem;
+  overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.teaser .th-block-introduction :is(h2, h3):first-child {
+  margin-block-start: 0;
+}
+
+@media (width >= 1024px) {
+  .teaser .th-block-introduction h2 {
+    margin-block: 3.75rem 1.875rem;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .teaser .th-block-introduction h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+  }
+}
+
+/* ---------- large CTA (source th-button-large + center-desktop + full-width-on-mobile) ---------- */
+.teaser .th-block-actions {
+  margin-block-start: 1.875rem;
+}
+
+.teaser .th-block-actions p {
+  margin: 0;
+}
+
+.teaser .th-block-actions a.button {
+  width: 100%;
+  min-width: auto;
+  min-height: 3.5rem;
+  font-size: 1.25rem;
+}
+
+@media (width >= 768px) {
+  .teaser .th-block-actions a.button {
+    width: fit-content;
+    min-width: 14.6875rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .teaser .th-block-actions a.button {
+    margin-inline: auto;
+    font-size: 1.375rem;
+  }
+}
+
+/* ---------- variant content — source .th-content-block (left-aligned text + image, small section) ---------- */
+
+/* the source block is its own container (38.125rem incl. 1.25rem gutters); the section wrapper
+   already supplies the gutters here */
+.teaser.content {
+  max-width: 35.625rem;
+  margin-inline: auto;
+}
+
+.teaser.content .th-block-heading {
+  max-width: none;
+  margin-inline: 0;
+  text-align: left;
+}
+
+@media (width <= 1023.98px) {
+  .teaser.content .th-block-heading {
+    margin-block-end: 1.25rem;
+  }
+}
+
+.teaser.content .th-content-block-media p {
+  margin: 0;
+}
+
+/* the source closes the block with an empty paragraph (1.25rem gap + one 1.375 line) */
+.teaser.content .th-content-block-media {
+  padding-block-end: calc(1.25rem + 1.375em);
+}
+
+/* ---------- variant with-list — source .th-content-block body list (numbered steps) ---------- */
+.teaser.with-list :is(ol, ul) {
+  margin-block: 1rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.teaser.with-list li:not(:last-child) {
+  margin-block-end: .75rem;
+}
+
+.teaser.with-list ol li::before {
+  content: counter(list-item) ".";
+  position: relative;
+  padding-right: .625rem;
+  color: var(--th-theme-text-brand);
+  font-weight: 600;
+}
+
+.teaser.with-list > :last-child {
+  margin-block-end: 0;
+}

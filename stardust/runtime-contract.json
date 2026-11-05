@@ -1,0 +1,60 @@
+{
+  "site": "trygghansa.se same-design replica on EDS (aemcoder/64009de2, branch main)",
+  "source_of_truth": ["stardust/prototypes/canon.css", "stardust/replica/canon-notes.md"],
+  "breakpoints": {
+    "note": "source breakpoints, mobile-first min-width queries; stylelint writes them as (width >= Npx)",
+    "small": 480,
+    "tablet": 768,
+    "desktop": 1024,
+    "hero": 1025
+  },
+  "class_names": {
+    "rule": "source th-* BEM names with '__' and '--' collapsed to '-' (kebab-case lint), e.g. th-header__nav-item--right -> th-header-nav-item-right, th-icon--22 -> th-icon-22, th-container--wide -> th-container-wide",
+    "icons": "icon-TH-Shield -> icon-th-shield (lowercase)"
+  },
+  "tokens": {
+    "file": "styles/styles.css",
+    "custom_properties": "--th-theme-* (text/stroke/icon/fill/background/family) lifted from trygghansa.css :root",
+    "global_modules": ["th-container*", "th-heading", "th-heading-small", "th-block-introduction", "th-button-medium|large|small + -primary-brand|-primary-accent|-secondary-accent|-center|-center-desktop|-full-width-on-mobile-fit-text-desktop", "th-hero*", "th-quick-facts-block*", "th-cta-image-block*", "th-content-block", "th-teaser-block", "th-cards*/th-card*", "th-collapse* (accordion until 1024)", "th-display-*", "sr-only", "th-no-scroll-on-mobile"]
+  },
+  "fonts": {
+    "body": "arial, sans-serif (system)",
+    "display": "var(--th-theme-family-display) = \"ApexNew\",\"Lato\",Arial,Helvetica,sans-serif — R-01, only where the source computes ApexNew (home hero h1)",
+    "files": ["fonts/Lato-700.woff2 (size-adjust 97.2%, @font-face in styles.css, preloaded in head.html)"],
+    "styles/fonts.css": "intentionally empty (comment only)"
+  },
+  "content_root": {
+    "main": "plays the source's #content / .th-content-area (box-sizing, line-height 1.5, stripe counting)",
+    "section": "main > .section = .th-section: padding-block 2.5rem / 4.6875rem >=1024; every 2nd counted section gets the #f9f9f9 stripe via :nth-child(2n of .section:not(.flush))",
+    "wrapper": "main > .section > div (.default-content-wrapper | .<block>-wrapper) = .th-container: max-width 66.5rem, padding-inline 1.25rem",
+    "section_styles": {
+      "flush": "section outside the source content area (hero, breadcrumbs, campaign banner): no padding, full-bleed wrappers, not counted for the stripe",
+      "wide": "wrapper max-width 90rem",
+      "small": "wrapper max-width 46.25rem >=1024",
+      "stripe": "force the stripe"
+    },
+    "default_content": "behaves as .th-block; h2 gets the .th-heading ramp (28/36 -> 32/42 arial 700, mb 30)",
+    "buttons": "decorateButtons: **link** -> a.button.primary (th-button-primary-brand), _link_ -> .secondary (th-button-secondary-accent), **_link_** -> .accent (th-button-primary-accent); all medium size, line-height normal"
+  },
+  "icons": {
+    "mechanism": "CSS mask over currentColor: [class*=\"icon-th-\"]::before { mask: var(--svg) } with one .icon-th-<name> { --svg: url(/icons/th-<name>.svg) } line per SVG (all 59 source icons are in /icons)",
+    "authoring": "DA :th-<name>: -> span.icon.icon-th-<name>; scripts.js decorateMaskIcons() (runs before decorateIcons) swaps .icon for .th-icon so no <img> is added; add th-icon-<size> (50/40/32/22/10) and th-icon-primary|secondary|black|neutral|inverse in block JS/CSS",
+    "logos": "/icons/logo-trygg-hansa.svg (positive), /icons/logo-trygg-hansa-neg.svg (white) — authored as :logo-trygg-hansa: icons (img)"
+  },
+  "chrome": {
+    "header": {
+      "document": "/nav (DA, Robots noindex, published)",
+      "block": "blocks/header — body > header gets .th-header (sticky; mobile top -6.0625rem so logo+switcher scroll away; desktop 60px bar, centred logo, mega-menu)",
+      "authoring": "4 sections: brand link | segment switcher list (bold = active) | primary list (item with nested list = mega-menu: icon + label, categories = icon + link + nested link list) | right-aligned tools list (bold = accent nav button)",
+      "active_state": "derived in JS from location.pathname: a category whose link or any sub-link is the current page or its ancestor gets th-header-subnavigation-header-active (+ th-icon-primary) and its dropdown button th-header-nav-button-active; exact sub-link match gets th-header-subnavigation-item-active; plain nav links get th-header-nav-link-active (e.g. /skadeanmalan). '/' never matches.",
+      "reserved_height": "body > header:not(.th-header) is 10.5rem / 3.75rem >=1024 until decorated"
+    },
+    "footer": {
+      "document": "/footer (DA, Robots noindex, published)",
+      "block": "blocks/footer — body > footer gets .th-footer; 4 columns >=1024, collapsible columns below",
+      "authoring": "2 sections: h2 + link list per column | social links list (icon + text, text kept sr-only), logo link, copyright paragraph, legal links paragraph"
+    },
+    "links": "in-scope pages root-relative; everything else absolute https://www.trygghansa.se/..."
+  },
+  "not_in_foundation": ["SHL offer flyout (.shl-widget, tag-injected on live after consent) — martech/dynamics decision", "skip link 'Till innehållet'"]
+}

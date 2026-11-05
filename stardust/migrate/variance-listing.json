@@ -1,0 +1,370 @@
+{
+  "archetype": "https://www.trygghansa.se/forsakringar/person",
+  "width": 1440,
+  "tolerance": 2,
+  "probes": {
+    "hero": ".th-hero",
+    "banner": ".th-campaign-banner",
+    "card": ".th-card",
+    "twocol": ".th-two-column-text-block"
+  },
+  "archetypeRaw": {
+    "sections": [
+      {
+        "label": "th-hero",
+        "h": 366
+      },
+      {
+        "label": "th-campaign-banner",
+        "h": 70
+      },
+      {
+        "label": "th-section.th-section--stripe",
+        "h": 50
+      }
+    ],
+    "probes": {
+      "hero": {
+        "sel": ".th-hero",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 366
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "0px 0px 0px 0px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+          "image": {
+            "w": 1440,
+            "h": 366
+          },
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Personförsäkringar"
+      },
+      "banner": {
+        "sel": ".th-campaign-banner",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1440,
+            "h": 70
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(18, 121, 148)",
+          "color": "rgb(255, 255, 255)",
+          "padding": "0px 20px 0px 40px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": null,
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "20 % rabatt första året på sjuk- och olycksfallsförsäkring!"
+      },
+      "card": {
+        "sel": ".th-card",
+        "count": 10,
+        "first": {
+          "rect": {
+            "w": 318,
+            "h": 208
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgb(255, 255, 255)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "20px 20px 20px 20px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "10px",
+          "heading": "h3 arial 20px/30px 700 rgb(25, 25, 25)",
+          "image": null,
+          "listStyle": null,
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Barnförsäkring Vår barnförsäkring ger en trygg start i livet"
+      },
+      "twocol": {
+        "sel": ".th-two-column-text-block",
+        "count": 1,
+        "first": {
+          "rect": {
+            "w": 1064,
+            "h": 792
+          },
+          "backgroundLayers": [],
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "color": "rgb(74, 74, 74)",
+          "padding": "0px 20px 0px 20px",
+          "font": "arial 16px/24px 400",
+          "borderRadius": "0px",
+          "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+          "image": null,
+          "listStyle": "disc",
+          "before": null
+        },
+        "clusters": 1,
+        "text": "Vad är en personförsäkring? Personförsäkring är ett samlings"
+      }
+    }
+  },
+  "siblings": [
+    {
+      "url": "https://www.trygghansa.se/forsakringar/fordon",
+      "findings": [
+        {
+          "kind": "SECTIONS",
+          "msg": "3 vs 2 top-level sections (archetype: th-hero > th-campaign-banner > th-section.th-section--stripe; sibling: th-hero > th-section.th-section--stripe) — a different template family or an extra/missing section"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "hero",
+          "msg": "rect{h 366 → 425}; image{h 366 → 425}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "banner",
+          "msg": "\".th-campaign-banner\" matches 1 on the archetype, 0 on the sibling"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "10 → 11 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 208 → 186}"
+        },
+        {
+          "kind": "MISSING",
+          "probe": "twocol",
+          "msg": "\".th-two-column-text-block\" matches 1 on the archetype, 0 on the sibling"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "th-hero",
+            "h": 425
+          },
+          {
+            "label": "th-section.th-section--stripe",
+            "h": 50
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".th-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 425
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 425
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Fordonsförsäkring Ett oväntat fel har inträffat Vänligen för"
+          },
+          "banner": {
+            "sel": ".th-campaign-banner",
+            "count": 0
+          },
+          "card": {
+            "sel": ".th-card",
+            "count": 11,
+            "first": {
+              "rect": {
+                "w": 318,
+                "h": 186
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "20px 20px 20px 20px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "10px",
+              "heading": "h3 arial 20px/30px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Bilförsäkring Vår Bilförsäkring stor ligger i topp i jämföre"
+          },
+          "twocol": {
+            "sel": ".th-two-column-text-block",
+            "count": 0
+          }
+        }
+      }
+    },
+    {
+      "url": "https://www.trygghansa.se/djurforsakring",
+      "findings": [
+        {
+          "kind": "PROBE",
+          "probe": "banner",
+          "msg": "heading null → h2 arial 32px/42px 700 rgb(25, 25, 25)"
+        },
+        {
+          "kind": "COUNT",
+          "probe": "card",
+          "msg": "10 → 3 matches"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "card",
+          "msg": "rect{h 208 → 186}"
+        },
+        {
+          "kind": "PROBE",
+          "probe": "twocol",
+          "msg": "rect{h 792 → 771}"
+        }
+      ],
+      "raw": {
+        "sections": [
+          {
+            "label": "th-hero",
+            "h": 366
+          },
+          {
+            "label": "th-campaign-banner",
+            "h": 70
+          },
+          {
+            "label": "th-section.th-section--stripe",
+            "h": 50
+          }
+        ],
+        "probes": {
+          "hero": {
+            "sel": ".th-hero",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 366
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 0px 0px 0px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h1 apexnew 66px/80px 700 rgb(255, 255, 255)",
+              "image": {
+                "w": 1440,
+                "h": 366
+              },
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Djurförsäkring"
+          },
+          "banner": {
+            "sel": ".th-campaign-banner",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1440,
+                "h": 70
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(18, 121, 148)",
+              "color": "rgb(255, 255, 255)",
+              "padding": "0px 20px 0px 40px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "10 % rabatt första året. Kan kombineras med valp- eller katt"
+          },
+          "card": {
+            "sel": ".th-card",
+            "count": 3,
+            "first": {
+              "rect": {
+                "w": 318,
+                "h": 186
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgb(255, 255, 255)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "20px 20px 20px 20px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "10px",
+              "heading": "h3 arial 20px/30px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": null,
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Hundförsäkring Topprankad hundförsäkring för busiga valpar o"
+          },
+          "twocol": {
+            "sel": ".th-two-column-text-block",
+            "count": 1,
+            "first": {
+              "rect": {
+                "w": 1064,
+                "h": 771
+              },
+              "backgroundLayers": [],
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "color": "rgb(74, 74, 74)",
+              "padding": "0px 20px 0px 20px",
+              "font": "arial 16px/24px 400",
+              "borderRadius": "0px",
+              "heading": "h2 arial 32px/42px 700 rgb(25, 25, 25)",
+              "image": null,
+              "listStyle": "disc",
+              "before": null
+            },
+            "clusters": 1,
+            "text": "Ditt djurs trygghet är det viktigaste för oss Vi som driver "
+          }
+        }
+      }
+    }
+  ],
+  "summary": {
+    "siblings": 2,
+    "varying": 2,
+    "probesVarying": [
+      "SECTIONS",
+      "hero",
+      "banner",
+      "card",
+      "twocol"
+    ]
+  }
+}

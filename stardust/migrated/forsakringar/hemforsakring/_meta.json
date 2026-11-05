@@ -1,0 +1,460 @@
+{
+  "slug": "forsakringar-hemforsakring",
+  "type": "program",
+  "renderBranch": "A'",
+  "template": "forsakringar-bilforsakring",
+  "modules": [
+    "hero",
+    "quick-quote",
+    "campaign-banner",
+    "breadcrumbs",
+    "quick-facts",
+    "cards",
+    "columns",
+    "cta-image",
+    "teaser",
+    "faq",
+    "cta-text"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "th-hero",
+    "th-campaign-banner",
+    "th-section",
+    "th-content-area"
+  ],
+  "canonShas": {
+    "header": "583137808128",
+    "footer": "169565cf0637",
+    "css": "1352bd0d1a0e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Hemförsäkring - Se ditt pris och jämför på 15 sekunder",
+    "description": "Våra hemförsäkringar skyddar familj, hem och dina saker. Du får en bra säkerhet vid små och stora händelser, både hemma och borta.",
+    "canonical": null,
+    "lang": "sv"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Hemförsäkring - Se ditt pris och jämför på 15 sekunder",
+    "description": "Våra hemförsäkringar skyddar familj, hem och dina saker. Du får en bra säkerhet vid små och stora händelser, både hemma och borta.",
+    "url": "https://www.trygghansa.se/forsakringar/hemforsakring"
+  },
+  "migratedAt": "2026-11-04T12:51:37Z",
+  "designMdSha": "501805c2f31e",
+  "designJsonSha": "1c5c24adfb94",
+  "sourceCurrentSha": "ae0eebabd353",
+  "sourceProposedSha": "890c077222c7",
+  "fidelityTier": "sibling",
+  "archetypeSource": "forsakringar-bilforsakring",
+  "archetypeSha": "7a667af71d7f",
+  "variants": [
+    "quick-quote home"
+  ],
+  "gatesPassed": [
+    "content-count",
+    "content-fidelity",
+    "variance-probe",
+    "delivery-lint",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "content-count": "content-diff --profile generic --main main, capture stardust/current/pages/forsakringar-hemforsakring.html vs stardust/migrated render (local http.server): Tiers looks-same 🔴 0 · nothing-lost 🟡 0; main 150 text (52 h / 40 cta / 58 body), 6 img, 63 editable, 3 attrs, 28 icons source = build; header/footer equal (footer extra = accepted SHL flyout); log stardust/.work/replica/bg/cd-forsakringar-hemforsakring.log",
+    "content-fidelity": "cluster-program: encoded from the sibling render (verbatim capture content), block-roundtrip --ew 0 structural; published gate 1440/360 PASS, content MISSING+HIDDEN 0",
+    "variance-probe": "stardust/migrate/variance-program.json (sibling-variance.mjs @1440 vs archetype): deltas budgeted as variants[] / content counts",
+    "delivery-lint": "delivery-lint content/forsakringar/hemforsakring.html: 0 P0 / 0 P1 (P2 cross-origin-optimize only; hosted media verified)",
+    "media-reconcile": "media-reconcile content/forsakringar/hemforsakring.html: all images hosted, verified offline against stardust/deploy/media-ledger.json; preview render: every visible image clientWidth > 0"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 48,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.trygghansa.se/foretag",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/gravidforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/livforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/utlandsstudent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/batforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/hundforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/kattforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/flockforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/sok",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/jamfor-och-berakna-pris",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/varfor-hemforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/natbedrageri-och-id-skydd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring/hushjalpen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/esg/bra-miljoval",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/samarbeten/lawly",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/samlingsrabatt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/samarbeten",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/andrahand",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/inneboende",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/ansvarsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/skadeanmalan/rattsskydd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/mobiltelefon",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/varfor-hemforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/skadeanmalan/rattsskydd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/mer-om-hemforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/hus-och-hem/ovader/backventil",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/hus-och-hem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/jamfor-och-berakna-pris",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/villkor",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/kundformaner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/foretag/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice/blanketter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/visselblasare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/familj",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/gravid",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/hus-och-hem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/hund",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/katt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/halsa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/vattensakerhet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/esg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/pressinformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/experter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/samarbeten/shl",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "forsakringar/hemforsakring/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "forsakringar/hemforsakring/_meta.json",
+  "driverVersion": "1"
+}

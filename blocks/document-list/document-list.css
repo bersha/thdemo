@@ -1,0 +1,107 @@
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+
+/* document-list — source .th-document-block (bordered list of PDF links) */
+.document-list .th-document-list :is(ul, ol) {
+  padding: 0;
+  list-style: none;
+}
+
+.document-list .th-document-list li {
+  border: .0625rem solid var(--th-theme-stroke-weak);
+  background-color: var(--th-theme-background-base);
+}
+
+.document-list .th-document-list li:not(:first-of-type) {
+  border-block-start: none;
+}
+
+.document-list .th-document-list li:first-of-type {
+  border-start-start-radius: .625rem;
+  border-start-end-radius: .625rem;
+}
+
+.document-list .th-document-list li:last-of-type {
+  border-end-start-radius: .625rem;
+  border-end-end-radius: .625rem;
+}
+
+.document-list .th-document-list li a {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 1.25rem 1.25rem;
+  border-radius: inherit;
+  text-decoration: none;
+}
+
+.document-list .th-document-list li a:hover {
+  text-decoration: underline;
+}
+
+.document-list .th-document-list li a:focus-visible {
+  outline: .1875rem solid var(--th-theme-stroke-focus);
+  outline-offset: -.5rem;
+}
+
+.document-list .th-document-list li a span {
+  margin-inline-start: .5rem;
+  line-height: 1.125;
+}
+
+.document-list .th-icon-20 {
+  font-size: 1.25rem;
+}
+
+/* ---------- block head: section heading + introduction (source .th-heading / .th-block__introduction) ---------- */
+@media (width >= 1024px) {
+  .document-list .th-block-heading {
+    max-width: 43.75rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+.document-list .th-block-introduction p {
+  margin-block-end: 0;
+  overflow-wrap: break-word;
+}
+
+.document-list .th-block-introduction :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) {
+  margin-block-start: 1.25rem;
+}
+
+.document-list .th-block-introduction h2 {
+  margin-block: 2.5rem 1.25rem;
+  overflow-wrap: break-word;
+  color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.document-list .th-block-introduction h3 {
+  margin-block: 1.875rem .625rem;
+  overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.document-list .th-block-introduction :is(h2, h3):first-child {
+  margin-block-start: 0;
+}
+
+@media (width >= 1024px) {
+  .document-list .th-block-introduction h2 {
+    margin-block: 3.75rem 1.875rem;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .document-list .th-block-introduction h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+  }
+}

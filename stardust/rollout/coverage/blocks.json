@@ -1,0 +1,287 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-04T11:34:45.956Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T15:00:09.631Z",
+  "blocks": [
+    {
+      "id": "breadcrumbs",
+      "label": "breadcrumbs",
+      "kind": "module",
+      "signature": "module:breadcrumbs",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "skadeanmalan"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "skadeanmalan"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "breadcrumbs",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "campaign-banner",
+      "label": "campaign-banner",
+      "kind": "module",
+      "signature": "module:campaign-banner",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "campaign-banner",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cards",
+      "label": "cards",
+      "kind": "module",
+      "signature": "module:cards",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "index",
+        "skadeanmalan"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "index",
+        "skadeanmalan"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "columns",
+      "label": "columns",
+      "kind": "module",
+      "signature": "module:columns",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "columns",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta-image",
+      "label": "cta-image",
+      "kind": "module",
+      "signature": "module:cta-image",
+      "source": null,
+      "usedByTemplates": [
+        "index",
+        "skadeanmalan"
+      ],
+      "usedByPages": [
+        "index",
+        "skadeanmalan"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cta-image",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "document-list",
+      "label": "document-list",
+      "kind": "module",
+      "signature": "module:document-list",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "document-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "faq",
+      "label": "faq",
+      "kind": "module",
+      "signature": "module:faq",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "skadeanmalan"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "skadeanmalan"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "faq",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "index",
+        "skadeanmalan"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "index",
+        "skadeanmalan"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "product-table",
+      "label": "product-table",
+      "kind": "module",
+      "signature": "module:product-table",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "product-table",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quick-facts",
+      "label": "quick-facts",
+      "kind": "module",
+      "signature": "module:quick-facts",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "index"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "quick-facts",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "quick-quote",
+      "label": "quick-quote",
+      "kind": "module",
+      "signature": "module:quick-quote",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "index"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "quick-quote",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser",
+      "label": "teaser",
+      "kind": "module",
+      "signature": "module:teaser",
+      "source": null,
+      "usedByTemplates": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "index",
+        "skadeanmalan"
+      ],
+      "usedByPages": [
+        "forsakringar-bilforsakring",
+        "forsakringar-person",
+        "index",
+        "skadeanmalan"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "teaser",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

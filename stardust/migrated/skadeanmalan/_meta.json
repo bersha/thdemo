@@ -1,0 +1,352 @@
+{
+  "slug": "skadeanmalan",
+  "type": "static",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "breadcrumbs",
+    "cards",
+    "cta-image",
+    "faq",
+    "teaser"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "th-hero",
+    "th-section",
+    "th-content-area"
+  ],
+  "canonShas": {
+    "header": "9a53b9e1d11b",
+    "footer": "169565cf0637",
+    "css": "1352bd0d1a0e"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+    "description": "Här anmäler du enkelt om någonting har hänt. Gör din skadeanmälan direkt på webben när det passar dig.",
+    "canonical": null,
+    "lang": "sv"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+    "description": "Här anmäler du enkelt om någonting har hänt. Gör din skadeanmälan direkt på webben när det passar dig.",
+    "url": "https://www.trygghansa.se/skadeanmalan"
+  },
+  "migratedAt": "2026-11-04T11:34:04Z",
+  "designMdSha": "501805c2f31e",
+  "designJsonSha": "1c5c24adfb94",
+  "sourceCurrentSha": "0e0048da9946",
+  "sourceProposedSha": "db3f4c805a85",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [
+    "content-fidelity"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "published-origin gate (preview) 1440 0.33% Δh 0 / 360 0.27% Δh 0, MISSING 0 HIDDEN 0, units off 0, PASS; block-roundtrip --ew 0 structural"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 30,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.trygghansa.se/foretag",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/gravidforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/livforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/utlandsstudent",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/batforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/hundforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/kattforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/flockforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/sok",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/ersattning-for-arr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/person/vardplanering",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/skadeanmalan/nar-olyckan-ar-framme",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/skadeanmalan/krockat",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring/nar-du-ar-utomlands",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/villkor",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/kundformaner",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/foretag/kundservice",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/kundservice/blanketter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/visselblasare",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/familj",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/gravid",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/hus-och-hem",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/forsakringar/reseforsakring",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/hund",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/katt",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/halsa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/tips-rad/vattensakerhet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/esg",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/pressinformation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/experter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.trygghansa.se/samarbeten/shl",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "skadeanmalan/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "skadeanmalan/_meta.json",
+  "driverVersion": "1"
+}

@@ -1,0 +1,20 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "lato",
+        "createdAt": "2026-11-04T10:56:58.877Z",
+        "reason": "replica register R-01: metric-matched substitute for licensed ApexNew (stardust/replica/inconsistency-register.md)"
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "createdAt": "2026-11-04T10:56:58.884Z",
+        "reason": "replica: source site's own body face lifted from trygghansa.css (--th-theme-family-body)"
+      }
+    ]
+  }
+}

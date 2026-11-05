@@ -1,0 +1,558 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-04T14:49:36Z",
+    "stardustVersion": "0.36.6"
+  },
+  "site": {
+    "originUrl": "https://www.trygghansa.se",
+    "deployUrl": null,
+    "extractedAt": "2026-11-04T10:00:47.821Z",
+    "pageCap": null,
+    "totalDiscovered": 10,
+    "crawled": 10,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-04T10:00:47.821Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.trygghansa.se/",
+      "title": "Trygg-Hansa - Trygghet för livet",
+      "type": "landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:22.063Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T10:54:58Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T10:54:58Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T11:34:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "forsakringar-bilforsakring",
+      "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+      "title": "Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:24.656Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T11:22:00Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T11:34:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-bilforsakring.json",
+      "prototypePath": "stardust/prototypes/forsakringar-bilforsakring-proposed.html",
+      "migratedPath": "stardust/migrated/forsakringar/bilforsakring/index.html"
+    },
+    {
+      "slug": "forsakringar-hemforsakring",
+      "url": "https://www.trygghansa.se/forsakringar/hemforsakring",
+      "title": "Hemförsäkring - Se ditt pris och jämför på 15 sekunder",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:24.657Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T14:49:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-hemforsakring.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/forsakringar/hemforsakring/index.html"
+    },
+    {
+      "slug": "forsakringar-person",
+      "url": "https://www.trygghansa.se/forsakringar/person",
+      "title": "Personförsäkringar – Skydd för hela familjen",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:27.993Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-04T11:06:13Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T11:06:13Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T11:34:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-person.json",
+      "prototypePath": "stardust/prototypes/forsakringar-person-proposed.html",
+      "migratedPath": "stardust/migrated/forsakringar/person/index.html"
+    },
+    {
+      "slug": "forsakringar-fordon",
+      "url": "https://www.trygghansa.se/forsakringar/fordon",
+      "title": "Fordonsförsäkring - Försäkring för ditt fordon",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:31.200Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T14:49:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-fordon.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/forsakringar/fordon/index.html"
+    },
+    {
+      "slug": "djurforsakring",
+      "url": "https://www.trygghansa.se/djurforsakring",
+      "title": "Djurförsäkring – försäkra din hund eller katt",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:32.028Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T14:49:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/djurforsakring.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/djurforsakring/index.html"
+    },
+    {
+      "slug": "forsakringar-bilforsakring-helforsakring",
+      "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+      "title": "Helförsäkring för din bil - Topprankad i jämförelse",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:34.650Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T14:49:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-bilforsakring-helforsakring.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/forsakringar/bilforsakring/helforsakring/index.html"
+    },
+    {
+      "slug": "forsakringar-hemforsakring-villaforsakring",
+      "url": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+      "title": "Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:39.255Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T14:49:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-hemforsakring-villaforsakring.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/forsakringar/hemforsakring/villaforsakring/index.html"
+    },
+    {
+      "slug": "forsakringar-person-barnforsakring",
+      "url": "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+      "title": "Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!",
+      "type": "program",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:39.267Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T14:49:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/forsakringar-person-barnforsakring.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/forsakringar/person/barnforsakring/index.html"
+    },
+    {
+      "slug": "skadeanmalan",
+      "url": "https://www.trygghansa.se/skadeanmalan",
+      "title": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-04T09:59:41.342Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-04T11:07:44Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-04T11:34:28Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/skadeanmalan.json",
+      "prototypePath": "stardust/prototypes/skadeanmalan-proposed.html",
+      "migratedPath": "stardust/migrated/skadeanmalan/index.html"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-04T14:06:11Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/forsakringar/bilforsakring",
+        "outputPath": "forsakringar/bilforsakring/index.html",
+        "slug": "forsakringar-bilforsakring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/forsakringar/hemforsakring",
+        "outputPath": "forsakringar/hemforsakring/index.html",
+        "slug": "forsakringar-hemforsakring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/forsakringar/person",
+        "outputPath": "forsakringar/person/index.html",
+        "slug": "forsakringar-person",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/forsakringar/fordon",
+        "outputPath": "forsakringar/fordon/index.html",
+        "slug": "forsakringar-fordon",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/djurforsakring",
+        "outputPath": "djurforsakring/index.html",
+        "slug": "djurforsakring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/forsakringar/bilforsakring/helforsakring",
+        "outputPath": "forsakringar/bilforsakring/helforsakring/index.html",
+        "slug": "forsakringar-bilforsakring-helforsakring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/forsakringar/hemforsakring/villaforsakring",
+        "outputPath": "forsakringar/hemforsakring/villaforsakring/index.html",
+        "slug": "forsakringar-hemforsakring-villaforsakring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/forsakringar/person/barnforsakring",
+        "outputPath": "forsakringar/person/barnforsakring/index.html",
+        "slug": "forsakringar-person-barnforsakring",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/skadeanmalan",
+        "outputPath": "skadeanmalan/index.html",
+        "slug": "skadeanmalan",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 153,
+    "bundledAssets": [
+      "canon.css",
+      "fonts/Lato-700.woff2",
+      "icons/TH-Ambulance.svg",
+      "icons/TH-Arrow2.svg",
+      "icons/TH-Award2.svg",
+      "icons/TH-Baby.svg",
+      "icons/TH-Backpack.svg",
+      "icons/TH-Boat.svg",
+      "icons/TH-Buoy.svg",
+      "icons/TH-Car.svg",
+      "icons/TH-CarHalv.svg",
+      "icons/TH-CarHel.svg",
+      "icons/TH-CarTow.svg",
+      "icons/TH-CarTrafik.svg",
+      "icons/TH-Cat2.svg",
+      "icons/TH-CatDog.svg",
+      "icons/TH-Chat.svg",
+      "icons/TH-CheckMark.svg",
+      "icons/TH-Child.svg",
+      "icons/TH-Cross.svg",
+      "icons/TH-DocPDF.svg",
+      "icons/TH-Dog2.svg",
+      "icons/TH-Emergency.svg",
+      "icons/TH-Employee.svg",
+      "icons/TH-Facebook.svg",
+      "icons/TH-Family.svg",
+      "icons/TH-Fire.svg",
+      "icons/TH-Handshake.svg",
+      "icons/TH-Help.svg",
+      "icons/TH-HelpFilled.svg",
+      "icons/TH-House.svg",
+      "icons/TH-Injury.svg",
+      "icons/TH-InstagramFilled.svg",
+      "icons/TH-LinkedIn.svg",
+      "icons/TH-Minus.svg",
+      "icons/TH-Moped.svg",
+      "icons/TH-MotorCycle.svg",
+      "icons/TH-Paw.svg",
+      "icons/TH-Pregnant.svg",
+      "icons/TH-PregnantMom.svg",
+      "icons/TH-Private.svg",
+      "icons/TH-Quad.svg",
+      "icons/TH-SOS.svg",
+      "icons/TH-SavePercent.svg",
+      "icons/TH-SavePig.svg",
+      "icons/TH-SearchGlass.svg",
+      "icons/TH-Shield.svg",
+      "icons/TH-SnowMobile.svg",
+      "icons/TH-Suitcase.svg",
+      "icons/TH-Sunset.svg",
+      "icons/TH-Trailer.svg",
+      "icons/TH-TrailerCar.svg",
+      "icons/TH-TrailerSmall.svg",
+      "icons/TH-User.svg",
+      "img/835x445_familjehjalpen.webp",
+      "img/backventil_oversvamning.webp",
+      "img/bargning_1536.jpg",
+      "img/bargning_1536.webp",
+      "img/bargning_318.webp",
+      "img/bargning_640.webp",
+      "img/bargning_950.webp",
+      "img/bil_vinter_picknick.webp",
+      "img/bil_vinter_picknick_1536.jpg",
+      "img/bil_vinter_picknick_1536.webp",
+      "img/bil_vinter_picknick_640.webp",
+      "img/bil_vinter_picknick_950.webp",
+      "img/bilvag.webp",
+      "img/bra_miljoval_logotyp_gron.svg",
+      "img/brasa_elda_sakerhet.webp",
+      "img/campaign-badge.svg",
+      "img/dackbyte_1536.jpg",
+      "img/dackbyte_1536.webp",
+      "img/dackbyte_318.webp",
+      "img/dackbyte_640.webp",
+      "img/dackbyte_950.webp",
+      "img/elbil_vinter_1536.jpg",
+      "img/elbil_vinter_1536.webp",
+      "img/elbil_vinter_318.webp",
+      "img/elbil_vinter_640.webp",
+      "img/elbil_vinter_950.webp",
+      "img/fronthero_1024.webp",
+      "img/fronthero_1920x400.webp",
+      "img/fronthero_480.webp",
+      "img/fronthero_750.webp",
+      "img/geting_getingbo.webp",
+      "img/gi_familj_altan_sommar.webp",
+      "img/gi_mamma_dotter_sjo_bakifran.webp",
+      "img/glad_forare_bil.webp",
+      "img/glad_forare_bil_1536.jpg",
+      "img/glad_forare_bil_1536.webp",
+      "img/glad_forare_bil_640.webp",
+      "img/glad_forare_bil_950.webp",
+      "img/gravid_mamma_rita.webp",
+      "img/halsa_man_lugn_utomhus.webp",
+      "img/halsa_man_lugn_utomhus_1024.webp",
+      "img/halsa_man_lugn_utomhus_1920.webp",
+      "img/halsa_man_lugn_utomhus_480.webp",
+      "img/halsa_man_lugn_utomhus_750.webp",
+      "img/krockade_bilar_1536x1063.webp",
+      "img/krockade_bilar_318x220.webp",
+      "img/krockade_bilar_640x443.webp",
+      "img/krockade_bilar_950x657.webp",
+      "img/kundservice_th_man_kontor_1024x650.webp",
+      "img/kundservice_th_man_kontor_1536x650.webp",
+      "img/kundservice_th_man_kontor_750x650.webp",
+      "img/kundservice_th_man_kontor_960x650.webp",
+      "img/laptop_katt.webp",
+      "img/license-plate-s.svg",
+      "img/logo-firstvet.webp",
+      "img/man_dansar_hem_lagenhet.webp",
+      "img/mitt-liv-som-livboj_kampanjbild_2_high-res.webp",
+      "img/olyckan_ar_framme_1536x1063.webp",
+      "img/olyckan_ar_framme_318x220.webp",
+      "img/olyckan_ar_framme_640x443.webp",
+      "img/olyckan_ar_framme_950x657.webp",
+      "img/oversvamning.webp",
+      "img/shl_logo_white.png",
+      "img/shl_trygghansa_domare.webp",
+      "img/skadeanmalan_anmal_skada_online_1024x366.webp",
+      "img/skadeanmalan_anmal_skada_online_1536x366.webp",
+      "img/skadeanmalan_anmal_skada_online_1920x366.webp",
+      "img/skadeanmalan_anmal_skada_online_480x366.webp",
+      "img/skadeanmalan_anmal_skada_online_750x366.webp",
+      "img/stars_4-5-1.svg",
+      "img/stars_4-8.svg",
+      "img/startsida_djur_desktop.webp",
+      "img/strand-resa-forsakring.webp",
+      "img/th-campaign-banner-burst.svg",
+      "img/th_bilforsakring_familj_packar.webp",
+      "img/th_bilforsakring_familj_packar_1024.webp",
+      "img/th_bilforsakring_familj_packar_1920.webp",
+      "img/th_bilforsakring_familj_packar_480.webp",
+      "img/th_bilforsakring_familj_packar_750.webp",
+      "img/th_privat_bil_kvinna.webp",
+      "img/th_privat_hem_barn_ata.webp",
+      "img/th_reseforsakring.webp",
+      "img/trygg-hansa-logo-rgb-black.svg",
+      "img/trygg-hansa_logo_rgb_neg.svg",
+      "img/utomlands_1536x1063.webp",
+      "img/utomlands_318x220.webp",
+      "img/utomlands_640x443.webp",
+      "img/utomlands_950x657.webp",
+      "img/verisure_villa.webp",
+      "img/villa_familj_boll.webp",
+      "img/vinterdack_835x445.webp",
+      "img/vinterdack_835x445_1536.jpg",
+      "img/vinterdack_835x445_1536.webp",
+      "img/vinterdack_835x445_640.webp",
+      "img/vinterdack_835x445_950.webp",
+      "landing.css",
+      "listing.css",
+      "program.css",
+      "static.css"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 40
+      },
+      {
+        "slug": "forsakringar-bilforsakring",
+        "file": "stardust/migrated/forsakringar/bilforsakring/index.html",
+        "assetsBundled": 52
+      },
+      {
+        "slug": "forsakringar-person",
+        "file": "stardust/migrated/forsakringar/person/index.html",
+        "assetsBundled": 19
+      },
+      {
+        "slug": "skadeanmalan",
+        "file": "stardust/migrated/skadeanmalan/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "forsakringar-hemforsakring",
+        "file": "stardust/migrated/forsakringar/hemforsakring/index.html",
+        "assetsBundled": 48
+      },
+      {
+        "slug": "forsakringar-bilforsakring-helforsakring",
+        "file": "stardust/migrated/forsakringar/bilforsakring/helforsakring/index.html",
+        "assetsBundled": 8
+      },
+      {
+        "slug": "forsakringar-hemforsakring-villaforsakring",
+        "file": "stardust/migrated/forsakringar/hemforsakring/villaforsakring/index.html",
+        "assetsBundled": 13
+      },
+      {
+        "slug": "forsakringar-person-barnforsakring",
+        "file": "stardust/migrated/forsakringar/person/barnforsakring/index.html",
+        "assetsBundled": 9
+      },
+      {
+        "slug": "forsakringar-fordon",
+        "file": "stardust/migrated/forsakringar/fordon/index.html",
+        "assetsBundled": 58
+      },
+      {
+        "slug": "djurforsakring",
+        "file": "stardust/migrated/djurforsakring/index.html",
+        "assetsBundled": 11
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-04T14:06:11Z",
+      "rendered": [
+        "forsakringar-fordon",
+        "djurforsakring"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

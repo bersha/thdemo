@@ -1,0 +1,71 @@
+[
+ {
+  "domainScript": "c91270b2-f5b9-4772-9722-8f6fd78cf5d8",
+  "version": "202609.2.0",
+  "ruleSets": [
+   {
+    "name": "Global",
+    "type": "GDPR",
+    "countries": 211,
+    "default": true,
+    "gpc": false,
+    "consentModel": "opt-in",
+    "banner": true,
+    "languages": 1,
+    "groups": [
+     {
+      "id": "C0001",
+      "name": "Absolut nödvändiga cookies",
+      "status": "always active",
+      "hosts": [
+       "trygghansa-codan.humany.net",
+       "app-cdn.puzzel.com",
+       "api.ace.teliacompany.net",
+       "wds.ace.teliacompany.com"
+      ]
+     },
+     {
+      "id": "C0003",
+      "name": "Funktionella cookies",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0002",
+      "name": "Prestanda-cookies",
+      "status": "inactive",
+      "hosts": [
+       "siteintercept.qualtrics.com",
+       "script.hotjar.com"
+      ]
+     },
+     {
+      "id": "C0005",
+      "name": "Sociala medier-cookies",
+      "status": "inactive",
+      "hosts": []
+     },
+     {
+      "id": "C0004",
+      "name": "Riktade cookies",
+      "status": "inactive",
+      "hosts": [
+       "assets.adobedtm.com",
+       "tealiumiq.com",
+       "dpm.demdex.net",
+       "amazon-adsystem.com",
+       "bing.com",
+       "youtube.com",
+       "adform.net",
+       "doubleclick.net",
+       "bat.bing.com",
+       "semasio.net",
+       "demdex.net",
+       "everesttech.net"
+      ]
+     }
+    ]
+   }
+  ]
+ }
+]

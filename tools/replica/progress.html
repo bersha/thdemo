@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration status</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration status</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.trygghansa.se/" target="_blank" rel="noopener">https://www.trygghansa.se/</a><br>Preview site: <a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--64009de2--aemcoder.aem.page/</a><br>Last updated: 2026-11-04 15:03 UTC</p>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Journey</h2>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Pages</h2>
+    <div class="panel-body">
+      <p>This migration covers 10 pages. 10 of 10 are published on the preview site; 10 have passed the side-by-side check against the original.</p>
+      <details open>
+        <summary>10 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.trygghansa.se/" target="_blank" rel="noopener">https://www.trygghansa.se/</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/bilforsakring" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/bilforsakring</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/hemforsakring" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/hemforsakring</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/person" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/person</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/fordon" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/fordon</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/fordon" target="_blank" rel="noopener">Fordonsförsäkring - Försäkring för ditt fordon</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/djurforsakring" target="_blank" rel="noopener">https://www.trygghansa.se/djurforsakring</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/forsakringar/person/barnforsakring" target="_blank" rel="noopener">https://www.trygghansa.se/forsakringar/person/barnforsakring</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.trygghansa.se/skadeanmalan" target="_blank" rel="noopener">https://www.trygghansa.se/skadeanmalan</a></td><td><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Page templates</h2>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Insurance category overviews</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Insurance product pages</td><td>5</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+          <tr><td>Claims page</td><td>1</td><td>—</td><td>—</td><td><span class="spectrum-badge spectrum-badge--informative">In progress</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="spectrum-panel" id="blocks-used">
+    <h2 class="spectrum-panel-header">Blocks used</h2>
+    <div class="panel-body">
+      <p>13 blocks in 22 variants across 10 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block" rowspan="3">hero<span class="block-pages">10 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">with-cta</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></td></tr>
+          <tr><td><span class="variant">large</span><span class="variant">top-aligned</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a></td></tr>
+          <tr class="group"><td class="block">breadcrumbs<span class="block-pages">9 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-1-0">View 9 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">cards<span class="block-pages">9 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 9 pages</button></td></tr>
+          <tr><td><span class="variant">small</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a>, <a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">teaser<span class="block-pages">8 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 8 pages</button></td></tr>
+          <tr><td><span class="variant">content</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a></td></tr>
+          <tr><td><span class="variant">content</span><span class="variant">with-list</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></td></tr>
+          <tr class="group"><td class="block">campaign-banner<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 7 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="2">columns<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-5-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">with-icon</span></td><td><button class="more" popovertarget="blocks-pages-5-1">View 5 pages</button></td></tr>
+          <tr class="group"><td class="block">quick-facts<span class="block-pages">7 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-6-0">View 7 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="2">cta-image<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-7-0">View 4 pages</button></td></tr>
+          <tr><td><span class="variant">small-crop</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a>, <a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></td></tr>
+          <tr class="group"><td class="block">faq<span class="block-pages">6 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-8-0">View 6 pages</button></td></tr>
+          <tr class="group"><td class="block">document-list<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 4 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="3">product-table<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></td></tr>
+          <tr><td><span class="variant">lead</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">lead</span><span class="variant">stacked</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block">cta-text<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a> <span class="blocks-count">×2</span>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a> <span class="blocks-count">×2</span>, <a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block">tabset<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 13</span><span class="bp-range bp-range-2">Blocks 6–10 of 13</span><span class="bp-range bp-range-3">Blocks 11–13 of 13</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">hero <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/fordon" target="_blank" rel="noopener">Fordonsförsäkring - Försäkring för ditt fordon</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-0" class="blocks-popover" aria-labelledby="blocks-pages-1-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-0-title">breadcrumbs <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 9 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/fordon" target="_blank" rel="noopener">Fordonsförsäkring - Försäkring för ditt fordon</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">cards <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 9 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/fordon" target="_blank" rel="noopener">Fordonsförsäkring - Försäkring för ditt fordon</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">teaser <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 8 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">campaign-banner <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-0" class="blocks-popover" aria-labelledby="blocks-pages-5-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-0-title">columns <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person" target="_blank" rel="noopener">Personförsäkringar – Skydd för hela familjen</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-1" class="blocks-popover" aria-labelledby="blocks-pages-5-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-1-title">columns <span class="variant-inline">with-icon</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-0" class="blocks-popover" aria-labelledby="blocks-pages-6-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-0-title">quick-facts <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/djurforsakring" target="_blank" rel="noopener">Djurförsäkring – försäkra din hund eller katt</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-7-0" class="blocks-popover" aria-labelledby="blocks-pages-7-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-7-0-title">cta-image <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-7-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/" target="_blank" rel="noopener">Trygg-Hansa - Trygghet för livet</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-0" class="blocks-popover" aria-labelledby="blocks-pages-8-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-0-title">faq <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring" target="_blank" rel="noopener">Hemförsäkring - Se ditt pris och jämför på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/skadeanmalan" target="_blank" rel="noopener">Skadeanmälan - Anmäl förlust, stöld eller skada</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">document-list <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 4 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring" target="_blank" rel="noopener">Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/bilforsakring/helforsakring" target="_blank" rel="noopener">Helförsäkring för din bil - Topprankad i jämförelse</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/hemforsakring/villaforsakring" target="_blank" rel="noopener">Villaförsäkring - 4,5/5 i betyg - Se ditt pris på 15 sekunder</a></li>
+          <li><a href="https://main--64009de2--aemcoder.aem.page/forsakringar/person/barnforsakring" target="_blank" rel="noopener">Barnförsäkring - Sveriges mest populära - 50 % rabatt första året!</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Analytics and tags <span class="spectrum-badge">Switched off</span></h2>
+    <div class="panel-body">
+      <p>We carried over 3 tags and OneTrust, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.trygghansa.se</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Adobe Launch</td><td><code>launch-3cee49d7db63.min.js</code></td></tr>
+          <tr><td>Google Tag Manager</td><td><code>GTM-TDH7D6</code></td></tr>
+          <tr><td>Tealium</td><td><code>utag.js</code></td></tr>
+          <tr><td>Consent manager</td><td>OneTrust, 5 cookie categories</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code>, <code>dataLayer</code>, <code>utag_data</code></td></tr>
+          <tr><td>Adobe Target</td><td>at.js from your tag setup</td></tr>
+          <tr><td>Loaded by your tags</td><td>session replay, survey / VoC badge</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Adobe Launch library (1 data-layer field used).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 5 rules that target the old page structure</strong> (CSS selectors or URLs), for example <code>Core - data-personalization clicked link (CDP)</code>, <code>Core - data-personalization Enters Viewport (CDP)</code>, <code>Core - Focus on th-pregnancy-phone</code> and 2 more.
+          <details><summary>Show all 5</summary><ul class="all"><li><code>Core - data-personalization clicked link (CDP)</code></li><li><code>Core - data-personalization Enters Viewport (CDP)</code></li><li><code>Core - Focus on th-pregnancy-phone</code></li><li><code>Core - data-personalization clicked (CDP)</code></li><li><code>Core - Focus on th-pregnancy-email</code></li></ul></details></li>
+        <li><strong>Send 53 data-layer events from the new pages</strong> so the tags fire, for example <code>civilCalculated</code>, <code>paChild-Quote</code>, <code>paChild-HealthDeclarationSummary</code> and 50 more.
+          <details><summary>Show all 53</summary><ul class="all"><li><code>civilCalculated</code></li><li><code>paChild-Quote</code></li><li><code>paChild-HealthDeclarationSummary</code></li><li><code>editBankDetails</code></li><li><code>changedhealthDeclarationQuestionsInteracted</code></li><li><code>careCLSummary</code></li><li><code>paChild-Payment</code></li><li><code>vehicleRecalculated</code></li><li><code>paChild-HealthDeclaration1</code></li><li><code>AutogiroCancelConfirmation</code></li><li><code>paChild-HealthDeclaration3</code></li><li><code>autogiroAbortModal</code></li><li><code>changedChildAge</code></li><li><code>careCLRecalculated</code></li><li><code>prodView</code></li><li><code>pdfAccordion</code></li><li><code>pageload</code></li><li><code>paCalculated</code></li><li><code>logToAdobe</code></li><li><code>petCustomerValidated</code></li><li><code>signingModal</code></li><li><code>AutogiroConfirmation</code></li><li><code>vehicleCalculated</code></li><li><code>paRecalculated</code></li><li><code>bankSelected</code></li><li><code>paCheckout</code></li><li><code>paChild-HealthDeclaration2</code></li><li><code>civilRecalculated</code></li><li><code>petProductValidated</code></li><li><code>civilCustomerAndPropertyValidated</code></li><li><code>petRecalculated</code></li><li><code>petSubscribed</code></li><li><code>CallBookingForm</code></li><li><code>changedPrice</code></li><li><code>error</code></li><li><code>smallBusinessSubscribed</code></li><li><code>civilSubscribed</code></li><li><code>addonModalPopup</code></li><li><code>elementInteraction</code></li><li><code>paChild-Confirmation</code></li><li><code>errorAndValidation</code></li><li><code>postPartumCare</code></li><li><code>accordion</code></li><li><code>vehicleSubscribed</code></li><li><code>cancelInsuranceConfirmation</code></li><li><code>smallBusinesRealculated</code></li><li><code>petCalculated</code></li><li><code>smallBusinessCalculated</code></li><li><code>paSubscribed</code></li><li><code>careCLCalculated</code></li><li><code>counter</code></li><li><code>careCLSubscribed</code></li><li><code>trackQqFocus</code></li></ul></details></li>
+        <li><strong>Switch on OneTrust together with the tags.</strong></li>
+        <li><strong>Move your Adobe Target activities to the Web SDK.</strong> at.js loads late on the new site, so activities apply late or flicker; only Web SDK personalization can be switched on.</li>
+        <li><strong>Share the setup of Google Tag Manager, Tealium.</strong> We could not read their rules.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">Progress</h2>
+    <div class="panel-body">
+      <p>100% complete</p>
+      <div class="bar"><span style="width: 100%"></span></div>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's happening now</h2>
+    <div class="panel-body">
+      <p>Your migration is complete. All ten pages are live on the new platform, match your current site on desktop and mobile, and every link, form, menu and FAQ section works, with your search-engine information carried over as is. Your analytics and consent setup is in place and switched off, ready for you to turn on.</p>
+    </div>
+  </section>
+
+  <section class="spectrum-panel">
+    <h2 class="spectrum-panel-header">What's next</h2>
+    <div class="panel-body">
+      <p>Over to you: review the pages, then choose when to turn on analytics and where the quote forms should send visitors.</p>
+    </div>
+  </section>
+</main>
+</body>
+</html>

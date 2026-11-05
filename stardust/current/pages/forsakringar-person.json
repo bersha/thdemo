@@ -1,0 +1,732 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:27.993Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "forsakringar-person",
+  "url": "https://www.trygghansa.se/forsakringar/person",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:27.993Z",
+  "finalUrl": "https://www.trygghansa.se/forsakringar/person",
+  "title": "Personförsäkringar – Skydd för hela familjen",
+  "description": "Personförsäkringar; för hela familjens försäkringsskydd. Här hittar du våra olika sjukförsäkringar och olycksfallsförsäkringar!",
+  "og": {
+    "title": "Personförsäkringar – Skydd för hela familjen",
+    "description": "Personförsäkringar; för hela familjens försäkringsskydd. Här hittar du våra olika sjukförsäkringar och olycksfallsförsäkringar!",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Personförsäkringar"
+    },
+    {
+      "tag": "h2",
+      "text": "Personförsäkringar för hela familjen"
+    },
+    {
+      "tag": "h2",
+      "text": "Välj den personförsäkring du vill veta mer om"
+    },
+    {
+      "tag": "h3",
+      "text": "Barnförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Gravidförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Livförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Sjuk- och olycksfallsförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Olycksfallsförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Vårdförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Olycksfallsförsäkring för seniorer"
+    },
+    {
+      "tag": "h3",
+      "text": "Vårdförsäkring olycksfall"
+    },
+    {
+      "tag": "h3",
+      "text": "Reseförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Försäkring för utlandsstudent och au pair"
+    },
+    {
+      "tag": "h2",
+      "text": "Vad är en personförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad kostar en personförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur vet jag om jag har en personförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Gruppförsäkring – personförsäkring via jobbet"
+    },
+    {
+      "tag": "h3",
+      "text": "Försäkring för studenter"
+    },
+    {
+      "tag": "h3",
+      "text": "Teckna personförsäkring – så gör du!"
+    },
+    {
+      "tag": "h3",
+      "text": "Familjeförsäkring för alla familjer"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "20 % rabatt första året på sjuk- och olycksfallsförsäkring!",
+    "Hem",
+    "Försäkringar",
+    "Personförsäkringar",
+    "En personförsäkring kan ge dig ersättning om du drabbas av ett olycksfall eller en sjukdom. Vi försäkrar hela familjen – barn, studenter, vuxna och seniorer. Hos oss kan du teckna en försäkring som passar just dig, oavsett var i livet du befinner dig.",
+    "Barnförsäkring Vår barnförsäkring ger en trygg start i livet. Gäller tills 25 års ålder. Läs om vår barnförsäkring",
+    "Gravidförsäkring Ge ditt barn en trygg start! Vi har längst erfarenhet av gravidförsäkring i Sverige. Läs om vår gravidförsäkring",
+    "Livförsäkring Ekonomiskt stöd till din familj, en trygghet om det värsta skulle hända. Läs om livförsäkring",
+    "Sjuk- och olycksfallsförsäkring Om du drabbas av en sjukdom eller ett olycksfall. Skydd dygnet runt! Läs om vår sjuk- och olycksfallsförsäkring",
+    "Olycksfallsförsäkring Om du drabbas av ett olycksfall. Teckna direkt utan hälsofrågor! Läs om vår olycksfallsförsäkring",
+    "Vårdförsäkring Tillgång till vårdplanering och rådgivning för både sjukdomar och olycksfall. Läs om vår vårdförsäkring",
+    "Olycksfallsförsäkring för seniorer Olycksfallsförsäkring för dig över 55 år. Gäller dygnet runt. Läs om vår seniorförsäkring",
+    "Vårdförsäkring olycksfall Tillgång till vårdplanering och rådgivning för olycksfall. Läs om vårdförsäkring olycksfall",
+    "Reseförsäkring Reseskydd som gäller i 45 dagar. Ingår i alla våra hemförsäkringar. Läs om hur reseskyddet fungerar",
+    "Försäkring för utlandsstudent och au pair För dig som ska plugga utomlands eller vara au pair. Olycksfallsskydd ingår! Läs om vår utlandsstudentförsäkring",
+    "Personförsäkring är ett samlingsnamn för de försäkringar som ger ersättning för vissa sjukdomar, diagnoser och för olycksfall. Det kan till exempel vara om du blir plötsligt sjuk eller bryter benet i skidbacken.",
+    "Priset på en personförsäkring varierar beroende på vilken försäkring det är och vilket skydd du vill ha. Du kan ta reda på just ditt pris genom att fylla i dina uppgifter direkt på den försäkring du vill teckna. Här kan du se pris på sjuk- och olycksfallsförsäkring och här kan du se pris på olycksfallsförsäkring.",
+    "Ibland kan det vara svårt att hålla reda på vilka försäkringar man har och att skilja dem åt. Dessutom kanske det var många år sedan du (eller dina föräldrar) tecknade försäkringen. Om du är osäker kan du logga in på Mina sidor hos ditt försäkringsbolag och leta efter ord som olycksfallsförsäkring, sjuk- och olycksfallsförsäkring och sjukvårdsförsäkring. Om du är yngre än 25 år kan det stå att du har en barnförsäkring, eftersom de gäller ända till dess.",
+    "Har du försäkringar via din arbetsgivare? I så fall kan din personförsäkring heta gruppförsäkring eftersom den gäller för många personer. Fråga din arbetsgivare om hur det fungerar just där du jobbar. Det är också viktigt att du kollar om försäkringen gäller på fritiden, eftersom det kan skilja sig åt. I många fall är det bra att komplettera med en privat sjuk- och olycksfallsförsäkring eftersom gruppförsäkringar oftast inte gäller för sjukdomar.",
+    "Även du som är student behöver ha en bra försäkring, trots att pengarna kanske inte räcker till. Därför erbjuder vi en hemförsäkring för studenter till ett lägre pris så att du har råd att teckna en sjuk- och olycksfallsförsäkring också. Men kom ihåg att du behöver teckna båda två! En personförsäkring och hem hemförsäkring är inte samma sak. För dig som är au pair eller studerar utomlands ingår det ett olycksfallsskydd i din hemförsäkring.",
+    "Ovan kan du se vilka personförsäkringar vi på Trygg-Hansa erbjuder. Välj den försäkring som passar dig så kan du läsa mer om innehållet och ta del av viktiga dokument som för- och efterköpsinformation och försäkringens villkor. Du kan teckna personförsäkringen direkt på webben eller ringa oss på 0771 – 111 110 så hjälper vi dig.",
+    "Vi försäkrar hela familjen och alla familjer. De fyrbenta familjemedlemmarna? Ja de är såklart välkomna de med. Här kan du läsa mer om våra djurförsäkringar.",
+    "Tips! Om du samlar familjens försäkringar hos oss kan du få upp till 20 % samlingsrabatt. Här kan du se hur mycket just du kan få i samlingsrabatt."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "sjuk- och olycksfallsförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Läs om vår barnförsäkring",
+      "href": "/forsakringar/person/barnforsakring"
+    },
+    {
+      "label": "Läs om vår gravidförsäkring",
+      "href": "/forsakringar/gravidforsakring"
+    },
+    {
+      "label": "Läs om livförsäkring",
+      "href": "/forsakringar/person/livforsakring"
+    },
+    {
+      "label": "Läs om vår sjuk- och olycksfallsförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+      "label": "Läs om vår olycksfallsförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring"
+    },
+    {
+      "label": "Läs om vår vårdförsäkring",
+      "href": "/forsakringar/person/vardforsakring"
+    },
+    {
+      "label": "Läs om vår seniorförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring/senior"
+    },
+    {
+      "label": "Läs om vårdförsäkring olycksfall",
+      "href": "/forsakringar/person/vardforsakring-olycksfall"
+    },
+    {
+      "label": "Läs om hur reseskyddet fungerar",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "Läs om vår utlandsstudentförsäkring",
+      "href": "/forsakringar/utlandsstudent"
+    },
+    {
+      "label": "pris på sjuk- och olycksfallsförsäkring",
+      "href": "https://portal.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring/berakna-pris"
+    },
+    {
+      "label": "pris på olycksfallsförsäkring",
+      "href": "https://portal.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring/berakna-pris"
+    },
+    {
+      "label": "olycksfallsförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring"
+    },
+    {
+      "label": "sjuk- och olycksfallsförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+      "label": "sjukvårdsförsäkring",
+      "href": "/forsakringar/person/vardforsakring"
+    },
+    {
+      "label": "barnförsäkring",
+      "href": "/forsakringar/person/barnforsakring"
+    },
+    {
+      "label": "privat sjuk- och olycksfallsförsäkring",
+      "href": "/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+      "label": "hemförsäkring för studenter",
+      "href": "/forsakringar/hemforsakring/studentforsakring"
+    },
+    {
+      "label": "0771 – 111 110",
+      "href": "tel:0771111110"
+    },
+    {
+      "label": "våra djurförsäkringar",
+      "href": "/djurforsakring"
+    },
+    {
+      "label": "samlingsrabatt",
+      "href": "/forsakringar/samlingsrabatt"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    },
+    {
+      "label": "Hållbarhet",
+      "href": "/om-trygghansa/esg"
+    },
+    {
+      "label": "Tillgänglighet",
+      "href": "/om-trygghansa/om-webbplatsen/tillganglighet"
+    },
+    {
+      "label": "Livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen"
+    },
+    {
+      "label": "Pressinformation",
+      "href": "/om-trygghansa/pressinformation"
+    },
+    {
+      "label": "Våra experter",
+      "href": "/om-trygghansa/experter"
+    },
+    {
+      "label": "Jobb och karriär",
+      "href": "/om-trygghansa/jobb-och-karriar"
+    },
+    {
+      "label": "Om webbplatsen",
+      "href": "/om-trygghansa/om-webbplatsen"
+    },
+    {
+      "label": "Cookies",
+      "href": "/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+    },
+    {
+      "label": "Personuppgifter",
+      "href": "/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/forsakringar/person#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring/senior",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring-olycksfall",
+    "https://portal.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring/berakna-pris",
+    "https://portal.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring/berakna-pris",
+    "tel:0771111110",
+    "https://www.trygghansa.se/forsakringar/samlingsrabatt",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/halsa/halsa_man_lugn_utomhus.jpg?format=webp&width=1536&height=366&rxy=0.48%2c0.58&quality=80",
+        "alt": "Fridfull bild på en man som sitter och småler utomhus vid vattnet",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 4,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 24,
+    "mainTextLen": 4463,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/forsakringar-person.png",
+  "renderedHtml": "pages/forsakringar-person.html"
+}

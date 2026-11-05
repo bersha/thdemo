@@ -1,0 +1,141 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-04T11:34:39.417Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T15:00:09.631Z",
+  "templates": [
+    {
+      "id": "forsakringar-bilforsakring",
+      "representativeSlug": "forsakringar-bilforsakring",
+      "pages": [
+        "forsakringar-bilforsakring"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumbs",
+        "campaign-banner",
+        "cards",
+        "columns",
+        "document-list",
+        "faq",
+        "hero",
+        "product-table",
+        "quick-facts",
+        "quick-quote",
+        "teaser"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "forsakringar-person",
+      "representativeSlug": "forsakringar-person",
+      "pages": [
+        "forsakringar-person"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumbs",
+        "campaign-banner",
+        "cards",
+        "columns",
+        "hero",
+        "teaser"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cards",
+        "cta-image",
+        "hero",
+        "quick-facts",
+        "quick-quote",
+        "teaser"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "djurforsakring",
+      "pages": [
+        "djurforsakring",
+        "forsakringar-fordon"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "program",
+      "representativeSlug": "forsakringar-bilforsakring-helforsakring",
+      "pages": [
+        "forsakringar-bilforsakring-helforsakring",
+        "forsakringar-hemforsakring",
+        "forsakringar-hemforsakring-villaforsakring",
+        "forsakringar-person-barnforsakring"
+      ],
+      "pageCount": 4,
+      "blocks": [],
+      "delivery": {
+        "verified": 4,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "skadeanmalan",
+      "representativeSlug": "skadeanmalan",
+      "pages": [
+        "skadeanmalan"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumbs",
+        "cards",
+        "cta-image",
+        "faq",
+        "hero",
+        "teaser"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

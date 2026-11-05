@@ -1,0 +1,92 @@
+{
+  "/skadeanmalan": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:59:07.134Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/djurforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:58:45.044Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/bilforsakring/helforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:58:45.044Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/bilforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:58:50.287Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/fordon": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:58:50.704Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/hemforsakring/villaforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:58:55.435Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/hemforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:58:56.161Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/person/barnforsakring": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:59:01.963Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/forsakringar/person": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:59:02.072Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  },
+  "/index": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-04T14:59:07.014Z",
+    "put": 200,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

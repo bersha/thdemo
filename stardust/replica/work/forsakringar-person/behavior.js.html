@@ -1,0 +1,91 @@
+<script>
+/* Minimal native behaviours that fire on the live page: header mega-menu / mobile drawer,
+   collapse accordions (header submenus + footer columns, below desktop), hero tabset. */
+(function () {
+  var header = document.querySelector('.th-header');
+  // Header "Försäkringar" menu (desktop mega-menu, mobile drawer)
+  header.querySelectorAll('.th-header__nav-button[aria-expanded]').forEach(function (btn) {
+    var item = btn.closest('.th-header__nav-item');
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = !item.classList.contains('is-th-header-nav-item-open');
+      item.classList.toggle('is-th-header-nav-item-open', open);
+      btn.setAttribute('aria-expanded', String(open));
+      document.body.classList.toggle('th-no-scroll-on-mobile', open);
+      header.style.setProperty('--th-visible-header-height', header.getBoundingClientRect().bottom + 'px');
+    });
+  });
+  function closeMenus() {
+    header.querySelectorAll('.is-th-header-nav-item-open').forEach(function (item) {
+      item.classList.remove('is-th-header-nav-item-open');
+      var b = item.querySelector('.th-header__nav-button'); if (b) b.setAttribute('aria-expanded', 'false');
+    });
+    document.body.classList.remove('th-no-scroll-on-mobile');
+  }
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.th-header__nav-item-body')) closeMenus();
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeMenus(); });
+
+  // Collapse accordions (until desktop)
+  document.querySelectorAll('.th-collapse').forEach(function (c) {
+    var btn = c.querySelector('.th-collapse__header');
+    if (!btn) return;
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = !c.classList.contains('is-collapse-open');
+      c.classList.toggle('is-collapse-open', open);
+      c.classList.toggle('is-collapse-close', !open);
+      btn.setAttribute('aria-expanded', String(open));
+    });
+  });
+
+  // Quick-quote help popover
+  document.querySelectorAll('.th-qq__help').forEach(function (b) {
+    var body = document.getElementById(b.getAttribute('aria-controls'));
+    function set(open) { body.hidden = !open; b.setAttribute('aria-expanded', String(open)); }
+    b.addEventListener('click', function (e) { e.preventDefault(); set(body.hidden); });
+    body.querySelector('.th-qq__close').addEventListener('click', function (e) { e.preventDefault(); set(false); });
+  });
+
+  // SHL offer flyout — live injects it into the footer shortly after load (tag-delivered, post-consent);
+  // mirrored as a delayed insert. Close removes it, toggle expands the details.
+  function mountShl() {
+    var tpl = document.getElementById('shl-widget-template');
+    if (!tpl) return;
+    tpl.parentNode.insertBefore(tpl.content.cloneNode(true), tpl);
+    tpl.remove();
+    var shl = document.getElementById('shl-widget');
+    var tg = shl.querySelector('.shl-widget__toggle'), det = document.getElementById('shl-widget-details');
+    tg.addEventListener('click', function () {
+      var open = det.hidden; det.hidden = !open; tg.setAttribute('aria-expanded', String(open));
+      shl.classList.toggle('shl-widget--open', open);
+    });
+    shl.querySelector('.shl-widget__close').addEventListener('click', function () { shl.remove(); });
+  }
+  window.addEventListener('load', function () { setTimeout(mountShl, 1500); });
+
+  // Hero tabset
+  var tabset = document.getElementById('th-tabset');
+  if (tabset) {
+    var tabs = Array.prototype.slice.call(tabset.querySelectorAll('[role="tab"]'));
+    function select(tab, focus) {
+      tabs.forEach(function (t) {
+        var on = t === tab;
+        t.setAttribute('aria-selected', String(on));
+        t.tabIndex = on ? 0 : -1;
+        t.closest('.th-tabset-tab').classList.toggle('th-tabset-tab--is-active', on);
+        document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+      });
+      if (focus) tab.focus();
+    }
+    tabs.forEach(function (t, i) {
+      t.addEventListener('click', function (e) { e.preventDefault(); select(t); });
+      t.addEventListener('keydown', function (e) {
+        var d = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+        if (d) { e.preventDefault(); select(tabs[(i + d + tabs.length) % tabs.length], true); }
+      });
+    });
+  }
+})();
+</script>

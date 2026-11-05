@@ -1,0 +1,85 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-04T15:02:48.036Z",
+ "source": "https://www.trygghansa.se/",
+ "build": "https://main--64009de2--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 0,
+  "warn": 8,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header — not observed: the build record stopped at the request budget (run the build side with --max-requests 0)"
+  },
+  {
+   "key": "motion@390 Försäkringar > Öppna undermeny för Bilförsäkring [click]",
+   "width": 390,
+   "path": "Försäkringar > Öppna undermeny för Bilförsäkring",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates height; the build does not"
+  },
+  {
+   "key": "motion@390 Försäkringar > Öppna undermeny för Hemförsäkring [click]",
+   "width": 390,
+   "path": "Försäkringar > Öppna undermeny för Hemförsäkring",
+   "action": "click",
+   "id": "motion",
+   "severity": "warn",
+   "detail": "the source animates height; the build does not"
+  },
+  {
+   "key": "close-path@390 Försäkringar > Öppna undermeny för Hemförsäkring",
+   "width": 390,
+   "path": "Försäkringar > Öppna undermeny för Hemförsäkring",
+   "id": "close-path",
+   "severity": "warn",
+   "detail": "clicking the trigger again closes it on the source, not on the build — not observed: the build record stopped at the request budget (run the build side with --max-requests 0)"
+  },
+  {
+   "key": "control-missing@390 Försäkringar > Öppna undermeny för Personförsäkring",
+   "width": 390,
+   "path": "Försäkringar > Öppna undermeny för Personförsäkring",
+   "id": "control-missing",
+   "severity": "warn",
+   "detail": "the source menu control opens on click; the build has no control named \"Öppna undermeny för Personförsäkring\" — not observed: the build record stopped at the request budget (run the build side with --max-requests 0)"
+  },
+  {
+   "key": "budget-truncated@390 (source)",
+   "width": 390,
+   "path": "(source)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the source record stopped at request-budget: raise --max-states/--max-depth for full coverage"
+  },
+  {
+   "key": "budget-truncated@390 (build)",
+   "width": 390,
+   "path": "(build)",
+   "id": "budget-truncated",
+   "severity": "warn",
+   "detail": "the build record stopped at request-budget: run the build side with --max-requests 0"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  }
+ ]
+}

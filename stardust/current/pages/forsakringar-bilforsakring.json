@@ -1,0 +1,1665 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:24.656Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "forsakringar-bilforsakring",
+  "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:24.656Z",
+  "finalUrl": "https://www.trygghansa.se/forsakringar/bilforsakring",
+  "title": "Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder",
+  "description": "Topprankad bilförsäkring med 4,8 av 5 i betyg enligt Konsumenternas. Hitta rätt försäkring för dig och din bil – se pris direkt och teckna här.",
+  "og": {
+    "title": "Bilförsäkring - 4,8 av 5 i betyg - Se pris på 15 sekunder",
+    "description": "Topprankad bilförsäkring med 4,8 av 5 i betyg enligt Konsumenternas. Hitta rätt försäkring för dig och din bil – se pris direkt och teckna här.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Bilförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Hitta rätt försäkring för dig och din bil"
+    },
+    {
+      "tag": "h3",
+      "text": "Upp till 20 % samlingsrabatt"
+    },
+    {
+      "tag": "h3",
+      "text": "Topprankad bilförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Drulle och bärgning ingår"
+    },
+    {
+      "tag": "h2",
+      "text": "Topprankad av Konsumenternas"
+    },
+    {
+      "tag": "h2",
+      "text": "Jämför bilförsäkringar och hitta rätt för din bil"
+    },
+    {
+      "tag": "h3",
+      "text": "Trafik"
+    },
+    {
+      "tag": "h3",
+      "text": "Krishjälp"
+    },
+    {
+      "tag": "h3",
+      "text": "Brand"
+    },
+    {
+      "tag": "h3",
+      "text": "Glasrutor"
+    },
+    {
+      "tag": "h3",
+      "text": "Stöld och inbrott"
+    },
+    {
+      "tag": "h3",
+      "text": "Motor och elektronik 8 år"
+    },
+    {
+      "tag": "h3",
+      "text": "Drulle"
+    },
+    {
+      "tag": "h3",
+      "text": "Bärgning"
+    },
+    {
+      "tag": "h3",
+      "text": "Bärgning vid urladdat batteri"
+    },
+    {
+      "tag": "h3",
+      "text": "Rättsskydd"
+    },
+    {
+      "tag": "h3",
+      "text": "Vagnskada"
+    },
+    {
+      "tag": "h3",
+      "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+      "tag": "h3",
+      "text": "Hyrbil"
+    },
+    {
+      "tag": "h3",
+      "text": "Självriskrabatt"
+    },
+    {
+      "tag": "h2",
+      "text": "Få vårt bästa skydd med Bilförsäkring stor"
+    },
+    {
+      "tag": "h3",
+      "text": "Privat vård och ersättning för medicinsk invaliditet"
+    },
+    {
+      "tag": "h3",
+      "text": "Hyrbil"
+    },
+    {
+      "tag": "h3",
+      "text": "Självriskrabatt"
+    },
+    {
+      "tag": "h3",
+      "text": "Halverad självrisk"
+    },
+    {
+      "tag": "h3",
+      "text": "Utökat skydd för motor och elektronik"
+    },
+    {
+      "tag": "h3",
+      "text": "Utökat skydd för ny bil"
+    },
+    {
+      "tag": "h2",
+      "text": "Vi försäkrar 900 000 bilar. Skaffa en bra bilförsäkring du med!"
+    },
+    {
+      "tag": "h3",
+      "text": "Rabatt på bilförsäkringen"
+    },
+    {
+      "tag": "h3",
+      "text": "Stärkt skydd med tilläggsförsäkringar"
+    },
+    {
+      "tag": "h3",
+      "text": "Fotobesiktning: slipp onödiga turer till verkstaden"
+    },
+    {
+      "tag": "h3",
+      "text": "Bärgning och vägassistans ett samtal bort"
+    },
+    {
+      "tag": "h2",
+      "text": "Välj bilförsäkringen som passar dig och din bil"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilförsäkring stor"
+    },
+    {
+      "tag": "h3",
+      "text": "Helförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Halvförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Trafikförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Få samlingsrabatt på din bilförsäkring!"
+    },
+    {
+      "tag": "h2",
+      "text": "Frågor och svar om bilförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad är en bilförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad ingår i en bilförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vem ska stå på bilförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad kostar en bilförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad påverkar priset på min bilförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "När hjälper drulleförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag har vagnskadegaranti. Vad ska jag tänka på?"
+    },
+    {
+      "tag": "h3",
+      "text": "Ägarbyte på bilen"
+    },
+    {
+      "tag": "h3",
+      "text": "Gäller försäkringen om jag lånar ut bilen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad händer om man inte betalar bilförsäkringen i tid?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur försäkrar man en bil?"
+    },
+    {
+      "tag": "h3",
+      "text": "När ska man försäkra bilen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Kan man försäkra en bil man inte äger?"
+    },
+    {
+      "tag": "h3",
+      "text": "Kan man förhandla om priset på bilförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad blir priset för min bilförsäkring på min nya adress?"
+    },
+    {
+      "tag": "h3",
+      "text": "Erbjuder ni märkesförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vilken bilförsäkring har jag​?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur byter man bilförsäkring​?"
+    },
+    {
+      "tag": "h3",
+      "text": "Måste man ha bilförsäkring​?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur fungerar det med bilförsäkringen när man säljer bilen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vem får köra bilen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad händer om man inte betalar bilförsäkringen​?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur lång bindningstid är det på min bilförsäkring?"
+    },
+    {
+      "tag": "h2",
+      "text": "Allt om försäkringen"
+    },
+    {
+      "tag": "h3",
+      "text": "Läs det här innan du tecknar din försäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Relevant läsning"
+    },
+    {
+      "tag": "h3",
+      "text": "Mer om bilförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Hel- eller halvförsäkring för bilen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vinterdäck"
+    },
+    {
+      "tag": "h3",
+      "text": "Vägassistans och bärgning"
+    },
+    {
+      "tag": "h3",
+      "text": "Förläng elbilens räckvidd på vintern"
+    },
+    {
+      "tag": "h3",
+      "text": "Smart däckförvaring"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "Ditt pris och innehållsförslag framställs automatiskt. Kontakta oss vid frågor. För information om hur Trygg-Hansa behandlar personuppgifter, se vår integritetspolicy.",
+    "Du får 5 % rabatt första året när du",
+    "Hem",
+    "Försäkringar",
+    "Bilförsäkring",
+    "Försäkra din bil hos oss. Vi erbjuder trafik- halv- och helförsäkring för nya och begagnade bilar oavsett märke och drivmedel. För flera bilmärken erbjuder vi en äkta märkesförsäkring med flera förmåner.",
+    "Upp till 20 % samlingsrabatt När du har flera försäkringar hos oss kan du få upp till 20 % i samlingsrabatt, beroende på vilka du har.",
+    "När du har flera försäkringar hos oss kan du få upp till 20 % i samlingsrabatt, beroende på vilka du har.",
+    "Topprankad bilförsäkring Lägg till vårt tilläggspaket Bilförsäkring stor för en topprankad bilförsäkring enligt Konsumenternas oberoende jämförelse av svenska bilförsäkringar.",
+    "Lägg till vårt tilläggspaket Bilförsäkring stor för en topprankad bilförsäkring enligt Konsumenternas oberoende jämförelse av svenska bilförsäkringar.",
+    "Drulle och bärgning ingår Tappat nycklar, tankat fel bränsle eller fått stopp på bilen? Inga problem! Drulle och bärgning ingår i både halv- och helförsäkring.",
+    "Tappat nycklar, tankat fel bränsle eller fått stopp på bilen? Inga problem! Drulle och bärgning ingår i både halv- och helförsäkring.",
+    "Konsumenternas försäkringsbyrå ger vår Bilförsäkring stor betyget 4,8 av 5.Läs mer hos Konsumenternas",
+    "Här ser du en kortfattad beskrivning av försäkringen. Läs mer om innehållet och viktiga undantag i för- och efterköpsinformationen innan du tecknar försäkringen.",
+    "Vill du ha vårt mest heltäckande skydd för din bil? Välj Bilförsäkring stor. Den är topprankad av Konsumenternas Försäkringsbyrå sedan april 2018. I vår bilförsäkring ingår skydd för din bil, dina passagerare och dig som kör.",
+    "I vår Bilförsäkring stor ingår alla tilläggsförsäkringar i tabellen ovan, plus extra fördelar.",
+    "När de första bilarna började rulla på gatorna i Sverige hade Trygg-Hansa redan funnits i över 60 år. Vår erfarenhet och expertis ger dig trygghet. Vi har följt med utvecklingen och erbjuder i dag försäkringar för alla slags bilar, oavsett ålder eller drivmedel.",
+    "Du får 5 % rabatt på bilförsäkringen om du tecknar direkt här på vår webbplats. Oavsett om du ringer oss eller tecknar bilförsäkringen online får du även den samlingsrabatt som du har rätt till. Om du har rabatt genom ett medlemskap eller någon organisation som vi har avtal med - meddela oss när du tecknar din försäkring.",
+    "Med tilläggsförsäkringar kan du anpassa bilförsäkringen efter dina behov. Tillägget Hyrbilsförsäkring är räddaren i nöden om vardagen stannar utan bilen och med Självriskrabatt får du sänkt självrisk vid flera händelser. Det kan till exempel vara om bilen behöver repareras efter krock med djur eller skadegörelse. I vissa fall står vi för hela självrisken, så som vid bärgning eller vid en godkänd parkeringsskada.",
+    "Tillägget Vård och ersättning efter trafikolycka ger extra hjälp till alla i bilen efter en trafikolycka.",
+    "Din tid är viktig för oss. Med vår tjänst fotobesiktning slipper du åka till verkstaden för bedömning om något hänt. Skicka bilder på skadorna istället och åk dit först är det är dags att laga bilen. Bra för miljön och enkelt för dig!",
+    "Ring vårt journummer 0771‑111 510 dygnet runt så är hjälpen på väg! Du får vägassistans och bärgning till närmaste verkstad om din bil inte går att köra. Dessutom ersätter vi kostnaden för att du och dina passagerare ska ta er tillbaka till hemorten. Om du har elbil som inte går att köra för att batteriet har laddats ur får du bärgning till närmaste laddstation. Läs mer om bärgning och vägassistans här.",
+    "Bilförsäkring stor Läs om och teckna Bilförsäkring stor",
+    "Helförsäkring Se vad som ingår i helförsäkringen",
+    "Halvförsäkring Se vad som ingår i halvförsäkringen",
+    "Trafikförsäkring Se vad som ingår i trafikförsäkringen",
+    "Teckna flera försäkringar hos oss och få upp till 20 procents samlingsrabatt. En bilförsäkring och en hemförsäkring ger dig 5 procent. Fyll i dina försäkringar och kolla vad just du får!",
+    "Vad är en bilförsäkring? En bilförsäkring ger skydd för dig och din bil om olyckan skulle vara framme. Det kan till exempel vara om du skulle vara med i en trafikolycka, råka backa på en annan bil eller tappa bort dina bilnycklar. Vilket skydd du får beror på vilken bilförsäkring du väljer. Det finns tre olika nivåer: trafikförsäkring, halvförsäkring och helförsäkring.",
+    "Vad ingår i en bilförsäkring? En bilförsäkring består av trafik-, halv- och helförsäkring. Trafikförsäkringen måste du ha enligt lag, men för att få ett bra skydd bör du komplettera med en halv- eller helförsäkring. Läs mer varför du måste ha en bilförsäkring. Du kan även förstärka skyddet med tilläggsförsäkringar så som Hyrbil, Självriskrabatt samt Privat vård och ersättning för medicinsk invaliditet efter trafikolycka.",
+    "Vem ska stå på bilförsäkringen? Bilens ägare och huvudsakliga brukare ska stå på bilförsäkringen. Om någon annan står på försäkringen kan du bli nekad ersättning om något händer. Det är också viktigt att ägaren till bilen har en försäkring så att Trafikförsäkringsföreningen, TFF, kan se att ägaren har en trafikförsäkring. Annars riskerar ägaren höga avgifter.",
+    "Vad kostar en bilförsäkring? Hur mycket en bilförsäkring kostar beror på flera olika faktorer, som till exempel var du bor, hur gammal du är, vilken bil du har och hur många mil du kör per år med din bil. Du kan dessutom få samlingsrabatt om du har fler försäkringar hos oss.",
+    "Vad påverkar priset på min bilförsäkring? Priset på din bilförsäkring påverkas bland annat av var du bor hur gammal du är vilken bil du kör den årliga körsträckan, det vill säga hur många mil du kör per år vilka självrisknivåer du väljer. Du kan påverka priset själv genom att samla fler försäkringar hos oss. Samlar du dina försäkringar hos oss kan du få upp till 20 % samlingsrabatt, beroende på vilka försäkringar du har och hur många. Du kan också välja bort försäkringsskydd som du inte har behov av eller välja en högre självrisk för vagnskada (om du har en helförsäkring).",
+    "När hjälper drulleförsäkringen? Drulleförsäkringen kan ge ersättning för mindre vardagsolyckor som du själv orsakar inuti bilen. Till exempel när du lastar in bagage och repar sätet eller om barnen spiller glass. Den gäller också om du råkar tanka fel bränsle. Drulle ingår alltid i Bilförsäkring stor, helförsäkring och halvförsäkring. Läs mer om drulleförsäkring.",
+    "Jag har vagnskadegaranti. Vad ska jag tänka på? För bilar med vagnskadegaranti rekommenderar vi halvförsäkring eller Bilförsäkring stor utan skydd för vagnskada (eftersom du har redan har vagnskadeskydd). Väljer du Bilförsäkring stor eller tilläggsförsäkringen Självriskrabatt ersätter vi dig med 3 000 kronor av vagnskadegarantisjälvrisken om du drabbas av en skada som ersätts genom bilens vagnskadegaranti. Exempelvis om du krockar eller ett träd faller över bilen. Vid kollision med djur och skadegörelse ersätter vi dig med upp till 6 500 kronor av din vagnskadegarantisjälvrisk. Tre år efter bilens registreringsdatum lägger vi automatiskt till skydd vid vagnskador, så att du inte går miste om ett viktigt skydd när vagnskadegarantin går ut.",
+    "Ägarbyte på bilen Här kan du läsa mer om hur du gör ett ägarbyte på bilen, hur det fungerar och vad du behöver tänka på när det gäller bilförsäkringen. Läs mer om ägarbyte.",
+    "Gäller försäkringen om jag lånar ut bilen? Du som har en bilförsäkring hos Trygg-Hansa får hyra eller låna ut din bil, men inte så ofta eller länge att du inte längre kan anses vara den som huvudsakligen använder bilen. Kom ihåg att: Kolla med oss vad som gäller om skador uppstår när bilen är uthyrd/utlånad. Ha god koll på den du hyr ut bilen till och ta uppgifter så som telefonnummer, adress och en kopia på körkortet. Ta för vana att fota och filma bilen både före och efter uthyrningen, både utvändigt och invändigt. Detta är ett bra tips för både den som hyr ut och den som hyr.",
+    "Vad händer om man inte betalar bilförsäkringen i tid? Om du betalar med autogiro men saknar pengar på kontot kommer vi att försöka igen nästa bankdag. Finns det fortfarande ingen täckning skickar vi då ut ett inbetalningskort. Om du inte betalar in med inbetalningskortet drar vi beloppet via autogiro månaden därpå istället – så tänk på att betalningen då kan vara dubbelt så stor. Finns det fortfarande inga pengar på kontot skickar vi en faktura istället. Fakturan ska betalas inom 14 dagar. Om du betalar via e-faktura eller faktura skickar vi ut en påminnelse. Påminnelsen ska betalas inom 14 dagar – annars sägs försäkringen upp.",
+    "Hur försäkrar man en bil? Du kan få pris och försäkra din bil direkt på webben eller genom att ringa till vår kundservice på 0771–111 110. Här kan du jämföra och hitta rätt bilförsäkring för din bil. Hör gärna av dig om du skulle ha några frågor!",
+    "När ska man försäkra bilen? Enligt lag måste du ha en trafikförsäkring från samma dag som du blir registrerad ägare till bilen. Om du köper en ny bil hos en bilhandlare kan de oftast hjälpa dig på plats innan du kör hem. Du kan aldrig köra på förra ägarens bilförsäkring!",
+    "Kan man försäkra en bil man inte äger? Nej, det är alltid den som äger bilen och huvudsakligen använder den som ska stå på bilförsäkringen. Bilförsäkringen får inte stå på en annan förare, som en förälder eller ett barn.",
+    "Kan man förhandla om priset på bilförsäkringen? Nej, du kan inte förhandla om priset på bilförsäkringen. Däremot har vi ibland kampanjer där vi erbjuder rabatter för vissa försäkringar. Då får du ett lägre pris när du väljer att teckna försäkringen direkt på vår webbplats.",
+    "Vad blir priset för min bilförsäkring på min nya adress? Tyvärr kan vi inte beräkna pris på annan adress än din nuvarande folkbokföringsadress. Detta beror på att vi använder uppgifter från SPAR, Statens Post- och Adressregister för att beräkna pris. Skulle du flytta till en ny adress får vi dessa uppgifterna från SPAR och din bilförsäkring uppdateras automatiskt. Ett nytt försäkringsbrev med den nya kostnaden skickas ut och vi återbetalar eller skickar ut en tilläggsfaktura till dig beroende på det nya priset.",
+    "Erbjuder ni märkesförsäkring? Ja, vi erbjuder äkta märkesförsäkringar för Alfa Romeo, BMW, Citroën, DS, Fiat, Fiat Professional, Jeep, MINI, Opel, Peugeot, Tesla, Subaru och specialanpassad försäkring för Mitsubishi.",
+    "Vilken bilförsäkring har jag​? Du ser vilken bilförsäkring du har genom att logga in på Mina sidor. Är du osäker på om din bil har en försäkring eller har glömt vilket försäkringsbolag du har bilen hos? Så kollar du vilken bilförsäkring du har.",
+    "Hur byter man bilförsäkring​? Att byta bilförsäkring skiljer sig åt beroende på om du ska byta till en försäkring med mer eller mindre skydd, eller om du ska byta bilförsäkring mellan bolag. Här kan du läsa mer om hur du byter bilförsäkring.",
+    "Måste man ha bilförsäkring​? En bilförsäkring är en nödvändig trygghet och ett måste om du äger en bil. Som minst behöver du ha en trafikförsäkring, eftersom det är ett lagkrav i Sverige om din bil används i trafiken. Här går vi igenom varför du måste ha en bilförsäkring och när du måste teckna den.",
+    "Hur fungerar det med bilförsäkringen när man säljer bilen? Din bilförsäkring gäller fram tills dess att du säljer bilen. När bilen byter ägare avslutas din försäkring automatiskt från den dag du anmäler som ägarbytesdatum till Transportstyrelsen. Här kan du läsa mer om hur du gör ett ägarbyte på bilen och hur försäkringen fungerar.",
+    "Vem får köra bilen? Bilförsäkringen gäller för dig som försäkringstagare och ägare till bilen, det är du som får ersättning om något händer. Bilförsäkringen gäller också om någon annan kör bilen, till exempel när du hyr eller lånar ut din bil till andra personer kortare perioder. Här kan du läsa mer om att hyra och låna ut bilen.",
+    "Vad händer om man inte betalar bilförsäkringen​? Om du inte betalar bilförsäkringen skickar vi ut en påminnelse. Om du inte betalar den heller kommer bilförsäkringen att sägas upp. Du står då utan skydd för bilen om något händer, och får betala en trafikförsäkringsavgift till Trafikförsäkringsföreningen (TFF).",
+    "Hur lång bindningstid är det på min bilförsäkring? Bilförsäkringen gäller vanligtvis i ett år i taget, tills försäkringens huvudförfallodag. Du kan se vilket datum som gäller genom att logga in på Mina sidor. Du kan säga upp försäkringen när som helst från huvudförfallodagen. Om du säljer bilen upphör försäkringen automatiskt.",
+    "Du kan läsa mer om försäkringen och viktiga undantag i för- och efterköpsinformationen nedan. Du kan också läsa i produktfaktabladet (IPID), som kan hjälpa dig att jämföra försäkringar mellan olika bolag. Både för- och efterköpsinformationen och produktbladet är sammanfattningar av försäkringsvillkoret.",
+    "För- och efterköpsinformation (PDF)",
+    "Produktfaktablad (IPID) (PDF)",
+    "Fullständiga villkor (PDF)",
+    "Tilläggsvillkor Fast inredning (PDF)",
+    "Mer om bilförsäkring När något oväntat händer med bilen är det skönt att veta hur försäkringen ger dig trygghet. Här hittar du läsvärda artiklar som hjälper dig att förstå bilförsäkringen bättre. Läs om att försäkra bilen",
+    "Hel- eller halvförsäkring för bilen? Ska du välja en halvförsäkring eller en helförsäkring till din bil? Här hjälper vi dig att reda ut skillnaden och förklara vad som ingår! Läs tipsen om hur du väljer bilförsäkring",
+    "Vinterdäck Dubbdäck, datum och hjulbultar. Här får du motorexpertens tips inför bytet till vinterdäck. Läs det viktigaste om vinterdäck",
+    "Vägassistans och bärgning Så gör du om ditt fordon slutar fungera. Här hittar du även viktiga telefonnummer för vägassistans och bärgning, så att du kan känna dig trygg när något oväntat händer. Läs mer och få hjälp med bärgning",
+    "Förläng elbilens räckvidd på vintern Elbilens räckvidd kan minska på vintern. Här kommer våra tips för att spara på batteriet och förlänga räckvidden. Läs mer om att förlänga elbilens räckvidd på vintern",
+    "Smart däckförvaring Bildäck stjäls ofta i samband med hjulskiften på våren och hösten. Här får du veta det viktigaste om däckförvaring. Läs mer om däckförvaring"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": null
+    },
+    {
+      "label": "se vår integritetspolicy",
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+    },
+    {
+      "label": "tecknar bilförsäkring online!",
+      "href": null
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "samlingsrabatt",
+      "href": "/forsakringar/samlingsrabatt"
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/bilforsakring/berakna-pris"
+    },
+    {
+      "label": "Läs mer hos Konsumenternas",
+      "href": "https://www.konsumenternas.se/konsumentstod/jamforelser/fordons---batforsakringar/jamfor-bilforsakringar/"
+    },
+    {
+      "label": "Trafik",
+      "href": null
+    },
+    {
+      "label": "Krishjälp",
+      "href": null
+    },
+    {
+      "label": "Brand",
+      "href": null
+    },
+    {
+      "label": "Glasrutor",
+      "href": null
+    },
+    {
+      "label": "Stöld och inbrott",
+      "href": null
+    },
+    {
+      "label": "Motor och elektronik 8 år",
+      "href": null
+    },
+    {
+      "label": "Drulle",
+      "href": null
+    },
+    {
+      "label": "Bärgning",
+      "href": null
+    },
+    {
+      "label": "Bärgning vid urladdat batteri",
+      "href": null
+    },
+    {
+      "label": "Rättsskydd",
+      "href": null
+    },
+    {
+      "label": "Vagnskada",
+      "href": null
+    },
+    {
+      "label": "Privat vård och ersättning för medicinsk invaliditet",
+      "href": null
+    },
+    {
+      "label": "Hyrbil",
+      "href": null
+    },
+    {
+      "label": "Självriskrabatt",
+      "href": null
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": "/forsakringar/bilforsakring/berakna-pris"
+    },
+    {
+      "label": "Bilförsäkring stor",
+      "href": "/forsakringar/bilforsakring/bilforsakring-stor"
+    },
+    {
+      "label": "Privat vård och ersättning för medicinsk invaliditet",
+      "href": null
+    },
+    {
+      "label": "Hyrbil",
+      "href": null
+    },
+    {
+      "label": "Självriskrabatt",
+      "href": null
+    },
+    {
+      "label": "Halverad självrisk",
+      "href": null
+    },
+    {
+      "label": "Utökat skydd för motor och elektronik",
+      "href": null
+    },
+    {
+      "label": "Utökat skydd för ny bil",
+      "href": null
+    },
+    {
+      "label": "Hyrbilsförsäkring",
+      "href": "/forsakringar/bilforsakring/hyrbil"
+    },
+    {
+      "label": "självrisk",
+      "href": "/forsakringar/bilforsakring/sjalvrisk"
+    },
+    {
+      "label": "vår tjänst fotobesiktning",
+      "href": "/forsakringar/bilforsakring/fotobesiktning"
+    },
+    {
+      "label": "0771‑111 510",
+      "href": "tel:0771111510"
+    },
+    {
+      "label": "elbil",
+      "href": "/forsakringar/bilforsakring/elbil"
+    },
+    {
+      "label": "Läs mer om bärgning och vägassistans här",
+      "href": "/skadeanmalan/bargning"
+    },
+    {
+      "label": "Läs om och teckna Bilförsäkring stor",
+      "href": "/forsakringar/bilforsakring/bilforsakring-stor"
+    },
+    {
+      "label": "Se vad som ingår i helförsäkringen",
+      "href": "/forsakringar/bilforsakring/helforsakring"
+    },
+    {
+      "label": "Se vad som ingår i halvförsäkringen",
+      "href": "/forsakringar/bilforsakring/halvforsakring"
+    },
+    {
+      "label": "Se vad som ingår i trafikförsäkringen",
+      "href": "/forsakringar/bilforsakring/trafikforsakring"
+    },
+    {
+      "label": "Läs mer om vår samlingsrabatt",
+      "href": "/forsakringar/samlingsrabatt"
+    },
+    {
+      "label": "Vad är en bilförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vad ingår i en bilförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vem ska stå på bilförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "Vad kostar en bilförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vad påverkar priset på min bilförsäkring?",
+      "href": null
+    },
+    {
+      "label": "När hjälper drulleförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "Jag har vagnskadegaranti. Vad ska jag tänka på?",
+      "href": null
+    },
+    {
+      "label": "Ägarbyte på bilen",
+      "href": null
+    },
+    {
+      "label": "Gäller försäkringen om jag lånar ut bilen?",
+      "href": null
+    },
+    {
+      "label": "Vad händer om man inte betalar bilförsäkringen i tid?",
+      "href": null
+    },
+    {
+      "label": "Hur försäkrar man en bil?",
+      "href": null
+    },
+    {
+      "label": "När ska man försäkra bilen?",
+      "href": null
+    },
+    {
+      "label": "Kan man försäkra en bil man inte äger?",
+      "href": null
+    },
+    {
+      "label": "Kan man förhandla om priset på bilförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "Vad blir priset för min bilförsäkring på min nya adress?",
+      "href": null
+    },
+    {
+      "label": "Erbjuder ni märkesförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vilken bilförsäkring har jag​?",
+      "href": null
+    },
+    {
+      "label": "Hur byter man bilförsäkring​?",
+      "href": null
+    },
+    {
+      "label": "Måste man ha bilförsäkring​?",
+      "href": null
+    },
+    {
+      "label": "Hur fungerar det med bilförsäkringen när man säljer bilen?",
+      "href": null
+    },
+    {
+      "label": "Vem får köra bilen?",
+      "href": null
+    },
+    {
+      "label": "Vad händer om man inte betalar bilförsäkringen​?",
+      "href": null
+    },
+    {
+      "label": "Hur lång bindningstid är det på min bilförsäkring?",
+      "href": null
+    },
+    {
+      "label": "För- och efterköpsinformation (PDF)",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/pm1081.pdf"
+    },
+    {
+      "label": "Produktfaktablad (IPID) (PDF)",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/PID04097.pdf"
+    },
+    {
+      "label": "Fullständiga villkor (PDF)",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/p00297.pdf"
+    },
+    {
+      "label": "Tilläggsvillkor Fast inredning (PDF)",
+      "href": "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04734.pdf"
+    },
+    {
+      "label": "Läs om att försäkra bilen",
+      "href": "/forsakringar/bilforsakring/mer-om-bilforsakring"
+    },
+    {
+      "label": "Läs tipsen om hur du väljer bilförsäkring",
+      "href": "/forsakringar/bilforsakring/hel-eller-halvforsakring"
+    },
+    {
+      "label": "Läs det viktigaste om vinterdäck",
+      "href": "/tips-rad/bil-och-trafik/dack/vinterdack"
+    },
+    {
+      "label": "Läs mer och få hjälp med bärgning",
+      "href": "/skadeanmalan/bargning"
+    },
+    {
+      "label": "Läs mer om att förlänga elbilens räckvidd på vintern",
+      "href": "/tips-rad/bil-och-trafik/aga-bil/rackvidd-vinter"
+    },
+    {
+      "label": "Läs mer om däckförvaring",
+      "href": "/tips-rad/bil-och-trafik/dack/dackforvaring"
+    },
+    {
+      "label": "Fler artiklar",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/forsakringar/bilforsakring#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/samlingsrabatt",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/berakna-pris",
+    "https://www.konsumenternas.se/konsumentstod/jamforelser/fordons---batforsakringar/jamfor-bilforsakringar/",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/elbil",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/bilforsakring-stor",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/hyrbil",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/sjalvrisk",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/fotobesiktning",
+    "tel:0771111510",
+    "https://www.trygghansa.se/skadeanmalan/bargning",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/maste-man-ha-bilforsakring",
+    "https://www.trygghansa.se/forsakringar/drulleforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/agarbyte",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/hyra-eller-lana-ut-bilen",
+    "tel:0771111110",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/alfa-romeo",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/bmw",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/citroen",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/ds",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/fiat",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/fiat/fiat-professional",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/jeep",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/mini",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/opel",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/peugeot",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/tesla",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/subaru",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken/mitsubishi",
+    "https://www.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/vilken-bilforsakring-har-jag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/byta-bilforsakring",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/pm1081.pdf",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/PID04097.pdf",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/p00297.pdf",
+    "https://www.trygghansa.se/SiteCollectionDocuments/Privat/P04734.pdf",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/mer-om-bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/hel-eller-halvforsakring",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik/dack/vinterdack",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik/aga-bil/rackvidd-vinter",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik/dack/dackforvaring",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/072602c7b51d4c74ac570f4b001114f7/th_bilforsakring_familj_packar.jpg?format=webp&width=1536&height=366&rxy=0.49%2c0.43&quality=80",
+        "alt": "Glad pappa och son packar in väskor i ett bagageutrymmet på bilen",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/stars_4-8.svg?width=1024&height=92&quality=80",
+        "alt": "4,8 av 5 i betyg av Konsumenternas",
+        "w": 300,
+        "h": 27
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/motor-och-bat/glad_forare_bil.jpg?format=webp&width=318&height=220&quality=80",
+        "alt": "",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/hero/pl/bil_vinter_picknick.jpg?format=webp&width=318&height=220&rxy=0.76%2c0.43&quality=80",
+        "alt": "par packar in sina saker i bilen",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/croppedimages/vinterdack_835x445.jpg?format=webp&width=318&height=220&quality=80",
+        "alt": "närbild på vinterdäck på vinterväg",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 12,
+    "cssBackgrounds": [],
+    "modals": [
+      "Maxa rabatten på din bilförsäkring! Du får 5 % rabatt när du tecknar din nya bilförsäkring online. Rabatten gäller hela första året. Utöver onlinerabatten kan du få upp till 20 % i samlingsrabatt beroende på om du har andra försäkringar hos oss, och hur många du har. Till exempel så ger en bilförsäkring och en hemförsäkring dig 5 % rabatt på både hem- och bilförsäkring. Har du en barnförsäkring får du ytterligare 5 % rabatt. Samlingsrabatten gäller så länge du har kvar dina försäkringar. Din rabatt dras av automatiskt och innan du tecknar försäkringen ser du ditt pris och vilken rabatt vi har dragit. Du kan välja att försäkringen ska börja gälla vid ett senare tillfälle. Stäng",
+      "Trafik Du kan få ersättning för skador som drabbar förare, passagerare eller medtrafikanter. Exempelvis ersättning för sjukhusvård eller förlorad arbetsinkomst. Skador som du orsakar på någon annans egendom, till exempel en bil eller ett staket. Självrisken ligger på 1 000 kr (självrisknivå 1) eller 2 000 kr (självrisknivå 2). Stäng",
+      "Krishjälp Du får 10 behandlingstillfällen hos terapeut eller psykolog, som vi hänvisar dig till, om du drabbas av psykisk ohälsa till följd av en skada som försäkringen täcker. Du betalar ingen självrisk. Stäng",
+      "Brand Du får ersättning för skador orsakade av brand, blixtnedslag och explosion. Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2). Stäng",
+      "Glasrutor Du får ersättning för att laga eller byta vind-, sido- eller bakrutor som spräcks eller krossas. Det är ingen självrisk om rutan går att laga. Om rutan måste bytas är självrisken 1 800 kr vid självrisknivå 1 och 3 000 kr vid självrisknivå 2. Stäng",
+      "Stöld och inbrott Du kan få ersättning för bil och biltillbehör som stjäls samt skador på bilen och biltillbehör i samband med inbrott och stöld. Fastmonterad ljud- och bildutrustning (ex cd-spelare och GPS) som stjäls ur bilen. Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2). Stäng",
+      "Motor och elektronik 8 år Du kan få ersättning för skador på motor, elektronik, växellåda och klimatanläggning om bilen körts högst 12 000 mil och inte är äldre än 8 år. För märkesförsäkring får bilen inte vara äldre än 8 år och ha körts högst 15 000 mil. Tecknar du Bilförsäkring stor gäller skyddet upp till 10 år och 15 000 mil. Självriskerna är följande: 0-4 000 mil: 1 800 kr (självrisknivå 1), 3 000 kr (självrisknivå 2) 4 001-10 000 mil: 5 000 kr 10 001-12 000 mil: 8 000 kr Stäng",
+      "Drulle Drulleförsäkringen ersätter exempelvis feltankning av drivmedel, borttappade bilnycklar och kaffe som spills på sätet. För lätt lastbil gäller försäkringen endast förarkupén. Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2). Stäng",
+      "Bärgning Du får bärgning till närmaste verkstad om bilen inte går att köra. Dessutom ersätter vi kostnaden för att du och dina passagerare ska ta er tillbaka hem, eller dit ni är på väg, beroende på vad som är närmast. Självrisken ligger på 1 800 kr (självrisknivå 1) eller 3 000 kr (självrisknivå 2). Stäng",
+      "Bärgning vid urladdat batteri För dig med elbil. Du får bärgning till närmaste laddstation om din elbil inte går att köra vidare för att batteriet har laddats ur när du ute och kör. Självrisken ligger på 100 kr (självrisknivå 1) och 200 kr (självrisknivå 2). Stäng"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 73,
+    "mainTextLen": 27294,
+    "realImageCount": 8,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/ccm/collect",
+        "query": [
+          "_tu",
+          "ae",
+          "apvc",
+          "auid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.ads_data_redaction",
+          "fmt",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "navt",
+          "npa",
+          "rcb",
+          "rnd",
+          "scrsrc",
+          "tag_exp",
+          "tfd",
+          "tft"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 2,
+        "example": "https://www.google.com/ccm/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google-analytics.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_geo",
+          "_nsi",
+          "_p",
+          "_rdi",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "ep.SessionID",
+          "frm",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google-analytics.com/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "ad.doubleclick.net",
+        "path": "/ccm/s/collect",
+        "query": [
+          "auid",
+          "fmt",
+          "gtm"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 204,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://ad.doubleclick.net/ccm/s/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "www.google.com",
+        "path": "/rmkt/collect/{n}/",
+        "query": [
+          "_tu",
+          "async",
+          "auid",
+          "bg",
+          "cv",
+          "data",
+          "dma",
+          "ept",
+          "fmt",
+          "frm",
+          "fst",
+          "gcd",
+          "gcp",
+          "gtm",
+          "guid",
+          "hn",
+          "label",
+          "npa",
+          "pscdl",
+          "random",
+          "rcb",
+          "tag_exp",
+          "tiba",
+          "u_h",
+          "u_w",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "url"
+        ],
+        "resourceType": "fetch",
+        "contentType": null,
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://www.google.com/rmkt/collect/1068894895/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "dpm.demdex.net",
+        "path": "/id",
+        "query": [
+          "d_fieldgroup",
+          "d_nsid",
+          "d_orgid",
+          "d_rtbd",
+          "d_ver",
+          "d_visid_ver",
+          "ts"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 315,
+        "hits": 1,
+        "example": "https://dpm.demdex.net/id",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/amzn.js",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://c.amazon-adsystem.com/aat/amzn.js",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "c.amazon-adsystem.com",
+        "path": "/aat/allowlist/allowlist.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 251,
+        "hits": 1,
+        "example": "https://c.amazon-adsystem.com/aat/allowlist/allowlist.json",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "privacyportal-de.onetrust.com",
+        "path": "/request/v1/consentreceipts/anonymous",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://privacyportal-de.onetrust.com/request/v1/consentreceipts/anonymous",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "trygghansa.tt.omtrdc.net",
+        "path": "/rest/v1/delivery",
+        "query": [
+          "client",
+          "sessionId",
+          "version"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://trygghansa.tt.omtrdc.net/rest/v1/delivery",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "server-side-tagging-928417184480.europe-north1.run.app",
+        "path": "/g/collect",
+        "query": [
+          "_fplc",
+          "_fv",
+          "_p",
+          "_s",
+          "_ss",
+          "_tu",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "ecid",
+          "en",
+          "ep./forsakringar/bilforsakring",
+          "ep.sessionId",
+          "frm",
+          "gap.sstd",
+          "gcd",
+          "gcs",
+          "gtm",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "richsstsse",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "sst.etld",
+          "sst.ga_rd",
+          "sst.gch",
+          "sst.lpc",
+          "sst.navt",
+          "sst.rnd",
+          "sst.sw_exp",
+          "sst.tft",
+          "sst.ude",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "ur",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://server-side-tagging-928417184480.europe-north1.run.app/g/collect",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "collect-eu-central-1.tealiumiq.com",
+        "path": "/tryg/trygghansa-se-web/{n}/i.gif",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "image/gif",
+        "status": 200,
+        "bytes": 43,
+        "hits": 2,
+        "example": "https://collect-eu-central-1.tealiumiq.com/tryg/trygghansa-se-web/2/i.gif",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 3
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 2
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 2
+      },
+      {
+        "host": "connect.facebook.net",
+        "count": 2
+      },
+      {
+        "host": "bat.bing.com",
+        "count": 2
+      },
+      {
+        "host": "visitor-service-eu-central-1.tealiumiq.com",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      },
+      {
+        "host": "googleads.g.doubleclick.net",
+        "count": 1
+      },
+      {
+        "host": "cdn.jsdelivr.net",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "vue"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      },
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 20,
+      "thirdPartyScriptHosts": 15,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/forsakringar-bilforsakring.png",
+  "renderedHtml": "pages/forsakringar-bilforsakring.html"
+}

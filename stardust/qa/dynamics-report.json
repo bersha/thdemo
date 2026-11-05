@@ -1,0 +1,95 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-04T14:52:34.184Z",
+  "origin": "https://main--64009de2--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "Quick-quote form (UI rebuilt; submission hands off to the source quote flow, no PII stored)",
+   "id": "quick-quote",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × main form (min 1)",
+   "thirdParty": "",
+   "ms": 2242,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Quick-quote form (UI rebuilt; submission hands off to the source quote flow, no PII stored)",
+   "id": "quick-quote",
+   "class": "F",
+   "status": "scaffolded-awaiting-owner",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × main form (min 1)",
+   "thirdParty": "",
+   "ms": 2049,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Card grids",
+   "id": "product-cards",
+   "class": "L",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "10 × main .cards li, main .cards > div > div (min 3)",
+   "thirdParty": "",
+   "ms": 2004,
+   "environmentLimit": null
+  },
+  {
+   "feature": "Header mega-menu, Privat/Företag switch, mobile drawer",
+   "id": "header-menu",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × header .th-header-nav-button[aria-expanded] (min 1)",
+   "thirdParty": "",
+   "ms": 2054,
+   "environmentLimit": null
+  },
+  {
+   "feature": "FAQ accordions",
+   "id": "faq-accordion",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "8 × main .faq button[aria-expanded] (min 1)",
+   "thirdParty": "",
+   "ms": 1995,
+   "environmentLimit": null
+  },
+  {
+   "feature": "No uncaught exceptions on delivered pages",
+   "id": "page-errors",
+   "class": "-",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 10 page(s)",
+   "thirdParty": "",
+   "ms": 20477,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (4 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6207,
+   "environmentLimit": null
+  }
+ ]
+}

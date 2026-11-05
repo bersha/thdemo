@@ -1,37 +1,93 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
-.hero {
+/* hero — source .th-hero (canon hero base + program "hero with app"); flush section */
+.hero.th-hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
-}
-
-.hero picture {
+.hero .th-hero-media {
   position: absolute;
-  z-index: -1;
   inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
 }
 
-.hero img {
-  object-fit: cover;
-  width: 100%;
+.hero .th-hero-image,
+.hero .th-hero-image picture {
   height: 100%;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .th-hero-media img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .th-hero-image-large {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .hero .th-hero-image-small {
+    display: none;
+  }
+
+  .hero .th-hero-image-large {
+    display: block;
+  }
+}
+
+.hero .th-hero-heading h1,
+.hero .th-hero-heading h2 {
+  margin: 0;
+  padding-inline: .3125rem;
+  color: var(--th-theme-text-inverse-strong);
+  font-family: var(--th-theme-family-display);
+  font-size: 2.125rem;
+  font-weight: 700;
+  line-height: 3rem;
+  text-align: center;
+}
+
+@media (width >= 768px) {
+  .hero .th-hero-heading h1,
+  .hero .th-hero-heading h2 {
+    padding-inline: .625rem;
+    font-size: 4.125rem;
+    line-height: 5rem;
+  }
+}
+
+.hero .th-hero-text {
+  color: var(--th-theme-text-inverse-strong);
+  text-align: center;
+}
+
+/* hero with app: the overlay grows with the app (source program.css) */
+.hero.th-hero-with-app .th-hero-content-overlay {
+  min-height: unset;
+  padding-block-end: 2.0625rem;
+  row-gap: 2.1875rem;
+}
+
+@media (width >= 1025px) {
+  .hero.th-hero-with-app .th-hero-content-overlay {
+    justify-content: flex-start;
+    min-height: 26.5625rem;
+    padding-block-end: 0;
+    row-gap: 2.5rem;
+  }
+}
+
+.hero .th-app-wrapper {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: min(100% - 1.875rem, 53.75rem);
+  margin: 0 auto;
+  padding: .9375rem;
+  border-radius: .625rem;
+  background-color: var(--th-theme-background-alternative);
+}
+
+@media (width >= 1025px) {
+  .hero .th-app-wrapper {
+    max-width: min(100% - 2.5rem, 53.75rem);
   }
 }

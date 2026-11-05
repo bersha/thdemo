@@ -1,0 +1,2 @@
+# shared poke list for motion-observe (live and build, same order)
+MO_ARGS='--click .th-tabset-tab:nth-child(2)>.th-tabset-tab__button --click .th-tabset-tab:nth-child(1)>.th-tabset-tab__button --click .th-header__nav-item>button.th-header__nav-button --click .th-header__nav-item>button.th-header__nav-button --hover .th-card --hover .th-cta-image-block__content>.th-button-medium --hover .th-tabset-tab:nth-child(3) --hover .th-header__nav-link --hover .th-card__link --hover .th-footer__link --hover .th-button-primary-accent'

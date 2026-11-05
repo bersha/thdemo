@@ -143,11 +143,24 @@ function decorateButtons(main) {
 }
 
 /**
+ * Turns authored `:th-<name>:` icons into CSS-mask icons (canon mechanism): the span keeps its
+ * `icon-th-<name>` class, gains `th-icon`, and loses `icon` so decorateIcons adds no <img>.
+ * The mask URL comes from the `.icon-th-<name>` rule in styles.css (SVGs live in /icons).
+ * @param {Element} element The container element
+ */
+export function decorateMaskIcons(element) {
+  element.querySelectorAll('span.icon[class*="icon-th-"]').forEach((span) => {
+    span.classList.remove('icon');
+    span.classList.add('th-icon');
+  });
+}
+
+/**
  * Decorates the main element.
  * @param {Element} main The main element
  */
-// eslint-disable-next-line import/prefer-default-export
 export function decorateMain(main) {
+  decorateMaskIcons(main);
   decorateIcons(main);
   buildAutoBlocks(main);
   decorateSections(main);
@@ -160,7 +173,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = 'sv';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {
@@ -171,7 +185,7 @@ async function loadEager(doc) {
 
   try {
     /* if desktop (proxy for fast connection) or fonts already loaded, load fonts.css */
-    if (window.innerWidth >= 900 || sessionStorage.getItem('fonts-loaded')) {
+    if (window.innerWidth >= 1024 || sessionStorage.getItem('fonts-loaded')) {
       loadFonts();
     }
   } catch (e) {
@@ -204,6 +218,7 @@ async function loadLazy(doc) {
  * without impacting the user experience.
  */
 function loadDelayed() {
+  import('./martech.js').then((m) => m.loadTags());
   import('./consent-check.js');
   // load anything that can be postponed to the latest here
 }

@@ -1,0 +1,982 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-04T10:08:53.623Z",
+    "sources": [
+      "_computed-styles.json",
+      "css/trygghansa.css",
+      "css/main.7N15NBz7.css"
+    ]
+  },
+  "name": "Trygg-Hansa (current state)",
+  "colors": {
+    "background": "#ffffff",
+    "surface": "#f9f9f9",
+    "surface-dark": "#333333",
+    "surface-darker": "#262626",
+    "text": "#191919",
+    "text-muted": "#4a4a4a",
+    "border": "#dedede",
+    "primary": "#e50000",
+    "primary-hover": "#db0000",
+    "accent": "#127994",
+    "accent-hover": "#11748e",
+    "accent-weak": "#ecf5f7",
+    "success": "#378132"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "ApexNew, Arial, Helvetica, sans-serif",
+      "fontSize": "66px",
+      "fontWeight": 700
+    },
+    "h2": {
+      "fontFamily": "ApexNew, Arial, Helvetica, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": 700
+    },
+    "h3": {
+      "fontFamily": "ApexNew, Arial, Helvetica, sans-serif",
+      "fontSize": "20px",
+      "fontWeight": 700
+    },
+    "body": {
+      "fontFamily": "arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 400
+    }
+  },
+  "rounded": {
+    "card": "10px",
+    "button": "5px"
+  },
+  "spacing": {
+    "container": "66.5rem",
+    "gutter": "1.25rem",
+    "grid-gap": "20px"
+  },
+  "components": {
+    "button-primary": {
+      "background": "#e50000",
+      "color": "#ffffff",
+      "minHeight": "3rem"
+    },
+    "card": {
+      "background": "#ffffff",
+      "radius": "10px",
+      "shadow": "0 2px 4px rgba(0,0,0,.25)"
+    }
+  },
+  "extensions": {
+    "componentStyle": {
+      "cards": "white, 10px radius, 0 2px 4px rgba(0,0,0,.25)",
+      "buttons": "brand red fill, white label, min-height 3rem/3.5rem"
+    },
+    "motifs": {
+      "radius": {
+        "mode": "10px",
+        "areaMode": "10px",
+        "pill": null,
+        "values": [
+          {
+            "value": "10px",
+            "count": 160,
+            "area": 12021100,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#identificationNumberId"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#registrationNumberId"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#vara-forsakringar > ul > li:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "#content > div > section:nth-of-type(2) > div > ul > li:nth-of-type(1) > div"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "#content > div > section:nth-of-type(2) > div > ul > li:nth-of-type(2) > div"
+              }
+            ]
+          },
+          {
+            "value": "8px",
+            "count": 120,
+            "area": 4130049,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(3) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "div > div > div:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(2) > div:nth-of-type(4) > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#content > div:nth-of-type(2) > section:nth-of-type(2) > div > div:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "#content > div > section:nth-of-type(4) > div > div:nth-of-type(2) > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "#onetrust-pc-sdk"
+              }
+            ]
+          },
+          {
+            "value": "5px",
+            "count": 100,
+            "area": 262500,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "nav > div > div > ul"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "nav > div > div > ul > li:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "nav > div > div > ul > li:nth-of-type(1) > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "nav > div > div > ul"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "nav > div > div > ul > li:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "2px",
+            "count": 69,
+            "area": 313496,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > th > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(2) > th > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(3) > th > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > th > div:nth-of-type(2) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(2) > th > div:nth-of-type(2) > button"
+              }
+            ]
+          },
+          {
+            "value": "10px 10px 0px 0px",
+            "count": 36,
+            "area": 1020648,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#tab-1 > span"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#tab-2 > span"
+              },
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#tab-3 > span"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#content > div > section:nth-of-type(8) > div > ul > li:nth-of-type(1)"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#dokument > ul > li:nth-of-type(1)"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 10px 10px",
+            "count": 30,
+            "area": 1548232,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "#th-tabset"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#content > div > section:nth-of-type(8) > div > ul > li:nth-of-type(23)"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#dokument > ul > li:nth-of-type(4)"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#dokument > ul > li:nth-of-type(4) > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "#content > div > section:nth-of-type(6) > div > ul > li:nth-of-type(8)"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 0px 10px",
+            "count": 21,
+            "area": 586015,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(14) > th"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#content > div > section:nth-of-type(4) > div > table > tbody > tr:nth-of-type(6) > th"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(14) > th > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(11) > th"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > th"
+              }
+            ]
+          },
+          {
+            "value": "10px 0px 0px",
+            "count": 21,
+            "area": 576454,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > th"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#content > div > section:nth-of-type(4) > div > table > tbody > tr:nth-of-type(1) > th"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > th > div:nth-of-type(1) > button"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > th"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1) > th"
+              }
+            ]
+          },
+          {
+            "value": "4px",
+            "count": 20,
+            "area": 150400,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/",
+                "selector": "body > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/djurforsakring",
+                "selector": "body > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "body > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "body > a"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/fordon",
+                "selector": "body > a"
+              }
+            ]
+          },
+          {
+            "value": "0px 0px 10px",
+            "count": 14,
+            "area": 79155,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(14) > td:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#content > div > section:nth-of-type(4) > div > table > tbody > tr:nth-of-type(6) > td"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(11) > td"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(4) > td"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+                "selector": "#vad-tacker-forsakringen > table > tbody > tr:nth-of-type(16) > td:nth-of-type(3)"
+              }
+            ]
+          },
+          {
+            "value": "0px 10px 0px 0px",
+            "count": 14,
+            "area": 77493,
+            "sources": [
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "div > div:nth-of-type(2) > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > td:nth-of-type(3)"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+                "selector": "#content > div > section:nth-of-type(4) > div > table > tbody > tr:nth-of-type(1) > td"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(1) > div > table > tbody > tr:nth-of-type(1) > td"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+                "selector": "div > div > div:nth-of-type(2) > div > table > tbody > tr:nth-of-type(1) > td"
+              },
+              {
+                "url": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+                "selector": "#vad-tacker-forsakringen > table > tbody > tr:nth-of-type(1) > td:nth-of-type(3)"
+              }
+            ]
+          }
+        ]
+      },
+      "shadows": [
+        "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px",
+        "rgba(0, 0, 0, 0.2) 0px 2px 6px 0px",
+        "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px inset"
+      ],
+      "gradients": []
+    },
+    "voice": {
+      "heroHeadline": "Trygghet för livet",
+      "ctas": [
+        "Se ditt bästa pris",
+        "Läs om vår rabatt",
+        "Gör en skadeanmälan"
+      ],
+      "heroImage": null
+    },
+    "type": {
+      "families": [
+        {
+          "family": "arial",
+          "count": 1050,
+          "headings": 689,
+          "text": 240,
+          "buttons": 121
+        },
+        {
+          "family": "Arial",
+          "count": 57,
+          "headings": 40,
+          "text": 0,
+          "buttons": 17
+        },
+        {
+          "family": "Source Sans Pro",
+          "count": 40,
+          "headings": 10,
+          "text": 0,
+          "buttons": 30
+        },
+        {
+          "family": "ApexNew",
+          "count": 20,
+          "headings": 20,
+          "text": 0,
+          "buttons": 0
+        }
+      ],
+      "sizes": [
+        66,
+        34,
+        32,
+        28,
+        26,
+        22,
+        20,
+        18,
+        16,
+        14,
+        13.33,
+        12
+      ],
+      "licensedDisplayFont": {
+        "family": "ApexNew",
+        "files": [
+          "HansaApexNew-Book.woff2",
+          "HansaApexNew-Medium.woff2",
+          "HansaApexNew-Bold.woff2"
+        ],
+        "host": "cdn.trygghansa.se",
+        "licensed": true,
+        "cors": false
+      }
+    },
+    "modules": [
+      {
+        "id": "site-header",
+        "name": "Header with Privat/Företag switch and mega-menu",
+        "status": "candidate",
+        "pages": [
+          "index",
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-person",
+          "forsakringar-fordon",
+          "djurforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "skadeanmalan"
+        ],
+        "notes": "black bar, logo centred"
+      },
+      {
+        "id": "quote-hero",
+        "name": "Photo hero with display headline and quick-quote card",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "index",
+          "forsakringar-fordon"
+        ],
+        "notes": "quote widget is a client app"
+      },
+      {
+        "id": "image-hero",
+        "name": "Photo hero with headline only",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-person",
+          "djurforsakring",
+          "skadeanmalan"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "promo-strip",
+        "name": "Teal discount info bar under hero",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "forsakringar-person",
+          "djurforsakring"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "breadcrumb",
+        "name": "Breadcrumb",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-person",
+          "forsakringar-fordon",
+          "djurforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "skadeanmalan"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "usp-trio",
+        "name": "Three USPs with red check icon",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "index",
+          "djurforsakring"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "media-text",
+        "name": "Image + text split promo",
+        "status": "candidate",
+        "pages": [
+          "index"
+        ],
+        "notes": "alternating sides"
+      },
+      {
+        "id": "icon-card-grid",
+        "name": "Icon cards with link",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-fordon",
+          "forsakringar-person",
+          "djurforsakring",
+          "index"
+        ],
+        "notes": "10px radius cards"
+      },
+      {
+        "id": "rating-band",
+        "name": "Five-star rating band",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring"
+        ],
+        "notes": "Topprankad av Konsumenternas"
+      },
+      {
+        "id": "compare-table",
+        "name": "Coverage comparison table with checks",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "rich-text-columns",
+        "name": "Two-column long-form text",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "forsakringar-person",
+          "djurforsakring"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "faq",
+        "name": "FAQ accordion",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "skadeanmalan"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "doc-links",
+        "name": "Allt om försäkringen document links",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "article-cards",
+        "name": "Relevant läsning image cards",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "skadeanmalan"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "cta-band",
+        "name": "Centered heading + button band",
+        "status": "candidate",
+        "pages": [
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "skadeanmalan"
+        ],
+        "notes": ""
+      },
+      {
+        "id": "site-footer",
+        "name": "Dark footer, 4 link columns, social icons",
+        "status": "candidate",
+        "pages": [
+          "index",
+          "forsakringar-bilforsakring",
+          "forsakringar-hemforsakring",
+          "forsakringar-person",
+          "forsakringar-fordon",
+          "djurforsakring",
+          "forsakringar-bilforsakring-helforsakring",
+          "forsakringar-hemforsakring-villaforsakring",
+          "forsakringar-person-barnforsakring",
+          "skadeanmalan"
+        ],
+        "notes": ""
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1440px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1440,
+          "via": "max-width",
+          "selector": "#content > div.th-content-area > section.th-section > div.th-container.th-container--wide",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1064,
+          "via": "max-width",
+          "selector": "#content > div.th-content-area > section.th-section > div.th-container.th-block",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/forsakringar/fordon",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 984,
+          "via": "max-width",
+          "selector": "#th-tabset",
+          "pages": [
+            "https://www.trygghansa.se/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 860,
+          "via": "fixed",
+          "selector": "section.th-hero > div.th-hero__content-overlay > div.th-hero__app > div.th-app-wrapper",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/forsakringar/fordon"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 740,
+          "via": "max-width",
+          "selector": "#content > div.th-content-area > section.th-section > div.th-container.th-container--small",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 700,
+          "via": "max-width",
+          "selector": "div.th-vue-wrapper > div.vehicle-start-page-wrapper > div.vehicle-start-page > div.th-gdprText-vehicle.vehicle-start-page__gdpr",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/forsakringar/fordon",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 657,
+          "via": "fixed",
+          "selector": "div.th-container.th-container--small > div.th-block__introduction > p > a",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 610,
+          "via": "max-width",
+          "selector": "#content > div.th-content-area > section.th-section > div.th-container.th-container--small",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 570,
+          "via": "fixed",
+          "selector": "div.th-content-area > section.th-section > div.th-container.th-container--wide > div.th-cta-image-block__content",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 546,
+          "via": "fixed",
+          "selector": "ul.th-block__list.th-accordion > li.th-collapse.th-accordion__item > button.th-collapse__header.th-accordion__item-heading > h3",
+          "pages": [
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 492,
+          "via": "fixed",
+          "selector": "section.th-section > div.th-block.th-two-column-text-block > div.th-block__two-columns > div.th-content",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 455,
+          "via": "fixed",
+          "selector": "ul.th-block__list.th-accordion > li.th-collapse.th-accordion__item > button.th-collapse__header.th-accordion__item-heading > h3",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 433,
+          "via": "fixed",
+          "selector": "th > div.th-collapse.th-accordion__item > button.th-collapse__header.th-accordion__item-heading > h3",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 408,
+          "via": "fixed",
+          "selector": "#content > section.th-campaign-banner > div.th-campaign-banner__text > p",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 373,
+          "via": "fixed",
+          "selector": "div.th-content-area > section.th-section > div.th-container.th-container--small > a.th-button-large.th-button-center-desktop",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 351,
+          "via": "fixed",
+          "selector": "th > div.th-collapse.th-accordion__item > button.th-collapse__header.th-accordion__item-heading > h3",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 318,
+          "via": "fixed",
+          "selector": "section.th-section > div.th-container.th-block > ul.th-quick-facts-block__list > li.th-quick-facts-block__item",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/forsakringar/fordon",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 289,
+          "via": "fixed",
+          "selector": "section.th-section > div.th-container.th-container--wide > div.th-cta-image-block__content > a.th-button-medium.th-button-primary-brand",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring",
+            "https://www.trygghansa.se/skadeanmalan"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 268,
+          "via": "fixed",
+          "selector": "ul.th-block__list.th-accordion > li.th-collapse.th-accordion__item > button.th-collapse__header.th-accordion__item-heading > h3",
+          "pages": [
+            "https://www.trygghansa.se/forsakringar/bilforsakring"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 246,
+          "via": "fixed",
+          "selector": "#th-tabset > ul.th-tabset-tabs > li.th-tabset-tab.th-tabset-tab--with-highlight",
+          "pages": [
+            "https://www.trygghansa.se/",
+            "https://www.trygghansa.se/forsakringar/bilforsakring"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.trygghansa.se/",
+          "section": 0,
+          "selector": "#content > div.th-content-area-hero",
+          "px": 984
+        },
+        {
+          "url": "https://www.trygghansa.se/",
+          "section": 1,
+          "selector": "#content > div.th-content-area",
+          "px": 1440
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+          "section": 0,
+          "selector": "#content > section.th-hero",
+          "px": 860
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+          "section": 1,
+          "selector": "#content > section.th-campaign-banner",
+          "px": 728
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+          "section": 2,
+          "selector": "#content > section.th-section.th-section--stripe",
+          "px": null
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/bilforsakring",
+          "section": 3,
+          "selector": "#content > div.th-content-area",
+          "px": 1064
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/fordon",
+          "section": 0,
+          "selector": "#content > section.th-hero",
+          "px": 860
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/fordon",
+          "section": 1,
+          "selector": "#content > section.th-section.th-section--stripe",
+          "px": null
+        },
+        {
+          "url": "https://www.trygghansa.se/forsakringar/fordon",
+          "section": 2,
+          "selector": "#content > div.th-content-area",
+          "px": 1064
+        },
+        {
+          "url": "https://www.trygghansa.se/skadeanmalan",
+          "section": 0,
+          "selector": "#content > section.th-hero",
+          "px": null
+        },
+        {
+          "url": "https://www.trygghansa.se/skadeanmalan",
+          "section": 1,
+          "selector": "#content > section.th-section.th-section--stripe",
+          "px": null
+        },
+        {
+          "url": "https://www.trygghansa.se/skadeanmalan",
+          "section": 2,
+          "selector": "#content > div.th-content-area",
+          "px": 1440
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1440 (https://www.trygghansa.se/), fluid (https://www.trygghansa.se/forsakringar/bilforsakring), 1064 (https://www.trygghansa.se/forsakringar/fordon), 1440 (https://www.trygghansa.se/skadeanmalan) — decide per template in the inconsistency register",
+        "module cap 984px on a single section (#th-tabset, https://www.trygghansa.se/) — intent or mistake? register it"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-04T10:08:57.165Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.trygghansa.se/",
+          "https://www.trygghansa.se/forsakringar/bilforsakring",
+          "https://www.trygghansa.se/forsakringar/fordon",
+          "https://www.trygghansa.se/skadeanmalan"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,551 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-04T11:35:50.890Z",
+  "input": "stardust/current/_dynamics.json",
+  "martech": "stardust/martech"
+ },
+ "productionHosts": [
+  "www.trygghansa.se"
+ ],
+ "consent": {
+  "cmp": {
+   "vendor": "OneTrust",
+   "src": "https://cdn.cookielaw.org/scripttemplates/otSDKStub.js",
+   "attrs": {
+    "data-domain-script": "c91270b2-f5b9-4772-9722-8f6fd78cf5d8"
+   },
+   "groups": "OnetrustActiveGroups",
+   "event": "OneTrustGroupsUpdated",
+   "viaTagManager": false,
+   "enabled": false
+  },
+  "model": "per-tag",
+  "categories": [
+   {
+    "id": "C0001",
+    "name": "Absolut nödvändiga cookies",
+    "status": "always active"
+   },
+   {
+    "id": "C0003",
+    "name": "Funktionella cookies",
+    "status": "inactive"
+   },
+   {
+    "id": "C0002",
+    "name": "Prestanda-cookies",
+    "status": "inactive"
+   },
+   {
+    "id": "C0005",
+    "name": "Sociala medier-cookies",
+    "status": "inactive"
+   },
+   {
+    "id": "C0004",
+    "name": "Riktade cookies",
+    "status": "inactive"
+   }
+  ],
+  "ruleSets": 1,
+  "consentMode": {
+   "pages": 0,
+   "of": 4,
+   "libraries": [
+    "tags/www.googletagmanager.com-gtm-GTM-TDH7D6.js"
+   ]
+  }
+ },
+ "routes": [
+  {
+   "id": "adobe-launch",
+   "vendor": "Adobe Launch",
+   "src": "https://assets.adobedtm.com/8bd8ff966c09/b72845161ef0/launch-3cee49d7db63.min.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [
+    "C0004"
+   ],
+   "enabled": false
+  },
+  {
+   "id": "google-tag-manager",
+   "vendor": "Google Tag Manager",
+   "src": "https://www.googletagmanager.com/gtm.js?id=GTM-TDH7D6",
+   "boot": "gtm",
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  },
+  {
+   "id": "tealium",
+   "vendor": "Tealium",
+   "src": "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.js",
+   "boot": null,
+   "category": null,
+   "cmpGroups": [],
+   "enabled": false
+  }
+ ],
+ "otherTags": [
+  "analytics: session replay",
+  "feedback: survey / VoC badge"
+ ],
+ "tagManagers": [
+  "Adobe Launch",
+  "Google Tag Manager",
+  "Tealium"
+ ],
+ "dataLayers": [
+  "adobeDataLayer",
+  "dataLayer",
+  "utag_data"
+ ],
+ "tagNotes": {},
+ "rewrite": {
+  "rules": [
+   {
+    "id": "RL33920be890474830a8b61501dc1de6e7",
+    "name": "Core - data-personalization clicked link (CDP)",
+    "paths": [],
+    "selectors": [
+     "a"
+    ]
+   },
+   {
+    "id": "RL3856d5b4f0774d7cbd742d19912f8f93",
+    "name": "Core - data-personalization Enters Viewport (CDP)",
+    "paths": [],
+    "selectors": [
+     "[data-personalization]"
+    ]
+   },
+   {
+    "id": "RLb87365354b2442f99b176fad0e91408b",
+    "name": "Core - Focus on th-pregnancy-phone",
+    "paths": [],
+    "selectors": [
+     "#th-pregnancy-phone"
+    ]
+   },
+   {
+    "id": "RLd74a2764354e4ad5a708a19a4af1abd1",
+    "name": "Core - data-personalization clicked (CDP)",
+    "paths": [],
+    "selectors": [
+     "[data-personalization]"
+    ]
+   },
+   {
+    "id": "RLd8c2d37b5d7443aa9884a885771a94f3",
+    "name": "Core - Focus on th-pregnancy-email",
+    "paths": [],
+    "selectors": [
+     "#th-pregnancy-email"
+    ]
+   }
+  ],
+  "dataElements": [],
+  "library": "Adobe Launch",
+  "dataLayer": [
+   {
+    "id": "RL02ad8e4f528f465e96af91382e351d03",
+    "name": "ACDL | Clear and Set Variables | civilCalculated",
+    "events": [
+     "civilCalculated"
+    ]
+   },
+   {
+    "id": "RL0427d2ab462a4b879938451467d7c62c",
+    "name": "ACDL | Clear and Set Variables | PAChild Step 1 Age not chosen yet",
+    "events": [
+     "paChild-Quote"
+    ]
+   },
+   {
+    "id": "RL0903edb4dbc046f7839628373b87fd18",
+    "name": "ACDL | Clear and Set Variables | PAChild HD summary",
+    "events": [
+     "paChild-HealthDeclarationSummary"
+    ]
+   },
+   {
+    "id": "RL0ab030e3d8f6416d95379c7548b2899f",
+    "name": "ACDL | Clear and Set Variables | petsubscribedAutogiro2",
+    "events": [
+     "editBankDetails"
+    ]
+   },
+   {
+    "id": "RL0eb799f114f8457980121796b52d44f7",
+    "name": "ACDL | Clear and Set Variables | PAChild  HD steps Fields",
+    "events": [
+     "changedhealthDeclarationQuestionsInteracted"
+    ]
+   },
+   {
+    "id": "RL15aa4a5751f444bab22266a836526c99",
+    "name": "ACDL | Clear and Set Variables | careCLSummary",
+    "events": [
+     "careCLSummary"
+    ]
+   },
+   {
+    "id": "RL19ac1fd775674487b87f87872f151922",
+    "name": "ACDL | Clear and Set Variables | PAChild Payment LSBS",
+    "events": [
+     "paChild-Payment"
+    ]
+   },
+   {
+    "id": "RL1b93377ab452432a9fe05147cbe8d956",
+    "name": "ACDL | Clear and Set Variables | vehicleRecalculated",
+    "events": [
+     "vehicleRecalculated"
+    ]
+   },
+   {
+    "id": "RL209afab72c0e419589ab5a06e4c11d42",
+    "name": "ACDL | Clear and Set Variables | PAChild Health Step 1",
+    "events": [
+     "paChild-HealthDeclaration1"
+    ]
+   },
+   {
+    "id": "RL214c3821db294b3d8ec9aa5f4f7b449c",
+    "name": "ACDL | Clear and Set Variables | vehicleSubscribed Cancel Confirmation",
+    "events": [
+     "AutogiroCancelConfirmation"
+    ]
+   },
+   {
+    "id": "RL23353bbb99054850ba21c2f43dc72b35",
+    "name": "ACDL | Clear and Set Variables | PAChild Health Step 3",
+    "events": [
+     "paChild-HealthDeclaration3"
+    ]
+   },
+   {
+    "id": "RL2b310778ee8c4da9869103dbdaf5650f",
+    "name": "ACDL | Clear and Set Variables | petSubscribedAutogiroAbortModal",
+    "events": [
+     "autogiroAbortModal"
+    ]
+   },
+   {
+    "id": "RL34dd55f9b2e44832b41b37563b9a2e35",
+    "name": "ACDL | Clear and Set Variables | PAChild Quote Changed Child age on step 1",
+    "events": [
+     "changedChildAge"
+    ]
+   },
+   {
+    "id": "RL382649643c434f2db780ccbba97317c4",
+    "name": "ACDL | Clear and Set Variables | careCLReCalculated",
+    "events": [
+     "careCLRecalculated"
+    ]
+   },
+   {
+    "id": "RL43c9da48f7194384934b700809d2b3ae",
+    "name": "ACDL | Clear and Set Variables | prodView",
+    "events": [
+     "prodView"
+    ]
+   },
+   {
+    "id": "RL47b5911bc9464f17b0689ff22132233d",
+    "name": "ACDL | Clear and Set Variables | vehicleRecalculated accordion",
+    "events": [
+     "pdfAccordion"
+    ]
+   },
+   {
+    "id": "RL4cf0c345c27549538ce2287f3dac34f2",
+    "name": "ACDL | Clear and Set Variables | vehicleSubscribed pageload",
+    "events": [
+     "pageload"
+    ]
+   },
+   {
+    "id": "RL52a8cd53ae884b2fb39d03a11626fde8",
+    "name": "ACDL | Clear and Set Variables | paCalculated",
+    "events": [
+     "paCalculated"
+    ]
+   },
+   {
+    "id": "RL544d4484c6094994bbf6ac7fc019758f",
+    "name": "Core - data-personalization exists (CDP)",
+    "events": [
+     "logToAdobe"
+    ]
+   },
+   {
+    "id": "RL58cc02f415d546dc8b650c4a3e546865",
+    "name": "ACDL | Clear and Set Variables | petCustomerValidated",
+    "events": [
+     "petCustomerValidated"
+    ]
+   },
+   {
+    "id": "RL59031752876e486bacea7bacd5d10d15",
+    "name": "ACDL | Clear and Set Variables | petSubscribedSigningModalClicked",
+    "events": [
+     "signingModal"
+    ]
+   },
+   {
+    "id": "RL5e2763365ac04a8e814072362a7ad770",
+    "name": "ACDL | Clear and Set Variables | vehicleSubscribed AutogiroConfirmation",
+    "events": [
+     "AutogiroConfirmation"
+    ]
+   },
+   {
+    "id": "RL68d1af456dc04f2a910664c8bec05bcf",
+    "name": "ACDL | Clear and Set Variables | vehicleCalculated",
+    "events": [
+     "vehicleCalculated"
+    ]
+   },
+   {
+    "id": "RL78e45a8927c848a4a212cf39241b88d9",
+    "name": "ACDL | Clear and Set Variables | paRecalculated",
+    "events": [
+     "paRecalculated"
+    ]
+   },
+   {
+    "id": "RL85a6c46e4b554047963331cff2ebf586",
+    "name": "ACDL | Clear and Set Variables | petSubscribedBankSelected",
+    "events": [
+     "bankSelected"
+    ]
+   },
+   {
+    "id": "RL872b5c53ac2049a8a2a2bd143e7de752",
+    "name": "ACDL | Clear and Set Variables | paCheckout",
+    "events": [
+     "paCheckout"
+    ]
+   },
+   {
+    "id": "RL888097571d724e28b104258d564b5176",
+    "name": "ACDL | Clear and Set Variables | PAChild HD step 2",
+    "events": [
+     "paChild-HealthDeclaration2"
+    ]
+   },
+   {
+    "id": "RL8f14f2c605884edcbfe3ec11a25b9f63",
+    "name": "ACDL | Clear and Set Variables | civilRecalculated",
+    "events": [
+     "civilRecalculated"
+    ]
+   },
+   {
+    "id": "RL8f603be1e2034dc8b27463a2316dfd1d",
+    "name": "ACDL | Clear and Set Variables | petProductValidated",
+    "events": [
+     "petProductValidated"
+    ]
+   },
+   {
+    "id": "RL8f8a214f099c49f797cc45b39024102f",
+    "name": "ACDL | Clear and Set Variables | civilCustomerAndPropertyValidated",
+    "events": [
+     "civilCustomerAndPropertyValidated"
+    ]
+   },
+   {
+    "id": "RL8fbb3b23bd8c4066b39751512178714b",
+    "name": "ACDL | Clear and Set Variables | petRecalculated",
+    "events": [
+     "petRecalculated"
+    ]
+   },
+   {
+    "id": "RL936490bd6bbe4d67aa456670c49f459c",
+    "name": "ACDL | Clear and Set Variables | petSubscribed",
+    "events": [
+     "petSubscribed"
+    ]
+   },
+   {
+    "id": "RL9eb48ddf8a53472b9bc7b3a46a41e8f9",
+    "name": "ACDL | Clear and Set Variables | CallBookingForm",
+    "events": [
+     "CallBookingForm"
+    ]
+   },
+   {
+    "id": "RLa3e8cf71d5844e26ac5aa9a4c6590b4b",
+    "name": "ACDL | Clear and Set Variables | PAChild Quote Changed Child age on step 1 Price track",
+    "events": [
+     "changedPrice"
+    ]
+   },
+   {
+    "id": "RLa5dc2d14e6da41f09426587705a1c3bf",
+    "name": "ACDL | Clear and Set Variables | error",
+    "events": [
+     "error"
+    ]
+   },
+   {
+    "id": "RLab611045b2354c32a4125b07ccb9a625",
+    "name": "ACDL | Clear and Set Variables | logToAdobe",
+    "events": [
+     "logToAdobe"
+    ]
+   },
+   {
+    "id": "RLb4526485e5ae4b82b7d0e4339a210220",
+    "name": "ACDL | Clear and Set Variables | smallBusinessSubscribed",
+    "events": [
+     "smallBusinessSubscribed"
+    ]
+   },
+   {
+    "id": "RLb4ccbee00f7d471aaab6b7ba26115329",
+    "name": "ACDL | Clear and Set Variables | civilSubscribed",
+    "events": [
+     "civilSubscribed"
+    ]
+   },
+   {
+    "id": "RLc5b48be15cad4e489b02a339f12e18e2",
+    "name": "ACDL | Clear and Set Variables | vehicleRecalculated addonstuff",
+    "events": [
+     "addonModalPopup"
+    ]
+   },
+   {
+    "id": "RLc64b05c6678a4aab9cb47b53444ebb2c",
+    "name": "ACDL | Clear and Set Variables | elementInteraction",
+    "events": [
+     "elementInteraction"
+    ]
+   },
+   {
+    "id": "RLd0e606a04123483f9de4eec7fcce9b10",
+    "name": "ACDL | Clear and Set Variables | PAChild Confirmation page",
+    "events": [
+     "paChild-Confirmation"
+    ]
+   },
+   {
+    "id": "RLda27147bb0874372b157ad0fe686241b",
+    "name": "ACDL | Clear and Set Variables | PAChild Errors",
+    "events": [
+     "errorAndValidation"
+    ]
+   },
+   {
+    "id": "RLdd2d8d0051e84942ab7133c66564b4c7",
+    "name": "ACDL | Clear and Set Variables | PAChild BB utskrivet question",
+    "events": [
+     "postPartumCare"
+    ]
+   },
+   {
+    "id": "RLe15a337d97a141d8b1c2a70eb35254aa",
+    "name": "ACDL | Clear and Set Variables | accordion",
+    "events": [
+     "accordion"
+    ]
+   },
+   {
+    "id": "RLe4e95445b1a64337a366bdddd1f63267",
+    "name": "ACDL | Clear and Set Variables | vehicleSubscribed",
+    "events": [
+     "vehicleSubscribed"
+    ]
+   },
+   {
+    "id": "RLe6e35356a73549fda74368419606f274",
+    "name": "ACDL | Clear and Set Variables | cancelInsuranceConfirmation",
+    "events": [
+     "cancelInsuranceConfirmation"
+    ]
+   },
+   {
+    "id": "RLe8a8bbb8c75c4944a4e309bb14fca82a",
+    "name": "ACDL | Clear and Set Variables | civilSubscribed Testing",
+    "events": [
+     "civilSubscribed"
+    ]
+   },
+   {
+    "id": "RLe903378992334012858c642cfb280c9c",
+    "name": "ACDL | Clear and Set Variables | smallBusinessReCalculated",
+    "events": [
+     "smallBusinesRealculated"
+    ]
+   },
+   {
+    "id": "RLebb24d6da3954113aec495ebd6027fb1",
+    "name": "ACDL | Clear and Set Variables | petCalculated",
+    "events": [
+     "petCalculated"
+    ]
+   },
+   {
+    "id": "RLecc41ea66ba24a43bacca5494b1efb96",
+    "name": "ACDL | Clear and Set Variables | smallBusinessCalculated",
+    "events": [
+     "smallBusinessCalculated"
+    ]
+   },
+   {
+    "id": "RLf06f8eff5b17482bb851bcd73a41d3af",
+    "name": "ACDL | Clear and Set Variables | paSubscribed",
+    "events": [
+     "paSubscribed"
+    ]
+   },
+   {
+    "id": "RLf7a16c3f6365405eb8da7579084c1455",
+    "name": "ACDL | Clear and Set Variables | careCLCalculated",
+    "events": [
+     "careCLCalculated"
+    ]
+   },
+   {
+    "id": "RLf7d43597b3034f928564f051e4caaf36",
+    "name": "ACDL | Clear and Set Variables | Samlingsrabatt counter",
+    "events": [
+     "counter"
+    ]
+   },
+   {
+    "id": "RLf7ffbe1f0e4f4cfcaa87de68ca84bcc0",
+    "name": "ACDL | Clear and Set Variables | careCLSubscribed",
+    "events": [
+     "careCLSubscribed"
+    ]
+   },
+   {
+    "id": "RLf86d91ce904d497db3b2307d06200441",
+    "name": "ACDL | Clear and Set Variables | qqOnFocus",
+    "events": [
+     "trackQqFocus"
+    ]
+   }
+  ],
+  "dataLayerPaths": [
+   "adobeDataLayer.page.request"
+  ]
+ },
+ "aemMartech": null,
+ "target": {
+  "atjs": {
+   "from": "launch",
+   "extension": "adobe-target-v2"
+  },
+  "webSdk": null,
+  "enabled": false
+ }
+}

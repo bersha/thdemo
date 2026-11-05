@@ -1,0 +1,150 @@
+/* =====================================================================
+   landing.css — home-page-only modules (imports canon.css first)
+   Hero tabset with campaign tabs + quick-quote panels.
+   Values lifted from main.*.css (.th-tabset*) and measured live boxes
+   (the quick-quote apps are client-rendered; their boxes are measured).
+   ===================================================================== */
+
+/* ---------- Tabset (overlaps the hero bottom) ---------- */
+.th-tabset {
+  position: relative; margin-block-start: -5.6875rem; margin-inline: 1.25rem;
+  box-shadow: 0 8px 20px #0000001f; border-end-start-radius: .625rem; border-end-end-radius: .625rem;
+}
+@media (min-width: 1024px) { .th-tabset { max-width: 61.5rem; margin-block-start: -8.125rem; margin-inline: auto; } }
+.th-tabset .th-tabset-tabs { display: flex; margin: 0; padding: 0; list-style: none; }
+.th-tabset .th-tabset-tab {
+  position: relative; flex: 1; height: 5.6875rem; transition: all ease .25s;
+  background-color: var(--th-theme-background-alternative); box-shadow: inset 0 -50px 30px -40px #0000001a;
+}
+@media (min-width: 1024px) { .th-tabset .th-tabset-tab { height: 8.125rem; } }
+.th-tabset .th-tabset-tab:not(.th-tabset-tab--is-active):hover { height: 6rem; margin-block-start: -.3125rem; box-shadow: none; }
+@media (min-width: 1024px) { .th-tabset .th-tabset-tab:not(.th-tabset-tab--is-active):hover { height: 8.4375rem; } }
+.th-tabset .th-tabset-tab:not(:last-child)::after {
+  content: ""; position: absolute; z-index: 1; right: -.0625rem; bottom: .75rem; width: .0625rem; height: 4.1875rem;
+  background: var(--th-theme-stroke-strong);
+}
+@media (min-width: 1024px) { .th-tabset .th-tabset-tab:not(:last-child)::after { bottom: 1rem; height: 6.125rem; } }
+.th-tabset .th-tabset-tab--is-active {
+  z-index: 1; background-color: var(--th-theme-background-base);
+  box-shadow: -8px -25px 30px #0000001f, 8px -25px 30px #0000001a;
+}
+.th-tabset .th-tabset-tab--is-active::after { display: none; }
+.th-tabset .th-tabset-tab__button {
+  display: inline-block; width: 100%; height: 100%; color: var(--th-theme-text-weak); text-decoration: none;
+}
+.th-tabset .th-tabset-tab__button:hover { text-decoration: none; }
+.th-tabset .th-tabset-tab__button:focus-visible { outline: .1875rem solid var(--th-theme-stroke-focus); outline-offset: -.5rem; }
+.th-tabset .th-tabset-tab__campaign {
+  display: block; position: absolute; top: -2.5rem; left: 0; width: 100%; padding-block: .8125rem;
+  background-color: var(--th-theme-fill-brand-strong); color: var(--th-theme-text-inverse-strong);
+  font-size: .875rem; font-weight: 600; line-height: 1; text-align: center;
+  border-start-start-radius: .625rem; border-start-end-radius: .625rem;
+}
+.th-tabset .th-tabset-tab__content { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; }
+.th-tabset .th-tabset-tab__content .th-icon { font-size: 2.5rem; line-height: 1.5; }
+.th-tabset .th-tabset-tab__heading { font-size: 1.125rem; font-weight: var(--th-theme-font-weight-base); line-height: 1.5; }
+@media (min-width: 1024px) { .th-tabset .th-tabset-tab__heading { font-size: 1.25rem; } }
+
+.th-tabset .th-tabset-panels { padding: 1.25rem .9375rem; }
+.th-tabset .th-tabset-panel[hidden] { display: none; }
+.th-tabset .th-tabset-panel:focus-visible { outline: .125rem solid var(--th-theme-stroke-focus); outline-offset: .25rem; }
+.th-tabset .th-tabset-panel__campaign-banner {
+  position: relative; margin-block-end: 1.25rem; margin-inline: -1.6875rem; padding: .625rem;
+  background-color: var(--th-theme-fill-accent-strong); color: var(--th-theme-text-inverse-strong);
+  font-size: .875rem; line-height: 1.25; text-align: center;
+}
+@media (min-width: 1024px) { .th-tabset .th-tabset-panel__campaign-banner { padding-block: .875rem; font-size: 1.125rem; line-height: 1.1; } }
+.th-tabset .th-tabset-panel__campaign-banner::before,
+.th-tabset .th-tabset-panel__campaign-banner::after {
+  content: ""; display: block; position: absolute; top: 100%; width: 0; height: 0; border-style: solid;
+  border-color: rgb(30, 83, 97) transparent;
+}
+.th-tabset .th-tabset-panel__campaign-banner::before { left: 0; border-width: .9375rem 0 0 .75rem; }
+.th-tabset .th-tabset-panel__campaign-banner::after { right: 0; border-width: .9375rem .75rem 0 0; }
+.th-tabset .th-tabset-panel__heading {
+  margin-block-end: 1.25rem; color: var(--th-theme-text-strong); font-size: 1.125rem; line-height: 1.3; text-align: center;
+}
+.th-tabset .th-tabset-panel__introduction {
+  max-width: 43.75rem; margin-block-end: 1.25rem; margin-inline: auto; line-height: 1.2; text-align: center;
+}
+.th-start-page-tab-button-list { display: flex; flex-direction: column; align-items: center; gap: 1rem; }
+@media (min-width: 768px) { .th-start-page-tab-button-list { flex-direction: row; justify-content: center; } }
+
+/* ---------- Quick-quote form (native rebuild; submission hands off to the live flow) ---------- */
+.th-qq { display: grid; gap: 1rem; font-size: 1rem; line-height: 1.5rem; }
+@media (min-width: 1024px) { .th-qq { grid-template-columns: repeat(4, 1fr); align-items: end; } }
+.th-qq__field { display: flex; flex-direction: column; }
+.th-qq__label { display: flex; flex-direction: column; margin-block-end: .25rem; row-gap: .25rem; }
+.th-qq__label-text { color: var(--th-theme-text-strong); }
+.th-qq__hint { color: var(--th-theme-text-weak); }
+.th-qq__control { position: relative; }
+.th-qq__input {
+  display: inline-block; width: 100%; height: 3rem; padding: .75rem 1.0625rem;
+  border: .0625rem solid var(--th-theme-stroke-strong); border-radius: .625rem;
+  background-color: var(--th-theme-background-base); color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-body); font-size: 1rem; line-height: 1.5rem;
+}
+.th-qq__input--plate { padding-left: 2.8rem; }
+.th-qq__plate {
+  position: absolute; top: 0; bottom: 0; left: 0; width: 1.875rem; display: flex; flex-direction: column;
+  align-items: center; justify-content: flex-end; padding-bottom: .25rem;
+  border-radius: .625rem 0 0 .625rem; background-color: rgb(43, 94, 226);
+  color: #fff; font-size: .75rem; font-weight: 700; line-height: 1;
+}
+.th-qq__plate::before {
+  content: ""; width: .9rem; height: .9rem; margin-bottom: .35rem; border: .125rem dotted rgb(255, 204, 0); border-radius: 50%;
+}
+.th-qq__btn {
+  display: inline-flex; position: relative; align-items: center; justify-content: center; width: 100%; height: 3rem;
+  padding: 0 1.5rem; border-radius: .5rem; font-size: 1rem; font-weight: 700; line-height: 1.2; text-decoration: none;
+}
+.th-qq__btn--primary { border: none; background-color: var(--th-theme-fill-brand-strong); color: var(--th-theme-text-inverse-strong); }
+.th-qq__btn--primary:hover { background-color: var(--th-theme-fill-brand-hover); }
+.th-qq__btn--secondary {
+  justify-content: flex-start; border: .0625rem solid var(--th-theme-stroke-strong); background-color: var(--th-theme-background-base);
+  color: var(--th-theme-text-strong); text-align: left;
+}
+.th-qq__btn--secondary:hover { background-color: var(--th-theme-fill-weak-hover); text-decoration: none; }
+.th-qq__more { margin-block-end: .5rem; }
+.th-qq__gdpr { font-size: .75rem; line-height: 1.125rem; }
+.th-qq__gdpr a { color: inherit; }
+@media (min-width: 1024px) {
+  .th-qq__input, .th-qq__btn { font-size: 1.125rem; line-height: 1.6875rem; }
+  .th-qq__btn { line-height: 1.2; }
+  .th-qq__more { margin-block-end: 0; }
+  .th-qq__gdpr { grid-column: 1 / -1; justify-self: center; max-width: 43.75rem; font-size: .875rem; line-height: 1.3125rem; text-align: center; }
+}
+/* Simpler single-field quick quotes (pregnancy, home) reuse the same atoms */
+.th-qq--row { grid-template-columns: 1fr; }
+@media (min-width: 1024px) { .th-qq--row { grid-template-columns: repeat(3, 1fr); } }
+.th-qq__select {
+  width: 100%; height: 3rem; padding: .75rem 1.0625rem; border: .0625rem solid var(--th-theme-stroke-strong);
+  border-radius: .625rem; background-color: var(--th-theme-background-base); color: var(--th-theme-text-strong); font: inherit;
+}
+.th-qq__fieldset { margin: 0; padding: 0; border: 0; }
+.th-qq__plate::after { content: "S"; }
+.th-qq__loader[hidden] { display: none; }
+.th-qq__modal:not([open]) { display: none; }
+.th-qq__modal-head { display: flex; justify-content: space-between; }
+.th-qq__close { display: inline-flex; padding: .25rem; font-size: 1rem; }
+.th-qq__select-icon, .th-qq__search-icon {
+  position: absolute; top: 50%; right: 1rem; translate: 0 -50%; font-size: .75rem; pointer-events: none;
+}
+.th-qq__search-icon { font-size: 1.25rem; }
+.th-qq__select { appearance: none; padding-right: 2.5rem; }
+.th-qq__popover { position: relative; display: inline-block; vertical-align: middle; }
+.th-qq__popover-body[hidden] { display: none; }
+.th-qq__popover-body {
+  position: absolute; z-index: 2; top: 1.75rem; left: -1rem; width: 16rem; display: flex; gap: .5rem; padding: .75rem;
+  border-radius: .5rem; background: var(--th-theme-background-base); box-shadow: 0 2px 8px #00000040; font-size: .875rem; line-height: 1.3;
+}
+.th-qq__help { display: inline-flex; font-size: 1.125rem; color: var(--th-theme-text-accent); }
+.th-qq__help .icon-TH-HelpFilled, .th-qq__help:hover .icon-TH-Help { display: none; }
+.th-qq__help:hover .icon-TH-HelpFilled { display: block; }
+.th-tabset-panel .th-display-hidden h2 { font-size: 1.5rem; }
+.th-qq__modal-heading { font-size: 2rem; }
+.th-qq__legend { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@media (max-width: 1023.98px) {
+  .th-qq__hint { font-size: .875rem; }
+  .th-qq__modal-heading { font-size: 1.75rem; }
+}

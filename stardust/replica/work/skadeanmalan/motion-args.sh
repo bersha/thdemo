@@ -1,0 +1,2 @@
+# poke list for motion-observe on skadeanmalan (live and build, same order)
+MO_ARGS='--click .th-accordion__item:nth-child(1)>.th-collapse__header --click .th-accordion__item:nth-child(1)>.th-collapse__header --click .th-header__nav-item>button.th-header__nav-button --click .th-header__nav-item>button.th-header__nav-button --hover .th-card --hover .th-accordion__item-heading --hover .th-button-large --hover .th-cta-image-block__content>.th-button-medium --hover .th-breadcrumbs__crumb>a --hover .th-header__nav-link--active --hover .th-card__link'

@@ -1,0 +1,34 @@
+{"ts":"2026-11-04T09:58:51Z","skill":"stardust:replica","phase":"extract","event":"start","detail":"extract --prep --dynamics over the 10 planned pages of trygghansa.se"}
+{"ts":"2026-11-04T10:12:49Z","skill":"stardust:replica","phase":"extract","event":"end","detail":"10/10 pages live (landing 1, program 5, listing 3, static 1); census 1440+360; header contract recorded; uncaptured first-level targets: none (no locale roots)"}
+{"ts":"2026-11-04T10:13:14Z","skill":"stardust:replica","phase":"preserve-direction","event":"start","detail":"promote current spec verbatim; empty register; dynamics triage + martech"}
+{"ts":"2026-11-04T10:15:11Z","skill":"stardust:replica","phase":"preserve-direction","event":"end","detail":"verbatim promotion; register 1 entry (R-01 font substitution); dynamics 9 curated rows, all with disposition; martech contract all disabled"}
+{"ts":"2026-11-04T10:16:41Z","skill":"stardust:replica","phase":"recreate","event":"start","detail":"recreate 4 archetypes (landing, program, listing, static) with source-fidelity gate at 1440+360"}
+{"ts":"2026-11-04T11:31:47Z","skill":"stardust:replica","phase":"recreate","event":"end","detail":"4/4 archetypes gated 1440+360: landing 0.14/0.15%, listing 0.21/0.16%, static 0.15/0.15%, program 0.26/0.45%; all Δh 0, 0 structural; prototype table 4/4 PASS both widths"}
+{"ts":"2026-11-04T11:32:03Z","skill":"stardust:replica","phase":"handoff","event":"start","detail":"Phase 5: C0 foundation, per-template archetype deploy + published gate, sibling clusters, gate-all, final; publish decided"}
+{"ts":"2026-11-04T11:32:33Z","skill":"stardust:migrate","phase":"plan","event":"start","detail":"plan: 4 archetypes (branch A) + 6 siblings (A' after their archetype is live)"}
+{"ts":"2026-11-04T11:34:28Z","skill":"stardust:migrate","phase":"plan","event":"end","detail":"4 archetypes rendered (branch A); 6 siblings queued (program 4, listing 2); variance probes recorded"}
+{"ts":"2026-11-04T11:34:39Z","skill":"stardust:rollout","phase":"A-inventory","event":"start"}
+{"ts":"2026-11-04T11:34:45Z","skill":"stardust:rollout","phase":"A-inventory","event":"end","detail":"10 pages: 4 archetypes pending, 6 siblings content-pending","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-11-04T11:34:45Z","skill":"stardust:rollout","phase":"B-block","event":"start"}
+{"ts":"2026-11-04T11:34:52Z","skill":"stardust:rollout","phase":"B-block","event":"end","detail":"12 distinct blocks (29 instances); representative-first plan","artifact":"stardust/rollout/plan.json"}
+{"ts":"2026-11-04T11:34:52Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"start"}
+{"ts":"2026-11-04T11:35:56Z","skill":"stardust:rollout","phase":"B2-dynamic","event":"end","detail":"28 findings re-detected on 4 archetypes, curated rows hold; martech contract all-disabled, scripts/martech.js scaffolded"}
+{"ts":"2026-11-04T11:36:13Z","skill":"stardust:rollout","phase":"C-deliver","event":"start","detail":"units: foundation, archetype×4, cluster×2 (listing, program), gate-all, final"}
+{"ts":"2026-11-04T14:49:52Z","skill":"stardust:rollout","phase":"C-deliver","event":"end","detail":"10/10 pages delivered on aem.live; gate-all 1440+360 10/10 (1 capture-state override); freeze clean, 0 requests"}
+{"ts":"2026-11-04T14:50:03Z","skill":"stardust:rollout","phase":"D-site","event":"start","detail":"sitemap/robots/manifest, redirects sheet, root check"}
+{"ts":"2026-11-04T14:50:21Z","skill":"stardust:rollout","phase":"D-site","event":"end","detail":"sitemap served 10 = assembled 10; redirects: none needed (paths identical); / 200; nav/footer noindex"}
+{"ts":"2026-11-04T14:50:32Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"start","detail":"dynamics-check against aem.live; martech contract verify"}
+{"ts":"2026-11-04T14:52:43Z","skill":"stardust:rollout","phase":"D2-dynamic","event":"end","detail":"parity 7/7 PASS on aem.live (dom-count×5, no-page-errors 10 pages, martech gate); 3 owner decisions named","artifact":"stardust/qa/dynamics-report.md"}
+{"ts":"2026-11-04T14:52:51Z","skill":"stardust:rollout","phase":"E-full-site","event":"start","detail":"verify.mjs over 10 pages on aem.live + coverage --gate"}
+{"ts":"2026-11-04T14:53:53Z","skill":"stardust:rollout","phase":"E-full-site","event":"end","detail":"10/10 verified on aem.live (4 by verify.mjs, 6 by equivalent check — trailing-slash publicUrl + #133 widget-link false negatives); gate.pass 10/10","artifact":"stardust/rollout/coverage/pages.json"}
+{"ts":"2026-11-04T14:54:01Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"start","detail":"nav/footer/landing targets + every internal href GET on aem.live"}
+{"ts":"2026-11-04T14:56:16Z","skill":"stardust:rollout","phase":"E2-link-audit","event":"end","detail":"0 broken: internal 16/16 200 on aem.live; 155 out-of-scope targets repointed to source, all <400; localize-links --check clean","artifact":"stardust/rollout/link-audit.json"}
+{"ts":"2026-11-04T14:56:23Z","skill":"stardust:rollout","phase":"F-optimize","event":"start","detail":"optimize.mjs over the 10 live pages; P1 gate"}
+{"ts":"2026-11-04T14:57:10Z","skill":"stardust:rollout","phase":"F-optimize","event":"end","detail":"GATE PASS: 10/10 pages, P1 0 · P2 10 (JSON-LD missing, source has it → G-aem) · P3 0","artifact":"stardust/rollout/optimize/scorecard.json"}
+{"ts":"2026-11-04T14:57:21Z","skill":"stardust:rollout","phase":"G-aem","event":"start","detail":"carry source JSON-LD verbatim onto the 10 pages; re-deploy; re-run verify + optimize"}
+{"ts":"2026-11-04T14:59:41Z","skill":"stardust:rollout","phase":"G-aem","event":"end","detail":"JSON-LD carried verbatim via metadata on 10/10 pages, served == source; re-deployed 10/10 live; optimize P1 0 P2 0 P3 0 (10 fixed); verify 10/10"}
+{"ts":"2026-11-04T14:59:52Z","skill":"stardust:rollout","phase":"H-report","event":"start","detail":"summary block + learnings"}
+{"ts":"2026-11-04T15:00:22Z","skill":"stardust:rollout","phase":"H-report","event":"end","detail":"10/10 pages verified, 4 templates, 12/12 blocks, optimize 100/100 0 open, 1 capture-state override (villaforsakring)","artifact":"stardust/rollout/report.md"}
+{"ts":"2026-11-04T15:00:32Z","skill":"stardust:rollout","phase":"I-dashboard","event":"start","detail":"dashboard.mjs"}
+{"ts":"2026-11-04T15:00:35Z","skill":"stardust:rollout","phase":"I-dashboard","event":"end","detail":"10/10 identified · prototyped · deployed · optimised","artifact":"stardust/rollout/dashboard/index.html"}
+{"ts":"2026-11-04T15:03:02Z","skill":"stardust:replica","phase":"handoff","event":"end","detail":"10/10 pages delivered on aem.live; published-origin gate 10/10 at 1440+360 (1 capture-state override); verify 10/10; optimize 0 open; done-check complete","artifact":"stardust/rollout/"}

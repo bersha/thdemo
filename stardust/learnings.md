@@ -1,0 +1,6 @@
+
+- 2026-11-04 (rollout verify): `verify.mjs --base` false-fails replica archetypes whose migrated file is `<path>/index.html` (publicUrl appends `/`, EDS 404s) and any page carrying a `/widgets/…html` reference (#133 widget links not exempt from the link check). Verified with an equivalent check on the extensionless URL + widget HTTP 200; upstream fix candidates in rollout/lib.mjs publicUrl and verify.mjs checkLinks.
+- 2026-11-04 (rollout optimize): optimize.mjs --base skips the same folder-index pages as verify (publicUrl trailing slash) without saying so ("Inspected 7 pages"); a --root run over a mirror of the served HTML covers all of them.
+- 2026-11-04 (G-aem): source JSON-LD carries cleanly as a `JSON-LD` page-metadata row (EDS renders `<script type="application/ld+json">`); write `<`, `>`, `&` inside the JSON as `\u` escapes or davids-model D15 flags FAQ answer markup as code-as-text.
+- 2026-11-04 (H-report): coverage block rows stayed `pending` through C-deliver (cluster subagents updated pages only); record blocks with `update-coverage --block <id> --status verified --eds-name <name>` before the report.
+- 2026-11-04 (done-check): rollout/done-check.mjs `pages_not_live` probes publicUrl() too, so folder-index archetypes read not-live while their extensionless URL is 200; the runner's done-check was complete.

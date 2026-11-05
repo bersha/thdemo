@@ -1,0 +1,18 @@
+{
+  "internal": 16,
+  "source": 155,
+  "externalHosts": [
+    "main--64009de2--aemcoder.aem.live",
+    "portal.trygghansa.se",
+    "www.aktsam.se",
+    "www.facebook.com",
+    "www.instagram.com",
+    "www.konsumenternas.se",
+    "www.linkedin.com",
+    "www.modernaforsakringar.se",
+    "www.tff.se",
+    "www.trygghansashop.se",
+    "www.verisure.se"
+  ],
+  "bad": []
+}

@@ -1,0 +1,750 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:41.342Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "skadeanmalan",
+  "url": "https://www.trygghansa.se/skadeanmalan",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:41.342Z",
+  "finalUrl": "https://www.trygghansa.se/skadeanmalan",
+  "title": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+  "description": "Här anmäler du enkelt om någonting har hänt. Gör din skadeanmälan direkt på webben när det passar dig.",
+  "og": {
+    "title": "Skadeanmälan - Anmäl förlust, stöld eller skada",
+    "description": "Här anmäler du enkelt om någonting har hänt. Gör din skadeanmälan direkt på webben när det passar dig.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Skadeanmälan"
+    },
+    {
+      "tag": "h2",
+      "text": "Anmäl skada"
+    },
+    {
+      "tag": "h2",
+      "text": "Så går det till att anmäla en skada"
+    },
+    {
+      "tag": "h2",
+      "text": "Vanliga frågor och svar om skadeanmälan"
+    },
+    {
+      "tag": "h3",
+      "text": "Täcker försäkringen min skada?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag har fått ett ärr. Hur anmäler jag det?"
+    },
+    {
+      "tag": "h3",
+      "text": "Ska jag komplettera mitt ärende eller anmäla ett nytt?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag har ett pågående ärende. Vad är status?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur gör jag med kvitto för veterinärbesök?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag är kund hos Aktsam. Ska jag anmäla här?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag har anmält en skada till Moderna Försäkringar. Hur gör jag?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag har en sjukvårdsförsäkring, hur bokar jag vård?"
+    },
+    {
+      "tag": "h2",
+      "text": "Om det händer något akut"
+    },
+    {
+      "tag": "h3",
+      "text": "Bärgning dygnet runt"
+    },
+    {
+      "tag": "h3",
+      "text": "Om du är utomlands"
+    },
+    {
+      "tag": "h3",
+      "text": "Akut brand eller vattenskada"
+    },
+    {
+      "tag": "h2",
+      "text": "Vill du veta mer innan du anmäler?"
+    },
+    {
+      "tag": "h3",
+      "text": "När du råkat ut för en olycka"
+    },
+    {
+      "tag": "h3",
+      "text": "När du krockat eller kört på något"
+    },
+    {
+      "tag": "h3",
+      "text": "Om du blir sjuk eller skadad utomlands"
+    },
+    {
+      "tag": "h2",
+      "text": "Behöver du hjälp med din skadeanmälan?"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "Hem",
+    "Skadeanmälan",
+    "Här gör du en skadeanmälan till oss. Det kan vara om du har råkat ut för en olycka, skada, sjukdom eller vill söka ersättning för något.",
+    "Här förklarar vi vad som händer före, under och efter din skadeanmälan.",
+    "Du anmäler skadan till ossAnmäl skadan till oss så får du svara på frågor om händelsen. Du kan också ringa oss på 0771-111 500.",
+    "Vi arbetar med ditt ärendeNär vi har tagit emot din skadeanmälan undersöker vi vad som har hänt och kollar vilka försäkringar du har. Om du behöver komplettera din anmälan hör vi av oss. Du kan följa ditt ärende på Mina sidor.",
+    "Du får besked om ersättningSå snart vi har ett besked meddelar vi dig om du kommer att få ersättning och hur mycket. Ofta kan vi ge besked inom ett par dagar, men ibland tar det längre tid.",
+    "Täcker försäkringen min skada? Du kan läsa mer om försäkringen och vad den täcker på Mina sidor. Där hittar du förköpsinformation, villkor och ditt försäkringsbrev. Om du är osäker på vad försäkringen täcker ska du anmäla ändå. Vi tittar på ärendet och återkommer.",
+    "Jag har fått ett ärr. Hur anmäler jag det? Om du har fått ett ärr eller någon annan utseendemässig förändring ska du komplettera din tidigare skadeanmälan med bilder på ärret. Vi kommer att höra av oss inom 1,5 år efter att du har gjort din skadeanmälan till oss och be om bilderna. Här kan du läsa mer om hur det fungerar med ersättning för ärr.",
+    "Ska jag komplettera mitt ärende eller anmäla ett nytt? Om händelsen hör till ett tidigare skadeärende ska du komplettera det. Det gör du genom att logga in på Mina sidor. Är du osäker kan du även anmäla en ny skada. Vi tittar på ärendet oavsett.",
+    "Jag har ett pågående ärende. Vad är status? Om du har ett pågående skadeärende hos oss kan du följa det på Mina sidor. Vi meddelar dig så fort det händer något nytt.",
+    "Hur gör jag med kvitto för veterinärbesök? Om du har varit hos veterinären ska du anmäla det här. I din anmälan får du ladda upp ditt kvitto. Vi räknar ut din ersättning och drar av självrisken.",
+    "Jag är kund hos Aktsam. Ska jag anmäla här? Har du en försäkring hos Aktsam som är tecknad från och med 2024 eller senare anmäler du din skada här. Du kan också anmäla och se pågående skadeärenden genom att logga in på Mina sidor. Om du har haft, eller har, en försäkring hos Aktsam som är tecknad tidigare än så anmäler du din skada genom att kontakta Aktsam.",
+    "Jag har anmält en skada till Moderna Försäkringar. Hur gör jag? Om du har anmält en skada till Moderna Försäkringar fortsätter du att ha kontakt med dem på samma sätt som tidigare. Pågående skadeärenden hos Moderna Försäkringar går inte att se på Mina sidor. Här hittar du kontaktuppgifter till Moderna Försäkringar.",
+    "Jag har en sjukvårdsförsäkring, hur bokar jag vård? Du som har en sjukvårdsförsäkring hos oss på Trygg-Hansa kan vända dig till vår vårdplanering för att få en bedömning av ditt vårdbehov, medicinsk rådgivning och för att boka vård. Du kan välja om du vill kontakta oss digitalt eller på telefon.",
+    "Ring våra journummer, de har öppet dygnet runt.",
+    "Bärgning dygnet runt Ring 0771-111 510",
+    "Om du är utomlands Ring +45 7010 50 50",
+    "Akut brand eller vattenskada Ring 0771-111 520",
+    "Här kan du läsa mer om olika skador och vad du ska tänka på när du anmäler händelsen till oss.",
+    "När du råkat ut för en olycka Vår guide hjälper dig att få koll på vad du behöver göra och i vilken ordning. Tips när olyckan är framme",
+    "När du krockat eller kört på något Via många verkstäder erbjuder vi smidigare och snabbare service. Tips när du har krockat med bilen",
+    "Om du blir sjuk eller skadad utomlands Vad händer om du råkar ut för något när du är utomlands? Läs mer om vad du kan göra om du behöver hjälp utanför Sverige",
+    "Om du har frågor eller funderingar om att anmäla skador, ring oss så hjälper vi dig."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Starta anmälan",
+      "href": "https://portal.trygghansa.se/skadeanmalan/anmal-en-skada/fritext"
+    },
+    {
+      "label": "Anmäl skadan till oss",
+      "href": "https://portal.trygghansa.se/skadeanmalan/anmal-en-skada/fritext"
+    },
+    {
+      "label": "0771-111 500",
+      "href": "tel:0771111500"
+    },
+    {
+      "label": "Mina sidor",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Täcker försäkringen min skada?",
+      "href": null
+    },
+    {
+      "label": "Jag har fått ett ärr. Hur anmäler jag det?",
+      "href": null
+    },
+    {
+      "label": "Ska jag komplettera mitt ärende eller anmäla ett nytt?",
+      "href": null
+    },
+    {
+      "label": "Jag har ett pågående ärende. Vad är status?",
+      "href": null
+    },
+    {
+      "label": "Hur gör jag med kvitto för veterinärbesök?",
+      "href": null
+    },
+    {
+      "label": "Jag är kund hos Aktsam. Ska jag anmäla här?",
+      "href": null
+    },
+    {
+      "label": "Jag har anmält en skada till Moderna Försäkringar. Hur gör jag?",
+      "href": null
+    },
+    {
+      "label": "Jag har en sjukvårdsförsäkring, hur bokar jag vård?",
+      "href": null
+    },
+    {
+      "label": "Ring 0771-111 510",
+      "href": "tel:0771111510"
+    },
+    {
+      "label": "Ring +45 7010 50 50",
+      "href": "tel:004570105050"
+    },
+    {
+      "label": "Ring 0771-111 520",
+      "href": "tel:0771111520"
+    },
+    {
+      "label": "Tips när olyckan är framme",
+      "href": "/skadeanmalan/nar-olyckan-ar-framme"
+    },
+    {
+      "label": "Tips när du har krockat med bilen",
+      "href": "/skadeanmalan/krockat"
+    },
+    {
+      "label": "Läs mer om vad du kan göra om du behöver hjälp utanför Sverige",
+      "href": "/forsakringar/reseforsakring/nar-du-ar-utomlands"
+    },
+    {
+      "label": "Ring 0771-111 500",
+      "href": "tel:0771111500"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    },
+    {
+      "label": "Hållbarhet",
+      "href": "/om-trygghansa/esg"
+    },
+    {
+      "label": "Tillgänglighet",
+      "href": "/om-trygghansa/om-webbplatsen/tillganglighet"
+    },
+    {
+      "label": "Livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen"
+    },
+    {
+      "label": "Pressinformation",
+      "href": "/om-trygghansa/pressinformation"
+    },
+    {
+      "label": "Våra experter",
+      "href": "/om-trygghansa/experter"
+    },
+    {
+      "label": "Jobb och karriär",
+      "href": "/om-trygghansa/jobb-och-karriar"
+    },
+    {
+      "label": "Om webbplatsen",
+      "href": "/om-trygghansa/om-webbplatsen"
+    },
+    {
+      "label": "Cookies",
+      "href": "/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+    },
+    {
+      "label": "Personuppgifter",
+      "href": "/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/skadeanmalan#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://portal.trygghansa.se/skadeanmalan/anmal-en-skada/fritext",
+    "tel:0771111500",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/ersattning-for-arr",
+    "https://portal.trygghansa.se/kundservice/privat/pages/logga-in.aspx?redirectpath=/skadeanmalan/anmalan?init=20214",
+    "https://www.aktsam.se/kontakta-oss",
+    "https://www.modernaforsakringar.se/kontakta-oss/",
+    "https://www.trygghansa.se/forsakringar/person/vardplanering",
+    "tel:0771111510",
+    "tel:004570105050",
+    "tel:0771111520",
+    "https://www.trygghansa.se/skadeanmalan/nar-olyckan-ar-framme",
+    "https://www.trygghansa.se/skadeanmalan/krockat",
+    "https://www.trygghansa.se/forsakringar/reseforsakring/nar-du-ar-utomlands",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/1954f9e52293468f989b312d1eb6688f/skadeanmalan_anmal_skada_online.jpg?format=webp&width=1536&height=366&rxy=0.45%2c0.48&quality=80",
+        "alt": "Kvinna sitter utomhus och skriver på sin laptop",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/e71d14f4d1404092ad592421ec792a07/olyckan_ar_framme.jpg?format=webp&width=318&height=220&rxy=0.58%2c0.54&quality=80",
+        "alt": "Kvinna och man springer i skogen och mannen ramlar över en stock",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/902f23f470f649ab8c2b182754438807/krockade_bilar.jpg?format=webp&width=318&height=220&rxy=0.55%2c0.38&quality=80",
+        "alt": "Två bilar som har krockat in i varandra",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/hero/pl/utomlands.jpg?format=webp&width=318&height=220&rxy=0.72%2c0.71&quality=80",
+        "alt": "kvinna sitter i solstol på sandstrand",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/contentassets/247466ed80d341c096be055903c1424e/kundservice_th_man_kontor.jpg?format=webp&width=750&height=650&quality=80",
+        "alt": "",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 25,
+    "mainTextLen": 3979,
+    "realImageCount": 8,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/skadeanmalan.png",
+  "renderedHtml": "pages/skadeanmalan.html"
+}

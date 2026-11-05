@@ -1,0 +1,76 @@
+/* listing.css — listing archetype (forsakringar-person). Loaded after canon.css.
+   Modules canon lacks: header active state, campaign banner, breadcrumbs, two-column text block + .th-content prose.
+   Values lifted from current/css/main.7N15NBz7.css (th-* source names kept). */
+
+/* ---------- Header: current-section state (source @121944/@122233/@126020) ---------- */
+.th-header__nav-button--active { background-color: var(--th-theme-fill-brand-strong); color: var(--th-theme-text-inverse-strong); }
+.th-header__nav-button--active:hover { background-color: var(--th-theme-fill-brand-hover); }
+@media (min-width: 1024px) {
+  .th-header__nav-button.th-header__nav-button--active { background-color: var(--th-theme-fill-brand-strong); }
+  .th-header__nav-button.th-header__nav-button--active:hover { background-color: var(--th-theme-fill-brand-hover); }
+}
+.th-header__subnavigation-header--active a { color: var(--th-theme-text-brand); }
+
+/* ---------- Campaign banner (source @43746–@45965) ---------- */
+.th-campaign-banner {
+  display: flex; align-items: center; justify-content: center; padding-inline: 2.5rem 1.25rem; column-gap: 1.875rem;
+  background-color: var(--th-theme-fill-accent-strong); color: var(--th-theme-text-inverse-strong);
+}
+.th-campaign-banner__icon-wrapper { position: relative; z-index: 1; }
+.th-campaign-banner__icon-wrapper::after {
+  content: ""; position: absolute; top: 50%; left: 50%; width: 4.375rem; height: 4.375rem;
+  background-image: url("assets/img/th-campaign-banner-burst.svg"); background-size: 100%;
+  translate: -50% -50%; filter: drop-shadow(0 3px 5px rgba(0, 0, 0, .25));
+}
+.th-campaign-banner__icon { position: relative; z-index: 1; font-size: 2.4375rem; line-height: 1; }
+.th-campaign-banner__text { flex: 0 1 auto; padding-block: .5rem; overflow-wrap: anywhere; }
+.th-campaign-banner__text > p { display: inline; font-size: 1rem; line-height: 1.5rem; text-align: left; }
+.th-campaign-banner__text a { color: inherit; }
+@media (min-width: 1024px) {
+  .th-campaign-banner__icon-wrapper::after { width: 5.625rem; height: 5.625rem; }
+  .th-campaign-banner__icon { font-size: 3.125rem; }
+  .th-campaign-banner__text { padding-block: 1.125rem; }
+  .th-campaign-banner__text > p { font-size: 1.625rem; line-height: 2.125rem; }
+}
+
+/* ---------- Breadcrumbs (source @60656–@61296, type @2153/@3425) ---------- */
+.th-breadcrumbs { display: flex; align-items: center; min-height: 3.125rem; }
+.th-breadcrumbs__list { display: inline-flex; flex-wrap: wrap; padding: 0; list-style: none; }
+.th-breadcrumbs__crumb { display: none; font-size: .875rem; font-weight: 400; line-height: 1.25rem; }
+.th-breadcrumbs__crumb a { font-weight: 700; text-decoration: none; }
+.th-breadcrumbs__crumb a:hover { text-decoration: underline; }
+.th-breadcrumbs__crumb:not(:last-child) { margin-right: .5rem; }
+.th-breadcrumbs__crumb:not(:last-child)::after { content: ">" / ""; display: inline-block; margin-left: .5rem; }
+.th-breadcrumbs__crumb:first-child, .th-breadcrumbs__crumb:nth-last-child(2), .th-breadcrumbs__crumb:last-child { display: inline; }
+@media (min-width: 1024px) {
+  .th-breadcrumbs__crumb { display: inline; font-size: 1rem; line-height: 1.5rem; }
+}
+
+/* ---------- Two-column text block (source @33973–@34230) ---------- */
+.th-block__two-columns { display: flex; flex-wrap: wrap; row-gap: 1.875rem; }
+.th-block__two-columns > div { flex: 1 0 100%; }
+@media (min-width: 1024px) {
+  .th-block__two-columns { gap: 2.5rem; }
+  .th-block__two-columns > div { flex-basis: calc(50% - 1.25rem); }
+}
+
+/* ---------- Prose: .th-content (source @7884/@9295/@13150/@16628–@19696/@29528) ---------- */
+.th-content { line-height: 1.375; }
+.th-content > p { overflow-wrap: break-word; }
+.th-content > h3 {
+  margin-block: 1.875rem .625rem; overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading); font-size: 1.25rem; font-weight: 700; line-height: 1.875rem;
+}
+@media (min-width: 1024px) { .th-content > h3 { font-size: 1.375rem; line-height: 2.0625rem; } }
+.th-content :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) { margin-block-start: 1.25rem; }
+.th-content > :first-child { margin-block-start: 0; }
+.th-content > :last-child { margin-block-end: 0; }
+
+/* ---------- Icons this page adds (canon icon rule; one line per icon) ---------- */
+.icon-TH-SavePercent { --svg: url("assets/icons/TH-SavePercent.svg"); }
+.icon-TH-Buoy { --svg: url("assets/icons/TH-Buoy.svg"); }
+.icon-TH-Ambulance { --svg: url("assets/icons/TH-Ambulance.svg"); }
+.icon-TH-Emergency { --svg: url("assets/icons/TH-Emergency.svg"); }
+.icon-TH-Employee { --svg: url("assets/icons/TH-Employee.svg"); }
+.icon-TH-Suitcase { --svg: url("assets/icons/TH-Suitcase.svg"); }
+.icon-TH-Backpack { --svg: url("assets/icons/TH-Backpack.svg"); }

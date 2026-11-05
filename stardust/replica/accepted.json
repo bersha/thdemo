@@ -1,0 +1,87 @@
+{
+  "accepted": [
+    {
+      "probe": "chrome-parity",
+      "kind": "EXTRA",
+      "root": "footer",
+      "text": "5 % till dig och klubben",
+      "reason": "Instrument asymmetry, not a design change: the live footer injects the SHL offer flyout (aside.shl-widget, after cookie consent). gate.sh needs --dismiss \"button[aria-label='Stäng SHL-erbjudandet']\" so the fixed flyout is not baked into the live stitched capture; chrome-parity applies that dismissal on the LIVE side only, so the build's (identical, recreated) flyout reads as EXTRA. content-diff (no dismissal) sees it on both sides and passes. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "chrome-parity",
+      "kind": "ICONS",
+      "root": "footer",
+      "reason": "Same SHL flyout asymmetry: its 2 inline svg controls + 2 logo imgs are counted on the build side only because chrome-parity dismisses the flyout on the live side alone. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING HEADING",
+      "root": "footer",
+      "text": "5 % till dig och klubben",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING CTA",
+      "root": "footer",
+      "text": "Välj din klubb",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING BODY",
+      "root": "footer",
+      "text": "Du som älskar hockey",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING ICON",
+      "root": "footer",
+      "text": "shl-erbjudandet",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "MISSING ARIA-LABEL",
+      "root": "footer",
+      "text": "SHL-erbjudande",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA",
+      "root": "footer",
+      "text": "5 % till dig och klubben",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA",
+      "root": "footer",
+      "text": "Välj din klubb",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA",
+      "root": "footer",
+      "text": "Du som älskar hockey",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA ICON",
+      "root": "footer",
+      "text": "shl-erbjudandet",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    },
+    {
+      "probe": "content-diff",
+      "kind": "EXTRA ARIA-LABEL",
+      "root": "footer",
+      "text": "SHL-erbjudande",
+      "reason": "Timing artifact of a dismissed overlay, not a content change: the live footer injects the SHL offer flyout (aside.shl-widget) a moment after load/consent; gate.sh must --dismiss it (button[aria-label='Stäng SHL-erbjudandet']) or it is baked into the live stitched capture. The build carries the same flyout verbatim (delayed insert, same text, aria-labels, svgs, logos, link), so depending on whether the dismissal lands before or after insertion on each side, content-diff reads it on one side only. Decided hands-off by the replica agent, 2026-11-04."
+    }
+  ]
+}

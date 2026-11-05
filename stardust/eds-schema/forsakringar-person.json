@@ -1,0 +1,467 @@
+{
+ "source": "http://localhost:8791/forsakringar-person-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "th-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Personförsäkringar"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "th-campaign-banner",
+   "items": [
+    {
+     "role": "body",
+     "order": 0,
+     "text": "20 % rabatt första året på !"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "sjuk- och olycksfallsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Hem",
+     "href": "https://www.trygghansa.se/"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Försäkringar",
+     "href": "https://www.trygghansa.se/forsakringar"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Personförsäkringar"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-breadcrumbs__crumb",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Personförsäkringar för hela familjen"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "En personförsäkring kan ge dig ersättning om du drabbas av ett olycksfall eller en sjukdom. Vi försäkrar hela familjen – barn, studenter, vuxna och seniorer. Hos oss kan du teckna en försäkring som passar just dig, oavsett var i livet du befinner dig."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Välj den personförsäkring du vill veta mer om"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Barnförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Vår barnförsäkring ger en trygg start i livet. Gäller tills 25 års ålder."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Läs om vår barnförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/barnforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Gravidförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Ge ditt barn en trygg start! Vi har längst erfarenhet av gravidförsäkring i Sverige."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Läs om vår gravidförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/gravidforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Livförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Ekonomiskt stöd till din familj, en trygghet om det värsta skulle hända."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Läs om livförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/livforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Sjuk- och olycksfallsförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Om du drabbas av en sjukdom eller ett olycksfall. Skydd dygnet runt!"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Läs om vår sjuk- och olycksfallsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Olycksfallsförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Om du drabbas av ett olycksfall. Teckna direkt utan hälsofrågor!"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Läs om vår olycksfallsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Vårdförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Tillgång till vårdplanering och rådgivning för både sjukdomar och olycksfall."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Läs om vår vårdförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Olycksfallsförsäkring för seniorer"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Olycksfallsförsäkring för dig över 55 år. Gäller dygnet runt."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Läs om vår seniorförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring/senior"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Vårdförsäkring olycksfall"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Tillgång till vårdplanering och rådgivning för olycksfall."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Läs om vårdförsäkring olycksfall",
+     "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring-olycksfall"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "Reseförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Reseskydd som gäller i 45 dagar. Ingår i alla våra hemförsäkringar."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Läs om hur reseskyddet fungerar",
+     "href": "https://www.trygghansa.se/forsakringar/reseforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 28,
+     "text": "Försäkring för utlandsstudent och au pair"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "För dig som ska plugga utomlands eller vara au pair. Olycksfallsskydd ingår!"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "Läs om vår utlandsstudentförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/utlandsstudent"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-cards__item",
+     "count": 10,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vad är en personförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Personförsäkring är ett samlingsnamn för de försäkringar som ger ersättning för vissa sjukdomar, diagnoser och för olycksfall. Det kan till exempel vara om du blir plötsligt sjuk eller bryter benet i skidbacken."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Vad kostar en personförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Priset på en personförsäkring varierar beroende på vilken försäkring det är och vilket skydd du vill ha. Du kan ta reda på just ditt pris genom att fylla i dina uppgifter direkt på den försäkring du vill teckna. Här kan du se och här kan du se ."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "pris på sjuk- och olycksfallsförsäkring",
+     "href": "https://portal.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring/berakna-pris"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "pris på olycksfallsförsäkring",
+     "href": "https://portal.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring/berakna-pris"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Hur vet jag om jag har en personförsäkring?"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Ibland kan det vara svårt att hålla reda på vilka försäkringar man har och att skilja dem åt. Dessutom kanske det var många år sedan du (eller dina föräldrar) tecknade försäkringen. Om du är osäker kan du logga in på Mina sidor hos ditt försäkringsbolag och leta efter ord som , och . Om du är yngre än 25 år kan det stå att du har en , eftersom de gäller ända till dess."
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "olycksfallsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/olycksfallsforsakring"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "sjuk- och olycksfallsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "sjukvårdsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/vardforsakring"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "barnförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/barnforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 12,
+     "text": "Gruppförsäkring – personförsäkring via jobbet"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Har du försäkringar via din arbetsgivare? I så fall kan din personförsäkring heta gruppförsäkring eftersom den gäller för många personer. Fråga din arbetsgivare om hur det fungerar just där du jobbar. Det är också viktigt att du kollar om försäkringen gäller på fritiden, eftersom det kan skilja sig åt. I många fall är det bra att komplettera med en eftersom gruppförsäkringar oftast inte gäller för sjukdomar."
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "privat sjuk- och olycksfallsförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/sjuk-olycksfallsforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Försäkring för studenter"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Även du som är student behöver ha en bra försäkring, trots att pengarna kanske inte räcker till. Därför erbjuder vi en till ett lägre pris så att du har råd att teckna en sjuk- och olycksfallsförsäkring också. Men kom ihåg att du behöver teckna båda två! En personförsäkring och hem hemförsäkring är inte samma sak. För dig som är au pair eller studerar utomlands ingår det ett olycksfallsskydd i din hemförsäkring."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "hemförsäkring för studenter",
+     "href": "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 18,
+     "text": "Teckna personförsäkring – så gör du!"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Ovan kan du se vilka personförsäkringar vi på Trygg-Hansa erbjuder. Välj den försäkring som passar dig så kan du läsa mer om innehållet och ta del av viktiga dokument som för- och efterköpsinformation och försäkringens villkor. Du kan teckna personförsäkringen direkt på webben eller ringa oss på så hjälper vi dig."
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "0771 – 111 110",
+     "href": "tel:0771111110"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Familjeförsäkring för alla familjer"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Vi försäkrar hela familjen och alla familjer. De fyrbenta familjemedlemmarna? Ja de är såklart välkomna de med. Här kan du läsa mer om ."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "våra djurförsäkringar",
+     "href": "https://www.trygghansa.se/djurforsakring"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Om du samlar familjens försäkringar hos oss kan du få upp till 20 % samlingsrabatt. Här kan du se hur mycket just du kan få i ."
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Tips!"
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "samlingsrabatt",
+     "href": "https://www.trygghansa.se/forsakringar/samlingsrabatt"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 15,
+   "repeats": [
+    {
+     "unitSelector": "DIV.th-content",
+     "count": 2,
+     "unit": {
+      "headings": 3,
+      "ctas": 7,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  }
+ ]
+}

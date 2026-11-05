@@ -1,0 +1,657 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:31.200Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "forsakringar-fordon",
+  "url": "https://www.trygghansa.se/forsakringar/fordon",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:31.200Z",
+  "finalUrl": "https://www.trygghansa.se/forsakringar/fordon",
+  "title": "Fordonsförsäkring - Försäkring för ditt fordon",
+  "description": "Fordonsförsäkring; många fordon kräver en trafikförsäkring. Här kan du försäkra en mängd olika fordon för en tryggare vardag. Läs mer här!",
+  "og": {
+    "title": "Fordonsförsäkring - Försäkring för ditt fordon",
+    "description": "Fordonsförsäkring; många fordon kräver en trafikförsäkring. Här kan du försäkra en mängd olika fordon för en tryggare vardag. Läs mer här!",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Fordonsförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Försäkringar för ditt fordon"
+    },
+    {
+      "tag": "h3",
+      "text": "Bilförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "MC-försäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Mopedförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Båtförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Husvagnsförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Husbilsförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Släpvagnsförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Försäkring för terrängfordon"
+    },
+    {
+      "tag": "h3",
+      "text": "Snöskoterförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Försäkring för elsparkcykel"
+    },
+    {
+      "tag": "h3",
+      "text": "Försäkring för mopedbil"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "Ditt pris och innehållsförslag framställs automatiskt. Kontakta oss vid frågor. För information om hur Trygg-Hansa behandlar personuppgifter, se vår integritetspolicy.",
+    "Hem",
+    "Försäkringar",
+    "Fordonsförsäkring",
+    "Vi har olika fordonsförsäkringar anpassade efter dina behov. Hos oss kan du försäkra en mängd olika fordon för en tryggare vardag i trafiken.",
+    "Bilförsäkring Vår Bilförsäkring stor ligger i topp i jämförelse av svenska bilförsäkringar. Läs om vår bilförsäkring",
+    "MC-försäkring Försäkring för både lätt och tung motorcykel. Drulle ingår! Läs om vår MC-försäkring",
+    "Mopedförsäkring Försäkring för alla slags mopeder, från EU-moped till mopedbil och cross. Läs om vår mopedförsäkring",
+    "Båtförsäkring Skydd för din båt till sjöss och på land. Hjälp dygnet runt! Läs om vår båtförsäkring",
+    "Husvagnsförsäkring Om din husvagn skulle bli stulen eller skadas. Gäller året om. Läs om vår husvagnsförsäkring",
+    "Husbilsförsäkring Trygghet för husbilen, dig själv och dina medpassagerare – hemma och på resan. Läs om vår husbilsförsäkring",
+    "Släpvagnsförsäkring Ett riktigt bra skydd för ditt släp! Ersättning både vid stöld och olyckor. Läs om vår släpvagnsförsäkring",
+    "Försäkring för terrängfordon Skydd både när du kör din terränghjuling och när den står förvarad. Läs om vår terrängfordonsförsäkring",
+    "Snöskoterförsäkring Försäkra skotern året runt – eller bara under vintersäsongen! Läs om vår snöskoterförsäkring",
+    "Försäkring för elsparkcykel Trafikförsäkring för din elsparkcykel, elscooter och andra lätta elfordon. Läs om vår försäkring för elsparkcykel",
+    "Försäkring för mopedbil Vår försäkring för mopedbil passar många slags mopedbilar. Läs om vår försäkring för mopedbil"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "Se ditt bästa pris",
+      "href": null
+    },
+    {
+      "label": "se vår integritetspolicy",
+      "href": "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Läs om vår bilförsäkring",
+      "href": "/forsakringar/bilforsakring"
+    },
+    {
+      "label": "Läs om vår MC-försäkring",
+      "href": "/forsakringar/fordon/mc-forsakring"
+    },
+    {
+      "label": "Läs om vår mopedförsäkring",
+      "href": "/forsakringar/fordon/mopedforsakring"
+    },
+    {
+      "label": "Läs om vår båtförsäkring",
+      "href": "/forsakringar/batforsakring"
+    },
+    {
+      "label": "Läs om vår husvagnsförsäkring",
+      "href": "/forsakringar/fordon/husvagnsforsakring"
+    },
+    {
+      "label": "Läs om vår husbilsförsäkring",
+      "href": "/forsakringar/fordon/husbilsforsakring"
+    },
+    {
+      "label": "Läs om vår släpvagnsförsäkring",
+      "href": "/forsakringar/fordon/slapvagnsforsakring"
+    },
+    {
+      "label": "Läs om vår terrängfordonsförsäkring",
+      "href": "/forsakringar/fordon/terrangfordonsforsakring"
+    },
+    {
+      "label": "Läs om vår snöskoterförsäkring",
+      "href": "/forsakringar/fordon/snoskoterforsakring"
+    },
+    {
+      "label": "Läs om vår försäkring för elsparkcykel",
+      "href": "/forsakringar/fordon/elsparkcykel"
+    },
+    {
+      "label": "Läs om vår försäkring för mopedbil",
+      "href": "/forsakringar/fordon/mopedforsakring/forsakra-mopedbil"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    },
+    {
+      "label": "Hållbarhet",
+      "href": "/om-trygghansa/esg"
+    },
+    {
+      "label": "Tillgänglighet",
+      "href": "/om-trygghansa/om-webbplatsen/tillganglighet"
+    },
+    {
+      "label": "Livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen"
+    },
+    {
+      "label": "Pressinformation",
+      "href": "/om-trygghansa/pressinformation"
+    },
+    {
+      "label": "Våra experter",
+      "href": "/om-trygghansa/experter"
+    },
+    {
+      "label": "Jobb och karriär",
+      "href": "/om-trygghansa/jobb-och-karriar"
+    },
+    {
+      "label": "Om webbplatsen",
+      "href": "/om-trygghansa/om-webbplatsen"
+    },
+    {
+      "label": "Cookies",
+      "href": "/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+    },
+    {
+      "label": "Personuppgifter",
+      "href": "/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/forsakringar/fordon#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/fordon/elsparkcykel",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring/forsakra-mopedbil",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/hero/cl/bilvag.jpg?format=webp&width=1536&height=366&quality=80",
+        "alt": "bilväg ses genom en vindruta",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 4,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 17,
+    "mainTextLen": 1895,
+    "realImageCount": 4,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [
+      "vue"
+    ],
+    "forms": [],
+    "ariaLiveRegions": 2,
+    "triggers": [],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": true
+    }
+  },
+  "screenshot": "assets/screenshots/forsakringar-fordon.png",
+  "renderedHtml": "pages/forsakringar-fordon.html"
+}

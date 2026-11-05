@@ -1,0 +1,1025 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-04T09:59:24.657Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200
+  },
+  "slug": "forsakringar-hemforsakring",
+  "url": "https://www.trygghansa.se/forsakringar/hemforsakring",
+  "renderedBy": "playwright",
+  "fetchedAt": "2026-11-04T09:59:24.657Z",
+  "finalUrl": "https://www.trygghansa.se/forsakringar/hemforsakring",
+  "title": "Hemförsäkring - Se ditt pris och jämför på 15 sekunder",
+  "description": "Våra hemförsäkringar skyddar familj, hem och dina saker. Du får en bra säkerhet vid små och stora händelser, både hemma och borta.",
+  "og": {
+    "title": "Hemförsäkring - Se ditt pris och jämför på 15 sekunder",
+    "description": "Våra hemförsäkringar skyddar familj, hem och dina saker. Du får en bra säkerhet vid små och stora händelser, både hemma och borta.",
+    "image": null,
+    "type": null
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Hemförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Få pris på hemförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Hemförsäkring för ditt hem"
+    },
+    {
+      "tag": "h3",
+      "text": "Snabb hjälp och ersättning"
+    },
+    {
+      "tag": "h3",
+      "text": "Reseförsäkring i 45 dagar"
+    },
+    {
+      "tag": "h3",
+      "text": "Upp till 20 % samlingsrabatt"
+    },
+    {
+      "tag": "h2",
+      "text": "Hur bor du?"
+    },
+    {
+      "tag": "h3",
+      "text": "Villa"
+    },
+    {
+      "tag": "h3",
+      "text": "Hyresrätt"
+    },
+    {
+      "tag": "h3",
+      "text": "Bostadsrätt"
+    },
+    {
+      "tag": "h3",
+      "text": "Studentlya"
+    },
+    {
+      "tag": "h3",
+      "text": "Fritidshus"
+    },
+    {
+      "tag": "h2",
+      "text": "Vad ingår i en hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad kostar en hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Måste man ha en hemförsäkring?"
+    },
+    {
+      "tag": "h2",
+      "text": "ID-skydd och ny elektronik utan avdrag"
+    },
+    {
+      "tag": "h3",
+      "text": "Skydd vid nätbedrägeri och ID-stöld"
+    },
+    {
+      "tag": "h3",
+      "text": "Ny dator, telefon och hushållsmaskin utan avdrag"
+    },
+    {
+      "tag": "h3",
+      "text": "Tryggare husliv med Hushjälpen"
+    },
+    {
+      "tag": "h3",
+      "text": "Halverad självrisk"
+    },
+    {
+      "tag": "h2",
+      "text": "Hemförsäkring märkt med Bra Miljöval"
+    },
+    {
+      "tag": "h2",
+      "text": "Samboavtal och testamente utan extra kostnad"
+    },
+    {
+      "tag": "h2",
+      "text": "Vad gör jag om något händer?"
+    },
+    {
+      "tag": "h3",
+      "text": "Små skador, snabba beslut"
+    },
+    {
+      "tag": "h3",
+      "text": "Alltid redo. Skadejour dygnet runt"
+    },
+    {
+      "tag": "h2",
+      "text": "Res tryggt - reseförsäkring ingår"
+    },
+    {
+      "tag": "h2",
+      "text": "Rabatter och förmåner"
+    },
+    {
+      "tag": "h3",
+      "text": "Samlingsrabatt"
+    },
+    {
+      "tag": "h3",
+      "text": "Medlemsrabatt"
+    },
+    {
+      "tag": "h2",
+      "text": "Vanliga frågor och svar"
+    },
+    {
+      "tag": "h3",
+      "text": "Måste jag vara skriven på den adress där jag har min hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag ska hyra ut en lägenhet i andra hand, hur gör jag med min hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Jag ska hyra boende i andra hand, vad ska jag tänka på?"
+    },
+    {
+      "tag": "h3",
+      "text": "Täcker hemförsäkringen min mobiltelefon?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad ska jag göra med min hemförsäkring om jag flyttar?"
+    },
+    {
+      "tag": "h3",
+      "text": "Gäller hemförsäkringen för elcykel, elsparkcykel och elscooter?"
+    },
+    {
+      "tag": "h3",
+      "text": "Hur vet jag om jag har en hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Är det olagligt att inte ha en hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vad händer om man inte har en hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Kan man byta hemförsäkring när som helst?"
+    },
+    {
+      "tag": "h3",
+      "text": "Blir hemförsäkringen billigare om man har larm?"
+    },
+    {
+      "tag": "h3",
+      "text": "Täcker hemförsäkringen mobiltelefoner?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vilka skador täcker hemförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Varför ska man ha en hemförsäkring?"
+    },
+    {
+      "tag": "h3",
+      "text": "Har man rätt till advokat via hemförsäkringen?"
+    },
+    {
+      "tag": "h3",
+      "text": "Vilken hemförsäkring har jag?"
+    },
+    {
+      "tag": "h2",
+      "text": "Relevant läsning"
+    },
+    {
+      "tag": "h3",
+      "text": "Mer om hemförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Reseförsäkring"
+    },
+    {
+      "tag": "h3",
+      "text": "Undvik översvämningar med en backventil"
+    },
+    {
+      "tag": "h2",
+      "text": "Få pris på hemförsäkring"
+    },
+    {
+      "tag": "h2",
+      "text": "Genvägar"
+    },
+    {
+      "tag": "h2",
+      "text": "Support"
+    },
+    {
+      "tag": "h2",
+      "text": "Smarta tips"
+    },
+    {
+      "tag": "h2",
+      "text": "Om oss"
+    }
+  ],
+  "body": [
+    "Se ditt pris och teckna hemförsäkring på två minuter! Du kan välja när försäkringen ska börja gälla.",
+    "10 % onlinerabatt på villaförsäkring. Du kan dessutom få",
+    "Hem",
+    "Försäkringar",
+    "Hemförsäkring",
+    "Inget hem är det andra likt. Vår hemförsäkring ger dig ett tryggt skydd för livets små och stora överraskningar. Varje dag, året om. Oavsett om du bor i hyresrätt, bostadsrätt eller villa.",
+    "Snabb hjälp och ersättning Majoriteten av de som anmäler en skada får beslut och ersättning direkt.",
+    "Majoriteten av de som anmäler en skada får beslut och ersättning direkt.",
+    "Reseförsäkring i 45 dagar Res vart du vill. Reseförsäkring ingår alltid i 45 dagar.",
+    "Res vart du vill. Reseförsäkring ingår alltid i 45 dagar.",
+    "Upp till 20 % samlingsrabatt Har du flera försäkringar hos oss kan du få upp till 20 % samlingsrabatt, beroende på vilka du har.",
+    "Har du flera försäkringar hos oss kan du få upp till 20 % samlingsrabatt, beroende på vilka du har.",
+    "Välj hur du bor för att komma till den försäkring som passar din boendeform och jämföra vilket av våra tre paket som är rätt för dig.",
+    "Villa Jag bor i villa eller friköpt radhus",
+    "Hyresrätt Jag hyr mitt boende (i första hand eller andra hand)",
+    "Bostadsrätt Jag bor i bostadsrätt",
+    "Studentlya Jag pluggar och vill ha 15 % rabatt",
+    "Fritidshus Jag vill försäkra mitt fritidshus",
+    "En hemförsäkring hos Trygg-Hansa innehåller ett grundskydd för ditt hem, dina saker och de som omfattas av försäkringen. Grundskyddet gäller till exempel vid brandskador, inbrott, skador under resa och om du eller någon annan som omfattas av försäkringen hamnar i en rättstvist. Du kan välja att endast teckna vårt grundskydd: baspaket, eller välja ett mer omfattande paket: mellan eller stor.",
+    "Priset på din försäkring påverkas av hur du bor, var du bor och hur många personer försäkringen ska gälla för. Det beror också på vilken omfattning du väljer och vilken självrisk du vill ha.",
+    "Som standard ingår ett försäkringsbelopp på 1 500 000 kr för lös egendom, vilket täcker saker som kläder, elektronik, möbler och annat du har i hemmet. Det är ett belopp som räcker för de flesta hushåll. Vill du ha ett högre försäkringsbelopp påverkar det ditt pris. För hemförsäkring student ingår ett försäkringsbelopp på 200 000 kr.",
+    "Nej, det är inget lagkrav, men det är starkt rekommenderat. I vissa fall kan det vara ett krav från hyresvärden eller bostadsrättsföreningen. Endast 3 procent av Sveriges befolkning saknar hemförsäkring, vilket visar hur självklart det är för de flesta.",
+    "Att stå utan hemförsäkring kan få stora ekonomiska konsekvenser. Den ersätter dig vid brand, stöld, vattenskada, om du blir skadeståndsskyldig för en skada du orsakat, och om något händer dig eller dina ägodelar under en resa. Kom ihåg att välja rätt typ beroende på om du bor i villa, bostadsrätt eller hyr ditt boende. Här kan du läsa mer om varför det är viktigt att ha en hemförsäkring.",
+    "När du väljer vår mest omfattande hem- eller villaförsäkring ingår det mer trygghet. Du får skydd vid ID-stöld och nätbedrägeri, ny elektronik utan avdrag de första tre åren och möjlighet att välja halverad självrisk, bland annat.",
+    "Att ha en digital närvaro är idag lika självklart som det är sårbart. Därför kan det kännas tryggt att veta att det finns stöd och hjälp att få om något skulle hända. Du får rådgivning och hjälp vid id-stöld, nätbedrägerier och nättrakasserier, inklusive juridiskt stöd, psykologsamtal och ersättning för ekonomisk förlust. Skyddet ingår Hemförsäkring stor och Villaförsäkring stor.",
+    "Så får du hjälp vid Nätbedrägeri och ID-stöld",
+    "Hemelektronik och hushållsmaskiner är en självklar del av vardagen, från tv:n i vardagsrummet till datorn på skrivbordet och kaffebryggaren i köket. Du får ersättning utan åldersavdrag om dina nya elektronikprylar eller hushållsmaskiner går sönder under de första tre åren. För din nya mobil får du ersättning utan åldersavdrag under det första året. Skyddet ingår i Hemförsäkring stor och Villaförsäkring stor.",
+    "Hushjälpen är omtanke och goda råd. Det är en frivillig tjänst för dig som vill lära känna ditt hus och få värdefull kunskap om hur du kan minska risken för brand, inbrott och vattenskada. Dessutom ingår konkreta tips för livet med hus och en sammanställning över hur du kan undvika ovälkomna överraskningar. Tjänsten ingår i Villaförsäkring Stor.",
+    "Läs mer om Hushjälpen",
+    "Du har möjlighet att välja en lägre självrisk på 900 kr när du tecknar Hemförsäkring stor eller Villaförsäkring stor. Du kan teckna försäkringen online och sedan kontakta kundservice så hjälper vi dig att ändra till den lägre självrisken. Väljer du en lägre självrisk betalar du istället ett högre försäkringspris.",
+    "När du väljer vår hemförsäkring får du en försäkring märkt med Bra Miljöval. Det betyder att försäkringen uppfyller Naturskyddsföreningens högt ställda miljökrav, som regelbundet kontrolleras och följs upp.",
+    "Här kan du läsa mer om vad det innebär att vår hemförsäkring är märkt med Bra Miljöval.",
+    "När du har hemförsäkring hos oss får du tillgång till Avtalshjälpen - helt utan extra kostnad. Där får du trygg och smidig hjälp med att skriva samboavtal och testamente.",
+    "Det ska vara enkelt att få hjälp. Om du råkar ut för något som ingår i din försäkring, finns vi här för dig.",
+    "Majoriteten av de som anmäler en mindre skada får beslut och ersättning redan inom ett dygn. Med små skador menar vi bland annat trasig mobil eller stulen cykel. Du kan välja att få din ersättning utbetald via Swish, smidigt och enkelt.",
+    "Vid större brand eller vattenskada får du snabb hjälp och akuta insatser, som till exempel ersättning för tillfälligt boende och förskottsersättning för att täcka akuta utgifter som kläder, hygienartiklar och mat. Vår skadejour svarar dygnet runt, året om.",
+    "Trygg hemma och ute i världen. I alla våra tre paket ingår en reseförsäkring i 45 dagar. Det betyder att vi kan ge ersättning och hjälp om du blir så pass sjuk eller skadad att du behöver vård. Reseförsäkringen gäller för alla som omfattas av försäkringen",
+    "I vårt stora paket ingår Utökad reseförsäkring, som kan ge dig ersättning om du behöver avbeställa din resa eller inte kan nyttja hela resan på grund av sjukdom eller olycksfall. Om du väljer vårt bas- eller mellanpaket finns det som valbart tillägg.",
+    "Det finns flera möjligheter som kan ge dig rabatt på din försäkring, som samlingsrabatt och medlemsrabatt.",
+    "När du har flera försäkringar hos oss kan du få samlingsrabatt på dina försäkringar. Hur hög samlingsrabatten blir beror på hur många försäkringar du har och vilka försäkringar du har. Du kan få upp till 20 % samlingsrabatt. Rabatten gäller så länge du har kvar dina försäkringar.",
+    "Räkna ut din samlingsrabatt",
+    "Om du är medlem i en organisation eller förening som vi har avtal med kan du få lägre pris och förmånligare villkor.",
+    "Läs mer om vilka medlemsrabatter som finns",
+    "Måste jag vara skriven på den adress där jag har min hemförsäkring? Nej, som försäkringstagare behöver du vare sig vara bosatt eller folkbokförd i den bostad där försäkringen ska gälla. Däremot så måste andra personer som du vill ska omfattas av försäkringen vara bosatta i bostaden och stå med på ditt försäkringsbrev.",
+    "Jag ska hyra ut en lägenhet i andra hand, hur gör jag med min hemförsäkring? Det beror på. Hur ser ditt nya boende ut? Ska du flytta utomlands medan du hyr ut din bostad? Hyr du ut lägenheten möblerad eller omöblerad? Kontakta oss, så hjälper vid dig med rätt försäkring utifrån just din situation.",
+    "Jag ska hyra boende i andra hand, vad ska jag tänka på? Om du ska hyra en lägenhet eller ett hus i andra hand bör du teckna en egen hemförsäkring. En hemförsäkring skyddar dina saker samtidigt som ansvarsförsäkringen, som ingår i hemförsäkringen, kan ge dig skydd ifall den du hyr av skulle komma med skadeståndskrav. Läs mer om hemförsäkring och att bo i andrahand eller som inneboende här.",
+    "Täcker hemförsäkringen min mobiltelefon? Om du blir rånad på mobilen täcks den av grundskyddet i hemförsäkringen. Men om du skulle förlora eller ha sönder din mobil på något annat sätt behöver du även skyddet Drulleförsäkring för lös egendom för möjlighet att få ersättning. Det skyddet ingår i Hemförsäkring mellan och Hemförsäkring stor. Har du Hemförsäkring stor får du dessutom ersättning utan åldersavdrag, gäller inom ett år från det att du köpte din nya mobil.",
+    "Vad ska jag göra med min hemförsäkring om jag flyttar? Den ska du packa med dig! Vi hjälper dig att anpassa försäkringen till ditt nya boende. Ring oss så hjälper vi dig. Det är viktigt att vi får veta mer om ditt nya boende, så att vi kan anpassa försäkringen. Annars riskerar du att antingen ha ett för dåligt skydd om något händer, eller betala onödigt mycket för ett skydd du inte längre behöver. Om du är folkbokförd på din nya adress ändras den automatiskt under Profil och inställningar inom ett par veckor. Logga gärna in och dubbelkolla att adressen stämmer. Obs! Har vi en annan adress till dig än den du är folkbokförd på? Ring kundservice för att få hjälp att byta. Är ni två som flyttar ihop? Se då till att båda står på försäkringsbrevet så att ni båda täcks av hemförsäkringen.",
+    "Gäller hemförsäkringen för elcykel, elsparkcykel och elscooter? Ja, så länge din elcykel, elsparkcykel eller elscooter klassas som en cykel och uppfyller vissa krav täcks den av hemförsäkringen. Läs mer om kraven på vår sida om cykelförsäkring. Om ditt elfordon däremot klassas som en moped och inte ingår i hemförsäkringen kan vi istället erbjuda en mopedförsäkring.",
+    "Hur vet jag om jag har en hemförsäkring? Du kan se om du har en hemförsäkring genom att logga in på Mina sidor. Betalar du för hemförsäkringen via autogiro kan du även titta i din internetbank. Om du är osäker kan du kontakta oss på Trygg-Hansa så hjälper vi dig att ta reda på vilket skydd du har idag.",
+    "Är det olagligt att inte ha en hemförsäkring? Nej, det är inte olagligt. Men om du inte har en hemförsäkring står du utan ekonomiskt skydd vid brand, inbrott, vattenskada eller om du råkar orsaka skada på någon annans egendom. Många hyresvärdar och bostadsrättsföreningar kräver dessutom att du ska ha en hemförsäkring.",
+    "Vad händer om man inte har en hemförsäkring? Om du inte har en hemförsäkring får du ingen ersättning om dina saker skadas eller försvinner. Du saknar också ansvarsförsäkring, vilket kan innebära att du själv måste betala stora belopp om du orsakar någon annan en skada. Utan rättsskydd kan juridisk hjälp bli mycket dyr. Och du saknar reseförsäkring, utifall något skulle hända dig på resan.",
+    "Kan man byta hemförsäkring när som helst? Om du vill byta hemförsäkring från liten till mellan eller stor, eller från mellan till stor, kan du göra det när som helst. Vill du byta till ett mindre paket eller byta till ett annat försäkringsbolag kan du göra det en gång per år när hemförsäkringen förnyas. Du kan se i ditt försäkringsbrev på Mina sidor vilket datum som gäller.",
+    "Blir hemförsäkringen billigare om man har larm? Ja, ett godkänt larm kopplat till larmcentral kan ge rabatt på din hemförsäkring.",
+    "Täcker hemförsäkringen mobiltelefoner? Ja, hemförsäkringen omfattar mobiltelefoner. Men i vissa fall, till exempel om du tappar mobilen, behöver du ha drulle/allrisk för att få ersättning (ingår i Hemförsäkring mellan och stor). Här kan du läsa mer om hur hemförsäkringen täcker mobiltelefoner.",
+    "Vilka skador täcker hemförsäkringen? Hemförsäkringen täcker bland annat skador orsakade av brand, inbrott, läckage och översvämning. Den innehåller även rättsskydd, ansvarsskydd, reseskydd och överfallsskydd. Om du har drulle/allrisk i hemförsäkringen kan du dessutom få ersättning för plötsliga och oförutsedda skador på dina saker, till exempel om du råkar tappa datorn eller mobilen.",
+    "Varför ska man ha en hemförsäkring? Att ha en hemförsäkring är viktigt oavsett om du bor i hyresrätt, bostadsrätt eller villa. Den skyddar dig, din familj och dina saker om något händer. Den ger dig trygghet i vardagen, hjälp och ersättning så att du inte står ensam med de kostnader som kan uppstå. Här kan du läsa mer om varför du ska ha en hemförsäkring.",
+    "Har man rätt till advokat via hemförsäkringen? Ja, det kan du ha. I hemförsäkringen ingår ett rättsskydd som kan ersätta delar av kostnaden för juridisk hjälp vid vissa tvister – men kom ihåg att alla tvister inte omfattas av hemförsäkringen. Läs mer om rättsskydd.",
+    "Vilken hemförsäkring har jag? Du kan se din hemförsäkring genom att logga in på Mina sidor. Där hittar du försäkringsbrev, villkor och vilka tillägg du har. Är du osäker på vad du behöver – kontakta oss så hjälper vi dig.",
+    "Mer om hemförsäkring När något oväntat händer där hemma är det skönt att veta hur försäkringen ger dig trygghet. Här hittar du läsvärda artiklar som hjälper dig att förstå hemförsäkringen bättre. Läs om att försäkra ditt hem",
+    "Reseförsäkring Reseskydd som gäller i 45 dagar. Ingår i alla våra hemförsäkringar. Läs om hur reseskyddet fungerar",
+    "Undvik översvämningar med en backventil Översvämning av källare och bottenvåningar ökar på grund av klimatförändringarna. Installera en backventil så undviker du att drabbas av en sådan vattenskada. Läs mer om backventil",
+    "Se ditt pris och teckna hemförsäkring på två minuter! Du kan välja när försäkringen ska börja gälla."
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Till innehållet",
+      "href": "#content"
+    },
+    {
+      "label": "Privat",
+      "href": "/"
+    },
+    {
+      "label": "Företag",
+      "href": "/foretag"
+    },
+    {
+      "label": "Försäkringar",
+      "href": null
+    },
+    {
+      "label": "Anmäl skada",
+      "href": "/skadeanmalan"
+    },
+    {
+      "label": "Kundservice",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Logga in",
+      "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+      "label": "Sök",
+      "href": "/sok"
+    },
+    {
+      "label": "Se ditt bästa pris nu",
+      "href": "/forsakringar/hemforsakring/jamfor-och-berakna-pris"
+    },
+    {
+      "label": "samlingsrabatt.",
+      "href": null
+    },
+    {
+      "label": "Hem",
+      "href": "/"
+    },
+    {
+      "label": "Försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "hyresrätt",
+      "href": "/forsakringar/hemforsakring/hyresrattsforsakring"
+    },
+    {
+      "label": "bostadsrätt",
+      "href": "/forsakringar/hemforsakring/bostadsrattsforsakring"
+    },
+    {
+      "label": "villa",
+      "href": "/forsakringar/hemforsakring/villaforsakring"
+    },
+    {
+      "label": "Jag bor i villa eller friköpt radhus",
+      "href": "/forsakringar/hemforsakring/villaforsakring"
+    },
+    {
+      "label": "Jag hyr mitt boende (i första hand eller andra hand)",
+      "href": "/forsakringar/hemforsakring/hyresrattsforsakring"
+    },
+    {
+      "label": "Jag bor i bostadsrätt",
+      "href": "/forsakringar/hemforsakring/bostadsrattsforsakring"
+    },
+    {
+      "label": "Jag pluggar och vill ha 15 % rabatt",
+      "href": "/forsakringar/hemforsakring/studentforsakring"
+    },
+    {
+      "label": "Jag vill försäkra mitt fritidshus",
+      "href": "/forsakringar/hemforsakring/fritidshusforsakring"
+    },
+    {
+      "label": "villa",
+      "href": "/forsakringar/hemforsakring/villaforsakring"
+    },
+    {
+      "label": "bostadsrätt",
+      "href": "/forsakringar/hemforsakring/bostadsrattsforsakring"
+    },
+    {
+      "label": "hyr ditt boende",
+      "href": "/forsakringar/hemforsakring/hyresrattsforsakring"
+    },
+    {
+      "label": "varför det är viktigt att ha en hemförsäkring",
+      "href": "/forsakringar/hemforsakring/varfor-hemforsakring"
+    },
+    {
+      "label": "Så får du hjälp vid Nätbedrägeri och ID-stöld",
+      "href": "/forsakringar/hemforsakring/natbedrageri-och-id-skydd"
+    },
+    {
+      "label": "Läs mer om Hushjälpen",
+      "href": "/forsakringar/hemforsakring/villaforsakring/hushjalpen"
+    },
+    {
+      "label": "Här kan du läsa mer om vad det innebär att vår hemförsäkring är märkt med Bra Miljöval",
+      "href": "/om-trygghansa/esg/bra-miljoval"
+    },
+    {
+      "label": "Läs mer om Avtalshjälpen",
+      "href": "/samarbeten/lawly"
+    },
+    {
+      "label": "Räkna ut din samlingsrabatt",
+      "href": "/forsakringar/samlingsrabatt"
+    },
+    {
+      "label": "Läs mer om vilka medlemsrabatter som finns",
+      "href": "/samarbeten"
+    },
+    {
+      "label": "Måste jag vara skriven på den adress där jag har min hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Jag ska hyra ut en lägenhet i andra hand, hur gör jag med min hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Jag ska hyra boende i andra hand, vad ska jag tänka på?",
+      "href": null
+    },
+    {
+      "label": "Täcker hemförsäkringen min mobiltelefon?",
+      "href": null
+    },
+    {
+      "label": "Vad ska jag göra med min hemförsäkring om jag flyttar?",
+      "href": null
+    },
+    {
+      "label": "Gäller hemförsäkringen för elcykel, elsparkcykel och elscooter?",
+      "href": null
+    },
+    {
+      "label": "Hur vet jag om jag har en hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Är det olagligt att inte ha en hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Vad händer om man inte har en hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Kan man byta hemförsäkring när som helst?",
+      "href": null
+    },
+    {
+      "label": "Blir hemförsäkringen billigare om man har larm?",
+      "href": null
+    },
+    {
+      "label": "Täcker hemförsäkringen mobiltelefoner?",
+      "href": null
+    },
+    {
+      "label": "Vilka skador täcker hemförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "Varför ska man ha en hemförsäkring?",
+      "href": null
+    },
+    {
+      "label": "Har man rätt till advokat via hemförsäkringen?",
+      "href": null
+    },
+    {
+      "label": "Vilken hemförsäkring har jag?",
+      "href": null
+    },
+    {
+      "label": "Läs om att försäkra ditt hem",
+      "href": "/forsakringar/hemforsakring/mer-om-hemforsakring"
+    },
+    {
+      "label": "Läs om hur reseskyddet fungerar",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "Läs mer om backventil",
+      "href": "/tips-rad/hus-och-hem/ovader/backventil"
+    },
+    {
+      "label": "Fler artiklar",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "Se ditt bästa pris nu",
+      "href": "/forsakringar/hemforsakring/jamfor-och-berakna-pris"
+    },
+    {
+      "label": "Våra försäkringar",
+      "href": "/forsakringar"
+    },
+    {
+      "label": "Beställa grönt kort",
+      "href": "/forsakringar/bilforsakring/gront-kort"
+    },
+    {
+      "label": "Hämta servicekort för resan",
+      "href": "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf"
+    },
+    {
+      "label": "Hämta tjänstereseintyg",
+      "href": "/foretag/forsakringar/personforsakring/tjansteresa"
+    },
+    {
+      "label": "Hämta fullmakt",
+      "href": "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf"
+    },
+    {
+      "label": "Se våra villkor",
+      "href": "/forsakringar/villkor"
+    },
+    {
+      "label": "Se rabatter och förmåner",
+      "href": "/om-trygghansa/kundformaner"
+    },
+    {
+      "label": "Handla i Säkerhetsshoppen",
+      "href": "https://www.trygghansashop.se/"
+    },
+    {
+      "label": "Tips och råd",
+      "href": "/tips-rad"
+    },
+    {
+      "label": "Kundservice privat",
+      "href": "/kundservice"
+    },
+    {
+      "label": "Kundservice företag",
+      "href": "/foretag/kundservice"
+    },
+    {
+      "label": "Blanketter",
+      "href": "/kundservice/blanketter"
+    },
+    {
+      "label": "Om du inte är nöjd",
+      "href": "/om-trygghansa/inte-nojd"
+    },
+    {
+      "label": "Visselblåsning",
+      "href": "/om-trygghansa/visselblasare"
+    },
+    {
+      "label": "För familjen",
+      "href": "/tips-rad/familj"
+    },
+    {
+      "label": "För gravida",
+      "href": "/tips-rad/gravid"
+    },
+    {
+      "label": "För hus och hem",
+      "href": "/tips-rad/hus-och-hem"
+    },
+    {
+      "label": "För bilen",
+      "href": "/tips-rad/bil-och-trafik"
+    },
+    {
+      "label": "Inför resan",
+      "href": "/forsakringar/reseforsakring"
+    },
+    {
+      "label": "För hundägare",
+      "href": "/tips-rad/hund"
+    },
+    {
+      "label": "För kattägare",
+      "href": "/tips-rad/katt"
+    },
+    {
+      "label": "För din hälsa",
+      "href": "/tips-rad/halsa"
+    },
+    {
+      "label": "Vattensäkerhet",
+      "href": "/tips-rad/vattensakerhet"
+    },
+    {
+      "label": "Om Trygg-Hansa",
+      "href": "/om-trygghansa"
+    },
+    {
+      "label": "Samhällsengagemang",
+      "href": "/om-trygghansa/samhallsengagemang"
+    },
+    {
+      "label": "Hållbarhet",
+      "href": "/om-trygghansa/esg"
+    },
+    {
+      "label": "Tillgänglighet",
+      "href": "/om-trygghansa/om-webbplatsen/tillganglighet"
+    },
+    {
+      "label": "Livbojen",
+      "href": "/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen"
+    },
+    {
+      "label": "Pressinformation",
+      "href": "/om-trygghansa/pressinformation"
+    },
+    {
+      "label": "Våra experter",
+      "href": "/om-trygghansa/experter"
+    },
+    {
+      "label": "Jobb och karriär",
+      "href": "/om-trygghansa/jobb-och-karriar"
+    },
+    {
+      "label": "Om webbplatsen",
+      "href": "/om-trygghansa/om-webbplatsen"
+    },
+    {
+      "label": "Cookies",
+      "href": "/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa"
+    },
+    {
+      "label": "Personuppgifter",
+      "href": "/om-trygghansa/om-webbplatsen/personuppgifter"
+    }
+  ],
+  "links": [
+    "https://www.trygghansa.se/forsakringar/hemforsakring#content",
+    "https://www.trygghansa.se/",
+    "https://www.trygghansa.se/foretag",
+    "https://www.trygghansa.se/forsakringar/bilforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/helforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/halvforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/trafikforsakring",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/marken",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/veteranbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/bostadsrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/hyresrattsforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/fritidshusforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/studentforsakring",
+    "https://www.trygghansa.se/forsakringar/reseforsakring",
+    "https://www.trygghansa.se/forsakringar/person",
+    "https://www.trygghansa.se/forsakringar/gravidforsakring",
+    "https://www.trygghansa.se/forsakringar/person/barnforsakring",
+    "https://www.trygghansa.se/forsakringar/person/livforsakring",
+    "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall",
+    "https://www.trygghansa.se/forsakringar/person/vardforsakring",
+    "https://www.trygghansa.se/forsakringar/utlandsstudent",
+    "https://www.trygghansa.se/forsakringar/fordon",
+    "https://www.trygghansa.se/forsakringar/fordon/mc-forsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/mopedforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/slapvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/batforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/terrangfordonsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husbilsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/husvagnsforsakring",
+    "https://www.trygghansa.se/forsakringar/fordon/snoskoterforsakring",
+    "https://www.trygghansa.se/djurforsakring",
+    "https://www.trygghansa.se/djurforsakring/hundforsakring",
+    "https://www.trygghansa.se/djurforsakring/kattforsakring",
+    "https://www.trygghansa.se/djurforsakring/flockforsakring",
+    "https://www.trygghansa.se/djurforsakring/uppfodarforsakring",
+    "https://www.trygghansa.se/skadeanmalan",
+    "https://www.trygghansa.se/kundservice",
+    "https://portal.trygghansa.se/logga-in",
+    "https://www.trygghansa.se/sok",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/jamfor-och-berakna-pris",
+    "https://www.trygghansa.se/forsakringar",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/varfor-hemforsakring",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/natbedrageri-och-id-skydd",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring/hushjalpen",
+    "https://www.trygghansa.se/om-trygghansa/esg/bra-miljoval",
+    "https://www.trygghansa.se/samarbeten/lawly",
+    "https://www.trygghansa.se/forsakringar/samlingsrabatt",
+    "https://www.trygghansa.se/samarbeten",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/andrahand",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/inneboende",
+    "tel:0771111110",
+    "https://www.trygghansa.se/forsakringar/ansvarsforsakring",
+    "https://www.trygghansa.se/skadeanmalan/rattsskydd",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/mobiltelefon",
+    "https://www.trygghansa.se/forsakringar/hemforsakring/mer-om-hemforsakring",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem/ovader/backventil",
+    "https://www.trygghansa.se/tips-rad/hus-och-hem",
+    "https://www.trygghansa.se/forsakringar/bilforsakring/gront-kort",
+    "https://portal.trygghansa.se/SiteCollectionDocuments/Privat/WF0174.pdf",
+    "https://www.trygghansa.se/foretag/forsakringar/personforsakring/tjansteresa",
+    "https://portal.trygghansa.se/sitecollectiondocuments/privat/s04272.pdf",
+    "https://www.trygghansa.se/forsakringar/villkor",
+    "https://www.trygghansa.se/om-trygghansa/kundformaner",
+    "https://www.trygghansashop.se/",
+    "https://www.trygghansa.se/tips-rad",
+    "https://www.trygghansa.se/foretag/kundservice",
+    "https://www.trygghansa.se/kundservice/blanketter",
+    "https://www.trygghansa.se/om-trygghansa/inte-nojd",
+    "https://www.trygghansa.se/om-trygghansa/visselblasare",
+    "https://www.trygghansa.se/tips-rad/familj",
+    "https://www.trygghansa.se/tips-rad/gravid",
+    "https://www.trygghansa.se/tips-rad/bil-och-trafik",
+    "https://www.trygghansa.se/tips-rad/hund",
+    "https://www.trygghansa.se/tips-rad/katt",
+    "https://www.trygghansa.se/tips-rad/halsa",
+    "https://www.trygghansa.se/tips-rad/vattensakerhet",
+    "https://www.trygghansa.se/om-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang",
+    "https://www.trygghansa.se/om-trygghansa/esg",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/tillganglighet",
+    "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/livbojen",
+    "https://www.trygghansa.se/om-trygghansa/pressinformation",
+    "https://www.trygghansa.se/om-trygghansa/experter",
+    "https://www.trygghansa.se/om-trygghansa/jobb-och-karriar",
+    "https://www.facebook.com/TryggHansa",
+    "https://www.linkedin.com/company/trygg-hansa/",
+    "https://www.instagram.com/trygg_hansa/",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/cookies-pa-trygghansa",
+    "https://www.trygghansa.se/om-trygghansa/om-webbplatsen/personuppgifter"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa-logo-rgb-black.svg",
+        "alt": "Trygg-Hansa logotyp",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/hus-hem-och-prylar/gi_familj_altan_sommar.jpg?format=webp&width=1536&height=366&rxy=0.54%2c0.44&quality=80",
+        "alt": "Familj sitter på veranda och umgås",
+        "w": 1439,
+        "h": 343
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/hus-hem-och-prylar/bra_miljoval_logotyp_gron.svg?width=750&height=650&quality=80",
+        "alt": "",
+        "w": 300,
+        "h": 101
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/croppedimages/strand-resa-forsakring.jpg?format=webp&width=750&height=650&quality=80",
+        "alt": "solstolar och ett parasoll på en strand",
+        "w": 720,
+        "h": 624
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/hus-hem-och-prylar/man_dansar_hem_lagenhet.jpg?format=webp&width=318&height=220&rxy=0.46%2c0.45&quality=80",
+        "alt": "En man dansar i sitt möblerade vardagsrum",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/sp/hero/pl/th_reseforsakring.jpg?format=webp&width=318&height=220&rxy=0.72%2c0.51&quality=80",
+        "alt": "ungt par badar i havet på semester",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/frontify/hus-hem-och-prylar/backventil_oversvamning.jpg?format=webp&width=318&height=220&quality=80",
+        "alt": "översvämning i en gatubrunn",
+        "w": 318,
+        "h": 220
+      },
+      {
+        "src": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg",
+        "alt": "Till startsidan",
+        "w": 300,
+        "h": 56
+      }
+    ],
+    "allImgCount": 9,
+    "cssBackgrounds": [],
+    "modals": [
+      "Rabatt på din nya villaförsäkring! Nu får du 10% rabatt när du tecknar ny villaförsäkring på trygghansa.se. Rabatten gäller första året. Du kan dessutom få samlingsrabatt när du har flera försäkringar hos oss. beroende på vilka försäkringar du har. Du kan välja att försäkringen ska börja gälla vid ett senare datum. När du tecknar din försäkring får du rabatten automatiskt. Innan du tecknar försäkringen ser du ditt pris och vilken rabatt vi har dragit. Stäng"
+    ],
+    "videos": [],
+    "iframes": []
+  },
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 54,
+    "mainTextLen": 14110,
+    "realImageCount": 9,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "dynamic": {
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}.json",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/c91270b2-f5b9-4772-9722-8f6fd78cf5d8.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "geolocation.onetrust.com",
+        "path": "/cookieconsentpub/v1/geo/location",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/consent/{uuid}/{uuid}/sv.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/consent/c91270b2-f5b9-4772-9722-8f6fd78cf5d8/019eb0b4-1efb-7f38-be57-fa3f6809ac03/sv.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 14503,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/v2/otPcCenter.json",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/css",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/scripttemplates/202609.2.0/assets/otCommonStyles.css",
+        "sameSite": false
+      },
+      {
+        "method": "GET",
+        "host": "cdn.cookielaw.org",
+        "path": "/logos/static/ot_guard_logo.svg",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "image/svg+xml",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://cdn.cookielaw.org/logos/static/ot_guard_logo.svg",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "siteintercept.qualtrics.com",
+        "path": "/WRSiteInterceptEngine/Targeting.php",
+        "query": [
+          "Q_CLIENTTYPE",
+          "Q_CLIENTVERSION",
+          "Q_ZoneID"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "content.hotjar.io",
+        "path": "/",
+        "query": [
+          "gzip",
+          "site_id"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": 56,
+        "hits": 1,
+        "example": "https://content.hotjar.io/",
+        "sameSite": false
+      },
+      {
+        "method": "POST",
+        "host": "swedencentral-0.in.applicationinsights.azure.com",
+        "path": "//v2/track",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "status": 200,
+        "bytes": null,
+        "hits": 1,
+        "example": "https://swedencentral-0.in.applicationinsights.azure.com//v2/track",
+        "sameSite": false
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "siteintercept.qualtrics.com",
+        "count": 4
+      },
+      {
+        "host": "assets.adobedtm.com",
+        "count": 3
+      },
+      {
+        "host": "cdn.cookielaw.org",
+        "count": 2
+      },
+      {
+        "host": "tags.tiqcdn.com",
+        "count": 2
+      },
+      {
+        "host": "static.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "js.monitor.azure.com",
+        "count": 1
+      },
+      {
+        "host": "www.googletagmanager.com",
+        "count": 1
+      },
+      {
+        "host": "script.hotjar.com",
+        "count": 1
+      },
+      {
+        "host": "zn6xxjul5ouyanuyq-tryg.siteintercept.qualtrics.com",
+        "count": 1
+      },
+      {
+        "host": "c.amazon-adsystem.com",
+        "count": 1
+      }
+    ],
+    "truncated": false,
+    "inlineData": [],
+    "globalState": [
+      "dataLayer"
+    ],
+    "frameworkHints": [],
+    "forms": [],
+    "ariaLiveRegions": 0,
+    "triggers": [
+      {
+        "marker": "data-modal-trigger",
+        "href": null
+      },
+      {
+        "marker": "th-modal__button-top",
+        "href": null
+      },
+      {
+        "marker": "data-modal-button-close",
+        "href": null
+      }
+    ],
+    "mediaIds": [],
+    "summary": {
+      "sameSiteEndpoints": 0,
+      "thirdPartyEndpoints": 9,
+      "thirdPartyScriptHosts": 10,
+      "inlineDataBlobs": 0,
+      "forms": 0,
+      "searchForms": 0,
+      "hydrated": false
+    }
+  },
+  "screenshot": "assets/screenshots/forsakringar-hemforsakring.png",
+  "renderedHtml": "pages/forsakringar-hemforsakring.html"
+}

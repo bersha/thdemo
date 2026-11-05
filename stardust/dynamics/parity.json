@@ -1,0 +1,26 @@
+{
+  "_provenance": { "writtenBy": "stardust:dynamics", "writtenAt": "2026-11-04T14:55:00Z" },
+  "method": "curated rows of stardust/dynamic-features.md replayed against the published aem.live origin; martech checks appended from stardust/martech-contract.json (all parts disabled)",
+  "features": [
+    { "id": "quick-quote", "feature": "Quick-quote form (UI rebuilt; submission hands off to the source quote flow, no PII stored)", "class": "F", "pages": 4,
+      "disposition": "rebuild-native", "reproducibility": "needs-business-decision", "status": "scaffolded-awaiting-owner",
+      "owner": "whether the quote submission keeps handing off to the source quote flow or gets a native integration",
+      "checks": [ { "type": "dom-count", "path": "/forsakringar/bilforsakring", "selector": "main form", "min": 1 },
+                  { "type": "dom-count", "path": "/", "selector": "main form", "min": 1 } ] },
+    { "id": "product-cards", "feature": "Card grids", "class": "L", "pages": 6, "disposition": "static-snapshot", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "dom-count", "path": "/forsakringar/person", "selector": "main .cards li, main .cards > div > div", "min": 3 } ] },
+    { "id": "header-menu", "feature": "Header mega-menu, Privat/Företag switch, mobile drawer", "class": "M", "pages": 10, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "dom-count", "path": "/", "selector": "header .th-header-nav-button[aria-expanded]", "min": 1 } ] },
+    { "id": "faq-accordion", "feature": "FAQ accordions", "class": "M", "pages": 6, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "dom-count", "path": "/skadeanmalan", "selector": "main .faq button[aria-expanded]", "min": 1 } ] },
+    { "id": "data-layers", "feature": "dataLayer / adobeDataLayer / utag_data settings", "class": "A", "pages": 10, "disposition": "static-snapshot", "reproducibility": "self", "status": "scaffolded-awaiting-owner",
+      "owner": "carried with the martech contract, disabled; owner enables per part", "checks": [] },
+    { "id": "vue-islands", "feature": "Vue quote apps (settled DOM captured)", "class": "CR", "pages": 2, "disposition": "static-snapshot", "reproducibility": "self", "status": "done", "checks": [] },
+    { "id": "runtime-iframe", "feature": "Tag-injected iframe", "class": "V", "pages": 10, "disposition": "static-snapshot", "reproducibility": "needs-human-capture", "status": "scaffolded-awaiting-owner",
+      "owner": "returns when the owner enables the tag stack in the martech contract", "checks": [] },
+    { "id": "account-cart", "feature": "Logga in / Mina sidor", "class": "X", "pages": 2, "disposition": "static-snapshot", "reproducibility": "needs-backend", "status": "done",
+      "verifiedBy": "Logga in stays a link to the source login", "checks": [] },
+    { "id": "page-errors", "feature": "No uncaught exceptions on delivered pages", "class": "-", "pages": 10, "disposition": "rebuild-native", "reproducibility": "self", "status": "done",
+      "checks": [ { "type": "no-page-errors", "paths": ["/", "/forsakringar/bilforsakring", "/forsakringar/hemforsakring", "/forsakringar/person", "/forsakringar/fordon", "/djurforsakring", "/forsakringar/bilforsakring/helforsakring", "/forsakringar/hemforsakring/villaforsakring", "/forsakringar/person/barnforsakring", "/skadeanmalan"] } ] }
+  ]
+}

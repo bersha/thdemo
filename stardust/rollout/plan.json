@@ -1,0 +1,254 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-04T11:34:47.730Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-04T11:34:47.730Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "forsakringar-bilforsakring-helforsakring",
+    "forsakringar-hemforsakring",
+    "forsakringar-hemforsakring-villaforsakring",
+    "forsakringar-person-barnforsakring",
+    "djurforsakring",
+    "forsakringar-fordon",
+    "forsakringar-bilforsakring",
+    "forsakringar-person",
+    "index",
+    "skadeanmalan"
+  ],
+  "steps": [
+    {
+      "slug": "forsakringar-bilforsakring-helforsakring",
+      "path": "/forsakringar/bilforsakring/helforsakring",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "forsakringar-hemforsakring",
+      "path": "/forsakringar/hemforsakring",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "forsakringar-hemforsakring-villaforsakring",
+      "path": "/forsakringar/hemforsakring/villaforsakring",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "forsakringar-person-barnforsakring",
+      "path": "/forsakringar/person/barnforsakring",
+      "templateId": "program",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "djurforsakring",
+      "path": "/djurforsakring",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "forsakringar-fordon",
+      "path": "/forsakringar/fordon",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "forsakringar-bilforsakring",
+      "path": "/forsakringar/bilforsakring",
+      "templateId": "forsakringar-bilforsakring",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "quick-quote",
+          "edsBlockName": "quick-quote"
+        },
+        {
+          "id": "campaign-banner",
+          "edsBlockName": "campaign-banner"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs"
+        },
+        {
+          "id": "quick-facts",
+          "edsBlockName": "quick-facts"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards"
+        },
+        {
+          "id": "product-table",
+          "edsBlockName": "product-table"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq"
+        },
+        {
+          "id": "document-list",
+          "edsBlockName": "document-list"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "forsakringar-person",
+      "path": "/forsakringar/person",
+      "templateId": "forsakringar-person",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "campaign-banner",
+          "edsBlockName": "campaign-banner",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "forsakringar-bilforsakring"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "cta-image",
+          "edsBlockName": "cta-image"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "quick-quote",
+          "edsBlockName": "quick-quote",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "quick-facts",
+          "edsBlockName": "quick-facts",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser",
+          "convertedBy": "forsakringar-bilforsakring"
+        }
+      ]
+    },
+    {
+      "slug": "skadeanmalan",
+      "path": "/skadeanmalan",
+      "templateId": "skadeanmalan",
+      "status": "pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "breadcrumbs",
+          "edsBlockName": "breadcrumbs",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "cta-image",
+          "edsBlockName": "cta-image",
+          "convertedBy": "index"
+        },
+        {
+          "id": "faq",
+          "edsBlockName": "faq",
+          "convertedBy": "forsakringar-bilforsakring"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser",
+          "convertedBy": "forsakringar-bilforsakring"
+        }
+      ]
+    }
+  ]
+}

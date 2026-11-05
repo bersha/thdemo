@@ -1,0 +1,488 @@
+{
+ "source": "http://localhost:8791/skadeanmalan-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "th-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Skadeanmälan"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "cta",
+     "order": 0,
+     "text": "Hem",
+     "href": "https://www.trygghansa.se/"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Skadeanmälan"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-breadcrumbs__crumb",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Anmäl skada"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Här gör du en skadeanmälan till oss. Det kan vara om du har råkat ut för en olycka, skada, sjukdom eller vill söka ersättning för något."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Starta anmälan",
+     "href": "https://portal.trygghansa.se/skadeanmalan/anmal-en-skada/fritext"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Så går det till att anmäla en skada"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Här förklarar vi vad som händer före, under och efter din skadeanmälan."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "så får du svara på frågor om händelsen. Du kan också ringa oss på ."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Du anmäler skadan till oss"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Anmäl skadan till oss",
+     "href": "https://portal.trygghansa.se/skadeanmalan/anmal-en-skada/fritext"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "0771-111 500",
+     "href": "tel:0771111500"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "När vi har tagit emot din skadeanmälan undersöker vi vad som har hänt och kollar vilka försäkringar du har. Om du behöver komplettera din anmälan hör vi av oss. Du kan följa ditt ärende på ."
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Vi arbetar med ditt ärende"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Mina sidor",
+     "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Så snart vi har ett besked meddelar vi dig om du kommer att få ersättning och hur mycket. Ofta kan vi ge besked inom ett par dagar, men ibland tar det längre tid."
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Du får besked om ersättning"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 2,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vanliga frågor och svar om skadeanmälan"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Täcker försäkringen min skada?"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Du kan läsa mer om försäkringen och vad den täcker på . Där hittar du förköpsinformation, villkor och ditt försäkringsbrev. Om du är osäker på vad försäkringen täcker ska du anmäla ändå. Vi tittar på ärendet och återkommer."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Mina sidor",
+     "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Jag har fått ett ärr. Hur anmäler jag det?"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Om du har fått ett ärr eller någon annan utseendemässig förändring ska du komplettera din tidigare skadeanmälan med bilder på ärret. Vi kommer att höra av oss inom 1,5 år efter att du har gjort din skadeanmälan till oss och be om bilderna. ."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Här kan du läsa mer om hur det fungerar med ersättning för ärr",
+     "href": "https://www.trygghansa.se/forsakringar/person/sjuk-och-olycksfall/ersattning-for-arr"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Ska jag komplettera mitt ärende eller anmäla ett nytt?"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Om händelsen hör till ett tidigare skadeärende ska du komplettera det. Det gör du genom att . Är du osäker kan du även anmäla en ny skada. Vi tittar på ärendet oavsett."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "logga in på Mina sidor",
+     "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Jag har ett pågående ärende. Vad är status?"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Om du har ett pågående skadeärende hos oss kan du följa det på . Vi meddelar dig så fort det händer något nytt."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Mina sidor",
+     "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Hur gör jag med kvitto för veterinärbesök?"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Om du har varit hos veterinären ska du . I din anmälan får du ladda upp ditt kvitto. Vi räknar ut din ersättning och drar av självrisken."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "anmäla det här",
+     "href": "https://portal.trygghansa.se/kundservice/privat/pages/logga-in.aspx?redirectpath=/skadeanmalan/anmalan?init=20214"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Jag är kund hos Aktsam. Ska jag anmäla här?"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Har du en försäkring hos Aktsam som är tecknad från och med 2024 eller senare . Du kan också anmäla och se pågående skadeärenden genom att . Om du har haft, eller har, en försäkring hos Aktsam som är tecknad tidigare än så anmäler du din skada genom att ."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "anmäler du din skada här",
+     "href": "https://portal.trygghansa.se/skadeanmalan/anmal-en-skada/fritext"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "logga in på Mina sidor",
+     "href": "https://portal.trygghansa.se/logga-in"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "kontakta Aktsam",
+     "href": "https://www.aktsam.se/kontakta-oss"
+    },
+    {
+     "role": "heading",
+     "order": 21,
+     "text": "Jag har anmält en skada till Moderna Försäkringar. Hur gör jag?"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Om du har anmält en skada till Moderna Försäkringar fortsätter du att ha kontakt med dem på samma sätt som tidigare. Pågående skadeärenden hos Moderna Försäkringar går inte att se på Mina sidor. ."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "Här hittar du kontaktuppgifter till Moderna Försäkringar",
+     "href": "https://www.modernaforsakringar.se/kontakta-oss/"
+    },
+    {
+     "role": "heading",
+     "order": 24,
+     "text": "Jag har en sjukvårdsförsäkring, hur bokar jag vård?"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Du som har en sjukvårdsförsäkring hos oss på Trygg-Hansa kan vända dig till vår för att få en bedömning av ditt vårdbehov, medicinsk rådgivning och för att boka vård."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "vårdplanering",
+     "href": "https://www.trygghansa.se/forsakringar/person/vardplanering"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Du kan välja om du vill kontakta oss digitalt eller på telefon."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-collapse",
+     "count": 8,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Om det händer något akut"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Ring våra journummer, de har öppet dygnet runt."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Bärgning dygnet runt"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Ring 0771-111 510",
+     "href": "tel:0771111510"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Om du är utomlands"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Ring +45 7010 50 50",
+     "href": "tel:004570105050"
+    },
+    {
+     "role": "heading",
+     "order": 6,
+     "text": "Akut brand eller vattenskada"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Ring 0771-111 520",
+     "href": "tel:0771111520"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-cards__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Vill du veta mer innan du anmäler?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Här kan du läsa mer om olika skador och vad du ska tänka på när du anmäler händelsen till oss."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "När du råkat ut för en olycka"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Vår guide hjälper dig att få koll på vad du behöver göra och i vilken ordning."
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Tips när olyckan är framme",
+     "href": "https://www.trygghansa.se/skadeanmalan/nar-olyckan-ar-framme"
+    },
+    {
+     "role": "heading",
+     "order": 5,
+     "text": "När du krockat eller kört på något"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Via många verkstäder erbjuder vi smidigare och snabbare service."
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Tips när du har krockat med bilen",
+     "href": "https://www.trygghansa.se/skadeanmalan/krockat"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Om du blir sjuk eller skadad utomlands"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Vad händer om du råkar ut för något när du är utomlands?"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Läs mer om vad du kan göra om du behöver hjälp utanför Sverige",
+     "href": "https://www.trygghansa.se/forsakringar/reseforsakring/nar-du-ar-utomlands"
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-cards__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 2,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Behöver du hjälp med din skadeanmälan?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Om du har frågor eller funderingar om att anmäla skador, ring oss så hjälper vi dig."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Ring 0771-111 500",
+     "href": "tel:0771111500"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

@@ -1,0 +1,500 @@
+/* stylelint-disable no-descending-specificity -- rule order follows the source cascade */
+
+/* product-table — source .th-product-accordion-block (table + accordion rows + per-row modal) */
+
+/* lead variant: the block owns the section head */
+@media (width >= 768px) {
+  .product-table.lead .th-block-heading {
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .product-table.lead .th-block-introduction {
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+  }
+}
+
+/* nested containers drop their gutters (source .th-container .th-container) */
+.product-table .th-container {
+  padding-inline: 0;
+}
+
+/* default: head across the section, table + CTA in the narrow column (source .th-block__two-columns) */
+.product-table .th-block-two-columns {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 1.875rem;
+}
+
+.product-table .th-block-column {
+  flex: 1 0 100%;
+}
+
+@media (width >= 1024px) {
+  .product-table .th-block-two-columns {
+    gap: 2.5rem;
+  }
+
+  .product-table .th-block-column:not(.th-block-column-table) {
+    flex-basis: calc(50% - 1.25rem);
+  }
+
+  .product-table .th-block-two-columns .th-teaser-block,
+  .product-table .th-block-two-columns .th-product-accordion-block {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .product-table .th-block-two-columns .th-teaser-block {
+    text-align: start;
+  }
+
+  .product-table .th-block-two-columns .th-block-actions {
+    margin-block-start: auto;
+  }
+}
+
+/* table */
+.product-table .th-product-accordion-block-table {
+  width: 100%;
+  border: none;
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.product-table .th-product-accordion-block-table td {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (width >= 1024px) {
+  .product-table .th-product-accordion-block-table td {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+
+  .product-table .th-accordion {
+    align-self: stretch;
+  }
+}
+
+.product-table .th-product-accordion-block-table col {
+  min-width: 3.75rem;
+}
+
+.product-table .th-product-accordion-block-table thead {
+  color: var(--th-theme-text-weak);
+}
+
+.product-table .th-product-accordion-block-table thead th {
+  padding: 1rem .25rem;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.product-table .th-product-accordion-block-table thead th:first-of-type {
+  text-align: start;
+}
+
+.product-table .th-product-accordion-block-table thead th p,
+.product-table .th-product-accordion-block-table td p {
+  margin: 0;
+}
+
+@media (width >= 768px) {
+  .product-table .th-product-accordion-block-table thead th {
+    padding-inline: 1rem;
+  }
+}
+
+.product-table .th-product-accordion-block-table tbody tr {
+  background-color: var(--th-theme-background-base);
+}
+
+.product-table .th-product-accordion-block-table tbody tr:first-of-type th,
+.product-table .th-product-accordion-block-table tbody tr:first-of-type .th-accordion-item-heading {
+  border-top-left-radius: .625rem;
+}
+
+.product-table .th-product-accordion-block-table tbody tr:first-of-type td:last-of-type {
+  border-top-right-radius: .625rem;
+}
+
+.product-table .th-product-accordion-block-table tbody tr:first-of-type th,
+.product-table .th-product-accordion-block-table tbody tr:first-of-type td {
+  border-top: .0625rem solid var(--th-theme-stroke-weak);
+}
+
+.product-table .th-product-accordion-block-table tbody tr:last-of-type th,
+.product-table .th-product-accordion-block-table tbody tr:last-of-type .th-accordion-item-heading {
+  border-bottom-left-radius: .625rem;
+}
+
+.product-table .th-product-accordion-block-table tbody tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: .625rem;
+}
+
+.product-table .th-product-accordion-block-table tbody th {
+  padding: 0;
+  border-inline: .0625rem solid var(--th-theme-stroke-weak);
+  border-bottom: .0625rem solid var(--th-theme-stroke-weak);
+  text-align: start;
+}
+
+.product-table .th-product-accordion-block-table tbody td {
+  padding: 0;
+  border-right: .0625rem solid var(--th-theme-stroke-weak);
+  border-bottom: .0625rem solid var(--th-theme-stroke-weak);
+  vertical-align: top;
+}
+
+.product-table .th-product-accordion-block-table tbody td :is(div, p) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem .25rem;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.product-table .th-product-accordion-block-table tbody td :is(div, p):has(.th-icon) {
+  padding-block-start: 1.375rem;
+}
+
+.product-table .th-product-accordion-block-table td .icon-th-minus {
+  color: rgb(222 222 222);
+}
+
+.product-table .th-icon-13 {
+  font-size: .8125rem;
+}
+
+.product-table .th-icon-15 {
+  font-size: .9375rem;
+}
+
+@media (width >= 768px) {
+  .product-table .th-product-accordion-block-table tbody td :is(div, p) {
+    padding-inline: 1rem;
+  }
+}
+
+.product-table .th-product-accordion-block-table .th-accordion-item {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .product-table .th-product-accordion-block-table .th-accordion-item {
+    display: block;
+  }
+}
+
+.product-table .th-product-accordion-block-table .th-accordion-item-heading {
+  padding: 1rem;
+}
+
+.product-table .th-product-accordion-block-table .th-accordion-item-title :is(h2, h3, h4) {
+  color: var(--th-theme-text-weak);
+}
+
+.product-table .th-product-accordion-list-item-block-modal {
+  display: block;
+  padding: 1rem;
+  font-weight: 400;
+}
+
+@media (width >= 768px) {
+  .product-table .th-product-accordion-list-item-block-modal {
+    display: none;
+  }
+}
+
+.product-table .th-product-accordion-list-item-block-modal .th-button-link {
+  margin-block-start: 0;
+  border-radius: .125rem;
+  overflow-wrap: anywhere;
+  color: inherit;
+  font-weight: 400;
+  text-align: start;
+  text-decoration: underline;
+  hyphens: auto;
+}
+
+.product-table .th-product-accordion-list-item-block-modal .th-button-link:hover {
+  text-decoration: none;
+}
+
+/* ---------- block head: section heading + introduction (source .th-heading / .th-block__introduction) ---------- */
+@media (width >= 1024px) {
+  .product-table .th-block-heading {
+    max-width: 43.75rem;
+    margin-inline: auto;
+    text-align: center;
+  }
+}
+
+.product-table .th-block-introduction p {
+  margin-block-end: 0;
+  overflow-wrap: break-word;
+}
+
+.product-table .th-block-introduction :where(p, ul, ol, blockquote) + :where(p, ul, ol, blockquote) {
+  margin-block-start: 1.25rem;
+}
+
+.product-table .th-block-introduction h2 {
+  margin-block: 2.5rem 1.25rem;
+  overflow-wrap: break-word;
+  color: var(--th-theme-text-strong);
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+}
+
+.product-table .th-block-introduction h3 {
+  margin-block: 1.875rem .625rem;
+  overflow-wrap: break-word;
+  font-family: var(--th-theme-family-subheading);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+
+.product-table .th-block-introduction :is(h2, h3):first-child {
+  margin-block-start: 0;
+}
+
+@media (width >= 1024px) {
+  .product-table .th-block-introduction h2 {
+    margin-block: 3.75rem 1.875rem;
+    font-size: 2rem;
+    line-height: 2.625rem;
+  }
+
+  .product-table .th-block-introduction h3 {
+    font-size: 1.375rem;
+    line-height: 2.0625rem;
+  }
+}
+
+/* ---------- large CTA (source th-button-large + center-desktop + full-width-on-mobile) ---------- */
+.product-table .th-block-actions {
+  margin-block-start: 1.875rem;
+}
+
+.product-table .th-block-actions p {
+  margin: 0;
+}
+
+.product-table .th-block-actions a.button {
+  width: 100%;
+  min-width: auto;
+  min-height: 3.5rem;
+  font-size: 1.25rem;
+}
+
+@media (width >= 768px) {
+  .product-table .th-block-actions a.button {
+    width: fit-content;
+    min-width: 14.6875rem;
+  }
+}
+
+@media (width >= 1024px) {
+  .product-table .th-block-actions a.button {
+    margin-inline: auto;
+    font-size: 1.375rem;
+  }
+}
+
+/* ---------- accordion item (source .th-accordion / .th-collapse) ---------- */
+.product-table .th-accordion {
+  margin-block-end: 1.875rem;
+}
+
+/* the source's .th-block > :last-child reset wins when the accordion ends its block */
+.product-table .th-accordion:last-child {
+  margin-block-end: 0;
+}
+
+.product-table .th-accordion-item {
+  overflow-wrap: break-word;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.product-table .th-accordion-item-heading {
+  font-family: arial, sans-serif;
+  font-size: 13.3333px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.product-table .th-accordion-item-title {
+  flex: 0 1 auto;
+}
+
+.product-table .th-accordion-item-title :is(h2, h3, h4) {
+  max-width: 38.125rem;
+  font-family: arial, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.product-table .th-icon-12 {
+  font-size: .75rem;
+}
+
+.product-table .th-accordion-item-content {
+  max-width: 38.125rem;
+  padding: 0 1rem 1rem;
+}
+
+.product-table .th-accordion-item-content p {
+  margin-block-end: 1rem;
+}
+
+/* the source's .th-block p:not(:last-child) (1.25rem) outranks the accordion rule */
+.product-table .th-accordion-item-content p:not(:last-child) {
+  margin-block-end: 1.25rem;
+}
+
+.product-table .th-accordion-item-content a {
+  font-weight: 700;
+}
+
+@media (width >= 1024px) {
+  .product-table .th-accordion-item {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+
+  .product-table .th-accordion-item-title :is(h2, h3, h4) {
+    font-size: 1.125rem;
+    line-height: 1.6875rem;
+  }
+}
+
+/* ---------- modal (source .th-modal) ---------- */
+.product-table .th-modal {
+  --modal-max-height: 85dvh;
+
+  width: min(90%, 25rem);
+  max-height: var(--modal-max-height);
+  margin: 10dvh auto auto;
+  padding: 0;
+  border: none;
+  border-radius: .625rem;
+  box-shadow: 0 7px 14px #00000040;
+  color: var(--th-theme-text-weak);
+}
+
+.product-table .th-modal::backdrop {
+  background-color: var(--th-theme-background-overlay);
+  cursor: pointer;
+}
+
+@media (width >= 768px) {
+  .product-table .th-modal {
+    width: min(90%, 43.75rem);
+    margin: auto;
+  }
+}
+
+.product-table .th-modal-content {
+  display: grid;
+  grid-template-rows: auto minmax(1rem, 1fr) auto;
+  max-height: var(--modal-max-height);
+  overflow: hidden;
+}
+
+.product-table .th-modal-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding: 1.25rem 1.25rem .625rem;
+}
+
+.product-table .th-modal-header .th-modal-heading {
+  margin-block-end: 0;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+  text-align: left;
+}
+
+.product-table .th-modal-button-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  margin-inline-start: auto;
+  border-radius: .375rem;
+}
+
+.product-table .th-modal-button-top:focus-visible {
+  outline: .125rem solid var(--th-theme-stroke-focus);
+  outline-offset: -.25rem;
+}
+
+.product-table .th-modal-body {
+  padding-inline: 1.25rem;
+  overflow: hidden auto;
+  overscroll-behavior: contain;
+  text-align: left;
+}
+
+.product-table .th-modal-body p {
+  margin-block: 1rem;
+}
+
+.product-table .th-modal-body p:last-child {
+  margin-block-end: 0;
+}
+
+.product-table .th-modal-footer {
+  padding: 1.25rem;
+}
+
+.product-table .th-modal-footer .th-button-medium {
+  min-width: 100%;
+  margin-block-start: 0;
+}
+
+@media (width >= 768px) {
+  .product-table .th-modal-footer .th-button-medium {
+    min-width: 15.9375rem;
+    margin-inline-start: auto;
+  }
+}
+
+.product-table .th-icon-20 {
+  font-size: 1.25rem;
+}
+
+.product-table .th-modal-body p:not(:last-child) {
+  margin-block-end: 1.25rem;
+}
+
+/* stacked variant: head-owning tables sharing one full-width column of a section
+   (source .th-block__two-columns > div > .th-product-accordion-block.th-container--small) */
+.product-table-wrapper:has(> .stacked) + .product-table-wrapper > .product-table.stacked {
+  margin-block-start: 1.875rem;
+}
+
+@media (width >= 1024px) {
+  .product-table.stacked {
+    max-width: 46.25rem;
+    margin-inline: auto;
+  }
+
+  .product-table-wrapper:has(> .stacked) + .product-table-wrapper > .product-table.stacked {
+    margin-block-start: 2.5rem;
+  }
+}

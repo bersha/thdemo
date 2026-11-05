@@ -1,0 +1,183 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "startedAt": "2026-11-04T11:36:34Z",
+      "blocks": 2,
+      "endedAt": "2026-11-04T12:03:55Z",
+      "gates": {
+        "crop": "header 0.00% / footer 0.00% (1440 footer 0.09%) vs gated prototype",
+        "chrome": "chrome-compare 0 errors, 8 warnings"
+      },
+      "verdict": "foundation: styles+fonts+header+footer+nav/footer docs live, chrome-compare 0 errors, lint clean"
+    },
+    "archetype-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-04T12:47:17Z",
+      "blocks": 7,
+      "endedAt": "2026-11-04T13:21:04Z",
+      "gates": {
+        "360": {
+          "archetype": "0.15% Δh 0 PASS"
+        },
+        "1440": {
+          "archetype": "0.14% Δh 0 PASS"
+        }
+      },
+      "verdict": "archetype-landing: pages 1/1 live, blocks 7 (new: tabset, cta-image), gate 1440 0.14% Δh 0 / 360 0.15% Δh 0 PASS, requests 0"
+    },
+    "archetype-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-04T13:21:22Z",
+      "blocks": 6,
+      "endedAt": "2026-11-04T13:39:54Z",
+      "gates": {
+        "360": {
+          "archetype": "0.17% Δh 0 PASS"
+        },
+        "1440": {
+          "archetype": "0.21% Δh 0 PASS"
+        }
+      },
+      "verdict": "archetype-listing: pages 1/1 live, blocks 6 (new: none), gate 1440 0.21% Δh 0 / 360 0.17% Δh 0 PASS, requests 0"
+    },
+    "archetype-program": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "program"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-04T12:04:43Z",
+      "blocks": 11,
+      "endedAt": "2026-11-04T12:46:07Z",
+      "gates": {
+        "360": {
+          "archetype": "0.43% Δh 0 PASS"
+        },
+        "1440": {
+          "archetype": "1.07% Δh 0 PASS"
+        }
+      },
+      "verdict": "archetype-program: pages 1/1 live, blocks 11 (new: campaign-banner, breadcrumbs, quick-facts, product-table, faq, document-list, teaser, widget quick-quote/vehicle-quote; rewritten: hero, cards, columns), gate 1440 1.07% Δh 0 / 360 0.43% Δh 0 PASS, requests 0"
+    },
+    "archetype-static": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-04T13:40:10Z",
+      "blocks": 6,
+      "endedAt": "2026-11-04T14:01:21Z",
+      "gates": {
+        "360": {
+          "archetype": "0.27% Δh 0 PASS"
+        },
+        "1440": {
+          "archetype": "0.33% Δh 0 PASS"
+        }
+      },
+      "verdict": "archetype-static: pages 1/1 live, blocks 6 (new: none; variants teaser with-list, cta-image small-crop), gate 1440 0.33% Δh 0 / 360 0.27% Δh 0 PASS, requests 0"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-04T14:07:14Z",
+      "blocks": 7,
+      "endedAt": "2026-11-04T14:14:33Z",
+      "gates": {
+        "360": {
+          "fordon": "0.25% Δh 0",
+          "djurforsakring": "0.54% Δh 0"
+        },
+        "1440": {
+          "fordon": "0.32% Δh 0",
+          "djurforsakring": "5.78% Δh 28"
+        }
+      },
+      "verdict": "cluster-listing: pages 2/2 live, blocks 7 (new: none), gate 1440 fordon 0.32% / djurforsakring 5.78% Δh 28 · 360 0.25% / 0.54% PASS, requests 0"
+    },
+    "cluster-program": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "program"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-04T13:21:22Z",
+      "blocks": 1,
+      "endedAt": "2026-11-04T14:01:21Z",
+      "gates": {
+        "360": {
+          "hemforsakring": "0.48%",
+          "helforsakring": "0.13%",
+          "villaforsakring": "20.98% Δh -255 capture-state override (live A/B test)",
+          "barnforsakring": "0.31%"
+        },
+        "1440": {
+          "hemforsakring": "0.26%",
+          "helforsakring": "1.05%",
+          "villaforsakring": "4.56% Δh 47 capture-state override (live A/B test)",
+          "barnforsakring": "0.08%"
+        }
+      },
+      "verdict": "cluster-program: pages 4/4 live, blocks 1 (new: cta-text), gate 3/4 PASS + villaforsakring capture-state override (consent-triggered Adobe Target experiment on origin), requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "gate-all",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "static"
+      ],
+      "pages": 10,
+      "startedAt": "2026-11-04T14:14:50Z",
+      "endedAt": "2026-11-04T14:48:39Z",
+      "gates": {
+        "360": "9 PASS / 1 override (villaforsakring capture-state) → 10 delivered",
+        "1440": "9 PASS / 1 override (villaforsakring capture-state) → 10 delivered; pixel-only 10/10"
+      },
+      "verdict": "gate-all: 10/10 delivered on aem.live at 1440 + 360 (9 PASS + villaforsakring capture-state override); coverage --gate 10/10 rows"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [
+        "landing",
+        "program",
+        "listing",
+        "static"
+      ],
+      "pages": 10,
+      "startedAt": "2026-11-04T14:49:52Z",
+      "endedAt": "2026-11-04T14:49:52Z",
+      "gates": {
+        "freeze": "foundation unchanged (14 files)",
+        "requests": "none queued",
+        "live": "10/10 pages + nav/footer 200 on aem.live"
+      },
+      "verdict": "final: freeze check clean, 0 foundation requests (no archetype re-gate needed), coverage 10/10 gate rows pass, 10/10 live"
+    }
+  }
+}

@@ -1,0 +1,5210 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-04T10:22:53.126Z",
+    "urls": [
+      "https://www.trygghansa.se/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".th-header__nav-text",
+      ".th-header__switcher-item a",
+      ".th-header__switcher-list",
+      ".th-header__nav-link",
+      ".th-header__logo-icon--desktop",
+      ".th-hero img",
+      ".th-hero__content-overlay",
+      ".th-tabset-tabs",
+      ".th-tabset-tab__heading.th-display-block-tablet",
+      ".th-tabset-tab__heading.th-display-hidden-tablet",
+      ".th-tabset-tab .th-icon",
+      ".th-tabset-tab--is-active .th-tabset-tab__button",
+      ".th-tabset-panel__campaign-banner p",
+      ".vehicle-start-page",
+      ".vehicle-start-page__input-identification",
+      ".vehicle-start-page__input-registration",
+      ".vehicle-start-page__button-go-next",
+      ".vehicle-start-page__button-read-more",
+      ".vehicle-start-page__gdpr",
+      ".vehicle-start-page label",
+      ".vehicle-start-page input",
+      ".vehicle-start-page__button-go-next button",
+      ".vehicle-start-page__button-read-more a",
+      ".th-quick-facts-block__list",
+      ".th-quick-facts-block .th-icon",
+      ".th-quick-facts-block__item-heading",
+      ".th-quick-facts-block__item-content p",
+      ".th-content-area>.th-section:nth-child(1)",
+      ".th-cta-image-block",
+      ".th-cta-image-block__image",
+      ".th-cta-image-block__image img",
+      ".th-cta-image-block__content .th-button-medium",
+      ".th-cta-image-block--right",
+      ".th-content-block",
+      ".th-content-block h2",
+      ".th-content-block .th-block__introduction p",
+      ".th-content-block img",
+      ".th-content-area>.th-section:nth-child(5)",
+      ".th-content-area>.th-section:nth-child(6)",
+      ".th-card-list-block>h2",
+      ".th-cards",
+      ".th-card",
+      ".th-card__icon",
+      ".th-card__heading",
+      ".th-card__text",
+      ".th-card__link",
+      ".th-teaser-block",
+      ".th-teaser-block .th-icon",
+      ".th-teaser-block h2",
+      ".th-teaser-block p",
+      ".th-teaser-block a",
+      ".th-footer__main",
+      ".th-footer__column",
+      ".th-footer__header",
+      ".th-footer__list",
+      ".th-footer__link",
+      ".th-footer__bottom",
+      ".th-footer__links-container",
+      ".th-footer__logo-icon",
+      ".th-footer__text",
+      ".th-footer__bottom-links",
+      ".th-collapse__header"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".th-header__nav-text",
+    ".th-header__switcher-item a",
+    ".th-header__switcher-list",
+    ".th-header__nav-link",
+    ".th-header__logo-icon--desktop",
+    ".th-hero img",
+    ".th-hero__content-overlay",
+    ".th-tabset-tabs",
+    ".th-tabset-tab__heading.th-display-block-tablet",
+    ".th-tabset-tab__heading.th-display-hidden-tablet",
+    ".th-tabset-tab .th-icon",
+    ".th-tabset-tab--is-active .th-tabset-tab__button",
+    ".th-tabset-panel__campaign-banner p",
+    ".vehicle-start-page",
+    ".vehicle-start-page__input-identification",
+    ".vehicle-start-page__input-registration",
+    ".vehicle-start-page__button-go-next",
+    ".vehicle-start-page__button-read-more",
+    ".vehicle-start-page__gdpr",
+    ".vehicle-start-page label",
+    ".vehicle-start-page input",
+    ".vehicle-start-page__button-go-next button",
+    ".vehicle-start-page__button-read-more a",
+    ".th-quick-facts-block__list",
+    ".th-quick-facts-block .th-icon",
+    ".th-quick-facts-block__item-heading",
+    ".th-quick-facts-block__item-content p",
+    ".th-content-area>.th-section:nth-child(1)",
+    ".th-cta-image-block",
+    ".th-cta-image-block__image",
+    ".th-cta-image-block__image img",
+    ".th-cta-image-block__content .th-button-medium",
+    ".th-cta-image-block--right",
+    ".th-content-block",
+    ".th-content-block h2",
+    ".th-content-block .th-block__introduction p",
+    ".th-content-block img",
+    ".th-content-area>.th-section:nth-child(5)",
+    ".th-content-area>.th-section:nth-child(6)",
+    ".th-card-list-block>h2",
+    ".th-cards",
+    ".th-card",
+    ".th-card__icon",
+    ".th-card__heading",
+    ".th-card__text",
+    ".th-card__link",
+    ".th-teaser-block",
+    ".th-teaser-block .th-icon",
+    ".th-teaser-block h2",
+    ".th-teaser-block p",
+    ".th-teaser-block a",
+    ".th-footer__main",
+    ".th-footer__column",
+    ".th-footer__header",
+    ".th-footer__list",
+    ".th-footer__link",
+    ".th-footer__bottom",
+    ".th-footer__links-container",
+    ".th-footer__logo-icon",
+    ".th-footer__text",
+    ".th-footer__bottom-links",
+    ".th-collapse__header"
+  ],
+  "root": {
+    "https://www.trygghansa.se/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 8311,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 5954,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://www.trygghansa.se/": {
+      "360": {
+        ".th-header__nav-text": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 8,
+              "y": 130,
+              "w": 55,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Försäkringar",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "55.1875px",
+              "height": "30px",
+              "maxWidth": "none",
+              "margin": "3px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Arial",
+              "fontSize": "12px",
+              "fontWeight": "600",
+              "lineHeight": "15px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__switcher-item a": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 17,
+              "y": 57,
+              "w": 57,
+              "h": 28
+            },
+            "visible": true,
+            "text": "Privat",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "56.9062px",
+              "height": "28px",
+              "maxWidth": "none",
+              "margin": "2px",
+              "padding": "2px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "5px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__switcher-list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 13,
+              "y": 53,
+              "w": 144,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Privat Företag",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "144.047px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "8px 13px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "5px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px inset",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__nav-link": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 72,
+              "y": 97,
+              "w": 71,
+              "h": 71
+            },
+            "visible": true,
+            "text": "Anmäl skada",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "71.2031px",
+              "height": "71px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px",
+              "gap": "normal",
+              "backgroundColor": "rgb(51, 51, 51)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__logo-icon--desktop": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "132px",
+              "height": "24px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(18, 121, 148)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(18, 121, 148)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "contain"
+            },
+            "img": {
+              "naturalWidth": 300,
+              "naturalHeight": 56,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg"
+            }
+          }
+        ],
+        ".th-hero img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 168,
+              "w": 360,
+              "h": 240
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "240px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 359,
+              "naturalHeight": 85,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/sp/hero/other/fronthero_1920x400.jpg?format=webp&width=1536&height=366&rxy=0.36%2c0.44&quality=80"
+            }
+          }
+        ],
+        ".th-hero__content-overlay": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 168,
+              "w": 360,
+              "h": 240
+            },
+            "visible": true,
+            "text": "Trygghet för livet",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "240px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "20px 0px 40px",
+              "gap": "40px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0.35)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tabs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 317,
+              "w": 320,
+              "h": 91
+            },
+            "visible": true,
+            "text": "5 % rabatt Bil 50 % rabatt Barn Kampanj…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "91px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab__heading.th-display-block-tablet": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Bilförsäkring",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "500",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab__heading.th-display-hidden-tablet": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 50,
+              "y": 369,
+              "w": 20,
+              "h": 27
+            },
+            "visible": true,
+            "text": "Bil",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "20.0156px",
+              "height": "27px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "500",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab .th-icon": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 40,
+              "y": 329,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "40px",
+              "fontWeight": "400",
+              "lineHeight": "60px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab--is-active .th-tabset-tab__button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 317,
+              "w": 80,
+              "h": 91
+            },
+            "visible": true,
+            "text": "5 % rabatt Bil",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "80px",
+              "height": "91px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-panel__campaign-banner p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 18,
+              "y": 438,
+              "w": 324,
+              "h": 35
+            },
+            "visible": true,
+            "text": "Teckna bilförsäkring online och få 5 % …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "324px",
+              "height": "35px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "17.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 503,
+              "w": 290,
+              "h": 448
+            },
+            "visible": true,
+            "text": "Personnummer ååmmddnnnn Registreringsnu…",
+            "props": {
+              "display": "grid",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "448px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "16px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__input-identification": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 503,
+              "w": 290,
+              "h": 104
+            },
+            "visible": true,
+            "text": "Personnummer ååmmddnnnn",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__input-registration": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 623,
+              "w": 290,
+              "h": 104
+            },
+            "visible": true,
+            "text": "Registreringsnummer ABC123",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-go-next": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 743,
+              "w": 290,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Se ditt bästa pris",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-read-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 807,
+              "w": 290,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Läs om vår bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px 0px 8px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__gdpr": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 879,
+              "w": 290,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Ditt pris och innehållsförslag framstäl…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page label": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 35,
+              "y": 503,
+              "w": 290,
+              "h": 52
+            },
+            "visible": true,
+            "text": "Personnummer ååmmddnnnn",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "290px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px 0px 4px",
+              "padding": "0px",
+              "gap": "4px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page input": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 35,
+              "y": 559,
+              "w": 290,
+              "h": 48
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "290px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12px 17px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "1px solid rgb(136, 136, 136)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-go-next button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 743,
+              "w": 290,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Se ditt bästa pris",
+            "props": {
+              "display": "inline-flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "290px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "1px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgb(229, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "8px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-read-more a": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 35,
+              "y": 807,
+              "w": 290,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Läs om vår bilförsäkring",
+            "props": {
+              "display": "inline-flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "290px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "8px",
+              "border": "1px solid rgb(136, 136, 136)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block__list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 1011,
+              "w": 320,
+              "h": 410
+            },
+            "visible": true,
+            "text": "Rätt försäkringar för dig Vi har rätt f…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "410px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "30px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block .th-icon": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 20,
+              "y": 1011,
+              "w": 50,
+              "h": 108
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "108px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(229, 69, 69)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "50px",
+              "fontWeight": "400",
+              "lineHeight": "75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(229, 69, 69)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block__item-heading": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 90,
+              "y": 1011,
+              "w": 250,
+              "h": 26
+            },
+            "visible": true,
+            "text": "Rätt försäkringar för dig",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "250px",
+              "height": "26px",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block__item-content p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 90,
+              "y": 1047,
+              "w": 250,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Vi har rätt försäkring för dig, familje…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "250px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-area>.th-section:nth-child(1)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 971,
+              "w": 360,
+              "h": 490
+            },
+            "visible": true,
+            "text": "Rätt försäkringar för dig Vi har rätt f…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "490px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "40px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 1461,
+              "w": 360,
+              "h": 892
+            },
+            "visible": true,
+            "text": "Rabatt på djurförsäkring! Du får 10 % r…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "892px",
+              "maxWidth": "1440px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block__image": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 1461,
+              "w": 360,
+              "h": 310
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "310px",
+              "maxWidth": "none",
+              "margin": "-40px -20px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block__image img": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 1461,
+              "w": 360,
+              "h": 310
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "310px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 360,
+              "naturalHeight": 312,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/frontify/djur/laptop_katt.jpeg?format=webp&width=750&height=650&rxy=0.58%2c0.4&quality=80"
+            }
+          }
+        ],
+        ".th-cta-image-block__content .th-button-medium": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 20,
+              "y": 2305,
+              "w": 320,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Läs mer och teckna",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgb(229, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "8px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block--right": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 1461,
+              "w": 360,
+              "h": 892
+            },
+            "visible": true,
+            "text": "Rabatt på djurförsäkring! Du får 10 % r…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "892px",
+              "maxWidth": "1440px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3929,
+              "w": 360,
+              "h": 672
+            },
+            "visible": true,
+            "text": "Lär känna livbojen och rädda liv Varje …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "672.438px",
+              "maxWidth": "610px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 3929,
+              "w": 320,
+              "h": 72
+            },
+            "visible": true,
+            "text": "Lär känna livbojen och rädda liv",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "72px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "700",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block .th-block__introduction p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 4021,
+              "w": 320,
+              "h": 248
+            },
+            "visible": true,
+            "text": "Varje år räddar livbojen 14 liv. Livboj…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "247.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "27.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 4346,
+              "w": 320,
+              "h": 213
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "213.438px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 0,
+              "naturalHeight": 0,
+              "currentSrc": "https://www.trygghansa.se/contentassets/ba1e50ae16344a87a2aaf41ca33d2c8f/mitt-liv-som-livboj_kampanjbild_2_high-res.jpg?width=1024&height=683&quality=80"
+            }
+          }
+        ],
+        ".th-content-area>.th-section:nth-child(5)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3889,
+              "w": 360,
+              "h": 752
+            },
+            "visible": true,
+            "text": "Lär känna livbojen och rädda liv Varje …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "752.438px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "40px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-area>.th-section:nth-child(6)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 4641,
+              "w": 360,
+              "h": 2110
+            },
+            "visible": true,
+            "text": "Våra försäkringar Bilförsäkring Vår Bil…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "2110px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "40px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(249, 249, 249)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card-list-block>h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 4681,
+              "w": 320,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Våra försäkringar",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "700",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cards": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 4747,
+              "w": 320,
+              "h": 1878
+            },
+            "visible": true,
+            "text": "Bilförsäkring Vår Bilförsäkring stor li…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "1878px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "20px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 20,
+              "y": 4747,
+              "w": 320,
+              "h": 186
+            },
+            "visible": true,
+            "text": "Bilförsäkring Vår Bilförsäkring stor li…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "186px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "20px",
+              "gap": "16px 20px",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__icon": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 40,
+              "y": 4767,
+              "w": 50,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(229, 69, 69)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "50px",
+              "fontWeight": "400",
+              "lineHeight": "75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(229, 69, 69)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__heading": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 110,
+              "y": 4777,
+              "w": 210,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "210px",
+              "height": "30px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "30px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__text": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 40,
+              "y": 4833,
+              "w": 280,
+              "h": 44
+            },
+            "visible": true,
+            "text": "Vår Bilförsäkring stor ligger i topp i …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "44px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__link": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 40,
+              "y": 4893,
+              "w": 280,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Läs om vår bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "280px",
+              "height": "20px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(18, 121, 148)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(18, 121, 148)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 6791,
+              "w": 360,
+              "h": 397
+            },
+            "visible": true,
+            "text": "Försäkra företaget! Driver du eget? Då …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "397px",
+              "maxWidth": "1064px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block .th-icon": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 6791,
+              "w": 50,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(229, 69, 69)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "50px",
+              "fontWeight": "400",
+              "lineHeight": "75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(229, 69, 69)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block h2": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 6871,
+              "w": 320,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Försäkra företaget!",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "28px",
+              "fontWeight": "700",
+              "lineHeight": "36px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 6937,
+              "w": 320,
+              "h": 165
+            },
+            "visible": true,
+            "text": "Driver du eget? Då behöver du en företa…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "165px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "27.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block a": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 7132,
+              "w": 320,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Rätt skydd för din bransch",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "56px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgb(229, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "8px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7769,
+              "w": 360,
+              "h": 208
+            },
+            "visible": true,
+            "text": "Genvägar Support Smarta tips Om oss",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "208px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__column": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 7771,
+              "w": 360,
+              "h": 50
+            },
+            "visible": true,
+            "text": "Genvägar",
+            "props": {
+              "display": "list-item",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__header": [
+          {
+            "index": 0,
+            "of": 8,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Genvägar",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__list": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Våra försäkringar Beställa grönt kort H…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px 0px 35px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__link": [
+          {
+            "index": 0,
+            "of": 34,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Våra försäkringar",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(222, 222, 222)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(222, 222, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__bottom": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 7977,
+              "w": 360,
+              "h": 334
+            },
+            "visible": true,
+            "text": "© Copyright Trygg-Hansa 2026 Om webbpla…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "334.156px",
+              "maxWidth": "1440px",
+              "margin": "0px",
+              "padding": "45px 20px 35px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__links-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 8022,
+              "w": 320,
+              "h": 32
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "320px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal 32px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__logo-icon": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 97,
+              "y": 8104,
+              "w": 166,
+              "h": 31
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "166px",
+              "height": "30.9844px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(18, 121, 148)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(18, 121, 148)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 300,
+              "naturalHeight": 56,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg"
+            }
+          }
+        ],
+        ".th-footer__text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 20,
+              "y": 8223,
+              "w": 166,
+              "h": 14
+            },
+            "visible": true,
+            "text": "© Copyright Trygg-Hansa 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "165.594px",
+              "height": "14.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(222, 222, 222)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(222, 222, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__bottom-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 230,
+              "y": 8185,
+              "w": 110,
+              "h": 91
+            },
+            "visible": true,
+            "text": "Om webbplatsen Cookies Personuppgifter",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "110.047px",
+              "height": "91.1719px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(222, 222, 222)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "end",
+              "borderRadius": "0px",
+              "border": "0px none rgb(222, 222, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-collapse__header": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px",
+              "gap": "normal 10px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "Arial",
+              "fontSize": "13.3333px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".th-header__nav-text": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 213,
+              "y": 22,
+              "w": 86,
+              "h": 16
+            },
+            "visible": true,
+            "text": "Försäkringar",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "85.5938px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "Arial",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__switcher-item a": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 17,
+              "y": 16,
+              "w": 57,
+              "h": 28
+            },
+            "visible": true,
+            "text": "Privat",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "56.9062px",
+              "height": "28px",
+              "maxWidth": "none",
+              "margin": "2px",
+              "padding": "2px 8px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "5px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__switcher-list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 13,
+              "y": 12,
+              "w": 144,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Privat Företag",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "144.047px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "8px 13px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "5px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px inset",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__nav-link": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 312,
+              "y": 0,
+              "w": 142,
+              "h": 60
+            },
+            "visible": true,
+            "text": "Anmäl skada",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "142.375px",
+              "height": "60px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 13px",
+              "gap": "normal 8px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-header__logo-icon--desktop": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 654,
+              "y": 18,
+              "w": 132,
+              "h": 24
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "132px",
+              "height": "24px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(18, 121, 148)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(18, 121, 148)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "contain"
+            },
+            "img": {
+              "naturalWidth": 300,
+              "naturalHeight": 56,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg"
+            }
+          }
+        ],
+        ".th-hero img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 60,
+              "w": 1440,
+              "h": 366
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "366px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 1439,
+              "naturalHeight": 343,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/sp/hero/other/fronthero_1920x400.jpg?format=webp&width=1536&height=366&rxy=0.36%2c0.44&quality=80"
+            }
+          }
+        ],
+        ".th-hero__content-overlay": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 60,
+              "w": 1440,
+              "h": 366
+            },
+            "visible": true,
+            "text": "Trygghet för livet",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "366px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "40px 0px 60px",
+              "gap": "40px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0.35)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tabs": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 228,
+              "y": 296,
+              "w": 984,
+              "h": 130
+            },
+            "visible": true,
+            "text": "5 % rabatt Bilförsäkring 50 % rabatt Ba…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "984px",
+              "height": "130px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab__heading.th-display-block-tablet": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 296,
+              "y": 366,
+              "w": 110,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "110.047px",
+              "height": "30px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "500",
+              "lineHeight": "30px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab__heading.th-display-hidden-tablet": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Bil",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "500",
+              "lineHeight": "30px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab .th-icon": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 331,
+              "y": 326,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "40px",
+              "fontWeight": "400",
+              "lineHeight": "60px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-tab--is-active .th-tabset-tab__button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 228,
+              "y": 296,
+              "w": 246,
+              "h": 130
+            },
+            "visible": true,
+            "text": "5 % rabatt Bilförsäkring",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "246px",
+              "height": "130px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-tabset-panel__campaign-banner p": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 226,
+              "y": 460,
+              "w": 988,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Teckna bilförsäkring online och få 5 % …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "988px",
+              "height": "19.7969px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "19.8px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 243,
+              "y": 514,
+              "w": 954,
+              "h": 162
+            },
+            "visible": true,
+            "text": "Personnummer ååmmddnnnn Registreringsnu…",
+            "props": {
+              "display": "grid",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "954px",
+              "height": "162px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "16px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__input-identification": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 243,
+              "y": 514,
+              "w": 227,
+              "h": 104
+            },
+            "visible": true,
+            "text": "Personnummer ååmmddnnnn",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "226.5px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__input-registration": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 486,
+              "y": 514,
+              "w": 227,
+              "h": 104
+            },
+            "visible": true,
+            "text": "Registreringsnummer ABC123",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "226.5px",
+              "height": "104px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-go-next": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 728,
+              "y": 570,
+              "w": 227,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Se ditt bästa pris",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "226.5px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-read-more": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 971,
+              "y": 570,
+              "w": 227,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Läs om vår bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "226.5px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__gdpr": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 370,
+              "y": 634,
+              "w": 700,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Ditt pris och innehållsförslag framstäl…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "700px",
+              "height": "42px",
+              "maxWidth": "700px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "21px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page label": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 243,
+              "y": 514,
+              "w": 227,
+              "h": 52
+            },
+            "visible": true,
+            "text": "Personnummer ååmmddnnnn",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "content-box",
+              "width": "226.5px",
+              "height": "52px",
+              "maxWidth": "none",
+              "margin": "0px 0px 4px",
+              "padding": "0px",
+              "gap": "4px normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page input": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 243,
+              "y": 570,
+              "w": 227,
+              "h": 48
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "226.5px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "12px 17px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "1px solid rgb(136, 136, 136)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-go-next button": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 728,
+              "y": 570,
+              "w": 227,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Se ditt bästa pris",
+            "props": {
+              "display": "inline-flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "226.5px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "1px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgb(229, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "8px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".vehicle-start-page__button-read-more a": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 971,
+              "y": 570,
+              "w": 227,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Läs om vår bilförsäkring",
+            "props": {
+              "display": "inline-flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "226.5px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "8px",
+              "border": "1px solid rgb(136, 136, 136)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block__list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 208,
+              "y": 771,
+              "w": 1024,
+              "h": 185
+            },
+            "visible": true,
+            "text": "Rätt försäkringar för dig Vi har rätt f…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1024px",
+              "height": "184.594px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "30px 35px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block .th-icon": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 342,
+              "y": 771,
+              "w": 50,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(229, 69, 69)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "50px",
+              "fontWeight": "400",
+              "lineHeight": "75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(229, 69, 69)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block__item-heading": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 208,
+              "y": 836,
+              "w": 318,
+              "h": 29
+            },
+            "visible": true,
+            "text": "Rätt försäkringar för dig",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "318px",
+              "height": "28.5938px",
+              "maxWidth": "none",
+              "margin": "0px 0px 10px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "lineHeight": "28.6px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-quick-facts-block__item-content p": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 208,
+              "y": 874,
+              "w": 318,
+              "h": 81
+            },
+            "visible": true,
+            "text": "Vi har rätt försäkring för dig, familje…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "318px",
+              "height": "81px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "27px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-area>.th-section:nth-child(1)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 696,
+              "w": 1440,
+              "h": 335
+            },
+            "visible": true,
+            "text": "Rätt försäkringar för dig Vi har rätt f…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "334.594px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "75px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 1105,
+              "w": 1440,
+              "h": 453
+            },
+            "visible": true,
+            "text": "Rabatt på djurförsäkring! Du får 10 % r…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "453px",
+              "maxWidth": "1440px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block__image": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 720,
+              "y": 1030,
+              "w": 720,
+              "h": 603
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "720px",
+              "height": "603px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block__image img": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 720,
+              "y": 1030,
+              "w": 720,
+              "h": 603
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "720px",
+              "height": "603px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 720,
+              "naturalHeight": 624,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/frontify/djur/laptop_katt.jpeg?format=webp&width=750&height=650&rxy=0.58%2c0.4&quality=80"
+            }
+          }
+        ],
+        ".th-cta-image-block__content .th-button-medium": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 90,
+              "y": 1510,
+              "w": 235,
+              "h": 48
+            },
+            "visible": true,
+            "text": "Läs mer och teckna",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "235px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "30px 0px 0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgb(229, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "8px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cta-image-block--right": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 0,
+              "y": 1105,
+              "w": 1440,
+              "h": 453
+            },
+            "visible": true,
+            "text": "Rabatt på djurförsäkring! Du får 10 % r…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "453px",
+              "maxWidth": "1440px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 415,
+              "y": 2618,
+              "w": 610,
+              "h": 709
+            },
+            "visible": true,
+            "text": "Lär känna livbojen och rädda liv Varje …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "610px",
+              "height": "709.172px",
+              "maxWidth": "610px",
+              "margin": "0px 415px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 435,
+              "y": 2618,
+              "w": 570,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Lär känna livbojen och rädda liv",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "570px",
+              "height": "42px",
+              "maxWidth": "700px",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "700",
+              "lineHeight": "42px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block .th-block__introduction p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 435,
+              "y": 2690,
+              "w": 570,
+              "h": 138
+            },
+            "visible": true,
+            "text": "Varje år räddar livbojen 14 liv. Livboj…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "570px",
+              "height": "137.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "27.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "left",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-block img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 435,
+              "y": 2905,
+              "w": 570,
+              "h": 380
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "570px",
+              "height": "380.172px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 0,
+              "naturalHeight": 0,
+              "currentSrc": "https://www.trygghansa.se/contentassets/ba1e50ae16344a87a2aaf41ca33d2c8f/mitt-liv-som-livboj_kampanjbild_2_high-res.jpg?width=1024&height=683&quality=80"
+            }
+          }
+        ],
+        ".th-content-area>.th-section:nth-child(5)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2543,
+              "w": 1440,
+              "h": 859
+            },
+            "visible": true,
+            "text": "Lär känna livbojen och rädda liv Varje …",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "859.172px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "75px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-content-area>.th-section:nth-child(6)": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 3403,
+              "w": 1440,
+              "h": 970
+            },
+            "visible": true,
+            "text": "Våra försäkringar Bilförsäkring Vår Bil…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "970px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "75px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(249, 249, 249)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card-list-block>h2": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 370,
+              "y": 3478,
+              "w": 700,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Våra försäkringar",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "700px",
+              "height": "42px",
+              "maxWidth": "700px",
+              "margin": "0px 162px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "700",
+              "lineHeight": "42px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-cards": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 208,
+              "y": 3550,
+              "w": 1024,
+              "h": 662
+            },
+            "visible": true,
+            "text": "Bilförsäkring Vår Bilförsäkring stor li…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1024px",
+              "height": "662px",
+              "maxWidth": "none",
+              "margin": "0px 0px 20px",
+              "padding": "0px",
+              "gap": "30px 35px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 208,
+              "y": 3550,
+              "w": 318,
+              "h": 208
+            },
+            "visible": true,
+            "text": "Bilförsäkring Vår Bilförsäkring stor li…",
+            "props": {
+              "display": "grid",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "318px",
+              "height": "208px",
+              "maxWidth": "318px",
+              "margin": "0px",
+              "padding": "20px",
+              "gap": "16px 20px",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "10px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "rgba(0, 0, 0, 0.25) 0px 2px 4px 0px",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__icon": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 228,
+              "y": 3570,
+              "w": 50,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(229, 69, 69)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "50px",
+              "fontWeight": "400",
+              "lineHeight": "75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(229, 69, 69)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__heading": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 298,
+              "y": 3580,
+              "w": 208,
+              "h": 30
+            },
+            "visible": true,
+            "text": "Bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "208px",
+              "height": "30px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "30px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__text": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 228,
+              "y": 3636,
+              "w": 278,
+              "h": 66
+            },
+            "visible": true,
+            "text": "Vår Bilförsäkring stor ligger i topp i …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "278px",
+              "height": "66px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "22px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-card__link": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 228,
+              "y": 3718,
+              "w": 278,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Läs om vår bilförsäkring",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "278px",
+              "height": "20px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(18, 121, 148)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "600",
+              "lineHeight": "20px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(18, 121, 148)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 350,
+              "y": 4448,
+              "w": 740,
+              "h": 321
+            },
+            "visible": true,
+            "text": "Försäkra företaget! Driver du eget? Då …",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "740px",
+              "height": "320.5px",
+              "maxWidth": "740px",
+              "margin": "0px 350px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block .th-icon": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 695,
+              "y": 4448,
+              "w": 50,
+              "h": 50
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "50px",
+              "height": "50px",
+              "maxWidth": "none",
+              "margin": "0px 325px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(229, 69, 69)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "50px",
+              "fontWeight": "400",
+              "lineHeight": "75px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(229, 69, 69)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block h2": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 370,
+              "y": 4528,
+              "w": 700,
+              "h": 42
+            },
+            "visible": true,
+            "text": "Försäkra företaget!",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "700px",
+              "height": "42px",
+              "maxWidth": "700px",
+              "margin": "0px 0px 30px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(25, 25, 25)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "32px",
+              "fontWeight": "700",
+              "lineHeight": "42px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(25, 25, 25)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block p": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 370,
+              "y": 4600,
+              "w": 700,
+              "h": 83
+            },
+            "visible": true,
+            "text": "Driver du eget? Då behöver du en företa…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "700px",
+              "height": "82.5px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "400",
+              "lineHeight": "27.5px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-teaser-block a": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 557,
+              "y": 4712,
+              "w": 327,
+              "h": 56
+            },
+            "visible": true,
+            "text": "Rätt skydd för din bransch",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "326.719px",
+              "height": "56px",
+              "maxWidth": "none",
+              "margin": "30px 186.641px 0px",
+              "padding": "0px 24px",
+              "gap": "normal",
+              "backgroundColor": "rgb(229, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "22px",
+              "fontWeight": "700",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "8px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5314,
+              "w": 1440,
+              "h": 506
+            },
+            "visible": true,
+            "text": "Genvägar Våra försäkringar Beställa grö…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "506px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "60px 0px 50px",
+              "gap": "normal 30px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__column": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 135,
+              "y": 5376,
+              "w": 270,
+              "h": 394
+            },
+            "visible": true,
+            "text": "Genvägar Våra försäkringar Beställa grö…",
+            "props": {
+              "display": "list-item",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "270px",
+              "height": "394px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__header": [
+          {
+            "index": 0,
+            "of": 8,
+            "rect": {
+              "x": 135,
+              "y": 5359,
+              "w": 114,
+              "h": 57
+            },
+            "visible": true,
+            "text": "Genvägar",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "700",
+              "lineHeight": "18px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__list": [
+          {
+            "index": 0,
+            "of": 4,
+            "rect": {
+              "x": 135,
+              "y": 5400,
+              "w": 270,
+              "h": 370
+            },
+            "visible": true,
+            "text": "Våra försäkringar Beställa grönt kort H…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "270px",
+              "height": "370px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 10px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__link": [
+          {
+            "index": 0,
+            "of": 34,
+            "rect": {
+              "x": 145,
+              "y": 5410,
+              "w": 143,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Våra försäkringar",
+            "props": {
+              "display": "inline-block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "142.719px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "8px 10px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(222, 222, 222)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(222, 222, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__bottom": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 5820,
+              "w": 1440,
+              "h": 135
+            },
+            "visible": true,
+            "text": "© Copyright Trygg-Hansa 2026 Om webbpla…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "134.719px",
+              "maxWidth": "1440px",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__links-container": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 5820,
+              "w": 467,
+              "h": 135
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "466.609px",
+              "height": "134.719px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal 32px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(74, 74, 74)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__logo-icon": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 627,
+              "y": 5870,
+              "w": 186,
+              "h": 35
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "186px",
+              "height": "34.7188px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(18, 121, 148)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "24px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(18, 121, 148)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "cover"
+            },
+            "img": {
+              "naturalWidth": 300,
+              "naturalHeight": 56,
+              "currentSrc": "https://www.trygghansa.se/siteassets/bilder/logotypes/trygg-hansa_logo_rgb_neg.svg"
+            }
+          }
+        ],
+        ".th-footer__text": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 1092,
+              "y": 5880,
+              "w": 166,
+              "h": 14
+            },
+            "visible": true,
+            "text": "© Copyright Trygg-Hansa 2026",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "165.594px",
+              "height": "14.3906px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(222, 222, 222)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(222, 222, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-footer__bottom-links": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1268,
+              "y": 5841,
+              "w": 152,
+              "h": 91
+            },
+            "visible": true,
+            "text": "Om webbplatsen Cookies Personuppgifter",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "152.047px",
+              "height": "91.1719px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 0px 42px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(222, 222, 222)",
+              "fontFamily": "arial, sans-serif",
+              "fontSize": "12px",
+              "fontWeight": "400",
+              "lineHeight": "14.4px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "end",
+              "borderRadius": "0px",
+              "border": "0px none rgb(222, 222, 222)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".th-collapse__header": [
+          {
+            "index": 0,
+            "of": 9,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "16px",
+              "gap": "normal 10px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(74, 74, 74)",
+              "fontFamily": "Arial",
+              "fontSize": "13.3333px",
+              "fontWeight": "400",
+              "lineHeight": "normal",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

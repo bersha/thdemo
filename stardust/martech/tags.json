@@ -1,0 +1,14 @@
+[
+ {
+  "vendor": "Google Tag Manager",
+  "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TDH7D6",
+  "file": "tags/www.googletagmanager.com-gtm-GTM-TDH7D6.js",
+  "bytes": 980867
+ },
+ {
+  "vendor": "Tealium",
+  "url": "https://tags.tiqcdn.com/utag/tryg/trygghansa-se-web/prod/utag.sync.js",
+  "file": "tags/tags.tiqcdn.com-utag.sync.js",
+  "bytes": 109
+ }
+]

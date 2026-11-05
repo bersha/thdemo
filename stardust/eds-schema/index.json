@@ -1,0 +1,455 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "th-hero",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Trygghet för livet"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 1,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Rätt försäkringar för dig"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Vi har rätt försäkring för dig, familjen, bilen och hemmet. Och för mycket mer, såklart."
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Snart 200 år av trygghet"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Trygg-Hansa har gjort skillnad i människors liv sedan 1828. Vi står stadigt vid din sida."
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Upp till 20 % samlingsrabatt"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Samla dina försäkringar hos oss och få upp till 20 % rabatt. ."
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Läs mer om vår samlingsrabatt",
+     "href": "https://www.trygghansa.se/forsakringar/samlingsrabatt"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 1,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-quick-facts-block__item",
+     "count": 3,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Rabatt på djurförsäkring!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Du får 10 % rabatt när du tecknar hund- eller kattförsäkring. Rabatten gäller första året. Du kan teckna försäkringen nu och välja att den ska börja gälla vid ett senare datum."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Valp eller kattunge yngre än 6 månader? Då får du även vår valp-/kattungerabatt med tre kostnadsfria månader."
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Hund mellan 7 månader och 3 år? Då får du även vår unghundsrabatt på 15 %, som gäller första året."
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Erbjudandet gäller t.o.m. 11 januari 2027. Om flera rabatter kombineras dras de av efter varandra istället för att summeras."
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Läs mer och teckna",
+     "href": "https://www.trygghansa.se/djurforsakring"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 5,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Få presentkort på 500 kr"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "När du köper Gravidförsäkring mellan eller Gravidförsäkring stor får du ett presentkort på 500 kr. Presentkortet gäller i flera populära butiker och skickas till dig via mejl när försäkringen är betald."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Erbjudandet gäller t.o.m. 31 december eller så långt lagret räcker."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Köp din gravidförsäkring nu",
+     "href": "https://www.trygghansa.se/forsakringar/gravidforsakring"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "SHL-rabatt för hockeyhjärtan"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Älskar du också hockey? När du tecknar din försäkring hos oss går en del av premien till ditt lags ungdomsverksamhet. Dessutom får du rabatt första året."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Gäller försäkringar för hem, fordon, djur, sjuk- och olycksfall, barn och företag."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Läs mer och välj din klubb",
+     "href": "https://www.trygghansa.se/samarbeten/shl"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Lär känna livbojen och rädda liv"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Varje år räddar livbojen 14 liv. Livbojen är en enkel och fantastisk livräddare och idag finns omkring 80 000 livbojar placerade runtom i Sverige. Men har du koll på hur du använder livbojen i en nödsituation? Här får du lära känna livbojen och göra dig redo för att rädda liv i sommar."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Så använder du livbojen",
+     "href": "https://www.trygghansa.se/om-trygghansa/samhallsengagemang/vattensakerhet/lar-kanna-livbojen-och-radda-liv"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 2,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Våra försäkringar"
+    },
+    {
+     "role": "heading",
+     "order": 1,
+     "text": "Bilförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Vår Bilförsäkring stor ligger i topp i jämförelse av svenska bilförsäkringar."
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Läs om vår bilförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/bilforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 4,
+     "text": "Hemförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Hemförsäkringar för alla sorters boenden. Upp till 1,5 miljoner i ersättning!"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Se våra hemförsäkringar",
+     "href": "https://www.trygghansa.se/forsakringar/hemforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Personförsäkringar"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Skydd vid sjukdomar och olycksfall – för både barn och vuxna."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Se våra personförsäkringar",
+     "href": "https://www.trygghansa.se/forsakringar/person"
+    },
+    {
+     "role": "heading",
+     "order": 10,
+     "text": "Barnförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Vår barnförsäkring ger en trygg start i livet. Gäller tills 25 års ålder."
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "Läs om vår barnförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/barnforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "Gravidförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Ge ditt barn en trygg start! Vi har längst erfarenhet av gravidförsäkring i Sverige."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Läs om vår gravidförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/gravidforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 16,
+     "text": "Livförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Ekonomiskt stöd till din familj, en trygghet om det värsta skulle hända."
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Läs om livförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/person/livforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Villaförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "För dig som är husägare. Hjälp inom fyra timmar vid stora katastrofer."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Läs om vår villaförsäkring",
+     "href": "https://www.trygghansa.se/forsakringar/hemforsakring/villaforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 22,
+     "text": "Djurförsäkring"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Hitta försäkringen för hunden, katten eller för dig som är uppfödare."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Läs om våra djurförsäkringar",
+     "href": "https://www.trygghansa.se/djurforsakring"
+    },
+    {
+     "role": "heading",
+     "order": 25,
+     "text": "Fordonsförsäkringar"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Bil, MC, moped eller släpvagn. Vi har fordonsförsäkringar för alla behov!"
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Se våra fordonsförsäkringar",
+     "href": "https://www.trygghansa.se/forsakringar/fordon"
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Se alla våra försäkringar",
+     "href": "https://www.trygghansa.se/forsakringar"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "LI.th-cards__item",
+     "count": 9,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 3
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Försäkra företaget!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Driver du eget? Då behöver du en företagsförsäkring – oavsett om du är egenföretagare som jobbar hemifrån eller har anställda, lokaler och fordon. Hitta rätt skydd för din firma!"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Rätt skydd för din bransch",
+     "href": "https://www.trygghansa.se/foretag"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "th-section",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Familjehjälpen – vad kan vi göra för dig?"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Familjehjälpen är en service som ingår kostnadsfritt i vår barnförsäkring, gravidförsäkring och sjuk- och olycksfallsförsäkring. Hos oss får du vägledning i frågor som rör samhällets stöd och ersättningar."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "Läs mer om Familjehjälpen",
+     "href": "https://www.trygghansa.se/forsakringar/familjehjalpen"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}
